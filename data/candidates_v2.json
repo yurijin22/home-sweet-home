@@ -1,0 +1,252 @@
+[
+  {
+    "name": "성현동아",
+    "region": "동작_사당이수",
+    "tier": "S",
+    "household": 1261,
+    "complex_no": "1045",
+    "min_price": 108000,
+    "count": 12,
+    "score": 18
+  },
+  {
+    "name": "관악파크푸르지오",
+    "region": "동작_사당이수",
+    "tier": "S",
+    "household": 363,
+    "complex_no": "107439",
+    "min_price": 107000,
+    "count": 1,
+    "score": 12
+  },
+  {
+    "name": "전농우성",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1234,
+    "complex_no": "346",
+    "min_price": 80000,
+    "count": 1,
+    "score": 15
+  },
+  {
+    "name": "서울가든",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 715,
+    "complex_no": "118",
+    "min_price": 59000,
+    "count": 17,
+    "score": 15
+  },
+  {
+    "name": "장안래미안2차",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1786,
+    "complex_no": "8802",
+    "min_price": 103000,
+    "count": 2,
+    "score": 13
+  },
+  {
+    "name": "답십리청솔우성",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1542,
+    "complex_no": "3273",
+    "min_price": 100000,
+    "count": 2,
+    "score": 13
+  },
+  {
+    "name": "두산",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 739,
+    "complex_no": "3271",
+    "min_price": 105000,
+    "count": 18,
+    "score": 13
+  },
+  {
+    "name": "구로중앙하이츠(1269)",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 597,
+    "complex_no": "10663",
+    "min_price": 75000,
+    "count": 2,
+    "score": 13
+  },
+  {
+    "name": "동서울한양",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 499,
+    "complex_no": "337",
+    "min_price": 60000,
+    "count": 12,
+    "score": 13
+  },
+  {
+    "name": "디큐브시티(주상복합)",
+    "region": "영등포_문래",
+    "tier": "A",
+    "household": 524,
+    "complex_no": "27310",
+    "min_price": 104000,
+    "count": 6,
+    "score": 12
+  },
+  {
+    "name": "우성그린",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 496,
+    "complex_no": "335",
+    "min_price": 66000,
+    "count": 7,
+    "score": 12
+  },
+  {
+    "name": "경남아너스빌",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 386,
+    "complex_no": "21645",
+    "min_price": 75000,
+    "count": 6,
+    "score": 12
+  },
+  {
+    "name": "동아한신",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 355,
+    "complex_no": "1067",
+    "min_price": 64000,
+    "count": 8,
+    "score": 12
+  },
+  {
+    "name": "동아에코빌",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1253,
+    "complex_no": "3425",
+    "min_price": 79000,
+    "count": 10,
+    "score": 14
+  },
+  {
+    "name": "한신,한진",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 4509,
+    "complex_no": "582",
+    "min_price": 80000,
+    "count": 8,
+    "score": 13
+  },
+  {
+    "name": "수유벽산1차",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 1454,
+    "complex_no": "1344",
+    "min_price": 49500,
+    "count": 7,
+    "score": 13
+  },
+  {
+    "name": "종암SK",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1318,
+    "complex_no": "1191",
+    "min_price": 80000,
+    "count": 5,
+    "score": 13
+  },
+  {
+    "name": "월곡두산위브",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 2197,
+    "complex_no": "2990",
+    "min_price": 91000,
+    "count": 10,
+    "score": 12
+  },
+  {
+    "name": "홍은벽산",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1509,
+    "complex_no": "432",
+    "min_price": 70000,
+    "count": 1,
+    "score": 12
+  },
+  {
+    "name": "백련산힐스테이트1차",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1106,
+    "complex_no": "27501",
+    "min_price": 80000,
+    "count": 3,
+    "score": 12
+  },
+  {
+    "name": "돈암브라운스톤",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1074,
+    "complex_no": "9348",
+    "min_price": 87500,
+    "count": 8,
+    "score": 12
+  },
+  {
+    "name": "창동주공3단지",
+    "region": "도봉_창동방학",
+    "tier": "C",
+    "household": 2856,
+    "complex_no": "326",
+    "min_price": 75000,
+    "count": 10,
+    "score": 11
+  },
+  {
+    "name": "상계주공9단지",
+    "region": "노원_상계",
+    "tier": "C",
+    "household": 2830,
+    "complex_no": "206",
+    "min_price": 68000,
+    "count": 13,
+    "score": 11
+  },
+  {
+    "name": "극동.건영.벽산",
+    "region": "노원_월계공릉",
+    "tier": "C",
+    "household": 1980,
+    "complex_no": "255",
+    "min_price": 63000,
+    "count": 11,
+    "score": 11
+  },
+  {
+    "name": "주공8단지",
+    "region": "금천_독산시흥",
+    "tier": "C",
+    "household": 1680,
+    "complex_no": "1635",
+    "min_price": 69000,
+    "count": 11,
+    "score": 11
+  }
+]
