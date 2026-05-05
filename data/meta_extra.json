@@ -1,0 +1,685 @@
+[
+  {
+    "name": "성현동아",
+    "complex_no": "1045",
+    "brand": "동아 (동아건설)",
+    "is_major_brand": false,
+    "south_ratio": 0.08,
+    "south_count": 1,
+    "listing_total": 12,
+    "directions": {
+      "남서향": 1,
+      "서향": 1
+    },
+    "pyeongs_count": 3
+  },
+  {
+    "name": "관악파크푸르지오",
+    "complex_no": "107439",
+    "brand": "푸르지오 (대우)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 1,
+    "directions": {},
+    "pyeongs_count": 9
+  },
+  {
+    "name": "전농우성",
+    "complex_no": "346",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 1,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "서울가든",
+    "complex_no": "118",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 17,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "장안래미안2차",
+    "complex_no": "8802",
+    "brand": "래미안 (삼성)",
+    "is_major_brand": true,
+    "south_ratio": 1.0,
+    "south_count": 3,
+    "listing_total": 3,
+    "directions": {
+      "남향": 3
+    },
+    "pyeongs_count": 4
+  },
+  {
+    "name": "답십리청솔우성",
+    "complex_no": "3273",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 2,
+    "directions": {},
+    "pyeongs_count": 4
+  },
+  {
+    "name": "두산",
+    "complex_no": "3271",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.5,
+    "south_count": 9,
+    "listing_total": 18,
+    "directions": {
+      "남향": 9
+    },
+    "pyeongs_count": 4
+  },
+  {
+    "name": "동서울한양",
+    "complex_no": "337",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.08,
+    "south_count": 1,
+    "listing_total": 12,
+    "directions": {
+      "서향": 1,
+      "남동향": 1,
+      "동향": 1
+    },
+    "pyeongs_count": 2
+  },
+  {
+    "name": "동아에코빌",
+    "complex_no": "3425",
+    "brand": "동아 (동아건설)",
+    "is_major_brand": false,
+    "south_ratio": 0.2,
+    "south_count": 2,
+    "listing_total": 10,
+    "directions": {
+      "남향": 2
+    },
+    "pyeongs_count": 6
+  },
+  {
+    "name": "한신,한진",
+    "complex_no": "582",
+    "brand": "한진 (한진중공업)",
+    "is_major_brand": false,
+    "south_ratio": 0.38,
+    "south_count": 3,
+    "listing_total": 8,
+    "directions": {
+      "남향": 1,
+      "남동향": 2,
+      "동향": 2
+    },
+    "pyeongs_count": 6
+  },
+  {
+    "name": "수유벽산1차",
+    "complex_no": "1344",
+    "brand": "벽산 (벽산)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 7,
+    "directions": {},
+    "pyeongs_count": 4
+  },
+  {
+    "name": "종암SK",
+    "complex_no": "1191",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 5,
+    "directions": {},
+    "pyeongs_count": 4
+  },
+  {
+    "name": "월곡두산위브",
+    "complex_no": "2990",
+    "brand": "위브 (두산)",
+    "is_major_brand": false,
+    "south_ratio": 0.9,
+    "south_count": 9,
+    "listing_total": 10,
+    "directions": {
+      "남향": 9
+    },
+    "pyeongs_count": 6
+  },
+  {
+    "name": "홍은벽산",
+    "complex_no": "432",
+    "brand": "벽산 (벽산)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 1,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "백련산힐스테이트1차",
+    "complex_no": "27501",
+    "brand": "힐스테이트 (현대)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 3,
+    "directions": {},
+    "pyeongs_count": 13
+  },
+  {
+    "name": "돈암브라운스톤",
+    "complex_no": "9348",
+    "brand": "브라운스톤 (이수건설)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 8,
+    "directions": {},
+    "pyeongs_count": 4
+  },
+  {
+    "name": "창동주공3단지",
+    "complex_no": "326",
+    "brand": "주공 (LH)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 10,
+    "directions": {},
+    "pyeongs_count": 15
+  },
+  {
+    "name": "상계주공9단지",
+    "complex_no": "206",
+    "brand": "주공 (LH)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 13,
+    "directions": {},
+    "pyeongs_count": 12
+  },
+  {
+    "name": "극동.건영.벽산",
+    "complex_no": "255",
+    "brand": "벽산 (벽산)",
+    "is_major_brand": false,
+    "south_ratio": 0.36,
+    "south_count": 4,
+    "listing_total": 11,
+    "directions": {
+      "남향": 4
+    },
+    "pyeongs_count": 11
+  },
+  {
+    "name": "주공8단지",
+    "complex_no": "1635",
+    "brand": "주공 (LH)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 11,
+    "directions": {},
+    "pyeongs_count": 7
+  },
+  {
+    "name": "롯데캐슬베네치아(주상복합)",
+    "complex_no": "24845",
+    "brand": "롯데캐슬 (롯데)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 4,
+    "directions": {},
+    "pyeongs_count": 8
+  },
+  {
+    "name": "동신",
+    "complex_no": "1194",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.13,
+    "south_count": 2,
+    "listing_total": 15,
+    "directions": {
+      "남향": 2,
+      "동향": 5
+    },
+    "pyeongs_count": 4
+  },
+  {
+    "name": "푸른마을동아",
+    "complex_no": "11166",
+    "brand": "동아 (동아건설)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 10,
+    "directions": {},
+    "pyeongs_count": 4
+  },
+  {
+    "name": "길음뉴타운데시앙",
+    "complex_no": "1190",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.08,
+    "south_count": 1,
+    "listing_total": 12,
+    "directions": {
+      "남향": 1
+    },
+    "pyeongs_count": 8
+  },
+  {
+    "name": "길음뉴타운2단지푸르지오",
+    "complex_no": "8082",
+    "brand": "푸르지오 (대우)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 6,
+    "directions": {},
+    "pyeongs_count": 6
+  },
+  {
+    "name": "길음동부센트레빌",
+    "complex_no": "3421",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 12,
+    "directions": {
+      "동향": 2
+    },
+    "pyeongs_count": 3
+  },
+  {
+    "name": "정릉e-편한세상1차",
+    "complex_no": "8596",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.2,
+    "south_count": 1,
+    "listing_total": 5,
+    "directions": {
+      "남향": 1
+    },
+    "pyeongs_count": 4
+  },
+  {
+    "name": "돈암현대",
+    "complex_no": "583",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.38,
+    "south_count": 3,
+    "listing_total": 8,
+    "directions": {
+      "남향": 3
+    },
+    "pyeongs_count": 6
+  },
+  {
+    "name": "래미안트리베라1차",
+    "complex_no": "25971",
+    "brand": "래미안 (삼성)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 2,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "래미안크리시엘",
+    "complex_no": "3006",
+    "brand": "래미안 (삼성)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 1,
+    "directions": {},
+    "pyeongs_count": 3
+  },
+  {
+    "name": "래미안라센트",
+    "complex_no": "26834",
+    "brand": "래미안 (삼성)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 9,
+    "directions": {},
+    "pyeongs_count": 6
+  },
+  {
+    "name": "길음뉴타운경남아너스빌",
+    "complex_no": "586",
+    "brand": "아너스빌 (금호)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 3,
+    "directions": {},
+    "pyeongs_count": 8
+  },
+  {
+    "name": "꿈의숲푸르지오",
+    "complex_no": "26130",
+    "brand": "푸르지오 (대우)",
+    "is_major_brand": true,
+    "south_ratio": 0.67,
+    "south_count": 4,
+    "listing_total": 6,
+    "directions": {
+      "남향": 4
+    },
+    "pyeongs_count": 5
+  },
+  {
+    "name": "정릉e-편한세상2차",
+    "complex_no": "25782",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 5,
+    "directions": {},
+    "pyeongs_count": 8
+  },
+  {
+    "name": "정릉힐스테이트3차",
+    "complex_no": "23779",
+    "brand": "힐스테이트 (현대)",
+    "is_major_brand": true,
+    "south_ratio": 1.0,
+    "south_count": 1,
+    "listing_total": 1,
+    "directions": {
+      "남향": 1
+    },
+    "pyeongs_count": 3
+  },
+  {
+    "name": "범양",
+    "complex_no": "578",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 14,
+    "directions": {},
+    "pyeongs_count": 10
+  },
+  {
+    "name": "남가좌현대",
+    "complex_no": "848",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 16,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "현대",
+    "complex_no": "45",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.06,
+    "south_count": 1,
+    "listing_total": 16,
+    "directions": {
+      "남서향": 1,
+      "서향": 1
+    },
+    "pyeongs_count": 8
+  },
+  {
+    "name": "벽산블루밍1차",
+    "complex_no": "2986",
+    "brand": "벽산 (벽산)",
+    "is_major_brand": false,
+    "south_ratio": 0.5,
+    "south_count": 5,
+    "listing_total": 10,
+    "directions": {
+      "남서향": 5,
+      "서향": 5
+    },
+    "pyeongs_count": 6
+  },
+  {
+    "name": "신림현대",
+    "complex_no": "58",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 1,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "신창",
+    "complex_no": "930",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.07,
+    "south_count": 1,
+    "listing_total": 15,
+    "directions": {
+      "남동향": 1,
+      "동향": 1
+    },
+    "pyeongs_count": 6
+  },
+  {
+    "name": "초안2단지",
+    "complex_no": "3255",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 14,
+    "directions": {},
+    "pyeongs_count": 3
+  },
+  {
+    "name": "미성",
+    "complex_no": "783",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 14,
+    "directions": {},
+    "pyeongs_count": 2
+  },
+  {
+    "name": "관악우성",
+    "complex_no": "1048",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.33,
+    "south_count": 1,
+    "listing_total": 3,
+    "directions": {
+      "남향": 1
+    },
+    "pyeongs_count": 3
+  },
+  {
+    "name": "백련산힐스테이트2차",
+    "complex_no": "27502",
+    "brand": "힐스테이트 (현대)",
+    "is_major_brand": true,
+    "south_ratio": 0.67,
+    "south_count": 2,
+    "listing_total": 3,
+    "directions": {
+      "남향": 2
+    },
+    "pyeongs_count": 10
+  },
+  {
+    "name": "한신",
+    "complex_no": "3277",
+    "brand": "한신 (한신공영)",
+    "is_major_brand": false,
+    "south_ratio": 0.11,
+    "south_count": 1,
+    "listing_total": 9,
+    "directions": {
+      "남향": 1
+    },
+    "pyeongs_count": 3
+  },
+  {
+    "name": "e편한세상수색에코포레",
+    "complex_no": "3462",
+    "brand": "e편한세상 (DL)",
+    "is_major_brand": true,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 7,
+    "directions": {},
+    "pyeongs_count": 4
+  },
+  {
+    "name": "유원하나",
+    "complex_no": "439",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 5,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "수유래미안",
+    "complex_no": "3132",
+    "brand": "래미안 (삼성)",
+    "is_major_brand": true,
+    "south_ratio": 0.67,
+    "south_count": 6,
+    "listing_total": 9,
+    "directions": {
+      "남향": 6
+    },
+    "pyeongs_count": 3
+  },
+  {
+    "name": "현대",
+    "complex_no": "436",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.33,
+    "south_count": 2,
+    "listing_total": 6,
+    "directions": {
+      "남동향": 1,
+      "동향": 1,
+      "남향": 1
+    },
+    "pyeongs_count": 6
+  },
+  {
+    "name": "신림동부",
+    "complex_no": "63",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 7,
+    "directions": {},
+    "pyeongs_count": 5
+  },
+  {
+    "name": "관악드림타운",
+    "complex_no": "2987",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.44,
+    "south_count": 4,
+    "listing_total": 9,
+    "directions": {
+      "남향": 4,
+      "동향": 1
+    },
+    "pyeongs_count": 8
+  },
+  {
+    "name": "한신",
+    "complex_no": "824",
+    "brand": "한신 (한신공영)",
+    "is_major_brand": false,
+    "south_ratio": 0.25,
+    "south_count": 3,
+    "listing_total": 12,
+    "directions": {
+      "남향": 3
+    },
+    "pyeongs_count": 8
+  },
+  {
+    "name": "개봉한진타운",
+    "complex_no": "1062",
+    "brand": "한진 (한진중공업)",
+    "is_major_brand": false,
+    "south_ratio": 0.09,
+    "south_count": 1,
+    "listing_total": 11,
+    "directions": {
+      "남서향": 1,
+      "서향": 1
+    },
+    "pyeongs_count": 5
+  },
+  {
+    "name": "중계무지개",
+    "complex_no": "925",
+    "brand": "?",
+    "is_major_brand": false,
+    "south_ratio": 0.2,
+    "south_count": 1,
+    "listing_total": 5,
+    "directions": {
+      "남향": 1
+    },
+    "pyeongs_count": 5
+  },
+  {
+    "name": "중계주공5단지",
+    "complex_no": "245",
+    "brand": "주공 (LH)",
+    "is_major_brand": false,
+    "south_ratio": 0.0,
+    "south_count": 0,
+    "listing_total": 8,
+    "directions": {},
+    "pyeongs_count": 6
+  }
+]

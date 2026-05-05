@@ -1,0 +1,3148 @@
+[
+  {
+    "name": "성현동아",
+    "region": "동작_사당이수",
+    "tier": "S",
+    "household": 1261,
+    "complex_no": "1045",
+    "min_price": 108000,
+    "count": 12,
+    "score": 18,
+    "pyeong_no": 2,
+    "real_area_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.30",
+        "price": 104500,
+        "floor": 6
+      },
+      {
+        "date": "2026.03.12",
+        "price": 109000,
+        "floor": 21
+      },
+      {
+        "date": "2026.02.28",
+        "price": 97500,
+        "floor": 6
+      },
+      {
+        "date": "2026.02.13",
+        "price": 90000,
+        "floor": 24
+      },
+      {
+        "date": "2026.01.31",
+        "price": 90500,
+        "floor": 16
+      },
+      {
+        "date": "2026.01.10",
+        "price": 79000,
+        "floor": 4
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 105000,
+      "kab_avg": 97500,
+      "kab_lower": 90000,
+      "kab_change": 6500,
+      "lease_rate": "46~47%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "관악파크푸르지오",
+    "region": "동작_사당이수",
+    "tier": "S",
+    "household": 363,
+    "complex_no": "107439",
+    "min_price": 107000,
+    "count": 1,
+    "score": 12,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.02.07",
+        "price": 83500,
+        "floor": 1
+      },
+      {
+        "date": "2026.01.30",
+        "price": 87600,
+        "floor": 2
+      },
+      {
+        "date": "2026.01.20",
+        "price": 91400,
+        "floor": 5
+      },
+      {
+        "date": "2026.01.15",
+        "price": 87500,
+        "floor": 7
+      },
+      {
+        "date": "2025.12.01",
+        "price": 84800,
+        "floor": 5
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 91000,
+      "kab_avg": 85500,
+      "kab_lower": 80000,
+      "kab_change": 0,
+      "lease_rate": "56%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "전농우성",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1234,
+    "complex_no": "346",
+    "min_price": 80000,
+    "count": 1,
+    "score": 15,
+    "pyeong_no": 2,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.07",
+        "price": 57500,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.04",
+        "price": 59000,
+        "floor": 5
+      },
+      {
+        "date": "2026.02.25",
+        "price": 50000,
+        "floor": 1
+      },
+      {
+        "date": "2026.02.11",
+        "price": 55500,
+        "floor": 10
+      },
+      {
+        "date": "2026.02.02",
+        "price": 51500,
+        "floor": 8
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 57000,
+      "kab_avg": 54000,
+      "kab_lower": 51000,
+      "kab_change": 1000,
+      "lease_rate": "47~49%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "서울가든",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 715,
+    "complex_no": "118",
+    "min_price": 59000,
+    "count": 17,
+    "score": 15,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.03.25",
+        "price": 47000,
+        "floor": 9
+      },
+      {
+        "date": "2026.03.06",
+        "price": 48500,
+        "floor": 4
+      },
+      {
+        "date": "2025.10.11",
+        "price": 51000,
+        "floor": 7
+      },
+      {
+        "date": "2025.08.19",
+        "price": 48000,
+        "floor": 1
+      },
+      {
+        "date": "2025.08.15",
+        "price": 48000,
+        "floor": 1
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 51000,
+      "kab_avg": 48500,
+      "kab_lower": 46000,
+      "kab_change": 0,
+      "lease_rate": "56%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "장안래미안2차",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1786,
+    "complex_no": "8802",
+    "min_price": 103000,
+    "count": 2,
+    "score": 13,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2025.11.20",
+        "price": 89900,
+        "floor": 12
+      },
+      {
+        "date": "2025.10.15",
+        "price": 87400,
+        "floor": 14
+      },
+      {
+        "date": "2025.09.24",
+        "price": 86000,
+        "floor": 15
+      },
+      {
+        "date": "2025.09.24",
+        "price": 86000,
+        "floor": 15
+      },
+      {
+        "date": "2025.08.23",
+        "price": 87500,
+        "floor": 21
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 90000,
+      "kab_avg": 87000,
+      "kab_lower": 84000,
+      "kab_change": 0,
+      "lease_rate": "52~55%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "답십리청솔우성",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1542,
+    "complex_no": "3273",
+    "min_price": 100000,
+    "count": 2,
+    "score": 13,
+    "pyeong_no": 3,
+    "real_area_no": 3,
+    "transactions": [
+      {
+        "date": "2026.02.06",
+        "price": 91000,
+        "floor": 20
+      },
+      {
+        "date": "2026.01.30",
+        "price": 91000,
+        "floor": 25
+      },
+      {
+        "date": "2025.12.13",
+        "price": 85000,
+        "floor": 13
+      },
+      {
+        "date": "2025.10.24",
+        "price": 84500,
+        "floor": 19
+      },
+      {
+        "date": "2025.10.17",
+        "price": 81000,
+        "floor": 22
+      },
+      {
+        "date": "2025.10.15",
+        "price": 80000,
+        "floor": 8
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 93000,
+      "kab_avg": 88000,
+      "kab_lower": 83000,
+      "kab_change": 5000,
+      "lease_rate": "50~51%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "두산",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 739,
+    "complex_no": "3271",
+    "min_price": 105000,
+    "count": 18,
+    "score": 13,
+    "pyeong_no": 2,
+    "real_area_no": 2,
+    "transactions": [
+      {
+        "date": "2025.07.26",
+        "price": 75000,
+        "floor": 9
+      },
+      {
+        "date": "2025.05.09",
+        "price": 71500,
+        "floor": 6
+      },
+      {
+        "date": "2024.09.23",
+        "price": 72000,
+        "floor": 5
+      },
+      {
+        "date": "2024.06.12",
+        "price": 70000,
+        "floor": 10
+      },
+      {
+        "date": "2024.06.09",
+        "price": 68000,
+        "floor": 6
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 95000,
+      "kab_avg": 90500,
+      "kab_lower": 86000,
+      "kab_change": 0,
+      "lease_rate": "48%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "구로중앙하이츠(1269)",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 597,
+    "complex_no": "10663",
+    "min_price": 75000,
+    "count": 2,
+    "score": 13,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.04",
+        "price": 70000,
+        "floor": 2
+      },
+      {
+        "date": "2026.02.10",
+        "price": 73000,
+        "floor": 3
+      },
+      {
+        "date": "2026.02.06",
+        "price": 70000,
+        "floor": 9
+      },
+      {
+        "date": "2026.01.30",
+        "price": 70700,
+        "floor": 8
+      },
+      {
+        "date": "2026.01.13",
+        "price": 70000,
+        "floor": 8
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 75000,
+      "kab_avg": 72500,
+      "kab_lower": 70000,
+      "kab_change": 0,
+      "lease_rate": "58%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "동서울한양",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 499,
+    "complex_no": "337",
+    "min_price": 60000,
+    "count": 12,
+    "score": 13,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.06",
+        "price": 63000,
+        "floor": 5
+      },
+      {
+        "date": "2026.03.07",
+        "price": 63000,
+        "floor": 3
+      },
+      {
+        "date": "2026.01.27",
+        "price": 63000,
+        "floor": 11
+      },
+      {
+        "date": "2026.01.24",
+        "price": 58200,
+        "floor": 7
+      },
+      {
+        "date": "2025.12.31",
+        "price": 56000,
+        "floor": 2
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 61000,
+      "kab_avg": 58500,
+      "kab_lower": 56000,
+      "kab_change": 2000,
+      "lease_rate": "60~63%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "디큐브시티(주상복합)",
+    "region": "영등포_문래",
+    "tier": "A",
+    "household": 524,
+    "complex_no": "27310",
+    "min_price": 104000,
+    "count": 6,
+    "score": 12,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2025.03.13",
+        "price": 98500,
+        "floor": 3
+      },
+      {
+        "date": "2023.11.03",
+        "price": 90700,
+        "floor": 4
+      },
+      {
+        "date": "2021.04.19",
+        "price": 118000,
+        "floor": 8
+      },
+      {
+        "date": "2021.03.22",
+        "price": 103000,
+        "floor": 5
+      },
+      {
+        "date": "2021.01.18",
+        "price": 100000,
+        "floor": 4
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 108000,
+      "kab_avg": 104000,
+      "kab_lower": 100000,
+      "kab_change": 0,
+      "lease_rate": "59%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "우성그린",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 496,
+    "complex_no": "335",
+    "min_price": 66000,
+    "count": 7,
+    "score": 12,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.03.23",
+        "price": 68500,
+        "floor": 3
+      },
+      {
+        "date": "2026.02.23",
+        "price": 68500,
+        "floor": 9
+      },
+      {
+        "date": "2025.12.01",
+        "price": 59500,
+        "floor": 13
+      },
+      {
+        "date": "2025.10.03",
+        "price": 58000,
+        "floor": 7
+      },
+      {
+        "date": "2025.10.02",
+        "price": 50000,
+        "floor": 1
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 64000,
+      "kab_avg": 61000,
+      "kab_lower": 58000,
+      "kab_change": 0,
+      "lease_rate": "58~59%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "경남아너스빌",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 386,
+    "complex_no": "21645",
+    "min_price": 75000,
+    "count": 6,
+    "score": 12,
+    "pyeong_no": 2,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2025.04.28",
+        "price": 63500,
+        "floor": 3
+      },
+      {
+        "date": "2023.10.31",
+        "price": 58750,
+        "floor": 5
+      },
+      {
+        "date": "2023.08.11",
+        "price": 57000,
+        "floor": 2
+      },
+      {
+        "date": "2021.01.03",
+        "price": 60000,
+        "floor": 3
+      },
+      {
+        "date": "2019.07.20",
+        "price": 43800,
+        "floor": 2
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 61000,
+      "kab_avg": 57500,
+      "kab_lower": 54000,
+      "kab_change": 0,
+      "lease_rate": "59~61%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "동아한신",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 355,
+    "complex_no": "1067",
+    "min_price": 64000,
+    "count": 8,
+    "score": 12,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.24",
+        "price": 63000,
+        "floor": 7
+      },
+      {
+        "date": "2026.03.25",
+        "price": 60000,
+        "floor": 2
+      },
+      {
+        "date": "2025.12.31",
+        "price": 58000,
+        "floor": 3
+      },
+      {
+        "date": "2025.06.26",
+        "price": 57900,
+        "floor": 14
+      },
+      {
+        "date": "2025.05.27",
+        "price": 57000,
+        "floor": 12
+      },
+      {
+        "date": "2025.05.06",
+        "price": 59000,
+        "floor": 3
+      },
+      {
+        "date": "2025.05.06",
+        "price": 59000,
+        "floor": 3
+      }
+    ],
+    "transaction_count": 7,
+    "kab_summary": {
+      "kab_upper": 65000,
+      "kab_avg": 60500,
+      "kab_lower": 56000,
+      "kab_change": 0,
+      "lease_rate": "58~60%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "동아에코빌",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1253,
+    "complex_no": "3425",
+    "min_price": 79000,
+    "count": 10,
+    "score": 14,
+    "pyeong_no": 2,
+    "real_area_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.18",
+        "price": 75000,
+        "floor": 14
+      },
+      {
+        "date": "2026.04.17",
+        "price": 75500,
+        "floor": 13
+      },
+      {
+        "date": "2026.04.15",
+        "price": 65000,
+        "floor": 2
+      },
+      {
+        "date": "2026.04.10",
+        "price": 76000,
+        "floor": 12
+      },
+      {
+        "date": "2026.04.03",
+        "price": 82000,
+        "floor": 16
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 81000,
+      "kab_avg": 78500,
+      "kab_lower": 73500,
+      "kab_change": 4000,
+      "lease_rate": "50~51%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "한신,한진",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 4509,
+    "complex_no": "582",
+    "min_price": 80000,
+    "count": 8,
+    "score": 13,
+    "pyeong_no": 2,
+    "real_area_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.24",
+        "price": 77500,
+        "floor": 18
+      },
+      {
+        "date": "2026.04.20",
+        "price": 79700,
+        "floor": 20
+      },
+      {
+        "date": "2026.04.16",
+        "price": 75000,
+        "floor": 2
+      },
+      {
+        "date": "2026.04.14",
+        "price": 75000,
+        "floor": 16
+      },
+      {
+        "date": "2026.04.13",
+        "price": 81000,
+        "floor": 8
+      },
+      {
+        "date": "2026.04.11",
+        "price": 80000,
+        "floor": 8
+      },
+      {
+        "date": "2026.04.10",
+        "price": 81000,
+        "floor": 13
+      }
+    ],
+    "transaction_count": 7,
+    "kab_summary": {
+      "kab_upper": 78000,
+      "kab_avg": 74000,
+      "kab_lower": 70000,
+      "kab_change": 0,
+      "lease_rate": "54~55%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "수유벽산1차",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 1454,
+    "complex_no": "1344",
+    "min_price": 49500,
+    "count": 7,
+    "score": 13,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.03.11",
+        "price": 50300,
+        "floor": 3
+      },
+      {
+        "date": "2026.02.12",
+        "price": 55500,
+        "floor": 13
+      },
+      {
+        "date": "2026.02.11",
+        "price": 55000,
+        "floor": 5
+      },
+      {
+        "date": "2026.01.27",
+        "price": 51000,
+        "floor": 12
+      },
+      {
+        "date": "2025.12.09",
+        "price": 49000,
+        "floor": 11
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 55500,
+      "kab_avg": 52500,
+      "kab_lower": 49500,
+      "kab_change": 0,
+      "lease_rate": "68%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "종암SK",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1318,
+    "complex_no": "1191",
+    "min_price": 80000,
+    "count": 5,
+    "score": 13,
+    "pyeong_no": 3,
+    "real_area_no": 3,
+    "transactions": [
+      {
+        "date": "2026.03.25",
+        "price": 79000,
+        "floor": 6
+      },
+      {
+        "date": "2026.03.23",
+        "price": 83000,
+        "floor": 11
+      },
+      {
+        "date": "2026.02.14",
+        "price": 84500,
+        "floor": 18
+      },
+      {
+        "date": "2026.01.30",
+        "price": 81000,
+        "floor": 17
+      },
+      {
+        "date": "2026.01.07",
+        "price": 78900,
+        "floor": 23
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 84500,
+      "kab_avg": 79750,
+      "kab_lower": 75000,
+      "kab_change": 0,
+      "lease_rate": "57~58%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "월곡두산위브",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 2197,
+    "complex_no": "2990",
+    "min_price": 91000,
+    "count": 10,
+    "score": 12,
+    "pyeong_no": 2,
+    "real_area_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.23",
+        "price": 91500,
+        "floor": 9
+      },
+      {
+        "date": "2026.04.12",
+        "price": 91500,
+        "floor": 17
+      },
+      {
+        "date": "2026.04.08",
+        "price": 89900,
+        "floor": 6
+      },
+      {
+        "date": "2026.04.04",
+        "price": 88000,
+        "floor": 9
+      },
+      {
+        "date": "2026.03.28",
+        "price": 87500,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.27",
+        "price": 88500,
+        "floor": 11
+      },
+      {
+        "date": "2026.03.21",
+        "price": 86000,
+        "floor": 16
+      },
+      {
+        "date": "2026.03.11",
+        "price": 91000,
+        "floor": 14
+      },
+      {
+        "date": "2026.03.01",
+        "price": 93000,
+        "floor": 12
+      }
+    ],
+    "transaction_count": 9,
+    "kab_summary": {
+      "kab_upper": 93000,
+      "kab_avg": 88000,
+      "kab_lower": 83000,
+      "kab_change": 1500,
+      "lease_rate": "54%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "홍은벽산",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1509,
+    "complex_no": "432",
+    "min_price": 70000,
+    "count": 1,
+    "score": 12,
+    "pyeong_no": 2,
+    "real_area_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.14",
+        "price": 62000,
+        "floor": 1
+      },
+      {
+        "date": "2026.04.07",
+        "price": 70000,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.06",
+        "price": 59000,
+        "floor": 2
+      },
+      {
+        "date": "2026.04.04",
+        "price": 68500,
+        "floor": 8
+      },
+      {
+        "date": "2026.04.03",
+        "price": 67800,
+        "floor": 11
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 67000,
+      "kab_avg": 63500,
+      "kab_lower": 60000,
+      "kab_change": 2000,
+      "lease_rate": "56~58%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "백련산힐스테이트1차",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1106,
+    "complex_no": "27501",
+    "min_price": 80000,
+    "count": 3,
+    "score": 12,
+    "pyeong_no": 2,
+    "real_area_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.28",
+        "price": 78500,
+        "floor": 2
+      },
+      {
+        "date": "2026.04.23",
+        "price": 82000,
+        "floor": 8
+      },
+      {
+        "date": "2026.04.10",
+        "price": 80500,
+        "floor": 6
+      },
+      {
+        "date": "2026.03.30",
+        "price": 79500,
+        "floor": 12
+      },
+      {
+        "date": "2026.03.07",
+        "price": 76400,
+        "floor": 6
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 80000,
+      "kab_avg": 76500,
+      "kab_lower": 73000,
+      "kab_change": 0,
+      "lease_rate": "64~66%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "돈암브라운스톤",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1074,
+    "complex_no": "9348",
+    "min_price": 87500,
+    "count": 8,
+    "score": 12,
+    "pyeong_no": 1,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.11",
+        "price": 89000,
+        "floor": 19
+      },
+      {
+        "date": "2026.04.08",
+        "price": 95000,
+        "floor": 15
+      },
+      {
+        "date": "2026.04.05",
+        "price": 93500,
+        "floor": 16
+      },
+      {
+        "date": "2026.03.28",
+        "price": 86000,
+        "floor": 4
+      },
+      {
+        "date": "2026.03.24",
+        "price": 89000,
+        "floor": 11
+      },
+      {
+        "date": "2026.03.13",
+        "price": 87900,
+        "floor": 9
+      },
+      {
+        "date": "2026.03.07",
+        "price": 88000,
+        "floor": 2
+      },
+      {
+        "date": "2026.03.03",
+        "price": 82000,
+        "floor": 6
+      }
+    ],
+    "transaction_count": 8,
+    "kab_summary": {
+      "kab_upper": 89000,
+      "kab_avg": 84500,
+      "kab_lower": 80000,
+      "kab_change": 0,
+      "lease_rate": "57~58%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "창동주공3단지",
+    "region": "도봉_창동방학",
+    "tier": "C",
+    "household": 2856,
+    "complex_no": "326",
+    "min_price": 75000,
+    "count": 10,
+    "score": 11,
+    "pyeong_no": 14,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.03",
+        "price": 57500,
+        "floor": 7
+      },
+      {
+        "date": "2026.04.02",
+        "price": 55000,
+        "floor": 2
+      },
+      {
+        "date": "2026.03.28",
+        "price": 57000,
+        "floor": 9
+      },
+      {
+        "date": "2026.03.11",
+        "price": 55300,
+        "floor": 5
+      },
+      {
+        "date": "2026.02.24",
+        "price": 35000,
+        "floor": 13
+      },
+      {
+        "date": "2026.02.11",
+        "price": 52000,
+        "floor": 7
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 57000,
+      "kab_avg": 53000,
+      "kab_lower": 49000,
+      "kab_change": 3000,
+      "lease_rate": "40%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "상계주공9단지",
+    "region": "노원_상계",
+    "tier": "C",
+    "household": 2830,
+    "complex_no": "206",
+    "min_price": 68000,
+    "count": 13,
+    "score": 11,
+    "pyeong_no": 6,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.21",
+        "price": 44400,
+        "floor": 11
+      },
+      {
+        "date": "2026.04.12",
+        "price": 43000,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.04",
+        "price": 41000,
+        "floor": 4
+      },
+      {
+        "date": "2026.02.06",
+        "price": 39800,
+        "floor": 2
+      },
+      {
+        "date": "2026.01.31",
+        "price": 40000,
+        "floor": 6
+      },
+      {
+        "date": "2026.01.31",
+        "price": 41300,
+        "floor": 13
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 43000,
+      "kab_avg": 40500,
+      "kab_lower": 38000,
+      "kab_change": 0,
+      "lease_rate": "55%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "극동.건영.벽산",
+    "region": "노원_월계공릉",
+    "tier": "C",
+    "household": 1980,
+    "complex_no": "255",
+    "min_price": 63000,
+    "count": 11,
+    "score": 11,
+    "pyeong_no": 6,
+    "real_area_no": 1,
+    "transactions": [
+      {
+        "date": "2026.02.19",
+        "price": 46000,
+        "floor": 11
+      },
+      {
+        "date": "2026.02.14",
+        "price": 48500,
+        "floor": 13
+      },
+      {
+        "date": "2026.02.12",
+        "price": 46000,
+        "floor": 14
+      },
+      {
+        "date": "2026.02.09",
+        "price": 47700,
+        "floor": 14
+      },
+      {
+        "date": "2025.12.31",
+        "price": 42000,
+        "floor": 3
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 48000,
+      "kab_avg": 45500,
+      "kab_lower": 43000,
+      "kab_change": 0,
+      "lease_rate": "45%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "주공8단지",
+    "region": "금천_독산시흥",
+    "tier": "C",
+    "household": 1680,
+    "complex_no": "1635",
+    "min_price": 69000,
+    "count": 11,
+    "score": 11,
+    "pyeong_no": 1,
+    "real_area_no": 4,
+    "transactions": [
+      {
+        "date": "2026.04.23",
+        "price": 60000,
+        "floor": 9
+      },
+      {
+        "date": "2026.04.08",
+        "price": 59200,
+        "floor": 3
+      },
+      {
+        "date": "2026.03.28",
+        "price": 60000,
+        "floor": 14
+      },
+      {
+        "date": "2026.03.28",
+        "price": 57500,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.13",
+        "price": 59800,
+        "floor": 14
+      },
+      {
+        "date": "2026.03.06",
+        "price": 60000,
+        "floor": 12
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 49000,
+      "kab_avg": 47000,
+      "kab_lower": 45000,
+      "kab_change": 0,
+      "lease_rate": "43~44%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "롯데캐슬베네치아(주상복합)",
+    "region": "성동_왕십리행당",
+    "tier": "S",
+    "household": 1870,
+    "complex_no": "24845",
+    "min_price": 107000,
+    "count": 1,
+    "score": 16,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.03.27",
+        "price": 98000,
+        "floor": 18
+      },
+      {
+        "date": "2026.03.21",
+        "price": 100000,
+        "floor": 7
+      },
+      {
+        "date": "2026.03.19",
+        "price": 95000,
+        "floor": 18
+      },
+      {
+        "date": "2026.03.14",
+        "price": 95000,
+        "floor": 11
+      },
+      {
+        "date": "2026.03.13",
+        "price": 99700,
+        "floor": 32
+      },
+      {
+        "date": "2026.03.13",
+        "price": 99700,
+        "floor": 32
+      },
+      {
+        "date": "2026.03.09",
+        "price": 103500,
+        "floor": 32
+      }
+    ],
+    "transaction_count": 7,
+    "kab_summary": {
+      "kab_upper": 105000,
+      "kab_avg": 97500,
+      "kab_lower": 90000,
+      "kab_change": 0,
+      "lease_rate": "57%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "동신",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 746,
+    "complex_no": "1194",
+    "min_price": 75000,
+    "count": 15,
+    "score": 15,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.03.28",
+        "price": 73000,
+        "floor": 15
+      },
+      {
+        "date": "2026.03.23",
+        "price": 71000,
+        "floor": 19
+      },
+      {
+        "date": "2026.03.21",
+        "price": 78000,
+        "floor": 18
+      },
+      {
+        "date": "2026.03.16",
+        "price": 77000,
+        "floor": 17
+      },
+      {
+        "date": "2026.03.14",
+        "price": 73000,
+        "floor": 4
+      },
+      {
+        "date": "2026.03.14",
+        "price": 73000,
+        "floor": 4
+      },
+      {
+        "date": "2026.03.13",
+        "price": 73850,
+        "floor": 8
+      },
+      {
+        "date": "2026.03.02",
+        "price": 77000,
+        "floor": 20
+      }
+    ],
+    "transaction_count": 8,
+    "kab_summary": {
+      "kab_upper": 68000,
+      "kab_avg": 64000,
+      "kab_lower": 60000,
+      "kab_change": 0,
+      "lease_rate": "57~58%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "푸른마을동아",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 529,
+    "complex_no": "11166",
+    "min_price": 63000,
+    "count": 10,
+    "score": 15,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2025.10.15",
+        "price": 57000,
+        "floor": 2
+      },
+      {
+        "date": "2025.09.06",
+        "price": 58000,
+        "floor": 4
+      },
+      {
+        "date": "2025.06.28",
+        "price": 63000,
+        "floor": 8
+      },
+      {
+        "date": "2024.12.07",
+        "price": 59500,
+        "floor": 15
+      },
+      {
+        "date": "2024.07.31",
+        "price": 59500,
+        "floor": 14
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 68000,
+      "kab_avg": 63500,
+      "kab_lower": 61500,
+      "kab_change": 0,
+      "lease_rate": "56~59%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "길음뉴타운데시앙",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 514,
+    "complex_no": "1190",
+    "min_price": 64000,
+    "count": 12,
+    "score": 15,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2023.07.26",
+        "price": 48000,
+        "floor": 18
+      },
+      {
+        "date": "2020.01.02",
+        "price": 35000,
+        "floor": 18
+      },
+      {
+        "date": "2018.03.09",
+        "price": 28300,
+        "floor": 18
+      },
+      {
+        "date": "2007.03.27",
+        "price": 15300,
+        "floor": 18
+      }
+    ],
+    "transaction_count": 4,
+    "kab_summary": {
+      "kab_upper": null,
+      "kab_avg": null,
+      "kab_lower": null,
+      "kab_change": null,
+      "lease_rate": null,
+      "base_date": null
+    }
+  },
+  {
+    "name": "길음뉴타운2단지푸르지오",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1634,
+    "complex_no": "8082",
+    "min_price": 95000,
+    "count": 6,
+    "score": 14,
+    "pyeong_no": 3,
+    "transactions": [
+      {
+        "date": "2026.03.20",
+        "price": 97000,
+        "floor": 2
+      },
+      {
+        "date": "2026.03.03",
+        "price": 92400,
+        "floor": 14
+      },
+      {
+        "date": "2026.03.03",
+        "price": 92400,
+        "floor": 14
+      },
+      {
+        "date": "2026.02.25",
+        "price": 91900,
+        "floor": 12
+      },
+      {
+        "date": "2026.02.03",
+        "price": 90000,
+        "floor": 16
+      },
+      {
+        "date": "2026.02.03",
+        "price": 88000,
+        "floor": 4
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 97000,
+      "kab_avg": 93000,
+      "kab_lower": 88500,
+      "kab_change": 0,
+      "lease_rate": "52~53%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "길음동부센트레빌",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1377,
+    "complex_no": "3421",
+    "min_price": 104000,
+    "count": 9,
+    "score": 14,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.14",
+        "price": 100000,
+        "floor": 8
+      },
+      {
+        "date": "2026.04.04",
+        "price": 99000,
+        "floor": 18
+      },
+      {
+        "date": "2026.03.28",
+        "price": 88500,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.19",
+        "price": 100500,
+        "floor": 13
+      },
+      {
+        "date": "2026.02.20",
+        "price": 105000,
+        "floor": 6
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 95000,
+      "kab_avg": 89000,
+      "kab_lower": 83000,
+      "kab_change": 0,
+      "lease_rate": "56%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "정릉e-편한세상1차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 739,
+    "complex_no": "8596",
+    "min_price": 72000,
+    "count": 5,
+    "score": 14,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.24",
+        "price": 68500,
+        "floor": 13
+      },
+      {
+        "date": "2026.04.18",
+        "price": 69600,
+        "floor": 9
+      },
+      {
+        "date": "2026.04.16",
+        "price": 66500,
+        "floor": 6
+      },
+      {
+        "date": "2026.04.10",
+        "price": 69500,
+        "floor": 5
+      },
+      {
+        "date": "2026.03.14",
+        "price": 69500,
+        "floor": 17
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 69000,
+      "kab_avg": 68000,
+      "kab_lower": 65750,
+      "kab_change": 0,
+      "lease_rate": "59~62%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "돈암현대",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 619,
+    "complex_no": "583",
+    "min_price": 72000,
+    "count": 8,
+    "score": 14,
+    "pyeong_no": 2,
+    "transactions": [],
+    "transaction_count": 0,
+    "kab_summary": {
+      "kab_upper": null,
+      "kab_avg": null,
+      "kab_lower": null,
+      "kab_change": null,
+      "lease_rate": null,
+      "base_date": null
+    }
+  },
+  {
+    "name": "래미안트리베라1차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1247,
+    "complex_no": "25971",
+    "min_price": 101000,
+    "count": 2,
+    "score": 13,
+    "pyeong_no": 3,
+    "transactions": [
+      {
+        "date": "2026.04.18",
+        "price": 90000,
+        "floor": 5
+      },
+      {
+        "date": "2026.02.27",
+        "price": 96000,
+        "floor": 14
+      },
+      {
+        "date": "2026.02.24",
+        "price": 91000,
+        "floor": 2
+      },
+      {
+        "date": "2026.02.20",
+        "price": 92500,
+        "floor": 16
+      },
+      {
+        "date": "2026.02.04",
+        "price": 90000,
+        "floor": 12
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 90000,
+      "kab_avg": 85000,
+      "kab_lower": 80000,
+      "kab_change": 0,
+      "lease_rate": "52~53%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "래미안크리시엘",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1168,
+    "complex_no": "3006",
+    "min_price": 105000,
+    "count": 1,
+    "score": 13,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.16",
+        "price": 101750,
+        "floor": 6
+      },
+      {
+        "date": "2026.04.15",
+        "price": 92000,
+        "floor": 14
+      },
+      {
+        "date": "2026.04.05",
+        "price": 104000,
+        "floor": 15
+      },
+      {
+        "date": "2026.04.04",
+        "price": 92000,
+        "floor": 4
+      },
+      {
+        "date": "2026.04.02",
+        "price": 90000,
+        "floor": 13
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 102000,
+      "kab_avg": 96000,
+      "kab_lower": 90000,
+      "kab_change": 5500,
+      "lease_rate": "48~49%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "래미안라센트",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1025,
+    "complex_no": "26834",
+    "min_price": 105000,
+    "count": 2,
+    "score": 13,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.20",
+        "price": 115300,
+        "floor": 20
+      },
+      {
+        "date": "2026.03.21",
+        "price": 115000,
+        "floor": 12
+      },
+      {
+        "date": "2026.01.29",
+        "price": 110000,
+        "floor": 9
+      },
+      {
+        "date": "2026.01.18",
+        "price": 104500,
+        "floor": 15
+      },
+      {
+        "date": "2026.01.08",
+        "price": 94000,
+        "floor": 1
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 110000,
+      "kab_avg": 102000,
+      "kab_lower": 94000,
+      "kab_change": 0,
+      "lease_rate": "56~58%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "길음뉴타운경남아너스빌",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 860,
+    "complex_no": "586",
+    "min_price": 80000,
+    "count": 3,
+    "score": 13,
+    "pyeong_no": 3,
+    "transactions": [
+      {
+        "date": "2026.04.17",
+        "price": 60000,
+        "floor": 9
+      },
+      {
+        "date": "2025.04.24",
+        "price": 49800,
+        "floor": 10
+      },
+      {
+        "date": "2024.09.13",
+        "price": 49900,
+        "floor": 8
+      },
+      {
+        "date": "2024.08.10",
+        "price": 46000,
+        "floor": 11
+      },
+      {
+        "date": "2023.07.12",
+        "price": 46800,
+        "floor": 13
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 53500,
+      "kab_avg": 50250,
+      "kab_lower": 47000,
+      "kab_change": 0,
+      "lease_rate": "55~57%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "꿈의숲푸르지오",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 714,
+    "complex_no": "26130",
+    "min_price": 88000,
+    "count": 6,
+    "score": 13,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.17",
+        "price": 88500,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.15",
+        "price": 87850,
+        "floor": 5
+      },
+      {
+        "date": "2026.04.13",
+        "price": 86000,
+        "floor": 12
+      },
+      {
+        "date": "2026.04.02",
+        "price": 90000,
+        "floor": 8
+      },
+      {
+        "date": "2026.04.01",
+        "price": 93500,
+        "floor": 5
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 90000,
+      "kab_avg": 85000,
+      "kab_lower": 80000,
+      "kab_change": 0,
+      "lease_rate": "53~54%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "정릉e-편한세상2차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 527,
+    "complex_no": "25782",
+    "min_price": 83000,
+    "count": 5,
+    "score": 13,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.03.10",
+        "price": 85000,
+        "floor": 9
+      },
+      {
+        "date": "2024.02.15",
+        "price": 64000,
+        "floor": 9
+      },
+      {
+        "date": "2022.02.05",
+        "price": 80000,
+        "floor": 8
+      },
+      {
+        "date": "2017.05.12",
+        "price": 40800,
+        "floor": 8
+      },
+      {
+        "date": "2016.08.26",
+        "price": 38000,
+        "floor": 9
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": null,
+      "kab_avg": null,
+      "kab_lower": null,
+      "kab_change": null,
+      "lease_rate": null,
+      "base_date": null
+    }
+  },
+  {
+    "name": "정릉힐스테이트3차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 522,
+    "complex_no": "23779",
+    "min_price": 76000,
+    "count": 1,
+    "score": 13,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.18",
+        "price": 73000,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.11",
+        "price": 73500,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.16",
+        "price": 74000,
+        "floor": 5
+      },
+      {
+        "date": "2026.03.03",
+        "price": 73000,
+        "floor": 10
+      },
+      {
+        "date": "2026.02.14",
+        "price": 72800,
+        "floor": 5
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 75000,
+      "kab_avg": 72500,
+      "kab_lower": 70000,
+      "kab_change": 0,
+      "lease_rate": "61~65%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "범양",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 499,
+    "complex_no": "578",
+    "min_price": 80000,
+    "count": 14,
+    "score": 13,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.07",
+        "price": 79000,
+        "floor": 8
+      },
+      {
+        "date": "2026.02.21",
+        "price": 77800,
+        "floor": 18
+      },
+      {
+        "date": "2026.02.21",
+        "price": 75300,
+        "floor": 17
+      },
+      {
+        "date": "2026.02.13",
+        "price": 73000,
+        "floor": 7
+      },
+      {
+        "date": "2026.01.23",
+        "price": 70500,
+        "floor": 1
+      },
+      {
+        "date": "2026.01.14",
+        "price": 73000,
+        "floor": 8
+      },
+      {
+        "date": "2026.01.10",
+        "price": 70500,
+        "floor": 5
+      }
+    ],
+    "transaction_count": 7,
+    "kab_summary": {
+      "kab_upper": 78000,
+      "kab_avg": 74000,
+      "kab_lower": 70000,
+      "kab_change": 3000,
+      "lease_rate": "52~53%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "남가좌현대",
+    "region": "서대문_홍은남가좌",
+    "tier": "B",
+    "household": 1155,
+    "complex_no": "848",
+    "min_price": 88000,
+    "count": 16,
+    "score": 13,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.25",
+        "price": 86000,
+        "floor": 10
+      },
+      {
+        "date": "2026.04.10",
+        "price": 92000,
+        "floor": 13
+      },
+      {
+        "date": "2026.04.04",
+        "price": 93000,
+        "floor": 10
+      },
+      {
+        "date": "2026.03.27",
+        "price": 94000,
+        "floor": 6
+      },
+      {
+        "date": "2026.03.26",
+        "price": 91000,
+        "floor": 12
+      },
+      {
+        "date": "2026.03.16",
+        "price": 85000,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.14",
+        "price": 93000,
+        "floor": 16
+      }
+    ],
+    "transaction_count": 7,
+    "kab_summary": {
+      "kab_upper": 93000,
+      "kab_avg": 87000,
+      "kab_lower": 81000,
+      "kab_change": 0,
+      "lease_rate": "52~53%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "현대",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 2134,
+    "complex_no": "45",
+    "min_price": 98000,
+    "count": 14,
+    "score": 12,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.29",
+        "price": 98000,
+        "floor": 15
+      },
+      {
+        "date": "2026.04.08",
+        "price": 99000,
+        "floor": 6
+      },
+      {
+        "date": "2026.04.03",
+        "price": 96000,
+        "floor": 11
+      },
+      {
+        "date": "2026.02.23",
+        "price": 96000,
+        "floor": 9
+      },
+      {
+        "date": "2026.02.13",
+        "price": 95500,
+        "floor": 9
+      },
+      {
+        "date": "2026.02.13",
+        "price": 96000,
+        "floor": 11
+      },
+      {
+        "date": "2026.02.13",
+        "price": 94000,
+        "floor": 12
+      },
+      {
+        "date": "2026.02.09",
+        "price": 86000,
+        "floor": 1
+      },
+      {
+        "date": "2026.02.06",
+        "price": 87000,
+        "floor": 3
+      },
+      {
+        "date": "2026.02.01",
+        "price": 73500,
+        "floor": 1
+      }
+    ],
+    "transaction_count": 10,
+    "kab_summary": {
+      "kab_upper": 96000,
+      "kab_avg": 88500,
+      "kab_lower": 81000,
+      "kab_change": 0,
+      "lease_rate": "46~49%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "벽산블루밍1차",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 2105,
+    "complex_no": "2986",
+    "min_price": 94000,
+    "count": 10,
+    "score": 12,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.25",
+        "price": 93000,
+        "floor": 5
+      },
+      {
+        "date": "2026.04.25",
+        "price": 96000,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.20",
+        "price": 105000,
+        "floor": 7
+      },
+      {
+        "date": "2026.04.18",
+        "price": 93500,
+        "floor": 15
+      },
+      {
+        "date": "2026.04.11",
+        "price": 101300,
+        "floor": 6
+      },
+      {
+        "date": "2026.04.04",
+        "price": 101900,
+        "floor": 13
+      },
+      {
+        "date": "2026.04.04",
+        "price": 102700,
+        "floor": 7
+      },
+      {
+        "date": "2026.04.03",
+        "price": 104500,
+        "floor": 20
+      }
+    ],
+    "transaction_count": 8,
+    "kab_summary": {
+      "kab_upper": 105000,
+      "kab_avg": 97500,
+      "kab_lower": 90000,
+      "kab_change": 0,
+      "lease_rate": "47~48%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "신림현대",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 1634,
+    "complex_no": "58",
+    "min_price": 76000,
+    "count": 1,
+    "score": 12,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.14",
+        "price": 43700,
+        "floor": 10
+      },
+      {
+        "date": "2026.04.06",
+        "price": 45700,
+        "floor": 6
+      },
+      {
+        "date": "2026.03.25",
+        "price": 38000,
+        "floor": 4
+      },
+      {
+        "date": "2026.03.13",
+        "price": 45000,
+        "floor": 3
+      },
+      {
+        "date": "2026.03.07",
+        "price": 44500,
+        "floor": 13
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 48000,
+      "kab_avg": 45000,
+      "kab_lower": 42000,
+      "kab_change": 0,
+      "lease_rate": "59~60%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "신창",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 609,
+    "complex_no": "930",
+    "min_price": 38000,
+    "count": 15,
+    "score": 12,
+    "pyeong_no": 6,
+    "transactions": [
+      {
+        "date": "2018.06.05",
+        "price": 16800,
+        "floor": 15
+      },
+      {
+        "date": "2016.01.19",
+        "price": 14500,
+        "floor": 15
+      },
+      {
+        "date": "2015.09.03",
+        "price": 14500,
+        "floor": 15
+      },
+      {
+        "date": "2014.04.04",
+        "price": 14000,
+        "floor": 15
+      },
+      {
+        "date": "2014.02.07",
+        "price": 15300,
+        "floor": 14
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 31000,
+      "kab_avg": 29000,
+      "kab_lower": 27000,
+      "kab_change": 0,
+      "lease_rate": "58~59%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "초안2단지",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 571,
+    "complex_no": "3255",
+    "min_price": 38000,
+    "count": 14,
+    "score": 12,
+    "pyeong_no": 3,
+    "transactions": [
+      {
+        "date": "2026.04.11",
+        "price": 29500,
+        "floor": 7
+      },
+      {
+        "date": "2026.03.17",
+        "price": 25700,
+        "floor": 2
+      },
+      {
+        "date": "2026.03.04",
+        "price": 27500,
+        "floor": 8
+      },
+      {
+        "date": "2026.01.26",
+        "price": 26800,
+        "floor": 5
+      },
+      {
+        "date": "2025.10.17",
+        "price": 26000,
+        "floor": 7
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 31000,
+      "kab_avg": 28500,
+      "kab_lower": 26000,
+      "kab_change": 0,
+      "lease_rate": "63~64%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "미성",
+    "region": "마포_상암",
+    "tier": "B",
+    "household": 570,
+    "complex_no": "783",
+    "min_price": 65000,
+    "count": 14,
+    "score": 12,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.11",
+        "price": 60000,
+        "floor": 2
+      },
+      {
+        "date": "2026.04.11",
+        "price": 60000,
+        "floor": 2
+      },
+      {
+        "date": "2026.03.29",
+        "price": 64500,
+        "floor": 4
+      },
+      {
+        "date": "2026.03.29",
+        "price": 57000,
+        "floor": 13
+      },
+      {
+        "date": "2026.02.25",
+        "price": 59200,
+        "floor": 7
+      },
+      {
+        "date": "2026.02.08",
+        "price": 54200,
+        "floor": 7
+      },
+      {
+        "date": "2026.02.04",
+        "price": 60000,
+        "floor": 11
+      }
+    ],
+    "transaction_count": 7,
+    "kab_summary": {
+      "kab_upper": 60000,
+      "kab_avg": 57000,
+      "kab_lower": 54000,
+      "kab_change": 0,
+      "lease_rate": "50~53%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "관악우성",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 1597,
+    "complex_no": "1048",
+    "min_price": 88000,
+    "count": 3,
+    "score": 11,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.23",
+        "price": 87000,
+        "floor": 1
+      },
+      {
+        "date": "2026.04.18",
+        "price": 92500,
+        "floor": 20
+      },
+      {
+        "date": "2026.04.17",
+        "price": 94000,
+        "floor": 18
+      },
+      {
+        "date": "2026.04.16",
+        "price": 95000,
+        "floor": 17
+      },
+      {
+        "date": "2026.04.16",
+        "price": 100500,
+        "floor": 16
+      },
+      {
+        "date": "2026.04.15",
+        "price": 93000,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.11",
+        "price": 99800,
+        "floor": 14
+      },
+      {
+        "date": "2026.04.04",
+        "price": 98000,
+        "floor": 12
+      },
+      {
+        "date": "2026.04.04",
+        "price": 97000,
+        "floor": 11
+      }
+    ],
+    "transaction_count": 9,
+    "kab_summary": {
+      "kab_upper": 100000,
+      "kab_avg": 93500,
+      "kab_lower": 87000,
+      "kab_change": 3500,
+      "lease_rate": "46~48%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "백련산힐스테이트2차",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1148,
+    "complex_no": "27502",
+    "min_price": 84000,
+    "count": 3,
+    "score": 11,
+    "pyeong_no": 3,
+    "transactions": [
+      {
+        "date": "2026.04.13",
+        "price": 80500,
+        "floor": 4
+      },
+      {
+        "date": "2026.04.11",
+        "price": 83000,
+        "floor": 5
+      },
+      {
+        "date": "2026.04.04",
+        "price": 81500,
+        "floor": 10
+      },
+      {
+        "date": "2026.03.19",
+        "price": 82000,
+        "floor": 13
+      },
+      {
+        "date": "2026.01.24",
+        "price": 74000,
+        "floor": 2
+      },
+      {
+        "date": "2026.01.10",
+        "price": 75000,
+        "floor": 15
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 79000,
+      "kab_avg": 75000,
+      "kab_lower": 71000,
+      "kab_change": 0,
+      "lease_rate": "63%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "한신",
+    "region": "성북_돈암석관",
+    "tier": "B",
+    "household": 1070,
+    "complex_no": "3277",
+    "min_price": 106000,
+    "count": 9,
+    "score": 11,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.06",
+        "price": 105000,
+        "floor": 12
+      },
+      {
+        "date": "2026.03.31",
+        "price": 97800,
+        "floor": 15
+      },
+      {
+        "date": "2026.02.25",
+        "price": 101000,
+        "floor": 21
+      },
+      {
+        "date": "2026.02.24",
+        "price": 100000,
+        "floor": 8
+      },
+      {
+        "date": "2026.02.09",
+        "price": 94500,
+        "floor": 24
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 100000,
+      "kab_avg": 94000,
+      "kab_lower": 88000,
+      "kab_change": 5000,
+      "lease_rate": "46~47%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "e편한세상수색에코포레",
+    "region": "마포_상암",
+    "tier": "B",
+    "household": 976,
+    "complex_no": "3462",
+    "min_price": 74000,
+    "count": 7,
+    "score": 11,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.06",
+        "price": 70500,
+        "floor": 12
+      },
+      {
+        "date": "2026.04.04",
+        "price": 68500,
+        "floor": 10
+      },
+      {
+        "date": "2026.03.07",
+        "price": 73900,
+        "floor": 6
+      },
+      {
+        "date": "2026.02.20",
+        "price": 70800,
+        "floor": 10
+      },
+      {
+        "date": "2026.02.13",
+        "price": 69000,
+        "floor": 4
+      },
+      {
+        "date": "2026.02.06",
+        "price": 68000,
+        "floor": 3
+      },
+      {
+        "date": "2026.02.06",
+        "price": 67000,
+        "floor": 11
+      },
+      {
+        "date": "2026.02.03",
+        "price": 64000,
+        "floor": 11
+      }
+    ],
+    "transaction_count": 8,
+    "kab_summary": {
+      "kab_upper": 72000,
+      "kab_avg": 68500,
+      "kab_lower": 65000,
+      "kab_change": 0,
+      "lease_rate": "59~60%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "유원하나",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 704,
+    "complex_no": "439",
+    "min_price": 52000,
+    "count": 5,
+    "score": 11,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.18",
+        "price": 54500,
+        "floor": 8
+      },
+      {
+        "date": "2026.04.16",
+        "price": 57000,
+        "floor": 6
+      },
+      {
+        "date": "2026.03.30",
+        "price": 55000,
+        "floor": 8
+      },
+      {
+        "date": "2026.01.10",
+        "price": 54500,
+        "floor": 9
+      },
+      {
+        "date": "2025.12.13",
+        "price": 55400,
+        "floor": 9
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 56000,
+      "kab_avg": 52000,
+      "kab_lower": 48000,
+      "kab_change": 0,
+      "lease_rate": "62~64%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "수유래미안",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 690,
+    "complex_no": "3132",
+    "min_price": 55000,
+    "count": 9,
+    "score": 11,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.03.28",
+        "price": 60700,
+        "floor": 3
+      },
+      {
+        "date": "2026.03.16",
+        "price": 59000,
+        "floor": 5
+      },
+      {
+        "date": "2026.01.24",
+        "price": 53750,
+        "floor": 4
+      },
+      {
+        "date": "2025.11.12",
+        "price": 58700,
+        "floor": 13
+      },
+      {
+        "date": "2025.09.11",
+        "price": 58000,
+        "floor": 8
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 59000,
+      "kab_avg": 55500,
+      "kab_lower": 52000,
+      "kab_change": 0,
+      "lease_rate": "61~64%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "현대",
+    "region": "서대문_홍은남가좌",
+    "tier": "B",
+    "household": 610,
+    "complex_no": "436",
+    "min_price": 72000,
+    "count": 6,
+    "score": 11,
+    "pyeong_no": 17,
+    "transactions": [
+      {
+        "date": "2026.04.14",
+        "price": 60000,
+        "floor": 7
+      },
+      {
+        "date": "2026.02.12",
+        "price": 61000,
+        "floor": 10
+      },
+      {
+        "date": "2026.01.22",
+        "price": 61000,
+        "floor": 1
+      },
+      {
+        "date": "2026.01.10",
+        "price": 64800,
+        "floor": 3
+      },
+      {
+        "date": "2025.12.18",
+        "price": 62000,
+        "floor": 8
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 66000,
+      "kab_avg": 63500,
+      "kab_lower": 61000,
+      "kab_change": 250,
+      "lease_rate": "60%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "신림동부",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 592,
+    "complex_no": "63",
+    "min_price": 80000,
+    "count": 7,
+    "score": 11,
+    "pyeong_no": 3,
+    "transactions": [
+      {
+        "date": "2026.04.11",
+        "price": 65000,
+        "floor": 16
+      },
+      {
+        "date": "2026.03.31",
+        "price": 64000,
+        "floor": 2
+      },
+      {
+        "date": "2026.03.16",
+        "price": 65000,
+        "floor": 3
+      },
+      {
+        "date": "2026.03.12",
+        "price": 66800,
+        "floor": 4
+      },
+      {
+        "date": "2025.10.16",
+        "price": 61300,
+        "floor": 7
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 67000,
+      "kab_avg": 62500,
+      "kab_lower": 58000,
+      "kab_change": 0,
+      "lease_rate": "58%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "관악드림타운",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 3544,
+    "complex_no": "2987",
+    "min_price": 110000,
+    "count": 1,
+    "score": 10,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.18",
+        "price": 116600,
+        "floor": 11
+      },
+      {
+        "date": "2026.03.07",
+        "price": 112000,
+        "floor": 8
+      },
+      {
+        "date": "2026.01.17",
+        "price": 104000,
+        "floor": 16
+      },
+      {
+        "date": "2026.01.07",
+        "price": 97000,
+        "floor": 2
+      },
+      {
+        "date": "2025.12.20",
+        "price": 97500,
+        "floor": 15
+      },
+      {
+        "date": "2025.12.17",
+        "price": 98000,
+        "floor": 20
+      }
+    ],
+    "transaction_count": 6,
+    "kab_summary": {
+      "kab_upper": 115500,
+      "kab_avg": 113250,
+      "kab_lower": 110000,
+      "kab_change": 1000,
+      "lease_rate": "46~47%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "한신",
+    "region": "중랑_상봉묵동",
+    "tier": "C",
+    "household": 1544,
+    "complex_no": "824",
+    "min_price": 80000,
+    "count": 12,
+    "score": 11,
+    "pyeong_no": 2,
+    "transactions": [
+      {
+        "date": "2026.04.13",
+        "price": 70000,
+        "floor": 5
+      },
+      {
+        "date": "2026.04.11",
+        "price": 70000,
+        "floor": 3
+      },
+      {
+        "date": "2026.03.14",
+        "price": 67000,
+        "floor": 14
+      },
+      {
+        "date": "2026.02.25",
+        "price": 62000,
+        "floor": 2
+      },
+      {
+        "date": "2026.02.19",
+        "price": 63000,
+        "floor": 3
+      }
+    ],
+    "transaction_count": 5,
+    "kab_summary": {
+      "kab_upper": 64000,
+      "kab_avg": 60500,
+      "kab_lower": 57000,
+      "kab_change": 1000,
+      "lease_rate": "56%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "개봉한진타운",
+    "region": "구로_개봉",
+    "tier": "C",
+    "household": 1371,
+    "complex_no": "1062",
+    "min_price": 58000,
+    "count": 11,
+    "score": 11,
+    "pyeong_no": 1,
+    "transactions": [
+      {
+        "date": "2026.04.18",
+        "price": 61500,
+        "floor": 10
+      },
+      {
+        "date": "2026.04.18",
+        "price": 59000,
+        "floor": 3
+      },
+      {
+        "date": "2026.04.07",
+        "price": 62000,
+        "floor": 13
+      },
+      {
+        "date": "2026.03.18",
+        "price": 60000,
+        "floor": 9
+      },
+      {
+        "date": "2026.03.18",
+        "price": 55200,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.12",
+        "price": 63000,
+        "floor": 8
+      },
+      {
+        "date": "2026.03.07",
+        "price": 57000,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.06",
+        "price": 59500,
+        "floor": 14
+      },
+      {
+        "date": "2026.03.05",
+        "price": 59500,
+        "floor": 2
+      },
+      {
+        "date": "2026.03.03",
+        "price": 62000,
+        "floor": 10
+      }
+    ],
+    "transaction_count": 10,
+    "kab_summary": {
+      "kab_upper": 60000,
+      "kab_avg": 56000,
+      "kab_lower": 52000,
+      "kab_change": 0,
+      "lease_rate": "56~57%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "중계무지개",
+    "region": "노원_중계하계",
+    "tier": "C",
+    "household": 2433,
+    "complex_no": "925",
+    "min_price": 68500,
+    "count": 5,
+    "score": 10,
+    "pyeong_no": 3,
+    "transactions": [
+      {
+        "date": "2026.04.22",
+        "price": 45000,
+        "floor": 11
+      },
+      {
+        "date": "2026.04.21",
+        "price": 40000,
+        "floor": 1
+      },
+      {
+        "date": "2026.04.04",
+        "price": 45300,
+        "floor": 8
+      },
+      {
+        "date": "2026.03.28",
+        "price": 41500,
+        "floor": 4
+      },
+      {
+        "date": "2026.03.24",
+        "price": 40000,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.23",
+        "price": 40000,
+        "floor": 1
+      },
+      {
+        "date": "2026.03.23",
+        "price": 48800,
+        "floor": 6
+      },
+      {
+        "date": "2026.03.10",
+        "price": 42500,
+        "floor": 5
+      },
+      {
+        "date": "2026.03.04",
+        "price": 42500,
+        "floor": 3
+      },
+      {
+        "date": "2026.03.03",
+        "price": 45000,
+        "floor": 9
+      }
+    ],
+    "transaction_count": 10,
+    "kab_summary": {
+      "kab_upper": 46000,
+      "kab_avg": 43000,
+      "kab_lower": 40000,
+      "kab_change": 0,
+      "lease_rate": "47%",
+      "base_date": "20260427"
+    }
+  },
+  {
+    "name": "중계주공5단지",
+    "region": "노원_상계",
+    "tier": "C",
+    "household": 2328,
+    "complex_no": "245",
+    "min_price": 74500,
+    "count": 8,
+    "score": 10,
+    "pyeong_no": 4,
+    "transactions": [
+      {
+        "date": "2026.04.27",
+        "price": 40000,
+        "floor": 5
+      },
+      {
+        "date": "2026.04.03",
+        "price": 40000,
+        "floor": 3
+      },
+      {
+        "date": "2026.03.21",
+        "price": 40200,
+        "floor": 12
+      },
+      {
+        "date": "2026.03.03",
+        "price": 41000,
+        "floor": 4
+      },
+      {
+        "date": "2026.02.28",
+        "price": 43000,
+        "floor": 9
+      },
+      {
+        "date": "2026.02.28",
+        "price": 40500,
+        "floor": 7
+      },
+      {
+        "date": "2026.02.07",
+        "price": 41000,
+        "floor": 7
+      }
+    ],
+    "transaction_count": 7,
+    "kab_summary": {
+      "kab_upper": 43000,
+      "kab_avg": 40000,
+      "kab_lower": 37000,
+      "kab_change": 0,
+      "lease_rate": "45~46%",
+      "base_date": "20260427"
+    }
+  }
+]

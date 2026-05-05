@@ -1,0 +1,2217 @@
+[
+  {
+    "name": "성현동아",
+    "region": "동작_사당이수",
+    "tier": "S",
+    "household": 1261,
+    "complex_no": "1045",
+    "min_price": 108000,
+    "count": 12,
+    "score": 18,
+    "year": 2000,
+    "use_approve_ymd": "20000509",
+    "total_dong": 10,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "86",
+        "exclusive_area": "59.76",
+        "supply_area": "86.19",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 302,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2696,
+    "unit_price_max": 4228,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.489795,
+    "lon": 126.955715
+  },
+  {
+    "name": "관악파크푸르지오",
+    "region": "동작_사당이수",
+    "tier": "S",
+    "household": 363,
+    "complex_no": "107439",
+    "min_price": 107000,
+    "count": 1,
+    "score": 12,
+    "year": 2014,
+    "use_approve_ymd": "20140919",
+    "total_dong": 7,
+    "pyeongs_count": 9,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "78A",
+        "exclusive_area": "59.98",
+        "supply_area": "78.99",
+        "household": null
+      },
+      {
+        "name": "78B",
+        "exclusive_area": "59.98",
+        "supply_area": "78.99",
+        "household": null
+      },
+      {
+        "name": "78C",
+        "exclusive_area": "59.98",
+        "supply_area": "78.99",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 246,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3172,
+    "unit_price_max": 4577,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.482834,
+    "lon": 126.961341
+  },
+  {
+    "name": "전농우성",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1234,
+    "complex_no": "346",
+    "min_price": 80000,
+    "count": 1,
+    "score": 15,
+    "year": 1992,
+    "use_approve_ymd": "19920311",
+    "total_dong": 15,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "75",
+        "exclusive_area": "59.78",
+        "supply_area": "75.4",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 228,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2552,
+    "unit_price_max": 3907,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.57728,
+    "lon": 127.06477
+  },
+  {
+    "name": "서울가든",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 715,
+    "complex_no": "118",
+    "min_price": 59000,
+    "count": 17,
+    "score": 15,
+    "year": 1989,
+    "use_approve_ymd": "19890725",
+    "total_dong": 5,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "74",
+        "exclusive_area": "54.61",
+        "supply_area": "74.97",
+        "household": null
+      },
+      {
+        "name": "82",
+        "exclusive_area": "64.39",
+        "supply_area": "82.89",
+        "household": null
+      },
+      {
+        "name": "92A",
+        "exclusive_area": "64.39",
+        "supply_area": "92.3",
+        "household": null
+      },
+      {
+        "name": "96B",
+        "exclusive_area": "64.39",
+        "supply_area": "96.7",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 231,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2118,
+    "unit_price_max": 2680,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.50274,
+    "lon": 126.860827
+  },
+  {
+    "name": "장안래미안2차",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1786,
+    "complex_no": "8802",
+    "min_price": 103000,
+    "count": 2,
+    "score": 13,
+    "year": 2007,
+    "use_approve_ymd": "20070628",
+    "total_dong": 24,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "71",
+        "exclusive_area": "54.43",
+        "supply_area": "71.85",
+        "household": null
+      },
+      {
+        "name": "82",
+        "exclusive_area": "64.85",
+        "supply_area": "82.69",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 299,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3356,
+    "unit_price_max": 4866,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.574254,
+    "lon": 127.075159
+  },
+  {
+    "name": "답십리청솔우성",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 1542,
+    "complex_no": "3273",
+    "min_price": 100000,
+    "count": 2,
+    "score": 13,
+    "year": 2000,
+    "use_approve_ymd": "20000318",
+    "total_dong": 16,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "78B",
+        "exclusive_area": "59.89",
+        "supply_area": "78.45",
+        "household": null
+      },
+      {
+        "name": "78A",
+        "exclusive_area": "59.74",
+        "supply_area": "78.25",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 258,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2550,
+    "unit_price_max": 4238,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.574897,
+    "lon": 127.059574
+  },
+  {
+    "name": "두산",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 739,
+    "complex_no": "3271",
+    "min_price": 105000,
+    "count": 18,
+    "score": 13,
+    "year": 2000,
+    "use_approve_ymd": "20000802",
+    "total_dong": 9,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "79",
+        "exclusive_area": "59.95",
+        "supply_area": "79.16",
+        "household": null
+      },
+      {
+        "name": "85",
+        "exclusive_area": "59.96",
+        "supply_area": "85.11",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 266,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2907,
+    "unit_price_max": 4519,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.569637,
+    "lon": 127.059867
+  },
+  {
+    "name": "구로중앙하이츠(1269)",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 597,
+    "complex_no": "10663",
+    "min_price": 75000,
+    "count": 2,
+    "score": 13,
+    "year": 2001,
+    "use_approve_ymd": "20010920",
+    "total_dong": 5,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "85",
+        "exclusive_area": "59.73",
+        "supply_area": "85.07",
+        "household": null
+      },
+      {
+        "name": "92",
+        "exclusive_area": "66.16",
+        "supply_area": "92.79",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 341,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2404,
+    "unit_price_max": 2917,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.49902,
+    "lon": 126.880799
+  },
+  {
+    "name": "동서울한양",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 499,
+    "complex_no": "337",
+    "min_price": 60000,
+    "count": 12,
+    "score": 13,
+    "year": 1989,
+    "use_approve_ymd": "19890725",
+    "total_dong": 3,
+    "pyeongs_count": 2,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "74",
+        "exclusive_area": "59.67",
+        "supply_area": "74.24",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 219,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2680,
+    "unit_price_max": 3350,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.571631,
+    "lon": 127.060147
+  },
+  {
+    "name": "디큐브시티(주상복합)",
+    "region": "영등포_문래",
+    "tier": "A",
+    "household": 524,
+    "complex_no": "27310",
+    "min_price": 104000,
+    "count": 6,
+    "score": 12,
+    "year": 2011,
+    "use_approve_ymd": "20110718",
+    "total_dong": 2,
+    "pyeongs_count": 14,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "83A",
+        "exclusive_area": "59.16",
+        "supply_area": "83.27",
+        "household": null
+      },
+      {
+        "name": "84B1",
+        "exclusive_area": "59.88",
+        "supply_area": "84.7",
+        "household": null
+      },
+      {
+        "name": "85A",
+        "exclusive_area": "59.86",
+        "supply_area": "85.99",
+        "household": null
+      },
+      {
+        "name": "85C1",
+        "exclusive_area": "59.6",
+        "supply_area": "85.63",
+        "household": null
+      },
+      {
+        "name": "86B2",
+        "exclusive_area": "59.84",
+        "supply_area": "86.5",
+        "household": null
+      },
+      {
+        "name": "86C2",
+        "exclusive_area": "59.95",
+        "supply_area": "86.64",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 746,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3105,
+    "unit_price_max": 5678,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.508346,
+    "lon": 126.888419
+  },
+  {
+    "name": "우성그린",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 496,
+    "complex_no": "335",
+    "min_price": 66000,
+    "count": 7,
+    "score": 12,
+    "year": 1997,
+    "use_approve_ymd": "19970523",
+    "total_dong": 5,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "83",
+        "exclusive_area": "59.36",
+        "supply_area": "83.36",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 275,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2629,
+    "unit_price_max": 3027,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.574958,
+    "lon": 127.066162
+  },
+  {
+    "name": "경남아너스빌",
+    "region": "동대문_답십리",
+    "tier": "A",
+    "household": 386,
+    "complex_no": "21645",
+    "min_price": 75000,
+    "count": 6,
+    "score": 12,
+    "year": 2006,
+    "use_approve_ymd": "20061129",
+    "total_dong": 9,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "79A",
+        "exclusive_area": "59.98",
+        "supply_area": "79.6",
+        "household": null
+      },
+      {
+        "name": "79B",
+        "exclusive_area": "59.85",
+        "supply_area": "79.74",
+        "household": null
+      },
+      {
+        "name": "80C",
+        "exclusive_area": "59.86",
+        "supply_area": "80.18",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 247,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3138,
+    "unit_price_max": 3368,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.575657,
+    "lon": 127.080497
+  },
+  {
+    "name": "동아한신",
+    "region": "구로_신도림",
+    "tier": "A",
+    "household": 355,
+    "complex_no": "1067",
+    "min_price": 64000,
+    "count": 8,
+    "score": 12,
+    "year": 2000,
+    "use_approve_ymd": "20000419",
+    "total_dong": 4,
+    "pyeongs_count": 7,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "82A",
+        "exclusive_area": "59.9",
+        "supply_area": "82.24",
+        "household": null
+      },
+      {
+        "name": "82C",
+        "exclusive_area": "59.84",
+        "supply_area": "82.16",
+        "household": null
+      },
+      {
+        "name": "82B",
+        "exclusive_area": "59.77",
+        "supply_area": "82.07",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 293,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1803,
+    "unit_price_max": 2802,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.501107,
+    "lon": 126.865319
+  },
+  {
+    "name": "동아에코빌",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1253,
+    "complex_no": "3425",
+    "min_price": 79000,
+    "count": 10,
+    "score": 14,
+    "year": 2003,
+    "use_approve_ymd": "20030627",
+    "total_dong": 15,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "87A",
+        "exclusive_area": "59.95",
+        "supply_area": "87.96",
+        "household": null
+      },
+      {
+        "name": "87B",
+        "exclusive_area": "59.95",
+        "supply_area": "87.97",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 281,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2095,
+    "unit_price_max": 3610,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.607917,
+    "lon": 127.045737
+  },
+  {
+    "name": "한신,한진",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 4509,
+    "complex_no": "582",
+    "min_price": 80000,
+    "count": 8,
+    "score": 13,
+    "year": 1998,
+    "use_approve_ymd": "19980701",
+    "total_dong": 31,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "81",
+        "exclusive_area": "59.58",
+        "supply_area": "81.7",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 276,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2016,
+    "unit_price_max": 4081,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.594958,
+    "lon": 127.010493
+  },
+  {
+    "name": "수유벽산1차",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 1454,
+    "complex_no": "1344",
+    "min_price": 49500,
+    "count": 7,
+    "score": 13,
+    "year": 1993,
+    "use_approve_ymd": "19931117",
+    "total_dong": 13,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "84",
+        "exclusive_area": "63.78",
+        "supply_area": "84.85",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 233,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1747,
+    "unit_price_max": 2582,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.642336,
+    "lon": 127.019349
+  },
+  {
+    "name": "종암SK",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1318,
+    "complex_no": "1191",
+    "min_price": 80000,
+    "count": 5,
+    "score": 13,
+    "year": 1999,
+    "use_approve_ymd": "19990407",
+    "total_dong": 6,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "80B",
+        "exclusive_area": "59.04",
+        "supply_area": "80.57",
+        "household": null
+      },
+      {
+        "name": "81A",
+        "exclusive_area": "59.86",
+        "supply_area": "81.69",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 369,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2312,
+    "unit_price_max": 3430,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.601544,
+    "lon": 127.036532
+  },
+  {
+    "name": "월곡두산위브",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 2197,
+    "complex_no": "2990",
+    "min_price": 91000,
+    "count": 10,
+    "score": 12,
+    "year": 2003,
+    "use_approve_ymd": "20030430",
+    "total_dong": 30,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "82",
+        "exclusive_area": "59.85",
+        "supply_area": "82.62",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 279,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2361,
+    "unit_price_max": 3911,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.607121,
+    "lon": 127.038703
+  },
+  {
+    "name": "홍은벽산",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1509,
+    "complex_no": "432",
+    "min_price": 70000,
+    "count": 1,
+    "score": 12,
+    "year": 1997,
+    "use_approve_ymd": "19970930",
+    "total_dong": 17,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "78",
+        "exclusive_area": "58.64",
+        "supply_area": "78.34",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 253,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1794,
+    "unit_price_max": 2967,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.595278,
+    "lon": 126.944471
+  },
+  {
+    "name": "백련산힐스테이트1차",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1106,
+    "complex_no": "27501",
+    "min_price": 80000,
+    "count": 3,
+    "score": 12,
+    "year": 2011,
+    "use_approve_ymd": "20111222",
+    "total_dong": 16,
+    "pyeongs_count": 13,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "83A",
+        "exclusive_area": "59.63",
+        "supply_area": "83.95",
+        "household": null
+      },
+      {
+        "name": "84D",
+        "exclusive_area": "59.93",
+        "supply_area": "84.46",
+        "household": null
+      },
+      {
+        "name": "84B",
+        "exclusive_area": "59.85",
+        "supply_area": "84.29",
+        "household": null
+      },
+      {
+        "name": "84C",
+        "exclusive_area": "59.95",
+        "supply_area": "84.51",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 191,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2227,
+    "unit_price_max": 3465,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.592015,
+    "lon": 126.925346
+  },
+  {
+    "name": "돈암브라운스톤",
+    "region": "성북_길음장위",
+    "tier": "B",
+    "household": 1074,
+    "complex_no": "9348",
+    "min_price": 87500,
+    "count": 8,
+    "score": 12,
+    "year": 2004,
+    "use_approve_ymd": "20041218",
+    "total_dong": 16,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "82",
+        "exclusive_area": "59.99",
+        "supply_area": "82.87",
+        "household": null
+      },
+      {
+        "name": "90",
+        "exclusive_area": "65.95",
+        "supply_area": "90.89",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 238,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2394,
+    "unit_price_max": 4152,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.597991,
+    "lon": 127.01761
+  },
+  {
+    "name": "창동주공3단지",
+    "region": "도봉_창동방학",
+    "tier": "C",
+    "household": 2856,
+    "complex_no": "326",
+    "min_price": 75000,
+    "count": 10,
+    "score": 11,
+    "year": 1990,
+    "use_approve_ymd": "19900906",
+    "total_dong": 32,
+    "pyeongs_count": 15,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "74B",
+        "exclusive_area": "62.17",
+        "supply_area": "74.53",
+        "household": null
+      },
+      {
+        "name": "77",
+        "exclusive_area": "59.22",
+        "supply_area": "77.89",
+        "household": null
+      },
+      {
+        "name": "80A",
+        "exclusive_area": "58.01",
+        "supply_area": "80.17",
+        "household": null
+      },
+      {
+        "name": "82B",
+        "exclusive_area": "59.39",
+        "supply_area": "82.53",
+        "household": null
+      },
+      {
+        "name": "85",
+        "exclusive_area": "61.52",
+        "supply_area": "85.62",
+        "household": null
+      },
+      {
+        "name": "92",
+        "exclusive_area": "66.56",
+        "supply_area": "92.63",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 175,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2913,
+    "unit_price_max": 3990,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.6498,
+    "lon": 127.04391
+  },
+  {
+    "name": "상계주공9단지",
+    "region": "노원_상계",
+    "tier": "C",
+    "household": 2830,
+    "complex_no": "206",
+    "min_price": 68000,
+    "count": 13,
+    "score": 11,
+    "year": 1988,
+    "use_approve_ymd": "19881024",
+    "total_dong": 23,
+    "pyeongs_count": 12,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "81",
+        "exclusive_area": "58.01",
+        "supply_area": "81.73",
+        "household": null
+      },
+      {
+        "name": "85",
+        "exclusive_area": "61.52",
+        "supply_area": "85.72",
+        "household": null
+      },
+      {
+        "name": "92",
+        "exclusive_area": "66.56",
+        "supply_area": "92.74",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 207,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2066,
+    "unit_price_max": 3102,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.663259,
+    "lon": 127.05922
+  },
+  {
+    "name": "극동.건영.벽산",
+    "region": "노원_월계공릉",
+    "tier": "C",
+    "household": 1980,
+    "complex_no": "255",
+    "min_price": 63000,
+    "count": 11,
+    "score": 11,
+    "year": 1988,
+    "use_approve_ymd": "19880613",
+    "total_dong": 12,
+    "pyeongs_count": 11,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "67",
+        "exclusive_area": "55.72",
+        "supply_area": "67.09",
+        "household": null
+      },
+      {
+        "name": "69",
+        "exclusive_area": "57.71",
+        "supply_area": "69.29",
+        "household": null
+      },
+      {
+        "name": "79",
+        "exclusive_area": "65.43",
+        "supply_area": "79.47",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 231,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2810,
+    "unit_price_max": 3778,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.63561,
+    "lon": 127.064282
+  },
+  {
+    "name": "주공8단지",
+    "region": "금천_독산시흥",
+    "tier": "C",
+    "household": 1680,
+    "complex_no": "1635",
+    "min_price": 69000,
+    "count": 11,
+    "score": 11,
+    "year": 1990,
+    "use_approve_ymd": "19900319",
+    "total_dong": 21,
+    "pyeongs_count": 7,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "74",
+        "exclusive_area": "62.17",
+        "supply_area": "74.53",
+        "household": null
+      },
+      {
+        "name": "80A",
+        "exclusive_area": "58.01",
+        "supply_area": "80.17",
+        "household": null
+      },
+      {
+        "name": "82B",
+        "exclusive_area": "59.39",
+        "supply_area": "82.57",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 160,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2782,
+    "unit_price_max": 3427,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.457748,
+    "lon": 126.882273
+  },
+  {
+    "name": "롯데캐슬베네치아(주상복합)",
+    "region": "성동_왕십리행당",
+    "tier": "S",
+    "household": 1870,
+    "complex_no": "24845",
+    "min_price": 107000,
+    "count": 1,
+    "score": 16,
+    "year": 2008,
+    "use_approve_ymd": "20081222",
+    "total_dong": 6,
+    "pyeongs_count": 8,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "79A",
+        "exclusive_area": "59.94",
+        "supply_area": "79.2",
+        "household": null
+      },
+      {
+        "name": "79B",
+        "exclusive_area": "59.91",
+        "supply_area": "79.16",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 557,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3054,
+    "unit_price_max": 4812,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.570971,
+    "lon": 127.021134
+  },
+  {
+    "name": "동신",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 746,
+    "complex_no": "1194",
+    "min_price": 75000,
+    "count": 15,
+    "score": 15,
+    "year": 1998,
+    "use_approve_ymd": "19980701",
+    "total_dong": 5,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "84",
+        "exclusive_area": "59.88",
+        "supply_area": "84.82",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 395,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2243,
+    "unit_price_max": 3148,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.604597,
+    "lon": 127.035224
+  },
+  {
+    "name": "푸른마을동아",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 529,
+    "complex_no": "11166",
+    "min_price": 63000,
+    "count": 10,
+    "score": 15,
+    "year": 2003,
+    "use_approve_ymd": "20031004",
+    "total_dong": 7,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "81",
+        "exclusive_area": "59.94",
+        "supply_area": "81.93",
+        "household": null
+      },
+      {
+        "name": "93",
+        "exclusive_area": "59.4",
+        "supply_area": "93.69",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 256,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1862,
+    "unit_price_max": 3061,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.607579,
+    "lon": 127.014437
+  },
+  {
+    "name": "길음뉴타운데시앙",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 514,
+    "complex_no": "1190",
+    "min_price": 64000,
+    "count": 12,
+    "score": 15,
+    "year": 1999,
+    "use_approve_ymd": "19991122",
+    "total_dong": 6,
+    "pyeongs_count": 8,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "74D",
+        "exclusive_area": "55.46",
+        "supply_area": "74.32",
+        "household": null
+      },
+      {
+        "name": "79A",
+        "exclusive_area": "59.42",
+        "supply_area": "79.62",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 273,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1793,
+    "unit_price_max": 2804,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.606547,
+    "lon": 127.016048
+  },
+  {
+    "name": "길음뉴타운2단지푸르지오",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1634,
+    "complex_no": "8082",
+    "min_price": 95000,
+    "count": 6,
+    "score": 14,
+    "year": 2005,
+    "use_approve_ymd": "20050420",
+    "total_dong": 28,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "77B",
+        "exclusive_area": "59.99",
+        "supply_area": "77.66",
+        "household": null
+      },
+      {
+        "name": "77C",
+        "exclusive_area": "59.77",
+        "supply_area": "77.49",
+        "household": null
+      },
+      {
+        "name": "78A",
+        "exclusive_area": "59.99",
+        "supply_area": "78.94",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 254,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2390,
+    "unit_price_max": 4680,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.611669,
+    "lon": 127.016592
+  },
+  {
+    "name": "길음동부센트레빌",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1377,
+    "complex_no": "3421",
+    "min_price": 104000,
+    "count": 9,
+    "score": 14,
+    "year": 2003,
+    "use_approve_ymd": "20030331",
+    "total_dong": 18,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "80",
+        "exclusive_area": "59.99",
+        "supply_area": "80.74",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 269,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3026,
+    "unit_price_max": 4752,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.61076,
+    "lon": 127.024226
+  },
+  {
+    "name": "정릉e-편한세상1차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 739,
+    "complex_no": "8596",
+    "min_price": 72000,
+    "count": 5,
+    "score": 14,
+    "year": 2006,
+    "use_approve_ymd": "20060602",
+    "total_dong": 11,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "79A",
+        "exclusive_area": "59.77",
+        "supply_area": "79.41",
+        "household": null
+      },
+      {
+        "name": "79B",
+        "exclusive_area": "59.77",
+        "supply_area": "79.41",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 243,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2081,
+    "unit_price_max": 3222,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.615328,
+    "lon": 127.010155
+  },
+  {
+    "name": "돈암현대",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 619,
+    "complex_no": "583",
+    "min_price": 72000,
+    "count": 8,
+    "score": 14,
+    "year": 1991,
+    "use_approve_ymd": "19910613",
+    "total_dong": 6,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "68",
+        "exclusive_area": "55.89",
+        "supply_area": "68.71",
+        "household": null
+      },
+      {
+        "name": "72",
+        "exclusive_area": "56.7",
+        "supply_area": "72",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 261,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3241,
+    "unit_price_max": 3403,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.60425,
+    "lon": 127.027687
+  },
+  {
+    "name": "래미안트리베라1차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1247,
+    "complex_no": "25971",
+    "min_price": 101000,
+    "count": 2,
+    "score": 13,
+    "year": 2010,
+    "use_approve_ymd": "20100528",
+    "total_dong": 24,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "86",
+        "exclusive_area": "59.6",
+        "supply_area": "86.77",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 228,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2462,
+    "unit_price_max": 3882,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.613215,
+    "lon": 127.020411
+  },
+  {
+    "name": "래미안크리시엘",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1168,
+    "complex_no": "3006",
+    "min_price": 105000,
+    "count": 1,
+    "score": 13,
+    "year": 2004,
+    "use_approve_ymd": "20040924",
+    "total_dong": 17,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "80",
+        "exclusive_area": "59.99",
+        "supply_area": "80.89",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 238,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2711,
+    "unit_price_max": 4339,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.600966,
+    "lon": 127.029711
+  },
+  {
+    "name": "래미안라센트",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 1025,
+    "complex_no": "26834",
+    "min_price": 105000,
+    "count": 2,
+    "score": 13,
+    "year": 2011,
+    "use_approve_ymd": "20110131",
+    "total_dong": 12,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "81B",
+        "exclusive_area": "59.98",
+        "supply_area": "81.84",
+        "household": null
+      },
+      {
+        "name": "82A",
+        "exclusive_area": "59.98",
+        "supply_area": "82.54",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 227,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3352,
+    "unit_price_max": 5306,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.599193,
+    "lon": 127.03876
+  },
+  {
+    "name": "길음뉴타운경남아너스빌",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 860,
+    "complex_no": "586",
+    "min_price": 80000,
+    "count": 3,
+    "score": 13,
+    "year": 1999,
+    "use_approve_ymd": "19990619",
+    "total_dong": 8,
+    "pyeongs_count": 8,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "81",
+        "exclusive_area": "59.59",
+        "supply_area": "81",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 327,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2180,
+    "unit_price_max": 3265,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.604853,
+    "lon": 127.017449
+  },
+  {
+    "name": "꿈의숲푸르지오",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 714,
+    "complex_no": "26130",
+    "min_price": 88000,
+    "count": 6,
+    "score": 13,
+    "year": 2010,
+    "use_approve_ymd": "20100429",
+    "total_dong": 15,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "79A",
+        "exclusive_area": "59.65",
+        "supply_area": "79.72",
+        "household": null
+      },
+      {
+        "name": "79B",
+        "exclusive_area": "59.65",
+        "supply_area": "79.72",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 200,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2715,
+    "unit_price_max": 3724,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.610644,
+    "lon": 127.038646
+  },
+  {
+    "name": "정릉e-편한세상2차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 527,
+    "complex_no": "25782",
+    "min_price": 83000,
+    "count": 5,
+    "score": 13,
+    "year": 2009,
+    "use_approve_ymd": "20090608",
+    "total_dong": 10,
+    "pyeongs_count": 8,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "74",
+        "exclusive_area": "59.92",
+        "supply_area": "74.64",
+        "household": null
+      },
+      {
+        "name": "78A",
+        "exclusive_area": "59.37",
+        "supply_area": "78.35",
+        "household": null
+      },
+      {
+        "name": "78B",
+        "exclusive_area": "59.2",
+        "supply_area": "78.9",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 235,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2917,
+    "unit_price_max": 3518,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.599963,
+    "lon": 127.019577
+  },
+  {
+    "name": "정릉힐스테이트3차",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 522,
+    "complex_no": "23779",
+    "min_price": 76000,
+    "count": 1,
+    "score": 13,
+    "year": 2008,
+    "use_approve_ymd": "20080609",
+    "total_dong": 19,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "86",
+        "exclusive_area": "59.98",
+        "supply_area": "86.83",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 179,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2142,
+    "unit_price_max": 2998,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.614571,
+    "lon": 127.007968
+  },
+  {
+    "name": "범양",
+    "region": "성북_길음장위",
+    "tier": "A",
+    "household": 499,
+    "complex_no": "578",
+    "min_price": 80000,
+    "count": 14,
+    "score": 13,
+    "year": 1998,
+    "use_approve_ymd": "19981209",
+    "total_dong": 5,
+    "pyeongs_count": 10,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "83",
+        "exclusive_area": "59.79",
+        "supply_area": "83.72",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 284,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2328,
+    "unit_price_max": 3385,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.603392,
+    "lon": 127.027879
+  },
+  {
+    "name": "남가좌현대",
+    "region": "서대문_홍은남가좌",
+    "tier": "B",
+    "household": 1155,
+    "complex_no": "848",
+    "min_price": 88000,
+    "count": 16,
+    "score": 13,
+    "year": 1999,
+    "use_approve_ymd": "19990527",
+    "total_dong": 10,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "86",
+        "exclusive_area": "59.4",
+        "supply_area": "86.34",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 328,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2696,
+    "unit_price_max": 4036,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.574716,
+    "lon": 126.920478
+  },
+  {
+    "name": "현대",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 2134,
+    "complex_no": "45",
+    "min_price": 98000,
+    "count": 14,
+    "score": 12,
+    "year": 1992,
+    "use_approve_ymd": "19920427",
+    "total_dong": 26,
+    "pyeongs_count": 8,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "76",
+        "exclusive_area": "58.59",
+        "supply_area": "76.21",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 245,
+    "building_coverage_ratio": null,
+    "unit_price_min": 3102,
+    "unit_price_max": 4567,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.492882,
+    "lon": 126.95937
+  },
+  {
+    "name": "벽산블루밍1차",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 2105,
+    "complex_no": "2986",
+    "min_price": 94000,
+    "count": 10,
+    "score": 12,
+    "year": 2005,
+    "use_approve_ymd": "20050630",
+    "total_dong": 18,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "78",
+        "exclusive_area": "59.99",
+        "supply_area": "78.18",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 333,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2507,
+    "unit_price_max": 4662,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.48952,
+    "lon": 126.945056
+  },
+  {
+    "name": "신림현대",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 1634,
+    "complex_no": "58",
+    "min_price": 76000,
+    "count": 1,
+    "score": 12,
+    "year": 1993,
+    "use_approve_ymd": "19930525",
+    "total_dong": 12,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "76",
+        "exclusive_area": "59.85",
+        "supply_area": "76.7",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 233,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2129,
+    "unit_price_max": 3953,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.475527,
+    "lon": 126.932093
+  },
+  {
+    "name": "신창",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 609,
+    "complex_no": "930",
+    "min_price": 38000,
+    "count": 15,
+    "score": 12,
+    "year": 1998,
+    "use_approve_ymd": "19980707",
+    "total_dong": 5,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "82B",
+        "exclusive_area": "58.68",
+        "supply_area": "82.09",
+        "household": null
+      },
+      {
+        "name": "83A",
+        "exclusive_area": "59.4",
+        "supply_area": "83.09",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 207,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1513,
+    "unit_price_max": 1916,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.640963,
+    "lon": 127.04187
+  },
+  {
+    "name": "초안2단지",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 571,
+    "complex_no": "3255",
+    "min_price": 38000,
+    "count": 14,
+    "score": 12,
+    "year": 1997,
+    "use_approve_ymd": "19971120",
+    "total_dong": 4,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "84",
+        "exclusive_area": "59.85",
+        "supply_area": "84.27",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 223,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1495,
+    "unit_price_max": 1916,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.631608,
+    "lon": 127.042681
+  },
+  {
+    "name": "미성",
+    "region": "마포_상암",
+    "tier": "B",
+    "household": 570,
+    "complex_no": "783",
+    "min_price": 65000,
+    "count": 14,
+    "score": 12,
+    "year": 1987,
+    "use_approve_ymd": "19871127",
+    "total_dong": 5,
+    "pyeongs_count": 2,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "85",
+        "exclusive_area": "63.53",
+        "supply_area": "85.76",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 185,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2528,
+    "unit_price_max": 2956,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.58962,
+    "lon": 126.908849
+  },
+  {
+    "name": "관악우성",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 1597,
+    "complex_no": "1048",
+    "min_price": 88000,
+    "count": 3,
+    "score": 11,
+    "year": 2000,
+    "use_approve_ymd": "20001213",
+    "total_dong": 8,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "87",
+        "exclusive_area": "59.76",
+        "supply_area": "87.63",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 340,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2705,
+    "unit_price_max": 4366,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.485423,
+    "lon": 126.959587
+  },
+  {
+    "name": "백련산힐스테이트2차",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 1148,
+    "complex_no": "27502",
+    "min_price": 84000,
+    "count": 3,
+    "score": 11,
+    "year": 2011,
+    "use_approve_ymd": "20111222",
+    "total_dong": 12,
+    "pyeongs_count": 10,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "82A",
+        "exclusive_area": "59.63",
+        "supply_area": "82.57",
+        "household": null
+      },
+      {
+        "name": "82B",
+        "exclusive_area": "59.85",
+        "supply_area": "82.91",
+        "household": null
+      },
+      {
+        "name": "83C",
+        "exclusive_area": "59.95",
+        "supply_area": "83.13",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 215,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2527,
+    "unit_price_max": 3505,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.591148,
+    "lon": 126.92362
+  },
+  {
+    "name": "한신",
+    "region": "성북_돈암석관",
+    "tier": "B",
+    "household": 1070,
+    "complex_no": "3277",
+    "min_price": 106000,
+    "count": 9,
+    "score": 11,
+    "year": 2004,
+    "use_approve_ymd": "20040511",
+    "total_dong": 12,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "83",
+        "exclusive_area": "59.84",
+        "supply_area": "83.82",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 300,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2696,
+    "unit_price_max": 4381,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.589576,
+    "lon": 127.039585
+  },
+  {
+    "name": "e편한세상수색에코포레",
+    "region": "마포_상암",
+    "tier": "B",
+    "household": 976,
+    "complex_no": "3462",
+    "min_price": 74000,
+    "count": 7,
+    "score": 11,
+    "year": 2003,
+    "use_approve_ymd": "20030710",
+    "total_dong": 12,
+    "pyeongs_count": 4,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "83",
+        "exclusive_area": "59.89",
+        "supply_area": "83.5",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 252,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2022,
+    "unit_price_max": 3385,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.586667,
+    "lon": 126.900355
+  },
+  {
+    "name": "유원하나",
+    "region": "은평_녹번",
+    "tier": "B",
+    "household": 704,
+    "complex_no": "439",
+    "min_price": 52000,
+    "count": 5,
+    "score": 11,
+    "year": 1996,
+    "use_approve_ymd": "19960807",
+    "total_dong": 6,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "80",
+        "exclusive_area": "58.77",
+        "supply_area": "80.47",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 249,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1755,
+    "unit_price_max": 2479,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.595093,
+    "lon": 126.951958
+  },
+  {
+    "name": "수유래미안",
+    "region": "강북_수유",
+    "tier": "B",
+    "household": 690,
+    "complex_no": "3132",
+    "min_price": 55000,
+    "count": 9,
+    "score": 11,
+    "year": 2001,
+    "use_approve_ymd": "20011129",
+    "total_dong": 7,
+    "pyeongs_count": 3,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "82",
+        "exclusive_area": "59.88",
+        "supply_area": "82.5",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 241,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1938,
+    "unit_price_max": 2626,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.644937,
+    "lon": 127.01783
+  },
+  {
+    "name": "현대",
+    "region": "서대문_홍은남가좌",
+    "tier": "B",
+    "household": 610,
+    "complex_no": "436",
+    "min_price": 72000,
+    "count": 6,
+    "score": 11,
+    "year": 1988,
+    "use_approve_ymd": "19880729",
+    "total_dong": 6,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "74",
+        "exclusive_area": "59.97",
+        "supply_area": "74.6",
+        "household": null
+      },
+      {
+        "name": "79",
+        "exclusive_area": "59.96",
+        "supply_area": "79.55",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 231,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2771,
+    "unit_price_max": 3348,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.590182,
+    "lon": 126.937794
+  },
+  {
+    "name": "신림동부",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 592,
+    "complex_no": "63",
+    "min_price": 80000,
+    "count": 7,
+    "score": 11,
+    "year": 1993,
+    "use_approve_ymd": "19930719",
+    "total_dong": 4,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "86",
+        "exclusive_area": "60.38",
+        "supply_area": "86.47",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 301,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2896,
+    "unit_price_max": 3878,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.480778,
+    "lon": 126.928852
+  },
+  {
+    "name": "관악드림타운",
+    "region": "관악_봉천신림",
+    "tier": "B",
+    "household": 3544,
+    "complex_no": "2987",
+    "min_price": 110000,
+    "count": 1,
+    "score": 10,
+    "year": 2003,
+    "use_approve_ymd": "20030906",
+    "total_dong": 44,
+    "pyeongs_count": 8,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "80",
+        "exclusive_area": "60",
+        "supply_area": "80.43",
+        "household": null
+      },
+      {
+        "name": "82D",
+        "exclusive_area": "60",
+        "supply_area": "82.47",
+        "household": null
+      },
+      {
+        "name": "82A",
+        "exclusive_area": "59.85",
+        "supply_area": "82.93",
+        "household": null
+      },
+      {
+        "name": "82B",
+        "exclusive_area": "59.83",
+        "supply_area": "82.91",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 267,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2978,
+    "unit_price_max": 4917,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.490479,
+    "lon": 126.950561
+  },
+  {
+    "name": "한신",
+    "region": "중랑_상봉묵동",
+    "tier": "C",
+    "household": 1544,
+    "complex_no": "824",
+    "min_price": 80000,
+    "count": 12,
+    "score": 11,
+    "year": 1997,
+    "use_approve_ymd": "19971011",
+    "total_dong": 9,
+    "pyeongs_count": 8,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "82",
+        "exclusive_area": "59.76",
+        "supply_area": "82.77",
+        "household": null
+      },
+      {
+        "name": "87",
+        "exclusive_area": "59.76",
+        "supply_area": "87.43",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 376,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2565,
+    "unit_price_max": 3467,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.59726,
+    "lon": 127.082394
+  },
+  {
+    "name": "개봉한진타운",
+    "region": "구로_개봉",
+    "tier": "C",
+    "household": 1371,
+    "complex_no": "1062",
+    "min_price": 58000,
+    "count": 11,
+    "score": 11,
+    "year": 2000,
+    "use_approve_ymd": "20000115",
+    "total_dong": 13,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "88",
+        "exclusive_area": "59.95",
+        "supply_area": "88.78",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 345,
+    "building_coverage_ratio": null,
+    "unit_price_min": 1675,
+    "unit_price_max": 2367,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.484955,
+    "lon": 126.851689
+  },
+  {
+    "name": "중계무지개",
+    "region": "노원_중계하계",
+    "tier": "C",
+    "household": 2433,
+    "complex_no": "925",
+    "min_price": 68500,
+    "count": 5,
+    "score": 10,
+    "year": 1991,
+    "use_approve_ymd": "19911115",
+    "total_dong": 14,
+    "pyeongs_count": 5,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "83",
+        "exclusive_area": "59.26",
+        "supply_area": "83.26",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 193,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2436,
+    "unit_price_max": 3492,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.643671,
+    "lon": 127.066073
+  },
+  {
+    "name": "중계주공5단지",
+    "region": "노원_상계",
+    "tier": "C",
+    "household": 2328,
+    "complex_no": "245",
+    "min_price": 74500,
+    "count": 8,
+    "score": 10,
+    "year": 1992,
+    "use_approve_ymd": "19920429",
+    "total_dong": 18,
+    "pyeongs_count": 6,
+    "has_our_size": true,
+    "our_size_pyeongs": [
+      {
+        "name": "80",
+        "exclusive_area": "58.46",
+        "supply_area": "80.31",
+        "household": null
+      }
+    ],
+    "floor_area_ratio": 183,
+    "building_coverage_ratio": null,
+    "unit_price_min": 2465,
+    "unit_price_max": 4220,
+    "rebuild_membership": "N",
+    "lease_rate": 0.0,
+    "lat": 37.653296,
+    "lon": 127.076617
+  }
+]

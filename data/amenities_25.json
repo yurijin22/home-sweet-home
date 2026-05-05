@@ -1,0 +1,10374 @@
+{
+  "성현동아": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 605,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 620,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 670,
+        "lines": ""
+      },
+      {
+        "name": "숭실대입구",
+        "distance_m": 670,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 700,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울봉현초등학교",
+          "distance_m": 136
+        },
+        {
+          "name": "서울상현초등학교",
+          "distance_m": 630
+        },
+        {
+          "name": "서울신봉초등학교",
+          "distance_m": 767
+        }
+      ],
+      "mid": [
+        {
+          "name": "상도중학교",
+          "distance_m": 513
+        },
+        {
+          "name": "?",
+          "distance_m": 525
+        },
+        {
+          "name": "상현중학교",
+          "distance_m": 662
+        }
+      ],
+      "high": [
+        {
+          "name": "구암고등학교",
+          "distance_m": 550
+        },
+        {
+          "name": "서울관광고등학교",
+          "distance_m": 1108
+        },
+        {
+          "name": "동작고등학교",
+          "distance_m": 1207
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 190
+      },
+      {
+        "name": "?",
+        "distance_m": 428
+      },
+      {
+        "name": "마을숲 공원",
+        "distance_m": 437
+      },
+      {
+        "name": "중앙공원",
+        "distance_m": 474
+      },
+      {
+        "name": "?",
+        "distance_m": 565
+      }
+    ],
+    "mart": [
+      {
+        "name": "대호할인마트",
+        "distance_m": 653,
+        "type": "supermarket"
+      },
+      {
+        "name": "홍삼마트",
+        "distance_m": 710,
+        "type": "supermarket"
+      },
+      {
+        "name": "중고마트",
+        "distance_m": 750,
+        "type": "supermarket"
+      },
+      {
+        "name": "충남상회",
+        "distance_m": 806,
+        "type": "supermarket"
+      },
+      {
+        "name": "싱싱할인마트",
+        "distance_m": 990,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "강남고려병원",
+        "distance_m": 472,
+        "type": "hospital"
+      },
+      {
+        "name": "서울명가한의원",
+        "distance_m": 648,
+        "type": "clinic"
+      },
+      {
+        "name": "사랑의병원",
+        "distance_m": 1137,
+        "type": "hospital"
+      },
+      {
+        "name": "관악구보건소",
+        "distance_m": 1347,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "장군제1묘역",
+        "distance_m": 1340
+      },
+      {
+        "name": "양녕대군 부 묘소",
+        "distance_m": 1406
+      },
+      {
+        "name": "효간공 이정영 묘역",
+        "distance_m": 1421
+      },
+      {
+        "name": "김대중대통령묘역",
+        "distance_m": 1489
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "관악로",
+        "distance_m": 132,
+        "type": "primary"
+      },
+      {
+        "name": "관악로",
+        "distance_m": 172,
+        "type": "primary"
+      },
+      {
+        "name": "관악로",
+        "distance_m": 193,
+        "type": "primary"
+      }
+    ],
+    "railway": []
+  },
+  "관악파크푸르지오": {
+    "subway": [
+      {
+        "name": "낙성대역 5번 출구",
+        "distance_m": 615,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 644,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 645,
+        "lines": ""
+      },
+      {
+        "name": "낙성대",
+        "distance_m": 669,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 671,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울행림초등학교",
+          "distance_m": 273
+        },
+        {
+          "name": "서울봉천초등학교",
+          "distance_m": 318
+        },
+        {
+          "name": "서울원당초등학교",
+          "distance_m": 499
+        }
+      ],
+      "mid": [
+        {
+          "name": "관악중학교",
+          "distance_m": 267
+        },
+        {
+          "name": "봉원중학교",
+          "distance_m": 308
+        },
+        {
+          "name": "상도중학교",
+          "distance_m": 832
+        }
+      ],
+      "high": [
+        {
+          "name": "동작고등학교",
+          "distance_m": 361
+        },
+        {
+          "name": "서울미술고등학교",
+          "distance_m": 821
+        },
+        {
+          "name": "서울문영여자고등학교",
+          "distance_m": 1382
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "까치 어린이공원",
+        "distance_m": 370
+      },
+      {
+        "name": "장미어린이공원",
+        "distance_m": 424
+      },
+      {
+        "name": "?",
+        "distance_m": 733
+      },
+      {
+        "name": "모래내어린이공원",
+        "distance_m": 751
+      },
+      {
+        "name": "꿈틀이어린이공원",
+        "distance_m": 815
+      }
+    ],
+    "mart": [
+      {
+        "name": "대호할인마트",
+        "distance_m": 532,
+        "type": "supermarket"
+      },
+      {
+        "name": "충남상회",
+        "distance_m": 618,
+        "type": "supermarket"
+      },
+      {
+        "name": "GS더프레시",
+        "distance_m": 657,
+        "type": "supermarket"
+      },
+      {
+        "name": "스마트PC방 서울대역점",
+        "distance_m": 779,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 796,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "강남고려병원",
+        "distance_m": 507,
+        "type": "hospital"
+      },
+      {
+        "name": "서울명가한의원",
+        "distance_m": 529,
+        "type": "clinic"
+      },
+      {
+        "name": "사랑의병원",
+        "distance_m": 564,
+        "type": "hospital"
+      },
+      {
+        "name": "마리아쥬니어치과의원",
+        "distance_m": 651,
+        "type": "hospital"
+      },
+      {
+        "name": "모세마취통증의학과의원",
+        "distance_m": 662,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "효간공 이정영 묘역",
+        "distance_m": 590
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "남부순환로",
+        "distance_m": 484,
+        "type": "primary"
+      },
+      {
+        "name": "남부순환로",
+        "distance_m": 505,
+        "type": "primary"
+      },
+      {
+        "name": "남부순환로",
+        "distance_m": 533,
+        "type": "primary"
+      }
+    ],
+    "railway": []
+  },
+  "전농우성": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 1451,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1494,
+        "lines": ""
+      },
+      {
+        "name": "회기",
+        "distance_m": 1497,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울배봉초등학교",
+          "distance_m": 311
+        },
+        {
+          "name": "서울전동초등학교",
+          "distance_m": 355
+        },
+        {
+          "name": "서울동답초등학교",
+          "distance_m": 602
+        }
+      ],
+      "mid": [
+        {
+          "name": "전농중학교",
+          "distance_m": 626
+        },
+        {
+          "name": "휘경여중고",
+          "distance_m": 666
+        },
+        {
+          "name": "전일중학교",
+          "distance_m": 726
+        }
+      ],
+      "high": [
+        {
+          "name": "해성여자고등학교",
+          "distance_m": 792
+        },
+        {
+          "name": "해성여자고등학교해성국제컨벤션고등학교",
+          "distance_m": 802
+        },
+        {
+          "name": "해성국제컨벤션고등학교",
+          "distance_m": 822
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "배봉산보루",
+        "distance_m": 429
+      },
+      {
+        "name": "?",
+        "distance_m": 468
+      },
+      {
+        "name": "아름드리 어린이공원",
+        "distance_m": 494
+      },
+      {
+        "name": "?",
+        "distance_m": 504
+      },
+      {
+        "name": "코딱지공원",
+        "distance_m": 556
+      }
+    ],
+    "mart": [
+      {
+        "name": "?",
+        "distance_m": 322,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데슈퍼",
+        "distance_m": 382,
+        "type": "supermarket"
+      },
+      {
+        "name": "한아름슈퍼",
+        "distance_m": 472,
+        "type": "supermarket"
+      },
+      {
+        "name": "강원슈퍼",
+        "distance_m": 523,
+        "type": "supermarket"
+      },
+      {
+        "name": "온마트",
+        "distance_m": 634,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "대한민국요양병원",
+        "distance_m": 692,
+        "type": "hospital"
+      },
+      {
+        "name": "린여성병원",
+        "distance_m": 711,
+        "type": "hospital"
+      },
+      {
+        "name": "코리아병원",
+        "distance_m": 741,
+        "type": "hospital"
+      },
+      {
+        "name": "삼육의료원 서울병원",
+        "distance_m": 1140,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "사가정로",
+        "distance_m": 185,
+        "type": "secondary"
+      },
+      {
+        "name": "사가정로",
+        "distance_m": 311,
+        "type": "secondary"
+      },
+      {
+        "name": "사가정로",
+        "distance_m": 400,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 1342
+      },
+      {
+        "name": "?",
+        "distance_m": 1347
+      }
+    ]
+  },
+  "서울가든": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 893,
+        "lines": ""
+      },
+      {
+        "name": "개봉",
+        "distance_m": 924,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 950,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 997,
+        "lines": ""
+      },
+      {
+        "name": "구일",
+        "distance_m": 1068,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울고척초등학교",
+          "distance_m": 381
+        },
+        {
+          "name": "서울덕의초등학교",
+          "distance_m": 526
+        },
+        {
+          "name": "서울고산초등학교",
+          "distance_m": 582
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 283
+        },
+        {
+          "name": "고척중학교",
+          "distance_m": 321
+        },
+        {
+          "name": "?",
+          "distance_m": 565
+        }
+      ],
+      "high": [
+        {
+          "name": "경인고등학교",
+          "distance_m": 839
+        },
+        {
+          "name": "고척고등학교",
+          "distance_m": 1069
+        },
+        {
+          "name": "구현고등학교",
+          "distance_m": 1204
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "목동남로 소공원",
+        "distance_m": 493
+      },
+      {
+        "name": "102동 놀이터",
+        "distance_m": 513
+      },
+      {
+        "name": "103동 놀이터",
+        "distance_m": 557
+      },
+      {
+        "name": "덕의공원",
+        "distance_m": 618
+      },
+      {
+        "name": "가린열공원",
+        "distance_m": 628
+      }
+    ],
+    "mart": [
+      {
+        "name": "신원마트",
+        "distance_m": 459,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 626,
+        "type": "mall"
+      },
+      {
+        "name": "?",
+        "distance_m": 649,
+        "type": "supermarket"
+      },
+      {
+        "name": "구로식자재할인마트",
+        "distance_m": 666,
+        "type": "supermarket"
+      },
+      {
+        "name": "홈플러스익스프레스",
+        "distance_m": 753,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "구로성심병원",
+        "distance_m": 602,
+        "type": "hospital"
+      },
+      {
+        "name": "병원건물",
+        "distance_m": 1007,
+        "type": "hospital"
+      },
+      {
+        "name": "강서효병원",
+        "distance_m": 1208,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "함양여씨묘역",
+        "distance_m": 706
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "경서로",
+        "distance_m": 60,
+        "type": "secondary"
+      },
+      {
+        "name": "중앙로",
+        "distance_m": 128,
+        "type": "secondary"
+      },
+      {
+        "name": "경서로",
+        "distance_m": 305,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경인선",
+        "distance_m": 888
+      },
+      {
+        "name": "경인선",
+        "distance_m": 890
+      }
+    ]
+  },
+  "장안래미안2차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 1003,
+        "lines": ""
+      },
+      {
+        "name": "용마산",
+        "distance_m": 1007,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1032,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1048,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1188,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울장평초등학교",
+          "distance_m": 181
+        },
+        {
+          "name": "서울은석초등학교",
+          "distance_m": 467
+        },
+        {
+          "name": "서울중곡초등학교",
+          "distance_m": 752
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 759
+        },
+        {
+          "name": "용마중학교",
+          "distance_m": 946
+        },
+        {
+          "name": "용마중학교",
+          "distance_m": 961
+        }
+      ],
+      "high": [
+        {
+          "name": "동국대학교 사범대학부속 중고등학교",
+          "distance_m": 385
+        },
+        {
+          "name": "동국대학교사범대학부속고등학교",
+          "distance_m": 424
+        },
+        {
+          "name": "휘경공업고등학교",
+          "distance_m": 1296
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 25
+      },
+      {
+        "name": "마로니에 어린이공원",
+        "distance_m": 153
+      },
+      {
+        "name": "?",
+        "distance_m": 158
+      },
+      {
+        "name": "?",
+        "distance_m": 202
+      },
+      {
+        "name": "?",
+        "distance_m": 217
+      }
+    ],
+    "mart": [
+      {
+        "name": "그린마트",
+        "distance_m": 369,
+        "type": "supermarket"
+      },
+      {
+        "name": "장안홈마트",
+        "distance_m": 382,
+        "type": "supermarket"
+      },
+      {
+        "name": "킹프레시",
+        "distance_m": 383,
+        "type": "supermarket"
+      },
+      {
+        "name": "다이소",
+        "distance_m": 436,
+        "type": "supermarket"
+      },
+      {
+        "name": "장안24시슈퍼",
+        "distance_m": 639,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "코리아병원",
+        "distance_m": 348,
+        "type": "hospital"
+      },
+      {
+        "name": "대한민국요양병원",
+        "distance_m": 510,
+        "type": "hospital"
+      },
+      {
+        "name": "린여성병원",
+        "distance_m": 514,
+        "type": "hospital"
+      },
+      {
+        "name": "국립정신건강센터",
+        "distance_m": 1310,
+        "type": "hospital"
+      },
+      {
+        "name": "원진 녹색병원",
+        "distance_m": 1417,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "?",
+        "distance_m": 332,
+        "type": "secondary"
+      },
+      {
+        "name": "동일로",
+        "distance_m": 425,
+        "type": "primary"
+      },
+      {
+        "name": "동부간선로",
+        "distance_m": 445,
+        "type": "trunk"
+      }
+    ],
+    "railway": []
+  },
+  "답십리청솔우성": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 1047,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1051,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1063,
+        "lines": ""
+      },
+      {
+        "name": "답십리",
+        "distance_m": 1084,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1086,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "전농초등학교",
+          "distance_m": 454
+        },
+        {
+          "name": "서울전동초등학교",
+          "distance_m": 479
+        },
+        {
+          "name": "서울동답초등학교",
+          "distance_m": 553
+        }
+      ],
+      "mid": [
+        {
+          "name": "서울특별시 동부교육지원청",
+          "distance_m": 590
+        },
+        {
+          "name": "동대문중학교",
+          "distance_m": 660
+        },
+        {
+          "name": "전농중학교",
+          "distance_m": 708
+        }
+      ],
+      "high": [
+        {
+          "name": "해성여자고등학교",
+          "distance_m": 697
+        },
+        {
+          "name": "해성여자고등학교해성국제컨벤션고등학교",
+          "distance_m": 744
+        },
+        {
+          "name": "해성국제컨벤션고등학교",
+          "distance_m": 789
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 122
+      },
+      {
+        "name": "?",
+        "distance_m": 299
+      },
+      {
+        "name": "?",
+        "distance_m": 308
+      },
+      {
+        "name": "?",
+        "distance_m": 312
+      },
+      {
+        "name": "?",
+        "distance_m": 320
+      }
+    ],
+    "mart": [
+      {
+        "name": "롯데슈퍼",
+        "distance_m": 323,
+        "type": "supermarket"
+      },
+      {
+        "name": "한아름슈퍼",
+        "distance_m": 400,
+        "type": "supermarket"
+      },
+      {
+        "name": "온마트",
+        "distance_m": 559,
+        "type": "supermarket"
+      },
+      {
+        "name": "판촉물마트",
+        "distance_m": 839,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 849,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "린여성병원",
+        "distance_m": 951,
+        "type": "hospital"
+      },
+      {
+        "name": "큰길내과의원",
+        "distance_m": 1024,
+        "type": "hospital"
+      },
+      {
+        "name": "다일천사병원",
+        "distance_m": 1061,
+        "type": "hospital"
+      },
+      {
+        "name": "코리아병원",
+        "distance_m": 1062,
+        "type": "hospital"
+      },
+      {
+        "name": "오승현내과의원건강검진센터",
+        "distance_m": 1113,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "전농로",
+        "distance_m": 170,
+        "type": "secondary"
+      },
+      {
+        "name": "전농로",
+        "distance_m": 177,
+        "type": "secondary"
+      },
+      {
+        "name": "전농로",
+        "distance_m": 190,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 1032
+      },
+      {
+        "name": "?",
+        "distance_m": 1034
+      }
+    ]
+  },
+  "두산": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 656,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 676,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 705,
+        "lines": ""
+      },
+      {
+        "name": "답십리",
+        "distance_m": 705,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 714,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울답십리초등학교",
+          "distance_m": 397
+        },
+        {
+          "name": "서울동답초등학교",
+          "distance_m": 481
+        },
+        {
+          "name": "군자초등학교",
+          "distance_m": 623
+        }
+      ],
+      "mid": [
+        {
+          "name": "동대문중학교",
+          "distance_m": 868
+        },
+        {
+          "name": "장평중학교",
+          "distance_m": 1004
+        },
+        {
+          "name": "?",
+          "distance_m": 1012
+        }
+      ],
+      "high": [
+        {
+          "name": "해성여자고등학교",
+          "distance_m": 1268
+        },
+        {
+          "name": "해성여자고등학교해성국제컨벤션고등학교",
+          "distance_m": 1321
+        },
+        {
+          "name": "해성국제컨벤션고등학교",
+          "distance_m": 1367
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 462
+      },
+      {
+        "name": "?",
+        "distance_m": 521
+      },
+      {
+        "name": "?",
+        "distance_m": 531
+      },
+      {
+        "name": "?",
+        "distance_m": 573
+      },
+      {
+        "name": "?",
+        "distance_m": 671
+      }
+    ],
+    "mart": [
+      {
+        "name": "노브랜드 동대문장안점",
+        "distance_m": 434,
+        "type": "supermarket"
+      },
+      {
+        "name": "청구미용기구전시장",
+        "distance_m": 583,
+        "type": "supermarket"
+      },
+      {
+        "name": "두꺼비왕식자재마트",
+        "distance_m": 651,
+        "type": "supermarket"
+      },
+      {
+        "name": "텍스마트",
+        "distance_m": 825,
+        "type": "supermarket"
+      },
+      {
+        "name": "바다속어시장",
+        "distance_m": 843,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "오승현내과의원건강검진센터",
+        "distance_m": 616,
+        "type": "hospital"
+      },
+      {
+        "name": "큰길내과의원",
+        "distance_m": 717,
+        "type": "hospital"
+      },
+      {
+        "name": "영동병원",
+        "distance_m": 720,
+        "type": "hospital"
+      },
+      {
+        "name": "연세가정의원",
+        "distance_m": 895,
+        "type": "hospital"
+      },
+      {
+        "name": "린여성병원",
+        "distance_m": 930,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "전농로",
+        "distance_m": 234,
+        "type": "secondary"
+      },
+      {
+        "name": "전농로",
+        "distance_m": 246,
+        "type": "secondary"
+      },
+      {
+        "name": "전농로",
+        "distance_m": 248,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 1442
+      },
+      {
+        "name": "?",
+        "distance_m": 1448
+      }
+    ]
+  },
+  "구로중앙하이츠(1269)": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 358,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 390,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 403,
+        "lines": ""
+      },
+      {
+        "name": "구로",
+        "distance_m": 515,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 938,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울구로초등학교",
+          "distance_m": 513
+        },
+        {
+          "name": "서울신구로초등학교",
+          "distance_m": 749
+        },
+        {
+          "name": "서울신미림초등학교",
+          "distance_m": 866
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 711
+        },
+        {
+          "name": "?",
+          "distance_m": 739
+        },
+        {
+          "name": "?",
+          "distance_m": 751
+        }
+      ],
+      "high": [
+        {
+          "name": "구현고등학교",
+          "distance_m": 662
+        },
+        {
+          "name": "구로고등학교",
+          "distance_m": 817
+        },
+        {
+          "name": "구일고등학교",
+          "distance_m": 830
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "놀이터",
+        "distance_m": 37
+      },
+      {
+        "name": "놀이터",
+        "distance_m": 50
+      },
+      {
+        "name": "놀이터",
+        "distance_m": 55
+      },
+      {
+        "name": "화원어린이공원",
+        "distance_m": 152
+      },
+      {
+        "name": "구로구 공원",
+        "distance_m": 326
+      }
+    ],
+    "mart": [
+      {
+        "name": "NC백화점 구로점",
+        "distance_m": 293,
+        "type": "department_store"
+      },
+      {
+        "name": "코레일유통(주) 구로역이디야",
+        "distance_m": 387,
+        "type": "supermarket"
+      },
+      {
+        "name": "이마트에브리데이 구로점",
+        "distance_m": 574,
+        "type": "supermarket"
+      },
+      {
+        "name": "메가엠지씨커피 구로중앙유통단지점",
+        "distance_m": 590,
+        "type": "supermarket"
+      },
+      {
+        "name": "우지커피 구로중앙유통단지점",
+        "distance_m": 590,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "제중병원",
+        "distance_m": 702,
+        "type": "hospital"
+      },
+      {
+        "name": "구로구보건소",
+        "distance_m": 760,
+        "type": "clinic"
+      },
+      {
+        "name": "고려대학교구로병원",
+        "distance_m": 837,
+        "type": "hospital"
+      },
+      {
+        "name": "구로성심병원",
+        "distance_m": 1269,
+        "type": "hospital"
+      },
+      {
+        "name": "명지춘혜병원",
+        "distance_m": 1451,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "구로동로",
+        "distance_m": 186,
+        "type": "secondary"
+      },
+      {
+        "name": "구로동로",
+        "distance_m": 216,
+        "type": "secondary"
+      },
+      {
+        "name": "구로중앙로",
+        "distance_m": 238,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "구로기지선",
+        "distance_m": 129
+      },
+      {
+        "name": "경부선",
+        "distance_m": 139
+      }
+    ]
+  },
+  "동서울한양": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 819,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 821,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 837,
+        "lines": ""
+      },
+      {
+        "name": "답십리",
+        "distance_m": 847,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 855,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울동답초등학교",
+          "distance_m": 388
+        },
+        {
+          "name": "서울답십리초등학교",
+          "distance_m": 521
+        },
+        {
+          "name": "전농초등학교",
+          "distance_m": 592
+        }
+      ],
+      "mid": [
+        {
+          "name": "동대문중학교",
+          "distance_m": 774
+        },
+        {
+          "name": "서울특별시 동부교육지원청",
+          "distance_m": 947
+        },
+        {
+          "name": "전농중학교",
+          "distance_m": 1071
+        }
+      ],
+      "high": [
+        {
+          "name": "해성여자고등학교",
+          "distance_m": 1059
+        },
+        {
+          "name": "해성여자고등학교해성국제컨벤션고등학교",
+          "distance_m": 1108
+        },
+        {
+          "name": "해성국제컨벤션고등학교",
+          "distance_m": 1154
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 292
+      },
+      {
+        "name": "?",
+        "distance_m": 330
+      },
+      {
+        "name": "?",
+        "distance_m": 362
+      },
+      {
+        "name": "?",
+        "distance_m": 464
+      },
+      {
+        "name": "?",
+        "distance_m": 534
+      }
+    ],
+    "mart": [
+      {
+        "name": "노브랜드 동대문장안점",
+        "distance_m": 623,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데슈퍼",
+        "distance_m": 677,
+        "type": "supermarket"
+      },
+      {
+        "name": "한아름슈퍼",
+        "distance_m": 765,
+        "type": "supermarket"
+      },
+      {
+        "name": "두꺼비왕식자재마트",
+        "distance_m": 776,
+        "type": "supermarket"
+      },
+      {
+        "name": "청구미용기구전시장",
+        "distance_m": 779,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "오승현내과의원건강검진센터",
+        "distance_m": 808,
+        "type": "hospital"
+      },
+      {
+        "name": "큰길내과의원",
+        "distance_m": 827,
+        "type": "hospital"
+      },
+      {
+        "name": "린여성병원",
+        "distance_m": 860,
+        "type": "hospital"
+      },
+      {
+        "name": "영동병원",
+        "distance_m": 943,
+        "type": "hospital"
+      },
+      {
+        "name": "코리아병원",
+        "distance_m": 1010,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "전농로",
+        "distance_m": 248,
+        "type": "secondary"
+      },
+      {
+        "name": "전농로",
+        "distance_m": 251,
+        "type": "secondary"
+      },
+      {
+        "name": "전농로",
+        "distance_m": 254,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 1305
+      },
+      {
+        "name": "?",
+        "distance_m": 1308
+      }
+    ]
+  },
+  "디큐브시티(주상복합)": {
+    "subway": [
+      {
+        "name": "신도림역 5번 출구",
+        "distance_m": 209,
+        "lines": ""
+      },
+      {
+        "name": "신도림역 1번 출구",
+        "distance_m": 230,
+        "lines": ""
+      },
+      {
+        "name": "신도림역 4번 출구",
+        "distance_m": 252,
+        "lines": ""
+      },
+      {
+        "name": "신도림",
+        "distance_m": 256,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 275,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울미래초등학교",
+          "distance_m": 376
+        },
+        {
+          "name": "서울신도림초등학교",
+          "distance_m": 649
+        },
+        {
+          "name": "서울신미림초등학교",
+          "distance_m": 807
+        }
+      ],
+      "mid": [
+        {
+          "name": "신도림중학교",
+          "distance_m": 360
+        },
+        {
+          "name": "한양학원",
+          "distance_m": 546
+        },
+        {
+          "name": "?",
+          "distance_m": 803
+        }
+      ],
+      "high": [
+        {
+          "name": "신도림고등학교",
+          "distance_m": 848
+        },
+        {
+          "name": "구로고등학교",
+          "distance_m": 1100
+        },
+        {
+          "name": "신목고등학교",
+          "distance_m": 1379
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 216
+      },
+      {
+        "name": "디큐브시티 해바라기 공원",
+        "distance_m": 233
+      },
+      {
+        "name": "놀이터",
+        "distance_m": 266
+      },
+      {
+        "name": "신도림 테크노 근린공원",
+        "distance_m": 272
+      },
+      {
+        "name": "?",
+        "distance_m": 345
+      }
+    ],
+    "mart": [
+      {
+        "name": "홈플러스 주식회사 조리제안(신도림점)",
+        "distance_m": 138,
+        "type": "supermarket"
+      },
+      {
+        "name": "신도림동 홈플러스",
+        "distance_m": 161,
+        "type": "supermarket"
+      },
+      {
+        "name": "21세기축산마트",
+        "distance_m": 172,
+        "type": "supermarket"
+      },
+      {
+        "name": "명랑핫도그 신도림테크노마트점",
+        "distance_m": 213,
+        "type": "supermarket"
+      },
+      {
+        "name": "이디야커피 신도림테크노마트점",
+        "distance_m": 213,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "제중병원",
+        "distance_m": 587,
+        "type": "hospital"
+      },
+      {
+        "name": "참사랑요양병원",
+        "distance_m": 652,
+        "type": "hospital"
+      },
+      {
+        "name": "?",
+        "distance_m": 860,
+        "type": "hospital"
+      },
+      {
+        "name": "구로구보건소",
+        "distance_m": 914,
+        "type": "clinic"
+      },
+      {
+        "name": "명지춘혜병원",
+        "distance_m": 1150,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "경인로",
+        "distance_m": 72,
+        "type": "primary"
+      },
+      {
+        "name": "경인로",
+        "distance_m": 76,
+        "type": "primary"
+      },
+      {
+        "name": "경인로",
+        "distance_m": 96,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 118
+      },
+      {
+        "name": "경부선",
+        "distance_m": 120
+      }
+    ]
+  },
+  "우성그린": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 1449,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1453,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1459,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1465,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1470,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울동답초등학교",
+          "distance_m": 372
+        },
+        {
+          "name": "서울배봉초등학교",
+          "distance_m": 541
+        },
+        {
+          "name": "서울전동초등학교",
+          "distance_m": 615
+        }
+      ],
+      "mid": [
+        {
+          "name": "휘경여중고",
+          "distance_m": 896
+        },
+        {
+          "name": "전농중학교",
+          "distance_m": 901
+        },
+        {
+          "name": "서울특별시 동부교육지원청",
+          "distance_m": 982
+        }
+      ],
+      "high": [
+        {
+          "name": "동국대학교사범대학부속고등학교",
+          "distance_m": 834
+        },
+        {
+          "name": "동국대학교 사범대학부속 중고등학교",
+          "distance_m": 863
+        },
+        {
+          "name": "해성여자고등학교",
+          "distance_m": 1040
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 291
+      },
+      {
+        "name": "?",
+        "distance_m": 356
+      },
+      {
+        "name": "장미공원",
+        "distance_m": 453
+      },
+      {
+        "name": "늘푸른 어린이공원",
+        "distance_m": 500
+      },
+      {
+        "name": "족구장",
+        "distance_m": 530
+      }
+    ],
+    "mart": [
+      {
+        "name": "?",
+        "distance_m": 420,
+        "type": "supermarket"
+      },
+      {
+        "name": "그린마트",
+        "distance_m": 539,
+        "type": "supermarket"
+      },
+      {
+        "name": "다이소",
+        "distance_m": 562,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데슈퍼",
+        "distance_m": 587,
+        "type": "supermarket"
+      },
+      {
+        "name": "강원슈퍼",
+        "distance_m": 636,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "린여성병원",
+        "distance_m": 439,
+        "type": "hospital"
+      },
+      {
+        "name": "코리아병원",
+        "distance_m": 503,
+        "type": "hospital"
+      },
+      {
+        "name": "대한민국요양병원",
+        "distance_m": 673,
+        "type": "hospital"
+      },
+      {
+        "name": "삼육의료원 서울병원",
+        "distance_m": 1404,
+        "type": "hospital"
+      },
+      {
+        "name": "오승현내과의원건강검진센터",
+        "distance_m": 1427,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "답십리로",
+        "distance_m": 277,
+        "type": "secondary"
+      },
+      {
+        "name": "사가정로",
+        "distance_m": 436,
+        "type": "secondary"
+      },
+      {
+        "name": "사가정로",
+        "distance_m": 451,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  },
+  "경남아너스빌": {
+    "subway": [
+      {
+        "name": "용마산",
+        "distance_m": 567,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 575,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 583,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 611,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 864,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울중곡초등학교",
+          "distance_m": 321
+        },
+        {
+          "name": "서울은석초등학교",
+          "distance_m": 553
+        },
+        {
+          "name": "서울장평초등학교",
+          "distance_m": 676
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 328
+        },
+        {
+          "name": "용마중학교",
+          "distance_m": 501
+        },
+        {
+          "name": "용마중학교",
+          "distance_m": 518
+        }
+      ],
+      "high": [
+        {
+          "name": "동국대학교 사범대학부속 중고등학교",
+          "distance_m": 510
+        },
+        {
+          "name": "동국대학교사범대학부속고등학교",
+          "distance_m": 570
+        },
+        {
+          "name": "휘경공업고등학교",
+          "distance_m": 1411
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "오거리공원",
+        "distance_m": 360
+      },
+      {
+        "name": "샘터공원",
+        "distance_m": 381
+      },
+      {
+        "name": "?",
+        "distance_m": 450
+      },
+      {
+        "name": "?",
+        "distance_m": 520
+      },
+      {
+        "name": "마로니에 어린이공원",
+        "distance_m": 602
+      }
+    ],
+    "mart": [
+      {
+        "name": "두산마트",
+        "distance_m": 332,
+        "type": "supermarket"
+      },
+      {
+        "name": "하나슈퍼",
+        "distance_m": 489,
+        "type": "supermarket"
+      },
+      {
+        "name": "Homeplus",
+        "distance_m": 564,
+        "type": "department_store"
+      },
+      {
+        "name": "그린마트",
+        "distance_m": 755,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데슈퍼",
+        "distance_m": 763,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "대한민국요양병원",
+        "distance_m": 764,
+        "type": "hospital"
+      },
+      {
+        "name": "코리아병원",
+        "distance_m": 843,
+        "type": "hospital"
+      },
+      {
+        "name": "린여성병원",
+        "distance_m": 1008,
+        "type": "hospital"
+      },
+      {
+        "name": "원진 녹색병원",
+        "distance_m": 1009,
+        "type": "hospital"
+      },
+      {
+        "name": "국립정신건강센터",
+        "distance_m": 1196,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1451
+      },
+      {
+        "name": "?",
+        "distance_m": 1490
+      }
+    ],
+    "highway": [
+      {
+        "name": "동일로",
+        "distance_m": 144,
+        "type": "primary"
+      },
+      {
+        "name": "동일로",
+        "distance_m": 173,
+        "type": "primary"
+      },
+      {
+        "name": "동부간선로",
+        "distance_m": 199,
+        "type": "trunk"
+      }
+    ],
+    "railway": []
+  },
+  "동아한신": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 639,
+        "lines": ""
+      },
+      {
+        "name": "구일",
+        "distance_m": 668,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 752,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 901,
+        "lines": ""
+      },
+      {
+        "name": "개봉",
+        "distance_m": 927,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울고산초등학교",
+          "distance_m": 225
+        },
+        {
+          "name": "서울고원초등학교",
+          "distance_m": 395
+        },
+        {
+          "name": "서울고척초등학교",
+          "distance_m": 710
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 202
+        },
+        {
+          "name": "?",
+          "distance_m": 292
+        },
+        {
+          "name": "고척중학교",
+          "distance_m": 316
+        }
+      ],
+      "high": [
+        {
+          "name": "경인고등학교",
+          "distance_m": 536
+        },
+        {
+          "name": "구현고등학교",
+          "distance_m": 816
+        },
+        {
+          "name": "구일고등학교",
+          "distance_m": 1104
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "102동 놀이터",
+        "distance_m": 558
+      },
+      {
+        "name": "목동남로 소공원",
+        "distance_m": 565
+      },
+      {
+        "name": "103동 놀이터",
+        "distance_m": 567
+      },
+      {
+        "name": "?",
+        "distance_m": 727
+      },
+      {
+        "name": "갈산근린공원",
+        "distance_m": 857
+      }
+    ],
+    "mart": [
+      {
+        "name": "신원마트",
+        "distance_m": 257,
+        "type": "supermarket"
+      },
+      {
+        "name": "메가엠지씨커피 구로중앙유통단지점",
+        "distance_m": 832,
+        "type": "supermarket"
+      },
+      {
+        "name": "우지커피 구로중앙유통단지점",
+        "distance_m": 832,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 852,
+        "type": "supermarket"
+      },
+      {
+        "name": "구로식자재할인마트",
+        "distance_m": 882,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "구로성심병원",
+        "distance_m": 188,
+        "type": "hospital"
+      },
+      {
+        "name": "병원건물",
+        "distance_m": 1014,
+        "type": "hospital"
+      },
+      {
+        "name": "강서효병원",
+        "distance_m": 1270,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "함양여씨묘역",
+        "distance_m": 1121
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "중앙로",
+        "distance_m": 182,
+        "type": "secondary"
+      },
+      {
+        "name": "경인로",
+        "distance_m": 252,
+        "type": "primary"
+      },
+      {
+        "name": "경인로",
+        "distance_m": 284,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경인선",
+        "distance_m": 662
+      },
+      {
+        "name": "경인선",
+        "distance_m": 668
+      }
+    ]
+  },
+  "동아에코빌": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 257,
+        "lines": ""
+      },
+      {
+        "name": "상월곡",
+        "distance_m": 291,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 300,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 404,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 443,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울월곡초등학교",
+          "distance_m": 229
+        },
+        {
+          "name": "장위초등학교",
+          "distance_m": 592
+        },
+        {
+          "name": "숭인초등학교",
+          "distance_m": 655
+        }
+      ],
+      "mid": [
+        {
+          "name": "월곡중학교",
+          "distance_m": 245
+        },
+        {
+          "name": "월곡중학교",
+          "distance_m": 264
+        },
+        {
+          "name": "장위중학교",
+          "distance_m": 558
+        }
+      ],
+      "high": [
+        {
+          "name": "창문여자고등학교",
+          "distance_m": 1027
+        },
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 1169
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 93
+      },
+      {
+        "name": "?",
+        "distance_m": 109
+      },
+      {
+        "name": "?",
+        "distance_m": 111
+      },
+      {
+        "name": "?",
+        "distance_m": 194
+      },
+      {
+        "name": "?",
+        "distance_m": 227
+      }
+    ],
+    "mart": [
+      {
+        "name": "금강슈퍼",
+        "distance_m": 508,
+        "type": "supermarket"
+      },
+      {
+        "name": "제이엘마켓탑",
+        "distance_m": 571,
+        "type": "supermarket"
+      },
+      {
+        "name": "대지마트",
+        "distance_m": 579,
+        "type": "supermarket"
+      },
+      {
+        "name": "하트마트",
+        "distance_m": 593,
+        "type": "supermarket"
+      },
+      {
+        "name": "골목슈퍼",
+        "distance_m": 712,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "성북구보건소",
+        "distance_m": 797,
+        "type": "clinic"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1453,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1499,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "장월로",
+        "distance_m": 278,
+        "type": "secondary"
+      },
+      {
+        "name": "화랑로",
+        "distance_m": 283,
+        "type": "primary"
+      },
+      {
+        "name": "?",
+        "distance_m": 286,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  },
+  "한신,한진": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 539,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 563,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 575,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 578,
+        "lines": ""
+      },
+      {
+        "name": "성신여대입구",
+        "distance_m": 585,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "우촌초등학교",
+          "distance_m": 128
+        },
+        {
+          "name": "돈암초등학교",
+          "distance_m": 277
+        },
+        {
+          "name": "서울돈암초등학교",
+          "distance_m": 314
+        }
+      ],
+      "mid": [
+        {
+          "name": "동구여자중학교",
+          "distance_m": 258
+        },
+        {
+          "name": "삼선중학교",
+          "distance_m": 465
+        },
+        {
+          "name": "홍익대학교사범대학부속중학교",
+          "distance_m": 657
+        }
+      ],
+      "high": [
+        {
+          "name": "서울동구고등학교",
+          "distance_m": 387
+        },
+        {
+          "name": "홍익대학교사범대학부속고등학교",
+          "distance_m": 621
+        },
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 914
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 104
+      },
+      {
+        "name": "아리랑길 테마공원",
+        "distance_m": 478
+      },
+      {
+        "name": "주차장",
+        "distance_m": 630
+      },
+      {
+        "name": "고양이 쉼터",
+        "distance_m": 663
+      },
+      {
+        "name": "돈암2동 고가아래쉼터",
+        "distance_m": 681
+      }
+    ],
+    "mart": [
+      {
+        "name": "GS Supermarket",
+        "distance_m": 78,
+        "type": "supermarket"
+      },
+      {
+        "name": "늘푸른할인마트",
+        "distance_m": 386,
+        "type": "supermarket"
+      },
+      {
+        "name": "지은슈퍼",
+        "distance_m": 435,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리마트",
+        "distance_m": 599,
+        "type": "supermarket"
+      },
+      {
+        "name": "다이소",
+        "distance_m": 652,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "성북참노인전문병원",
+        "distance_m": 550,
+        "type": "hospital"
+      },
+      {
+        "name": "메이저피부과 성신여대점",
+        "distance_m": 553,
+        "type": "hospital"
+      },
+      {
+        "name": "음치클리닉",
+        "distance_m": 620,
+        "type": "clinic"
+      },
+      {
+        "name": "쥬비스 미아점",
+        "distance_m": 674,
+        "type": "hospital"
+      },
+      {
+        "name": "루시나산부인과",
+        "distance_m": 695,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "동소문로",
+        "distance_m": 413,
+        "type": "primary"
+      },
+      {
+        "name": "동소문로",
+        "distance_m": 415,
+        "type": "primary"
+      },
+      {
+        "name": "보문로",
+        "distance_m": 417,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 612
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 2382
+      }
+    ]
+  },
+  "수유벽산1차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 225,
+        "lines": ""
+      },
+      {
+        "name": "가오리",
+        "distance_m": 248,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 272,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 722,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 723,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울우이초등학교",
+          "distance_m": 571
+        },
+        {
+          "name": "서울쌍문초등학교",
+          "distance_m": 822
+        },
+        {
+          "name": "서울인수초등학교",
+          "distance_m": 824
+        }
+      ],
+      "mid": [
+        {
+          "name": "강북중학교",
+          "distance_m": 645
+        },
+        {
+          "name": "인수중학교",
+          "distance_m": 837
+        },
+        {
+          "name": "?",
+          "distance_m": 1096
+        }
+      ],
+      "high": [
+        {
+          "name": "효문중고등학교",
+          "distance_m": 1139
+        },
+        {
+          "name": "정의여자중고등학교",
+          "distance_m": 1602
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 868
+      },
+      {
+        "name": "논골어린이공원",
+        "distance_m": 884
+      },
+      {
+        "name": "?",
+        "distance_m": 906
+      },
+      {
+        "name": "꽃동네놀이터",
+        "distance_m": 973
+      },
+      {
+        "name": "색동어린이공원",
+        "distance_m": 1014
+      }
+    ],
+    "mart": [
+      {
+        "name": "국민마트",
+        "distance_m": 296,
+        "type": "supermarket"
+      },
+      {
+        "name": "정수기마트",
+        "distance_m": 431,
+        "type": "supermarket"
+      },
+      {
+        "name": "대부마트",
+        "distance_m": 432,
+        "type": "supermarket"
+      },
+      {
+        "name": "동우마트",
+        "distance_m": 490,
+        "type": "supermarket"
+      },
+      {
+        "name": "판촉물쇼핑마트",
+        "distance_m": 656,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "대한병원",
+        "distance_m": 817,
+        "type": "hospital"
+      },
+      {
+        "name": "한일병원",
+        "distance_m": 828,
+        "type": "hospital"
+      },
+      {
+        "name": "국립재활원",
+        "distance_m": 859,
+        "type": "hospital"
+      },
+      {
+        "name": "새한빛병원",
+        "distance_m": 1052,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1403
+      },
+      {
+        "name": "?",
+        "distance_m": 1419
+      },
+      {
+        "name": "?",
+        "distance_m": 1428
+      },
+      {
+        "name": "?",
+        "distance_m": 1437
+      }
+    ],
+    "highway": [
+      {
+        "name": "노해로",
+        "distance_m": 270,
+        "type": "secondary"
+      },
+      {
+        "name": "한천로",
+        "distance_m": 293,
+        "type": "secondary"
+      },
+      {
+        "name": "삼양로",
+        "distance_m": 372,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 557
+      },
+      {
+        "name": "?",
+        "distance_m": 1504
+      }
+    ]
+  },
+  "종암SK": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 415,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 428,
+        "lines": ""
+      },
+      {
+        "name": "월곡",
+        "distance_m": 436,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 456,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 482,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울일신초등학교",
+          "distance_m": 425
+        },
+        {
+          "name": "서울숭례초등학교",
+          "distance_m": 749
+        },
+        {
+          "name": "숭곡초등학교",
+          "distance_m": 841
+        }
+      ],
+      "mid": [
+        {
+          "name": "서울사대부설중학교",
+          "distance_m": 747
+        },
+        {
+          "name": "?",
+          "distance_m": 763
+        },
+        {
+          "name": "숭곡중학교",
+          "distance_m": 876
+        }
+      ],
+      "high": [
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 720
+        },
+        {
+          "name": "서울사대부설고등학교",
+          "distance_m": 924
+        },
+        {
+          "name": "창문여자고등학교",
+          "distance_m": 1324
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 107
+      },
+      {
+        "name": "?",
+        "distance_m": 163
+      },
+      {
+        "name": "?",
+        "distance_m": 190
+      },
+      {
+        "name": "?",
+        "distance_m": 211
+      },
+      {
+        "name": "?",
+        "distance_m": 270
+      }
+    ],
+    "mart": [
+      {
+        "name": "골목슈퍼",
+        "distance_m": 366,
+        "type": "supermarket"
+      },
+      {
+        "name": "진로마트",
+        "distance_m": 537,
+        "type": "supermarket"
+      },
+      {
+        "name": "제이엘마켓탑",
+        "distance_m": 552,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 631,
+        "type": "supermarket"
+      },
+      {
+        "name": "코너슈퍼",
+        "distance_m": 637,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "성북구보건소",
+        "distance_m": 295,
+        "type": "clinic"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 877,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 918,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "?",
+        "distance_m": 110,
+        "type": "primary"
+      },
+      {
+        "name": "종암로30길",
+        "distance_m": 111,
+        "type": "primary"
+      },
+      {
+        "name": "북부간선도로",
+        "distance_m": 113,
+        "type": "trunk"
+      }
+    ],
+    "railway": []
+  },
+  "월곡두산위브": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 561,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 570,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 608,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 623,
+        "lines": ""
+      },
+      {
+        "name": "월곡",
+        "distance_m": 627,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "숭인초등학교",
+          "distance_m": 211
+        },
+        {
+          "name": "숭곡초등학교",
+          "distance_m": 565
+        },
+        {
+          "name": "서울월곡초등학교",
+          "distance_m": 726
+        }
+      ],
+      "mid": [
+        {
+          "name": "장위중학교",
+          "distance_m": 542
+        },
+        {
+          "name": "숭곡중학교",
+          "distance_m": 649
+        },
+        {
+          "name": "창문여중여고",
+          "distance_m": 684
+        }
+      ],
+      "high": [
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 546
+        },
+        {
+          "name": "창문여자고등학교",
+          "distance_m": 733
+        },
+        {
+          "name": "영훈고등학교",
+          "distance_m": 1224
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 26
+      },
+      {
+        "name": "?",
+        "distance_m": 80
+      },
+      {
+        "name": "?",
+        "distance_m": 119
+      },
+      {
+        "name": "놀이터",
+        "distance_m": 171
+      },
+      {
+        "name": "?",
+        "distance_m": 181
+      }
+    ],
+    "mart": [
+      {
+        "name": "월곡축산마트",
+        "distance_m": 228,
+        "type": "supermarket"
+      },
+      {
+        "name": "골목슈퍼",
+        "distance_m": 405,
+        "type": "supermarket"
+      },
+      {
+        "name": "제이엘마켓탑",
+        "distance_m": 502,
+        "type": "supermarket"
+      },
+      {
+        "name": "코너슈퍼",
+        "distance_m": 535,
+        "type": "supermarket"
+      },
+      {
+        "name": "아이사랑안경마트",
+        "distance_m": 561,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "성북구보건소",
+        "distance_m": 499,
+        "type": "clinic"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 830,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 876,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 1212,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "오패산로",
+        "distance_m": 221,
+        "type": "secondary"
+      },
+      {
+        "name": "?",
+        "distance_m": 363,
+        "type": "secondary"
+      },
+      {
+        "name": "?",
+        "distance_m": 372,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  },
+  "홍은벽산": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 660,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 683,
+        "lines": ""
+      },
+      {
+        "name": "홍제",
+        "distance_m": 733,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 768,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 787,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울홍제초등학교",
+          "distance_m": 246
+        },
+        {
+          "name": "서울홍은초등학교",
+          "distance_m": 510
+        },
+        {
+          "name": "서울인왕초등학교",
+          "distance_m": 541
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 517
+        },
+        {
+          "name": "?",
+          "distance_m": 538
+        },
+        {
+          "name": "인왕중학교",
+          "distance_m": 704
+        }
+      ],
+      "high": [
+        {
+          "name": "상명대학교 사범대학 부속여자고등학교",
+          "distance_m": 1219
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "실락어린이공원",
+        "distance_m": 140
+      },
+      {
+        "name": "문화공원",
+        "distance_m": 374
+      },
+      {
+        "name": "101동 놀이터",
+        "distance_m": 495
+      },
+      {
+        "name": "인화소공원",
+        "distance_m": 527
+      },
+      {
+        "name": "102동 놀이터",
+        "distance_m": 573
+      }
+    ],
+    "mart": [
+      {
+        "name": "하모니마트",
+        "distance_m": 480,
+        "type": "supermarket"
+      },
+      {
+        "name": "가구마트",
+        "distance_m": 583,
+        "type": "supermarket"
+      },
+      {
+        "name": "플라워마트",
+        "distance_m": 705,
+        "type": "supermarket"
+      },
+      {
+        "name": "굿모닝마트",
+        "distance_m": 1156,
+        "type": "supermarket"
+      },
+      {
+        "name": "새로나마트",
+        "distance_m": 1368,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "은평튼튼병원",
+        "distance_m": 1229,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1244
+      },
+      {
+        "name": "?",
+        "distance_m": 1314
+      },
+      {
+        "name": "?",
+        "distance_m": 1413
+      },
+      {
+        "name": "?",
+        "distance_m": 1429
+      }
+    ],
+    "highway": [
+      {
+        "name": "세검정로",
+        "distance_m": 341,
+        "type": "primary"
+      },
+      {
+        "name": "세검정로",
+        "distance_m": 349,
+        "type": "primary"
+      },
+      {
+        "name": "세검정로",
+        "distance_m": 351,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "수도권광역급행철도에이선",
+        "distance_m": 9251
+      },
+      {
+        "name": "수도권광역급행철도에이선",
+        "distance_m": 9260
+      }
+    ]
+  },
+  "백련산힐스테이트1차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 1003,
+        "lines": ""
+      },
+      {
+        "name": "새절",
+        "distance_m": 1019,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1021,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1029,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1045,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울연은초등학교",
+          "distance_m": 186
+        },
+        {
+          "name": "응암초등학교",
+          "distance_m": 525
+        },
+        {
+          "name": "서울은명초등학교",
+          "distance_m": 888
+        }
+      ],
+      "mid": [
+        {
+          "name": "영락중학교",
+          "distance_m": 520
+        },
+        {
+          "name": "영락중학교",
+          "distance_m": 529
+        },
+        {
+          "name": "은평문화예술정보학교",
+          "distance_m": 616
+        }
+      ],
+      "high": [
+        {
+          "name": "신진자동차고등학교",
+          "distance_m": 957
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 247
+      },
+      {
+        "name": "?",
+        "distance_m": 255
+      },
+      {
+        "name": "?",
+        "distance_m": 473
+      },
+      {
+        "name": "응암2동 마을마당",
+        "distance_m": 570
+      },
+      {
+        "name": "오손길 마을마당",
+        "distance_m": 625
+      }
+    ],
+    "mart": [
+      {
+        "name": "신비로마트",
+        "distance_m": 436,
+        "type": "supermarket"
+      },
+      {
+        "name": "은평두레생협 백련산점",
+        "distance_m": 456,
+        "type": "supermarket"
+      },
+      {
+        "name": "그린마트",
+        "distance_m": 507,
+        "type": "supermarket"
+      },
+      {
+        "name": "지엘할인마트",
+        "distance_m": 932,
+        "type": "supermarket"
+      },
+      {
+        "name": "신구멍가게24",
+        "distance_m": 984,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "서울특별시 은평병원",
+        "distance_m": 263,
+        "type": "hospital"
+      },
+      {
+        "name": "응암보건지소",
+        "distance_m": 679,
+        "type": "clinic"
+      },
+      {
+        "name": "서울효요양병원",
+        "distance_m": 680,
+        "type": "hospital"
+      },
+      {
+        "name": "은평구보건소",
+        "distance_m": 1202,
+        "type": "clinic"
+      },
+      {
+        "name": "동신병원",
+        "distance_m": 1536,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "?",
+        "distance_m": 1232
+      },
+      {
+        "name": "?",
+        "distance_m": 1265
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "백련산로",
+        "distance_m": 178,
+        "type": "secondary"
+      },
+      {
+        "name": "가좌로",
+        "distance_m": 662,
+        "type": "secondary"
+      },
+      {
+        "name": "응암로",
+        "distance_m": 678,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  },
+  "돈암브라운스톤": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 565,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 566,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 583,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 597,
+        "lines": ""
+      },
+      {
+        "name": "성신여대입구",
+        "distance_m": 599,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "매원초등학교",
+          "distance_m": 129
+        },
+        {
+          "name": "정덕초등학교",
+          "distance_m": 362
+        },
+        {
+          "name": "우촌초등학교",
+          "distance_m": 585
+        }
+      ],
+      "mid": [
+        {
+          "name": "고명중학교",
+          "distance_m": 191
+        },
+        {
+          "name": "?",
+          "distance_m": 213
+        },
+        {
+          "name": "정석학원",
+          "distance_m": 617
+        }
+      ],
+      "high": [
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 259
+        },
+        {
+          "name": "성신여자고등학교",
+          "distance_m": 627
+        },
+        {
+          "name": "서울동구고등학교",
+          "distance_m": 1098
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "고양이 쉼터",
+        "distance_m": 158
+      },
+      {
+        "name": "주차장",
+        "distance_m": 213
+      },
+      {
+        "name": "아리랑길 테마공원",
+        "distance_m": 238
+      },
+      {
+        "name": "?",
+        "distance_m": 609
+      },
+      {
+        "name": "돈암2동 고가아래쉼터",
+        "distance_m": 636
+      }
+    ],
+    "mart": [
+      {
+        "name": "GS supermarket",
+        "distance_m": 134,
+        "type": "supermarket"
+      },
+      {
+        "name": "늘푸른할인마트",
+        "distance_m": 326,
+        "type": "supermarket"
+      },
+      {
+        "name": "성진슈퍼",
+        "distance_m": 414,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리마트",
+        "distance_m": 416,
+        "type": "supermarket"
+      },
+      {
+        "name": "지은슈퍼",
+        "distance_m": 443,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "쥬비스 미아점",
+        "distance_m": 437,
+        "type": "hospital"
+      },
+      {
+        "name": "메이저피부과 성신여대점",
+        "distance_m": 579,
+        "type": "hospital"
+      },
+      {
+        "name": "루시나산부인과",
+        "distance_m": 905,
+        "type": "hospital"
+      },
+      {
+        "name": "정릉보건지소",
+        "distance_m": 946,
+        "type": "clinic"
+      },
+      {
+        "name": "성북참노인전문병원",
+        "distance_m": 1091,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "아리랑로",
+        "distance_m": 303,
+        "type": "secondary"
+      },
+      {
+        "name": "동소문로",
+        "distance_m": 345,
+        "type": "primary"
+      },
+      {
+        "name": "동소문로",
+        "distance_m": 360,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 642
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 1915
+      }
+    ]
+  },
+  "창동주공3단지": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 422,
+        "lines": ""
+      },
+      {
+        "name": "창동",
+        "distance_m": 474,
+        "lines": ""
+      },
+      {
+        "name": "창동",
+        "distance_m": 503,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 597,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 734,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울창원초등학교",
+          "distance_m": 409
+        },
+        {
+          "name": "창일초등학교",
+          "distance_m": 416
+        },
+        {
+          "name": "서울창동초등학교",
+          "distance_m": 590
+        }
+      ],
+      "mid": [
+        {
+          "name": "창일중학교",
+          "distance_m": 293
+        },
+        {
+          "name": "?",
+          "distance_m": 400
+        },
+        {
+          "name": "창북중학교",
+          "distance_m": 484
+        }
+      ],
+      "high": [
+        {
+          "name": "창동고등학교",
+          "distance_m": 481
+        },
+        {
+          "name": "서울외국어고등학교",
+          "distance_m": 867
+        },
+        {
+          "name": "상계고등학교",
+          "distance_m": 1102
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "밤골어린이공원",
+        "distance_m": 184
+      },
+      {
+        "name": "초안산근린공원",
+        "distance_m": 294
+      },
+      {
+        "name": "?",
+        "distance_m": 311
+      },
+      {
+        "name": "?",
+        "distance_m": 355
+      },
+      {
+        "name": "뱃골어린이공원",
+        "distance_m": 365
+      }
+    ],
+    "mart": [
+      {
+        "name": "E-Mart",
+        "distance_m": 352,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 362,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데쇼핑 (주)롯데슈퍼 창동2점",
+        "distance_m": 642,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데슈퍼 999 창동점",
+        "distance_m": 705,
+        "type": "supermarket"
+      },
+      {
+        "name": "씨마트",
+        "distance_m": 853,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "창동제일병원",
+        "distance_m": 269,
+        "type": "hospital"
+      },
+      {
+        "name": "뿌리와새싹의원",
+        "distance_m": 286,
+        "type": "hospital"
+      },
+      {
+        "name": "도봉구보건소",
+        "distance_m": 1011,
+        "type": "clinic"
+      },
+      {
+        "name": "노원구보건소",
+        "distance_m": 1217,
+        "type": "clinic"
+      },
+      {
+        "name": "노원삼성정형외과별관",
+        "distance_m": 1326,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 999
+      },
+      {
+        "name": "?",
+        "distance_m": 1035
+      },
+      {
+        "name": "?",
+        "distance_m": 1120
+      },
+      {
+        "name": "?",
+        "distance_m": 1148
+      },
+      {
+        "name": "?",
+        "distance_m": 1166
+      }
+    ],
+    "highway": [
+      {
+        "name": "해등로",
+        "distance_m": 135,
+        "type": "secondary"
+      },
+      {
+        "name": "노해로",
+        "distance_m": 201,
+        "type": "secondary"
+      },
+      {
+        "name": "노해로65길",
+        "distance_m": 328,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 432
+      },
+      {
+        "name": "경원선",
+        "distance_m": 438
+      }
+    ]
+  },
+  "상계주공9단지": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 151,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 171,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 214,
+        "lines": ""
+      },
+      {
+        "name": "마들",
+        "distance_m": 238,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 239,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "상곡초등학교",
+          "distance_m": 303
+        },
+        {
+          "name": "서울동일초등학교",
+          "distance_m": 443
+        },
+        {
+          "name": "상원초등학교",
+          "distance_m": 494
+        }
+      ],
+      "mid": [
+        {
+          "name": "청원학원",
+          "distance_m": 402
+        },
+        {
+          "name": "온곡중학교",
+          "distance_m": 593
+        },
+        {
+          "name": "상경중학교",
+          "distance_m": 620
+        }
+      ],
+      "high": [
+        {
+          "name": "용화여자고등학교",
+          "distance_m": 508
+        },
+        {
+          "name": "노원고등학교",
+          "distance_m": 533
+        },
+        {
+          "name": "자운고등학교",
+          "distance_m": 887
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "달빛어린이공원",
+        "distance_m": 32
+      },
+      {
+        "name": "?",
+        "distance_m": 64
+      },
+      {
+        "name": "?",
+        "distance_m": 73
+      },
+      {
+        "name": "?",
+        "distance_m": 165
+      },
+      {
+        "name": "?",
+        "distance_m": 175
+      }
+    ],
+    "mart": [
+      {
+        "name": "웰마트",
+        "distance_m": 210,
+        "type": "supermarket"
+      },
+      {
+        "name": "하나로마트",
+        "distance_m": 322,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데수퍼",
+        "distance_m": 348,
+        "type": "supermarket"
+      },
+      {
+        "name": "매점",
+        "distance_m": 364,
+        "type": "supermarket"
+      },
+      {
+        "name": "매점",
+        "distance_m": 382,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "노원구보건소",
+        "distance_m": 1019,
+        "type": "clinic"
+      },
+      {
+        "name": "디딤신경정신과",
+        "distance_m": 1024,
+        "type": "hospital"
+      },
+      {
+        "name": "노원삼성정형외과별관",
+        "distance_m": 1032,
+        "type": "hospital"
+      },
+      {
+        "name": "노원삼성정형외과",
+        "distance_m": 1084,
+        "type": "hospital"
+      },
+      {
+        "name": "나우동물의료센터",
+        "distance_m": 1277,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "?",
+        "distance_m": 1014
+      }
+    ],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 628
+      },
+      {
+        "name": "?",
+        "distance_m": 639
+      },
+      {
+        "name": "?",
+        "distance_m": 727
+      },
+      {
+        "name": "?",
+        "distance_m": 766
+      },
+      {
+        "name": "?",
+        "distance_m": 967
+      }
+    ],
+    "highway": [
+      {
+        "name": "동일로",
+        "distance_m": 87,
+        "type": "primary"
+      },
+      {
+        "name": "동일로",
+        "distance_m": 99,
+        "type": "primary"
+      },
+      {
+        "name": "한글비석로",
+        "distance_m": 170,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경원선",
+        "distance_m": 1277
+      },
+      {
+        "name": "경원선",
+        "distance_m": 1281
+      }
+    ]
+  },
+  "극동.건영.벽산": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 303,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 304,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 327,
+        "lines": ""
+      },
+      {
+        "name": "하계",
+        "distance_m": 353,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 362,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "중평초등학교",
+          "distance_m": 188
+        },
+        {
+          "name": "중현초등학교",
+          "distance_m": 439
+        },
+        {
+          "name": "서울연지초등학교",
+          "distance_m": 448
+        }
+      ],
+      "mid": [
+        {
+          "name": "중평중학교",
+          "distance_m": 214
+        },
+        {
+          "name": "녹천중학교",
+          "distance_m": 522
+        },
+        {
+          "name": "서울정민학교",
+          "distance_m": 809
+        }
+      ],
+      "high": [
+        {
+          "name": "서울아이티고등학교",
+          "distance_m": 754
+        },
+        {
+          "name": "인덕과학기술고등학교",
+          "distance_m": 828
+        },
+        {
+          "name": "경기기계공업고등학교",
+          "distance_m": 940
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "중평어린이공원",
+        "distance_m": 182
+      },
+      {
+        "name": "숲속정원",
+        "distance_m": 376
+      },
+      {
+        "name": "놀이터",
+        "distance_m": 403
+      },
+      {
+        "name": "?",
+        "distance_m": 428
+      },
+      {
+        "name": "중계근린공원",
+        "distance_m": 472
+      }
+    ],
+    "mart": [
+      {
+        "name": "건영백화점",
+        "distance_m": 339,
+        "type": "department_store"
+      },
+      {
+        "name": "세이브존 노원점",
+        "distance_m": 386,
+        "type": "mall"
+      },
+      {
+        "name": "홈플러스 중계점",
+        "distance_m": 603,
+        "type": "mall"
+      },
+      {
+        "name": "2001아울렛 중계점",
+        "distance_m": 698,
+        "type": "mall"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 889,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "을지병원 연구동",
+        "distance_m": 499,
+        "type": "hospital"
+      },
+      {
+        "name": "노원구보건지소",
+        "distance_m": 518,
+        "type": "clinic"
+      },
+      {
+        "name": "보건진료소",
+        "distance_m": 1416,
+        "type": "clinic"
+      },
+      {
+        "name": "인제대학교상계백병원",
+        "distance_m": 1456,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 460
+      },
+      {
+        "name": "?",
+        "distance_m": 558
+      },
+      {
+        "name": "?",
+        "distance_m": 594
+      },
+      {
+        "name": "?",
+        "distance_m": 665
+      },
+      {
+        "name": "?",
+        "distance_m": 770
+      }
+    ],
+    "highway": [
+      {
+        "name": "한글비석로",
+        "distance_m": 192,
+        "type": "secondary"
+      },
+      {
+        "name": "섬밭로",
+        "distance_m": 220,
+        "type": "secondary"
+      },
+      {
+        "name": "섬밭로",
+        "distance_m": 253,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경원선",
+        "distance_m": 498
+      },
+      {
+        "name": "경원선",
+        "distance_m": 503
+      }
+    ]
+  },
+  "주공8단지": {
+    "subway": [
+      {
+        "name": "금천구청",
+        "distance_m": 1049,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1085,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1106,
+        "lines": ""
+      },
+      {
+        "name": "독산",
+        "distance_m": 1123,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1135,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "가림초등학교",
+          "distance_m": 288
+        },
+        {
+          "name": "하안남초등학교",
+          "distance_m": 538
+        },
+        {
+          "name": "서울안천초등학교",
+          "distance_m": 554
+        }
+      ],
+      "mid": [
+        {
+          "name": "가림중학교",
+          "distance_m": 205
+        },
+        {
+          "name": "서울안천중학교",
+          "distance_m": 510
+        },
+        {
+          "name": "하안중학교",
+          "distance_m": 1039
+        }
+      ],
+      "high": [
+        {
+          "name": "운산고등학교",
+          "distance_m": 437
+        },
+        {
+          "name": "소하고등학교",
+          "distance_m": 1283
+        },
+        {
+          "name": "진성고등학교",
+          "distance_m": 1353
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "8단지 공원",
+        "distance_m": 45
+      },
+      {
+        "name": "8단지 놀이터",
+        "distance_m": 47
+      },
+      {
+        "name": "약수터",
+        "distance_m": 113
+      },
+      {
+        "name": "?",
+        "distance_m": 114
+      },
+      {
+        "name": "놀이터",
+        "distance_m": 141
+      }
+    ],
+    "mart": [
+      {
+        "name": "싱싱마트",
+        "distance_m": 121,
+        "type": "supermarket"
+      },
+      {
+        "name": "GS슈퍼마켓",
+        "distance_m": 130,
+        "type": "supermarket"
+      },
+      {
+        "name": "노브랜드 광명소하점",
+        "distance_m": 192,
+        "type": "supermarket"
+      },
+      {
+        "name": "뉴코아아울렛뉴코아팩토리아울렛 광명점",
+        "distance_m": 461,
+        "type": "department_store"
+      },
+      {
+        "name": "이마트에브리데이",
+        "distance_m": 502,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "광명시보건소",
+        "distance_m": 349,
+        "type": "hospital"
+      },
+      {
+        "name": "성심의원",
+        "distance_m": 458,
+        "type": "hospital"
+      },
+      {
+        "name": "계난이소아과의원",
+        "distance_m": 510,
+        "type": "hospital"
+      },
+      {
+        "name": "광명안과의원",
+        "distance_m": 522,
+        "type": "clinic"
+      },
+      {
+        "name": "광제국한의원",
+        "distance_m": 542,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "?",
+        "distance_m": 1029
+      }
+    ],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1451
+      },
+      {
+        "name": "?",
+        "distance_m": 1472
+      },
+      {
+        "name": "?",
+        "distance_m": 1473
+      },
+      {
+        "name": "?",
+        "distance_m": 1482
+      },
+      {
+        "name": "?",
+        "distance_m": 1484
+      }
+    ],
+    "highway": [
+      {
+        "name": "오리로",
+        "distance_m": 281,
+        "type": "secondary"
+      },
+      {
+        "name": "오리로",
+        "distance_m": 286,
+        "type": "secondary"
+      },
+      {
+        "name": "한내로",
+        "distance_m": 335,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 883
+      },
+      {
+        "name": "?",
+        "distance_m": 890
+      }
+    ]
+  },
+  "롯데캐슬베네치아(주상복합)": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 427,
+        "lines": ""
+      },
+      {
+        "name": "동묘앞",
+        "distance_m": 431,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 443,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 477,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 490,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울광희초등학교",
+          "distance_m": 669
+        },
+        {
+          "name": "서울숭신초등학교",
+          "distance_m": 687
+        },
+        {
+          "name": "신당초등학교",
+          "distance_m": 809
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 820
+        },
+        {
+          "name": "대광중학교",
+          "distance_m": 866
+        },
+        {
+          "name": "삼성영어수학학원",
+          "distance_m": 971
+        }
+      ],
+      "high": [
+        {
+          "name": "서울다솜관광고등학교",
+          "distance_m": 328
+        },
+        {
+          "name": "성동공업고등학교",
+          "distance_m": 426
+        },
+        {
+          "name": "도선고등학교",
+          "distance_m": 705
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 275
+      },
+      {
+        "name": "동묘",
+        "distance_m": 338
+      },
+      {
+        "name": "?",
+        "distance_m": 370
+      },
+      {
+        "name": "우산각어린이공원",
+        "distance_m": 396
+      },
+      {
+        "name": "?",
+        "distance_m": 410
+      }
+    ],
+    "mart": [
+      {
+        "name": "E-Mart",
+        "distance_m": 141,
+        "type": "supermarket"
+      },
+      {
+        "name": "한일유통",
+        "distance_m": 232,
+        "type": "supermarket"
+      },
+      {
+        "name": "동묘식풍",
+        "distance_m": 252,
+        "type": "supermarket"
+      },
+      {
+        "name": "코사마트",
+        "distance_m": 287,
+        "type": "supermarket"
+      },
+      {
+        "name": "알뜰슈퍼",
+        "distance_m": 444,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "구천당한의원",
+        "distance_m": 225,
+        "type": "hospital"
+      },
+      {
+        "name": "마리아병원",
+        "distance_m": 526,
+        "type": "hospital"
+      },
+      {
+        "name": "중구보건소",
+        "distance_m": 886,
+        "type": "clinic"
+      },
+      {
+        "name": "시립동부병원",
+        "distance_m": 1041,
+        "type": "hospital"
+      },
+      {
+        "name": "성동구보건소",
+        "distance_m": 1151,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "청계천로",
+        "distance_m": 38,
+        "type": "primary"
+      },
+      {
+        "name": "청계천로",
+        "distance_m": 81,
+        "type": "primary"
+      },
+      {
+        "name": "난계로",
+        "distance_m": 196,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 574
+      },
+      {
+        "name": "?",
+        "distance_m": 574
+      }
+    ]
+  },
+  "동신": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 580,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 608,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 621,
+        "lines": ""
+      },
+      {
+        "name": "월곡",
+        "distance_m": 624,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 645,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "숭곡초등학교",
+          "distance_m": 486
+        },
+        {
+          "name": "숭인초등학교",
+          "distance_m": 566
+        },
+        {
+          "name": "서울일신초등학교",
+          "distance_m": 758
+        }
+      ],
+      "mid": [
+        {
+          "name": "숭곡중학교",
+          "distance_m": 530
+        },
+        {
+          "name": "?",
+          "distance_m": 721
+        },
+        {
+          "name": "창문여중여고",
+          "distance_m": 937
+        }
+      ],
+      "high": [
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 374
+        },
+        {
+          "name": "창문여자고등학교",
+          "distance_m": 990
+        },
+        {
+          "name": "영훈고등학교",
+          "distance_m": 1227
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 42
+      },
+      {
+        "name": "?",
+        "distance_m": 340
+      },
+      {
+        "name": "?",
+        "distance_m": 345
+      },
+      {
+        "name": "?",
+        "distance_m": 382
+      },
+      {
+        "name": "?",
+        "distance_m": 387
+      }
+    ],
+    "mart": [
+      {
+        "name": "코너슈퍼",
+        "distance_m": 300,
+        "type": "supermarket"
+      },
+      {
+        "name": "월곡축산마트",
+        "distance_m": 328,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 374,
+        "type": "supermarket"
+      },
+      {
+        "name": "진로마트",
+        "distance_m": 417,
+        "type": "supermarket"
+      },
+      {
+        "name": "골목슈퍼",
+        "distance_m": 417,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "성북구보건소",
+        "distance_m": 436,
+        "type": "clinic"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 585,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 631,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 1315,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "?",
+        "distance_m": 193,
+        "type": "secondary"
+      },
+      {
+        "name": "?",
+        "distance_m": 208,
+        "type": "secondary"
+      },
+      {
+        "name": "내부순환로",
+        "distance_m": 208,
+        "type": "trunk"
+      }
+    ],
+    "railway": []
+  },
+  "푸른마을동아": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 514,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 531,
+        "lines": ""
+      },
+      {
+        "name": "정릉",
+        "distance_m": 537,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 548,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 699,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울길원초등학교",
+          "distance_m": 259
+        },
+        {
+          "name": "서울숭덕초등학교",
+          "distance_m": 362
+        },
+        {
+          "name": "정수초등학교",
+          "distance_m": 684
+        }
+      ],
+      "mid": [
+        {
+          "name": "풋살장",
+          "distance_m": 437
+        },
+        {
+          "name": "정석학원",
+          "distance_m": 590
+        },
+        {
+          "name": "?",
+          "distance_m": 722
+        }
+      ],
+      "high": [
+        {
+          "name": "계성고등학교",
+          "distance_m": 525
+        },
+        {
+          "name": "대일외국어고등학교",
+          "distance_m": 696
+        },
+        {
+          "name": "삼각산고등학교",
+          "distance_m": 1050
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "한울어린이공원",
+        "distance_m": 191
+      },
+      {
+        "name": "행복한소공원",
+        "distance_m": 463
+      },
+      {
+        "name": "?",
+        "distance_m": 486
+      },
+      {
+        "name": "길음골소공원",
+        "distance_m": 523
+      },
+      {
+        "name": "래미안 공원",
+        "distance_m": 528
+      }
+    ],
+    "mart": [
+      {
+        "name": "서경할인마트",
+        "distance_m": 95,
+        "type": "supermarket"
+      },
+      {
+        "name": "한아름마트",
+        "distance_m": 102,
+        "type": "supermarket"
+      },
+      {
+        "name": "다이소",
+        "distance_m": 371,
+        "type": "supermarket"
+      },
+      {
+        "name": "뻥과자",
+        "distance_m": 413,
+        "type": "supermarket"
+      },
+      {
+        "name": "전자마트",
+        "distance_m": 440,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "정릉보건지소",
+        "distance_m": 337,
+        "type": "clinic"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1263,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1310,
+        "type": "hospital"
+      },
+      {
+        "name": "성북참노인전문병원",
+        "distance_m": 1372,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "내부순환로",
+        "distance_m": 204,
+        "type": "trunk"
+      },
+      {
+        "name": "보국문로",
+        "distance_m": 340,
+        "type": "secondary"
+      },
+      {
+        "name": "보국문로",
+        "distance_m": 404,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 817
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 942
+      }
+    ]
+  },
+  "길음뉴타운데시앙": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 454,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 477,
+        "lines": ""
+      },
+      {
+        "name": "정릉",
+        "distance_m": 477,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 487,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 824,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울길원초등학교",
+          "distance_m": 292
+        },
+        {
+          "name": "서울숭덕초등학교",
+          "distance_m": 309
+        },
+        {
+          "name": "미아초등학교",
+          "distance_m": 666
+        }
+      ],
+      "mid": [
+        {
+          "name": "풋살장",
+          "distance_m": 516
+        },
+        {
+          "name": "정석학원",
+          "distance_m": 527
+        },
+        {
+          "name": "?",
+          "distance_m": 798
+        }
+      ],
+      "high": [
+        {
+          "name": "계성고등학교",
+          "distance_m": 403
+        },
+        {
+          "name": "대일외국어고등학교",
+          "distance_m": 828
+        },
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 1095
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "한울어린이공원",
+        "distance_m": 200
+      },
+      {
+        "name": "래미안 공원",
+        "distance_m": 347
+      },
+      {
+        "name": "행복한소공원",
+        "distance_m": 367
+      },
+      {
+        "name": "늘푸른어린이공원",
+        "distance_m": 439
+      },
+      {
+        "name": "길음골소공원",
+        "distance_m": 450
+      }
+    ],
+    "mart": [
+      {
+        "name": "서경할인마트",
+        "distance_m": 205,
+        "type": "supermarket"
+      },
+      {
+        "name": "한아름마트",
+        "distance_m": 239,
+        "type": "supermarket"
+      },
+      {
+        "name": "다이소",
+        "distance_m": 436,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데쇼핑(주)롯데슈퍼 정릉점",
+        "distance_m": 438,
+        "type": "supermarket"
+      },
+      {
+        "name": "뻥과자",
+        "distance_m": 474,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "정릉보건지소",
+        "distance_m": 385,
+        "type": "clinic"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1121,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1167,
+        "type": "hospital"
+      },
+      {
+        "name": "성북참노인전문병원",
+        "distance_m": 1375,
+        "type": "hospital"
+      },
+      {
+        "name": "쥬비스 미아점",
+        "distance_m": 1398,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "내부순환로",
+        "distance_m": 196,
+        "type": "trunk"
+      },
+      {
+        "name": "정릉로",
+        "distance_m": 355,
+        "type": "primary"
+      },
+      {
+        "name": "정릉로",
+        "distance_m": 365,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 982
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 1053
+      }
+    ]
+  },
+  "길음뉴타운2단지푸르지오": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 709,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 738,
+        "lines": ""
+      },
+      {
+        "name": "북한산보국문",
+        "distance_m": 744,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 752,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 772,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울길원초등학교",
+          "distance_m": 282
+        },
+        {
+          "name": "미아초등학교",
+          "distance_m": 474
+        },
+        {
+          "name": "서울삼각산초등학교",
+          "distance_m": 500
+        }
+      ],
+      "mid": [
+        {
+          "name": "풋살장",
+          "distance_m": 56
+        },
+        {
+          "name": "?",
+          "distance_m": 230
+        },
+        {
+          "name": "?",
+          "distance_m": 241
+        }
+      ],
+      "high": [
+        {
+          "name": "대일외국어고등학교",
+          "distance_m": 325
+        },
+        {
+          "name": "계성고등학교",
+          "distance_m": 554
+        },
+        {
+          "name": "삼각산고등학교",
+          "distance_m": 562
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 19
+      },
+      {
+        "name": "?",
+        "distance_m": 358
+      },
+      {
+        "name": "길음골소공원",
+        "distance_m": 426
+      },
+      {
+        "name": "행복한소공원",
+        "distance_m": 466
+      },
+      {
+        "name": "늘푸른어린이공원",
+        "distance_m": 476
+      }
+    ],
+    "mart": [
+      {
+        "name": "서경할인마트",
+        "distance_m": 403,
+        "type": "supermarket"
+      },
+      {
+        "name": "우성하이퍼",
+        "distance_m": 503,
+        "type": "supermarket"
+      },
+      {
+        "name": "한아름마트",
+        "distance_m": 577,
+        "type": "supermarket"
+      },
+      {
+        "name": "신세계마트",
+        "distance_m": 691,
+        "type": "supermarket"
+      },
+      {
+        "name": "전자마트",
+        "distance_m": 760,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "정릉보건지소",
+        "distance_m": 822,
+        "type": "clinic"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1189,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1235,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 1291,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원",
+        "distance_m": 1419,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "삼양로",
+        "distance_m": 666,
+        "type": "secondary"
+      },
+      {
+        "name": "보국문로",
+        "distance_m": 673,
+        "type": "secondary"
+      },
+      {
+        "name": "내부순환로",
+        "distance_m": 693,
+        "type": "trunk"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 492
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 590
+      }
+    ]
+  },
+  "길음동부센트레빌": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 541,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 560,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 567,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 577,
+        "lines": ""
+      },
+      {
+        "name": "미아사거리",
+        "distance_m": 583,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "미아초등학교",
+          "distance_m": 220
+        },
+        {
+          "name": "영훈초등학교",
+          "distance_m": 414
+        },
+        {
+          "name": "서울송천초등학교",
+          "distance_m": 550
+        }
+      ],
+      "mid": [
+        {
+          "name": "영훈국제중학교",
+          "distance_m": 510
+        },
+        {
+          "name": "GB영어전문학원",
+          "distance_m": 578
+        },
+        {
+          "name": "?",
+          "distance_m": 684
+        }
+      ],
+      "high": [
+        {
+          "name": "영훈고등학교",
+          "distance_m": 470
+        },
+        {
+          "name": "계성고등학교",
+          "distance_m": 480
+        },
+        {
+          "name": "삼각산고등학교",
+          "distance_m": 679
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "길빛근린공원",
+        "distance_m": 213
+      },
+      {
+        "name": "해맑은어린이공원",
+        "distance_m": 379
+      },
+      {
+        "name": "솔향기어린이공원",
+        "distance_m": 388
+      },
+      {
+        "name": "길음골소공원",
+        "distance_m": 413
+      },
+      {
+        "name": "늘푸른어린이공원",
+        "distance_m": 421
+      }
+    ],
+    "mart": [
+      {
+        "name": "우성하이퍼",
+        "distance_m": 185,
+        "type": "supermarket"
+      },
+      {
+        "name": "신세계마트",
+        "distance_m": 247,
+        "type": "supermarket"
+      },
+      {
+        "name": "신앙촌상회",
+        "distance_m": 365,
+        "type": "supermarket"
+      },
+      {
+        "name": "gs더프레쉬",
+        "distance_m": 392,
+        "type": "supermarket"
+      },
+      {
+        "name": "현대",
+        "distance_m": 476,
+        "type": "department_store"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "동서병원",
+        "distance_m": 575,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 615,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 773,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원",
+        "distance_m": 1148,
+        "type": "hospital"
+      },
+      {
+        "name": "정릉보건지소",
+        "distance_m": 1240,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "삼양로",
+        "distance_m": 168,
+        "type": "secondary"
+      },
+      {
+        "name": "동소문로",
+        "distance_m": 530,
+        "type": "primary"
+      },
+      {
+        "name": "도봉로",
+        "distance_m": 540,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 966
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 1248
+      }
+    ]
+  },
+  "정릉e-편한세상1차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 378,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 381,
+        "lines": ""
+      },
+      {
+        "name": "북한산보국문",
+        "distance_m": 391,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 392,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 419,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울삼각산초등학교",
+          "distance_m": 400
+        },
+        {
+          "name": "정릉초등학교",
+          "distance_m": 623
+        },
+        {
+          "name": "서울미양초등학교",
+          "distance_m": 696
+        }
+      ],
+      "mid": [
+        {
+          "name": "삼각산중학교",
+          "distance_m": 470
+        },
+        {
+          "name": "?",
+          "distance_m": 643
+        },
+        {
+          "name": "?",
+          "distance_m": 663
+        }
+      ],
+      "high": [
+        {
+          "name": "대일외국어고등학교",
+          "distance_m": 387
+        },
+        {
+          "name": "삼각산고등학교",
+          "distance_m": 876
+        },
+        {
+          "name": "고려대사대부속고등학교",
+          "distance_m": 971
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "SK북한산시티 중앙광장",
+        "distance_m": 399
+      },
+      {
+        "name": "소광장",
+        "distance_m": 473
+      },
+      {
+        "name": "?",
+        "distance_m": 610
+      },
+      {
+        "name": "고갯마루어린이공원",
+        "distance_m": 630
+      },
+      {
+        "name": "?",
+        "distance_m": 716
+      }
+    ],
+    "mart": [
+      {
+        "name": "스카이마트",
+        "distance_m": 566,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리마트",
+        "distance_m": 625,
+        "type": "supermarket"
+      },
+      {
+        "name": "전자마트",
+        "distance_m": 837,
+        "type": "supermarket"
+      },
+      {
+        "name": "솔샘마트",
+        "distance_m": 863,
+        "type": "supermarket"
+      },
+      {
+        "name": "서경할인마트",
+        "distance_m": 901,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "정릉보건지소",
+        "distance_m": 1134,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "솔샘로",
+        "distance_m": 146,
+        "type": "secondary"
+      },
+      {
+        "name": "솔샘로",
+        "distance_m": 184,
+        "type": "secondary"
+      },
+      {
+        "name": "솔샘지하차도",
+        "distance_m": 227,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 124
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 476
+      }
+    ]
+  },
+  "돈암현대": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 183,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 219,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 222,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 235,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 236,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "숭곡초등학교",
+          "distance_m": 626
+        },
+        {
+          "name": "미아초등학교",
+          "distance_m": 868
+        },
+        {
+          "name": "영훈초등학교",
+          "distance_m": 987
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 279
+        },
+        {
+          "name": "숭곡중학교",
+          "distance_m": 565
+        },
+        {
+          "name": "?",
+          "distance_m": 984
+        }
+      ],
+      "high": [
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 535
+        },
+        {
+          "name": "계성고등학교",
+          "distance_m": 748
+        },
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 1001
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "길음역 공원",
+        "distance_m": 261
+      },
+      {
+        "name": "?",
+        "distance_m": 578
+      },
+      {
+        "name": "길빛근린공원",
+        "distance_m": 578
+      },
+      {
+        "name": "?",
+        "distance_m": 653
+      },
+      {
+        "name": "솔향기어린이공원",
+        "distance_m": 685
+      }
+    ],
+    "mart": [
+      {
+        "name": "충남수퍼",
+        "distance_m": 115,
+        "type": "supermarket"
+      },
+      {
+        "name": "성원편의점",
+        "distance_m": 153,
+        "type": "supermarket"
+      },
+      {
+        "name": "진로마트",
+        "distance_m": 299,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 314,
+        "type": "supermarket"
+      },
+      {
+        "name": "가야마트",
+        "distance_m": 355,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "동서병원",
+        "distance_m": 325,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 333,
+        "type": "hospital"
+      },
+      {
+        "name": "성북구보건소",
+        "distance_m": 1059,
+        "type": "clinic"
+      },
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 1301,
+        "type": "hospital"
+      },
+      {
+        "name": "정릉보건지소",
+        "distance_m": 1387,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "정릉로",
+        "distance_m": 75,
+        "type": "primary"
+      },
+      {
+        "name": "정릉로",
+        "distance_m": 77,
+        "type": "primary"
+      },
+      {
+        "name": "정릉로",
+        "distance_m": 124,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 1653
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 1693
+      }
+    ]
+  },
+  "래미안트리베라1차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 839,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 841,
+        "lines": ""
+      },
+      {
+        "name": "삼양사거리역 1번 출구",
+        "distance_m": 843,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 848,
+        "lines": ""
+      },
+      {
+        "name": "미아사거리",
+        "distance_m": 853,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "미아초등학교",
+          "distance_m": 326
+        },
+        {
+          "name": "서울송천초등학교",
+          "distance_m": 392
+        },
+        {
+          "name": "서울길원초등학교",
+          "distance_m": 563
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 272
+        },
+        {
+          "name": "?",
+          "distance_m": 291
+        },
+        {
+          "name": "GB영어전문학원",
+          "distance_m": 309
+        }
+      ],
+      "high": [
+        {
+          "name": "삼각산고등학교",
+          "distance_m": 300
+        },
+        {
+          "name": "대일외국어고등학교",
+          "distance_m": 559
+        },
+        {
+          "name": "계성고등학교",
+          "distance_m": 614
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 20
+      },
+      {
+        "name": "?",
+        "distance_m": 372
+      },
+      {
+        "name": "고갯마루어린이공원",
+        "distance_m": 459
+      },
+      {
+        "name": "길음골소공원",
+        "distance_m": 467
+      },
+      {
+        "name": "늘푸른어린이공원",
+        "distance_m": 516
+      }
+    ],
+    "mart": [
+      {
+        "name": "우성하이퍼",
+        "distance_m": 261,
+        "type": "supermarket"
+      },
+      {
+        "name": "신세계마트",
+        "distance_m": 575,
+        "type": "supermarket"
+      },
+      {
+        "name": "솔샘마트",
+        "distance_m": 600,
+        "type": "supermarket"
+      },
+      {
+        "name": "신앙촌상회",
+        "distance_m": 693,
+        "type": "supermarket"
+      },
+      {
+        "name": "아프로마트",
+        "distance_m": 699,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 917,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1006,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1047,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원",
+        "distance_m": 1064,
+        "type": "hospital"
+      },
+      {
+        "name": "정릉보건지소",
+        "distance_m": 1156,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "삼양로",
+        "distance_m": 423,
+        "type": "secondary"
+      },
+      {
+        "name": "삼양로",
+        "distance_m": 512,
+        "type": "secondary"
+      },
+      {
+        "name": "솔샘로",
+        "distance_m": 717,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 534
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 855
+      }
+    ]
+  },
+  "래미안크리시엘": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 467,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 473,
+        "lines": ""
+      },
+      {
+        "name": "길음",
+        "distance_m": 493,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 495,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 503,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울숭례초등학교",
+          "distance_m": 819
+        },
+        {
+          "name": "숭곡초등학교",
+          "distance_m": 862
+        },
+        {
+          "name": "서울일신초등학교",
+          "distance_m": 945
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 183
+        },
+        {
+          "name": "개운중학교",
+          "distance_m": 812
+        },
+        {
+          "name": "숭곡중학교",
+          "distance_m": 835
+        }
+      ],
+      "high": [
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 733
+        },
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 912
+        },
+        {
+          "name": "성신여자고등학교",
+          "distance_m": 1015
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 345
+      },
+      {
+        "name": "길음역 공원",
+        "distance_m": 490
+      },
+      {
+        "name": "?",
+        "distance_m": 636
+      },
+      {
+        "name": "?",
+        "distance_m": 646
+      },
+      {
+        "name": "?",
+        "distance_m": 665
+      }
+    ],
+    "mart": [
+      {
+        "name": "진로마트",
+        "distance_m": 269,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 484,
+        "type": "supermarket"
+      },
+      {
+        "name": "충남수퍼",
+        "distance_m": 496,
+        "type": "supermarket"
+      },
+      {
+        "name": "성원편의점",
+        "distance_m": 523,
+        "type": "supermarket"
+      },
+      {
+        "name": "다채식자재마트",
+        "distance_m": 650,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "우리아이들병원",
+        "distance_m": 667,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 681,
+        "type": "hospital"
+      },
+      {
+        "name": "성북구보건소",
+        "distance_m": 888,
+        "type": "clinic"
+      },
+      {
+        "name": "쥬비스 미아점",
+        "distance_m": 1281,
+        "type": "hospital"
+      },
+      {
+        "name": "메이저피부과 성신여대점",
+        "distance_m": 1490,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "종암로",
+        "distance_m": 308,
+        "type": "primary"
+      },
+      {
+        "name": "종암로",
+        "distance_m": 314,
+        "type": "primary"
+      },
+      {
+        "name": "종암로",
+        "distance_m": 319,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 1508
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 2090
+      }
+    ]
+  },
+  "래미안라센트": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 370,
+        "lines": ""
+      },
+      {
+        "name": "월곡",
+        "distance_m": 385,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 395,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 427,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 464,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울일신초등학교",
+          "distance_m": 124
+        },
+        {
+          "name": "서울숭례초등학교",
+          "distance_m": 579
+        },
+        {
+          "name": "숭인초등학교",
+          "distance_m": 1092
+        }
+      ],
+      "mid": [
+        {
+          "name": "서울사대부설중학교",
+          "distance_m": 458
+        },
+        {
+          "name": "종암중학교",
+          "distance_m": 897
+        },
+        {
+          "name": "종암중학교",
+          "distance_m": 907
+        }
+      ],
+      "high": [
+        {
+          "name": "서울사대부설고등학교",
+          "distance_m": 651
+        },
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 1045
+        },
+        {
+          "name": "청량고등학교",
+          "distance_m": 1612
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 18
+      },
+      {
+        "name": "?",
+        "distance_m": 117
+      },
+      {
+        "name": "?",
+        "distance_m": 176
+      },
+      {
+        "name": "?",
+        "distance_m": 186
+      },
+      {
+        "name": "?",
+        "distance_m": 212
+      }
+    ],
+    "mart": [
+      {
+        "name": "골목슈퍼",
+        "distance_m": 497,
+        "type": "supermarket"
+      },
+      {
+        "name": "제이엘마켓탑",
+        "distance_m": 577,
+        "type": "supermarket"
+      },
+      {
+        "name": "진로마트",
+        "distance_m": 831,
+        "type": "supermarket"
+      },
+      {
+        "name": "월곡축산마트",
+        "distance_m": 947,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 952,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "성북구보건소",
+        "distance_m": 394,
+        "type": "clinic"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1201,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1240,
+        "type": "hospital"
+      },
+      {
+        "name": "경희의료원",
+        "distance_m": 1267,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "내부순환로",
+        "distance_m": 67,
+        "type": "trunk"
+      },
+      {
+        "name": "내부순환로",
+        "distance_m": 102,
+        "type": "trunk"
+      },
+      {
+        "name": "월곡로",
+        "distance_m": 191,
+        "type": "primary"
+      }
+    ],
+    "railway": []
+  },
+  "길음뉴타운경남아너스빌": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 408,
+        "lines": ""
+      },
+      {
+        "name": "정릉",
+        "distance_m": 425,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 431,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 433,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 667,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울숭덕초등학교",
+          "distance_m": 319
+        },
+        {
+          "name": "서울길원초등학교",
+          "distance_m": 481
+        },
+        {
+          "name": "미아초등학교",
+          "distance_m": 732
+        }
+      ],
+      "mid": [
+        {
+          "name": "정석학원",
+          "distance_m": 461
+        },
+        {
+          "name": "풋살장",
+          "distance_m": 709
+        },
+        {
+          "name": "?",
+          "distance_m": 815
+        }
+      ],
+      "high": [
+        {
+          "name": "계성고등학교",
+          "distance_m": 409
+        },
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 877
+        },
+        {
+          "name": "대일외국어고등학교",
+          "distance_m": 1041
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "래미안 공원",
+        "distance_m": 131
+      },
+      {
+        "name": "한울어린이공원",
+        "distance_m": 332
+      },
+      {
+        "name": "행복한소공원",
+        "distance_m": 422
+      },
+      {
+        "name": "늘푸른어린이공원",
+        "distance_m": 485
+      },
+      {
+        "name": "솔향기어린이공원",
+        "distance_m": 502
+      }
+    ],
+    "mart": [
+      {
+        "name": "롯데쇼핑(주)롯데슈퍼 정릉점",
+        "distance_m": 215,
+        "type": "supermarket"
+      },
+      {
+        "name": "동우슈퍼",
+        "distance_m": 334,
+        "type": "supermarket"
+      },
+      {
+        "name": "성진슈퍼",
+        "distance_m": 381,
+        "type": "supermarket"
+      },
+      {
+        "name": "서경할인마트",
+        "distance_m": 429,
+        "type": "supermarket"
+      },
+      {
+        "name": "한아름마트",
+        "distance_m": 435,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "정릉보건지소",
+        "distance_m": 482,
+        "type": "clinic"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1026,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1069,
+        "type": "hospital"
+      },
+      {
+        "name": "쥬비스 미아점",
+        "distance_m": 1199,
+        "type": "hospital"
+      },
+      {
+        "name": "메이저피부과 성신여대점",
+        "distance_m": 1333,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "정릉로",
+        "distance_m": 195,
+        "type": "primary"
+      },
+      {
+        "name": "정릉로",
+        "distance_m": 264,
+        "type": "primary"
+      },
+      {
+        "name": "내부순환로",
+        "distance_m": 317,
+        "type": "trunk"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 1207
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 1253
+      }
+    ]
+  },
+  "꿈의숲푸르지오": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 759,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 769,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 789,
+        "lines": ""
+      },
+      {
+        "name": "미아사거리",
+        "distance_m": 805,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 811,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "숭인초등학교",
+          "distance_m": 183
+        },
+        {
+          "name": "숭곡초등학교",
+          "distance_m": 596
+        },
+        {
+          "name": "서울월곡초등학교",
+          "distance_m": 663
+        }
+      ],
+      "mid": [
+        {
+          "name": "장위중학교",
+          "distance_m": 256
+        },
+        {
+          "name": "창문여중여고",
+          "distance_m": 330
+        },
+        {
+          "name": "숭곡중학교",
+          "distance_m": 680
+        }
+      ],
+      "high": [
+        {
+          "name": "창문여자고등학교",
+          "distance_m": 370
+        },
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 664
+        },
+        {
+          "name": "영훈고등학교",
+          "distance_m": 1024
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 12
+      },
+      {
+        "name": "?",
+        "distance_m": 70
+      },
+      {
+        "name": "?",
+        "distance_m": 88
+      },
+      {
+        "name": "?",
+        "distance_m": 99
+      },
+      {
+        "name": "?",
+        "distance_m": 122
+      }
+    ],
+    "mart": [
+      {
+        "name": "하트마트",
+        "distance_m": 292,
+        "type": "supermarket"
+      },
+      {
+        "name": "아이사랑안경마트",
+        "distance_m": 297,
+        "type": "supermarket"
+      },
+      {
+        "name": "월곡축산마트",
+        "distance_m": 417,
+        "type": "supermarket"
+      },
+      {
+        "name": "금강슈퍼",
+        "distance_m": 419,
+        "type": "supermarket"
+      },
+      {
+        "name": "코너슈퍼",
+        "distance_m": 705,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "성북구보건소",
+        "distance_m": 889,
+        "type": "clinic"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 921,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 929,
+        "type": "hospital"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 958,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원",
+        "distance_m": 1450,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "월계로",
+        "distance_m": 281,
+        "type": "secondary"
+      },
+      {
+        "name": "월계로",
+        "distance_m": 291,
+        "type": "secondary"
+      },
+      {
+        "name": "오패산로",
+        "distance_m": 380,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  },
+  "정릉e-편한세상2차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 529,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 547,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 574,
+        "lines": ""
+      },
+      {
+        "name": "길음",
+        "distance_m": 585,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 591,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "매원초등학교",
+          "distance_m": 215
+        },
+        {
+          "name": "정덕초등학교",
+          "distance_m": 590
+        },
+        {
+          "name": "서울숭덕초등학교",
+          "distance_m": 700
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 242
+        },
+        {
+          "name": "고명중학교",
+          "distance_m": 260
+        },
+        {
+          "name": "정석학원",
+          "distance_m": 615
+        }
+      ],
+      "high": [
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 303
+        },
+        {
+          "name": "성신여자고등학교",
+          "distance_m": 724
+        },
+        {
+          "name": "계성고등학교",
+          "distance_m": 863
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "고양이 쉼터",
+        "distance_m": 410
+      },
+      {
+        "name": "주차장",
+        "distance_m": 469
+      },
+      {
+        "name": "래미안 공원",
+        "distance_m": 486
+      },
+      {
+        "name": "아리랑길 테마공원",
+        "distance_m": 498
+      },
+      {
+        "name": "길음역 공원",
+        "distance_m": 603
+      }
+    ],
+    "mart": [
+      {
+        "name": "GS supermarket",
+        "distance_m": 152,
+        "type": "supermarket"
+      },
+      {
+        "name": "성진슈퍼",
+        "distance_m": 195,
+        "type": "supermarket"
+      },
+      {
+        "name": "동우슈퍼",
+        "distance_m": 343,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데쇼핑(주)롯데슈퍼 정릉점",
+        "distance_m": 361,
+        "type": "supermarket"
+      },
+      {
+        "name": "다채식자재마트",
+        "distance_m": 479,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "쥬비스 미아점",
+        "distance_m": 668,
+        "type": "hospital"
+      },
+      {
+        "name": "메이저피부과 성신여대점",
+        "distance_m": 839,
+        "type": "hospital"
+      },
+      {
+        "name": "정릉보건지소",
+        "distance_m": 889,
+        "type": "clinic"
+      },
+      {
+        "name": "동서병원",
+        "distance_m": 1129,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 1156,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "동소문로",
+        "distance_m": 202,
+        "type": "primary"
+      },
+      {
+        "name": "동소문로",
+        "distance_m": 213,
+        "type": "primary"
+      },
+      {
+        "name": "동소문로",
+        "distance_m": 215,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 895
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 1776
+      }
+    ]
+  },
+  "정릉힐스테이트3차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 236,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 259,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 263,
+        "lines": ""
+      },
+      {
+        "name": "북한산보국문",
+        "distance_m": 266,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 314,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "정릉초등학교",
+          "distance_m": 594
+        },
+        {
+          "name": "서울삼각산초등학교",
+          "distance_m": 606
+        },
+        {
+          "name": "청덕초등학교",
+          "distance_m": 730
+        }
+      ],
+      "mid": [
+        {
+          "name": "삼각산중학교",
+          "distance_m": 675
+        },
+        {
+          "name": "고려대사대부속중학교",
+          "distance_m": 758
+        },
+        {
+          "name": "?",
+          "distance_m": 817
+        }
+      ],
+      "high": [
+        {
+          "name": "대일외국어고등학교",
+          "distance_m": 548
+        },
+        {
+          "name": "고려대사대부속고등학교",
+          "distance_m": 770
+        },
+        {
+          "name": "고려대사대부속중·고등학교",
+          "distance_m": 806
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "SK북한산시티 중앙광장",
+        "distance_m": 587
+      },
+      {
+        "name": "소광장",
+        "distance_m": 677
+      },
+      {
+        "name": "?",
+        "distance_m": 683
+      },
+      {
+        "name": "고갯마루어린이공원",
+        "distance_m": 836
+      },
+      {
+        "name": "?",
+        "distance_m": 843
+      }
+    ],
+    "mart": [
+      {
+        "name": "스카이마트",
+        "distance_m": 406,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리마트",
+        "distance_m": 475,
+        "type": "supermarket"
+      },
+      {
+        "name": "김천슈퍼",
+        "distance_m": 754,
+        "type": "supermarket"
+      },
+      {
+        "name": "전자마트",
+        "distance_m": 762,
+        "type": "supermarket"
+      },
+      {
+        "name": "보광슈퍼",
+        "distance_m": 824,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "정릉보건지소",
+        "distance_m": 1097,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "솔샘로",
+        "distance_m": 69,
+        "type": "secondary"
+      },
+      {
+        "name": "솔샘지하차도",
+        "distance_m": 109,
+        "type": "secondary"
+      },
+      {
+        "name": "솔샘로",
+        "distance_m": 157,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 251
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 681
+      }
+    ]
+  },
+  "범양": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 230,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 245,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 254,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 262,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 265,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "숭곡초등학교",
+          "distance_m": 690
+        },
+        {
+          "name": "미아초등학교",
+          "distance_m": 955
+        },
+        {
+          "name": "매원초등학교",
+          "distance_m": 976
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 184
+        },
+        {
+          "name": "숭곡중학교",
+          "distance_m": 636
+        },
+        {
+          "name": "?",
+          "distance_m": 930
+        }
+      ],
+      "high": [
+        {
+          "name": "서울도시과학기술고등학교",
+          "distance_m": 586
+        },
+        {
+          "name": "계성고등학교",
+          "distance_m": 815
+        },
+        {
+          "name": "고명경영고등학교",
+          "distance_m": 941
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "길음역 공원",
+        "distance_m": 255
+      },
+      {
+        "name": "?",
+        "distance_m": 524
+      },
+      {
+        "name": "?",
+        "distance_m": 655
+      },
+      {
+        "name": "길빛근린공원",
+        "distance_m": 674
+      },
+      {
+        "name": "솔향기어린이공원",
+        "distance_m": 759
+      }
+    ],
+    "mart": [
+      {
+        "name": "충남수퍼",
+        "distance_m": 206,
+        "type": "supermarket"
+      },
+      {
+        "name": "성원편의점",
+        "distance_m": 216,
+        "type": "supermarket"
+      },
+      {
+        "name": "진로마트",
+        "distance_m": 260,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 343,
+        "type": "supermarket"
+      },
+      {
+        "name": "가야마트",
+        "distance_m": 417,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "동서병원",
+        "distance_m": 413,
+        "type": "hospital"
+      },
+      {
+        "name": "우리아이들병원",
+        "distance_m": 415,
+        "type": "hospital"
+      },
+      {
+        "name": "성북구보건소",
+        "distance_m": 1031,
+        "type": "clinic"
+      },
+      {
+        "name": "쥬비스 미아점",
+        "distance_m": 1349,
+        "type": "hospital"
+      },
+      {
+        "name": "햇빛여성병원 신관",
+        "distance_m": 1392,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "정릉로",
+        "distance_m": 110,
+        "type": "primary"
+      },
+      {
+        "name": "정릉로",
+        "distance_m": 122,
+        "type": "primary"
+      },
+      {
+        "name": "정릉로",
+        "distance_m": 154,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 1588
+      },
+      {
+        "name": "우이신설선",
+        "distance_m": 1778
+      }
+    ]
+  },
+  "남가좌현대": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 802,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 811,
+        "lines": ""
+      },
+      {
+        "name": "가좌",
+        "distance_m": 824,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 863,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 877,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "가재울초등학교",
+          "distance_m": 219
+        },
+        {
+          "name": "서울연가초등학교",
+          "distance_m": 604
+        },
+        {
+          "name": "서울북가좌초등학교",
+          "distance_m": 1183
+        }
+      ],
+      "mid": [
+        {
+          "name": "연희중학교",
+          "distance_m": 507
+        },
+        {
+          "name": "?",
+          "distance_m": 617
+        },
+        {
+          "name": "가재울중학교",
+          "distance_m": 943
+        }
+      ],
+      "high": [
+        {
+          "name": "가재울고등학교",
+          "distance_m": 969
+        },
+        {
+          "name": "경성중고등학교, 홍익디자인고등학교",
+          "distance_m": 1288
+        },
+        {
+          "name": "한국한성화교중고등학교",
+          "distance_m": 1503
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "가좌여린이공원",
+        "distance_m": 130
+      },
+      {
+        "name": "삼각소공원",
+        "distance_m": 196
+      },
+      {
+        "name": "?",
+        "distance_m": 211
+      },
+      {
+        "name": "연서어린이공원",
+        "distance_m": 377
+      },
+      {
+        "name": "?",
+        "distance_m": 423
+      }
+    ],
+    "mart": [
+      {
+        "name": "가재울 홈마트",
+        "distance_m": 534,
+        "type": "supermarket"
+      },
+      {
+        "name": "벼룩시장",
+        "distance_m": 924,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 970,
+        "type": "supermarket"
+      },
+      {
+        "name": "에어컨마트",
+        "distance_m": 975,
+        "type": "supermarket"
+      },
+      {
+        "name": "활어시장",
+        "distance_m": 977,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "가좌보건지소",
+        "distance_m": 908,
+        "type": "clinic"
+      },
+      {
+        "name": "강북연세요양병원",
+        "distance_m": 1146,
+        "type": "hospital"
+      },
+      {
+        "name": "사랑요양병원",
+        "distance_m": 1319,
+        "type": "hospital"
+      },
+      {
+        "name": "제일성모365의원",
+        "distance_m": 1340,
+        "type": "clinic"
+      },
+      {
+        "name": "서대문구보건소",
+        "distance_m": 1459,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "모래내로15길",
+        "distance_m": 176,
+        "type": "secondary"
+      },
+      {
+        "name": "모래내로15길",
+        "distance_m": 191,
+        "type": "secondary"
+      },
+      {
+        "name": "증가로",
+        "distance_m": 325,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경의선",
+        "distance_m": 820
+      },
+      {
+        "name": "경의선",
+        "distance_m": 830
+      }
+    ]
+  },
+  "현대": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 505,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 525,
+        "lines": ""
+      },
+      {
+        "name": "홍제",
+        "distance_m": 593,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 640,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 655,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울인왕초등학교",
+          "distance_m": 646
+        },
+        {
+          "name": "서울홍제초등학교",
+          "distance_m": 685
+        },
+        {
+          "name": "서울고은초등학교",
+          "distance_m": 775
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 325
+        },
+        {
+          "name": "홍은중학교",
+          "distance_m": 345
+        },
+        {
+          "name": "?",
+          "distance_m": 650
+        }
+      ],
+      "high": []
+    },
+    "park": [
+      {
+        "name": "실락어린이공원",
+        "distance_m": 678
+      },
+      {
+        "name": "Yeonhul Forest Rest Area",
+        "distance_m": 1005
+      },
+      {
+        "name": "104동놀이터",
+        "distance_m": 1043
+      },
+      {
+        "name": "문화공원",
+        "distance_m": 1072
+      },
+      {
+        "name": "101동 놀이터",
+        "distance_m": 1078
+      }
+    ],
+    "mart": [
+      {
+        "name": "가구마트",
+        "distance_m": 351,
+        "type": "supermarket"
+      },
+      {
+        "name": "플라워마트",
+        "distance_m": 416,
+        "type": "supermarket"
+      },
+      {
+        "name": "새로나마트",
+        "distance_m": 610,
+        "type": "supermarket"
+      },
+      {
+        "name": "하모니마트",
+        "distance_m": 760,
+        "type": "supermarket"
+      },
+      {
+        "name": "굿모닝마트",
+        "distance_m": 1023,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "동신병원",
+        "distance_m": 980,
+        "type": "hospital"
+      },
+      {
+        "name": "서대문구보건소",
+        "distance_m": 1291,
+        "type": "clinic"
+      },
+      {
+        "name": "서울특별시 은평병원",
+        "distance_m": 1317,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "?",
+        "distance_m": 56,
+        "type": "secondary"
+      },
+      {
+        "name": "연희로",
+        "distance_m": 61,
+        "type": "secondary"
+      },
+      {
+        "name": "?",
+        "distance_m": 99,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  },
+  "벽산블루밍1차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 816,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 820,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 827,
+        "lines": ""
+      },
+      {
+        "name": "봉천",
+        "distance_m": 839,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 849,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울구암초등학교",
+          "distance_m": 169
+        },
+        {
+          "name": "서울신봉초등학교",
+          "distance_m": 588
+        },
+        {
+          "name": "서울상현초등학교",
+          "distance_m": 900
+        }
+      ],
+      "mid": [
+        {
+          "name": "구암중학교",
+          "distance_m": 445
+        },
+        {
+          "name": "국사봉중학교",
+          "distance_m": 466
+        },
+        {
+          "name": "?",
+          "distance_m": 577
+        }
+      ],
+      "high": [
+        {
+          "name": "서울관광고등학교",
+          "distance_m": 200
+        },
+        {
+          "name": "구암고등학교",
+          "distance_m": 555
+        },
+        {
+          "name": "당곡고등학교",
+          "distance_m": 959
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 156
+      },
+      {
+        "name": "국회단지 어린이 공원",
+        "distance_m": 185
+      },
+      {
+        "name": "은천어린이공원",
+        "distance_m": 232
+      },
+      {
+        "name": "국사봉배수지공원",
+        "distance_m": 348
+      },
+      {
+        "name": "?",
+        "distance_m": 397
+      }
+    ],
+    "mart": [
+      {
+        "name": "홍삼마트",
+        "distance_m": 470,
+        "type": "supermarket"
+      },
+      {
+        "name": "싱싱할인마트",
+        "distance_m": 737,
+        "type": "supermarket"
+      },
+      {
+        "name": "홈플러스익스프레스",
+        "distance_m": 847,
+        "type": "supermarket"
+      },
+      {
+        "name": "베스트DC아울렛",
+        "distance_m": 856,
+        "type": "supermarket"
+      },
+      {
+        "name": "서울축산농협",
+        "distance_m": 871,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "서울명가한의원",
+        "distance_m": 1111,
+        "type": "clinic"
+      },
+      {
+        "name": "강남고려병원",
+        "distance_m": 1123,
+        "type": "hospital"
+      },
+      {
+        "name": "관악구보건소",
+        "distance_m": 1385,
+        "type": "clinic"
+      },
+      {
+        "name": "사랑의병원",
+        "distance_m": 1493,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "양녕대군 부 묘소",
+        "distance_m": 815
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "양녕로",
+        "distance_m": 78,
+        "type": "secondary"
+      },
+      {
+        "name": "양녕로",
+        "distance_m": 97,
+        "type": "secondary"
+      },
+      {
+        "name": "양녕로",
+        "distance_m": 171,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "신림선",
+        "distance_m": 1253
+      },
+      {
+        "name": "신림선",
+        "distance_m": 1264
+      }
+    ]
+  },
+  "신림현대": {
+    "subway": [
+      {
+        "name": "서원",
+        "distance_m": 309,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 324,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 325,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 402,
+        "lines": ""
+      },
+      {
+        "name": "서울대벤처타운",
+        "distance_m": 417,
+        "lines": "rail"
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울신림초등학교",
+          "distance_m": 458
+        },
+        {
+          "name": "서울신성초등학교",
+          "distance_m": 623
+        },
+        {
+          "name": "서울원신초등학교",
+          "distance_m": 1053
+        }
+      ],
+      "mid": [
+        {
+          "name": "신관중학교",
+          "distance_m": 524
+        },
+        {
+          "name": "봉림중학교",
+          "distance_m": 772
+        },
+        {
+          "name": "남강중학교",
+          "distance_m": 818
+        }
+      ],
+      "high": [
+        {
+          "name": "남강고등학교",
+          "distance_m": 743
+        },
+        {
+          "name": "미림여자고등학교",
+          "distance_m": 958
+        },
+        {
+          "name": "미림마이스터고등학교",
+          "distance_m": 1011
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "서원어린이공원",
+        "distance_m": 174
+      },
+      {
+        "name": "신화어린이공원",
+        "distance_m": 345
+      },
+      {
+        "name": "?",
+        "distance_m": 431
+      },
+      {
+        "name": "?",
+        "distance_m": 439
+      },
+      {
+        "name": "보명어린이공원",
+        "distance_m": 571
+      }
+    ],
+    "mart": [
+      {
+        "name": "신림현대종합상가",
+        "distance_m": 179,
+        "type": "mall"
+      },
+      {
+        "name": "대가농산물마트",
+        "distance_m": 477,
+        "type": "supermarket"
+      },
+      {
+        "name": "대성미니슈퍼",
+        "distance_m": 525,
+        "type": "supermarket"
+      },
+      {
+        "name": "훼미리마트신림인석점",
+        "distance_m": 575,
+        "type": "supermarket"
+      },
+      {
+        "name": "대농마트",
+        "distance_m": 731,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "장수한의원",
+        "distance_m": 1042,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "?",
+        "distance_m": 239,
+        "type": "secondary"
+      },
+      {
+        "name": "신림로",
+        "distance_m": 239,
+        "type": "secondary"
+      },
+      {
+        "name": "신림로",
+        "distance_m": 248,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "신림선",
+        "distance_m": 1425
+      },
+      {
+        "name": "신림선",
+        "distance_m": 1429
+      }
+    ]
+  },
+  "신창": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 918,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 932,
+        "lines": ""
+      },
+      {
+        "name": "녹천",
+        "distance_m": 933,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 944,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 973,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울창림초등학교",
+          "distance_m": 254
+        },
+        {
+          "name": "서울신창초등학교",
+          "distance_m": 524
+        },
+        {
+          "name": "창일초등학교",
+          "distance_m": 884
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 899
+        },
+        {
+          "name": "창일중학교",
+          "distance_m": 961
+        },
+        {
+          "name": "창북중학교",
+          "distance_m": 1009
+        }
+      ],
+      "high": [
+        {
+          "name": "서울외국어고등학교",
+          "distance_m": 1007
+        },
+        {
+          "name": "창동고등학교",
+          "distance_m": 1128
+        },
+        {
+          "name": "월계고등학교",
+          "distance_m": 1193
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "초안산하늘꽃정원",
+        "distance_m": 198
+      },
+      {
+        "name": "물방울 어린이공원",
+        "distance_m": 371
+      },
+      {
+        "name": "창고개어린이공원",
+        "distance_m": 475
+      },
+      {
+        "name": "창2동마을공원",
+        "distance_m": 493
+      },
+      {
+        "name": "?",
+        "distance_m": 550
+      }
+    ],
+    "mart": [
+      {
+        "name": "상일 슈퍼",
+        "distance_m": 193,
+        "type": "supermarket"
+      },
+      {
+        "name": "수미트마트",
+        "distance_m": 601,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리할인마트",
+        "distance_m": 619,
+        "type": "supermarket"
+      },
+      {
+        "name": "롯데슈퍼 999 창동점",
+        "distance_m": 724,
+        "type": "supermarket"
+      },
+      {
+        "name": "GS25 (녹천역점)",
+        "distance_m": 968,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "강북구보건소",
+        "distance_m": 994,
+        "type": "clinic"
+      },
+      {
+        "name": "새한빛병원",
+        "distance_m": 1092,
+        "type": "hospital"
+      },
+      {
+        "name": "창동제일병원",
+        "distance_m": 1257,
+        "type": "hospital"
+      },
+      {
+        "name": "뿌리와새싹의원",
+        "distance_m": 1276,
+        "type": "hospital"
+      },
+      {
+        "name": "한일병원",
+        "distance_m": 1306,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1291
+      },
+      {
+        "name": "?",
+        "distance_m": 1398
+      },
+      {
+        "name": "?",
+        "distance_m": 1447
+      }
+    ],
+    "highway": [
+      {
+        "name": "덕릉로",
+        "distance_m": 92,
+        "type": "secondary"
+      },
+      {
+        "name": "?",
+        "distance_m": 658,
+        "type": "secondary"
+      },
+      {
+        "name": "덕릉로",
+        "distance_m": 803,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경원선",
+        "distance_m": 923
+      },
+      {
+        "name": "경원선",
+        "distance_m": 926
+      }
+    ]
+  },
+  "초안2단지": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 1415,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1426,
+        "lines": ""
+      },
+      {
+        "name": "월계",
+        "distance_m": 1434,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1434,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1469,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울신화초등학교",
+          "distance_m": 162
+        },
+        {
+          "name": "서울번동초등학교",
+          "distance_m": 342
+        },
+        {
+          "name": "서울신창초등학교",
+          "distance_m": 518
+        }
+      ],
+      "mid": [
+        {
+          "name": "번동중학교",
+          "distance_m": 528
+        },
+        {
+          "name": "신창중학교",
+          "distance_m": 598
+        },
+        {
+          "name": "?",
+          "distance_m": 637
+        }
+      ],
+      "high": [
+        {
+          "name": "월계고등학교",
+          "distance_m": 529
+        },
+        {
+          "name": "염광여자메디텍고등학교",
+          "distance_m": 567
+        },
+        {
+          "name": "서울염광고등학교",
+          "distance_m": 709
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "창3동 마을마당",
+        "distance_m": 202
+      },
+      {
+        "name": "별말어린이공원",
+        "distance_m": 335
+      },
+      {
+        "name": "?",
+        "distance_m": 363
+      },
+      {
+        "name": "초안산 수국동산",
+        "distance_m": 464
+      },
+      {
+        "name": "비석골근린공원",
+        "distance_m": 545
+      }
+    ],
+    "mart": [
+      {
+        "name": "수미트마트",
+        "distance_m": 443,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리할인마트",
+        "distance_m": 480,
+        "type": "supermarket"
+      },
+      {
+        "name": "청화슈퍼",
+        "distance_m": 681,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 805,
+        "type": "supermarket"
+      },
+      {
+        "name": "명륜상가",
+        "distance_m": 894,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "강북구보건소",
+        "distance_m": 352,
+        "type": "clinic"
+      },
+      {
+        "name": "새한빛병원",
+        "distance_m": 1327,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1444
+      },
+      {
+        "name": "?",
+        "distance_m": 1447
+      },
+      {
+        "name": "?",
+        "distance_m": 1481
+      },
+      {
+        "name": "?",
+        "distance_m": 1494
+      },
+      {
+        "name": "?",
+        "distance_m": 1495
+      }
+    ],
+    "highway": [
+      {
+        "name": "한천로",
+        "distance_m": 224,
+        "type": "secondary"
+      },
+      {
+        "name": "오현로",
+        "distance_m": 253,
+        "type": "secondary"
+      },
+      {
+        "name": "한천로",
+        "distance_m": 369,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경원선",
+        "distance_m": 1402
+      },
+      {
+        "name": "경원선",
+        "distance_m": 1406
+      }
+    ]
+  },
+  "미성": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 453,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 474,
+        "lines": ""
+      },
+      {
+        "name": "새절",
+        "distance_m": 491,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 502,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 515,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울서신초등학교",
+          "distance_m": 322
+        },
+        {
+          "name": "서울증산초등학교",
+          "distance_m": 879
+        },
+        {
+          "name": "상신초등학교",
+          "distance_m": 965
+        }
+      ],
+      "mid": [
+        {
+          "name": "상신중학교",
+          "distance_m": 212
+        },
+        {
+          "name": "상신중학교",
+          "distance_m": 213
+        },
+        {
+          "name": "연서중학교",
+          "distance_m": 307
+        }
+      ],
+      "high": [
+        {
+          "name": "숭실중고등학교",
+          "distance_m": 597
+        },
+        {
+          "name": "숭실고등학교",
+          "distance_m": 609
+        },
+        {
+          "name": "신진자동차고등학교",
+          "distance_m": 1281
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "신사근린공원",
+        "distance_m": 358
+      },
+      {
+        "name": "?",
+        "distance_m": 359
+      },
+      {
+        "name": "분토골 어린이공원",
+        "distance_m": 406
+      },
+      {
+        "name": "?",
+        "distance_m": 475
+      },
+      {
+        "name": "?",
+        "distance_m": 486
+      }
+    ],
+    "mart": [
+      {
+        "name": "포시즌마트",
+        "distance_m": 204,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 369,
+        "type": "supermarket"
+      },
+      {
+        "name": "25시마트",
+        "distance_m": 380,
+        "type": "supermarket"
+      },
+      {
+        "name": "대성마트",
+        "distance_m": 401,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리농산물할인마트",
+        "distance_m": 450,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "응암보건지소",
+        "distance_m": 955,
+        "type": "clinic"
+      },
+      {
+        "name": "서울효요양병원",
+        "distance_m": 1087,
+        "type": "hospital"
+      },
+      {
+        "name": "서울특별시 은평병원",
+        "distance_m": 1387,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "?",
+        "distance_m": 275
+      },
+      {
+        "name": "?",
+        "distance_m": 275
+      },
+      {
+        "name": "?",
+        "distance_m": 552
+      },
+      {
+        "name": "?",
+        "distance_m": 556
+      },
+      {
+        "name": "?",
+        "distance_m": 570
+      }
+    ],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 555
+      },
+      {
+        "name": "?",
+        "distance_m": 717
+      },
+      {
+        "name": "?",
+        "distance_m": 766
+      },
+      {
+        "name": "?",
+        "distance_m": 830
+      },
+      {
+        "name": "?",
+        "distance_m": 909
+      }
+    ],
+    "highway": [
+      {
+        "name": "증산로15길",
+        "distance_m": 31,
+        "type": "secondary"
+      },
+      {
+        "name": "은평터널로",
+        "distance_m": 346,
+        "type": "secondary"
+      },
+      {
+        "name": "증산로",
+        "distance_m": 385,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경의선",
+        "distance_m": 1630
+      },
+      {
+        "name": "경의선",
+        "distance_m": 1634
+      }
+    ]
+  },
+  "관악우성": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 715,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 724,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 740,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 757,
+        "lines": ""
+      },
+      {
+        "name": "서울대입구",
+        "distance_m": 765,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울봉천초등학교",
+          "distance_m": 323
+        },
+        {
+          "name": "서울행림초등학교",
+          "distance_m": 512
+        },
+        {
+          "name": "서울원당초등학교",
+          "distance_m": 571
+        }
+      ],
+      "mid": [
+        {
+          "name": "봉원중학교",
+          "distance_m": 199
+        },
+        {
+          "name": "상도중학교",
+          "distance_m": 570
+        },
+        {
+          "name": "관악중학교",
+          "distance_m": 585
+        }
+      ],
+      "high": [
+        {
+          "name": "동작고등학교",
+          "distance_m": 628
+        },
+        {
+          "name": "구암고등학교",
+          "distance_m": 1118
+        },
+        {
+          "name": "서울미술고등학교",
+          "distance_m": 1145
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 406
+      },
+      {
+        "name": "까치 어린이공원",
+        "distance_m": 622
+      },
+      {
+        "name": "?",
+        "distance_m": 724
+      },
+      {
+        "name": "중앙공원",
+        "distance_m": 742
+      },
+      {
+        "name": "장미어린이공원",
+        "distance_m": 745
+      }
+    ],
+    "mart": [
+      {
+        "name": "대호할인마트",
+        "distance_m": 400,
+        "type": "supermarket"
+      },
+      {
+        "name": "충남상회",
+        "distance_m": 557,
+        "type": "supermarket"
+      },
+      {
+        "name": "스마트PC방 서울대역점",
+        "distance_m": 859,
+        "type": "supermarket"
+      },
+      {
+        "name": "홍삼마트",
+        "distance_m": 958,
+        "type": "supermarket"
+      },
+      {
+        "name": "GS더프레시",
+        "distance_m": 959,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "강남고려병원",
+        "distance_m": 246,
+        "type": "hospital"
+      },
+      {
+        "name": "서울명가한의원",
+        "distance_m": 394,
+        "type": "clinic"
+      },
+      {
+        "name": "사랑의병원",
+        "distance_m": 706,
+        "type": "hospital"
+      },
+      {
+        "name": "마리아쥬니어치과의원",
+        "distance_m": 951,
+        "type": "hospital"
+      },
+      {
+        "name": "모세마취통증의학과의원",
+        "distance_m": 965,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "효간공 이정영 묘역",
+        "distance_m": 854
+      },
+      {
+        "name": "장군제1묘역",
+        "distance_m": 1442
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "관악로",
+        "distance_m": 356,
+        "type": "primary"
+      },
+      {
+        "name": "관악로",
+        "distance_m": 406,
+        "type": "primary"
+      },
+      {
+        "name": "관악로",
+        "distance_m": 618,
+        "type": "primary"
+      }
+    ],
+    "railway": []
+  },
+  "백련산힐스테이트2차": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 855,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 866,
+        "lines": ""
+      },
+      {
+        "name": "새절",
+        "distance_m": 868,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 882,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 891,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울연은초등학교",
+          "distance_m": 156
+        },
+        {
+          "name": "응암초등학교",
+          "distance_m": 358
+        },
+        {
+          "name": "서울은명초등학교",
+          "distance_m": 866
+        }
+      ],
+      "mid": [
+        {
+          "name": "은평문화예술정보학교",
+          "distance_m": 437
+        },
+        {
+          "name": "영락중학교",
+          "distance_m": 632
+        },
+        {
+          "name": "영락중학교",
+          "distance_m": 634
+        }
+      ],
+      "high": [
+        {
+          "name": "신진자동차고등학교",
+          "distance_m": 946
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 86
+      },
+      {
+        "name": "?",
+        "distance_m": 87
+      },
+      {
+        "name": "?",
+        "distance_m": 299
+      },
+      {
+        "name": "오손길 마을마당",
+        "distance_m": 479
+      },
+      {
+        "name": "응암2동 마을마당",
+        "distance_m": 500
+      }
+    ],
+    "mart": [
+      {
+        "name": "그린마트",
+        "distance_m": 351,
+        "type": "supermarket"
+      },
+      {
+        "name": "신비로마트",
+        "distance_m": 355,
+        "type": "supermarket"
+      },
+      {
+        "name": "은평두레생협 백련산점",
+        "distance_m": 382,
+        "type": "supermarket"
+      },
+      {
+        "name": "지엘할인마트",
+        "distance_m": 819,
+        "type": "supermarket"
+      },
+      {
+        "name": "우리농산물할인마트",
+        "distance_m": 897,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "서울특별시 은평병원",
+        "distance_m": 310,
+        "type": "hospital"
+      },
+      {
+        "name": "응암보건지소",
+        "distance_m": 502,
+        "type": "clinic"
+      },
+      {
+        "name": "서울효요양병원",
+        "distance_m": 626,
+        "type": "hospital"
+      },
+      {
+        "name": "은평구보건소",
+        "distance_m": 1339,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "?",
+        "distance_m": 1075
+      },
+      {
+        "name": "?",
+        "distance_m": 1112
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "백련산로",
+        "distance_m": 293,
+        "type": "secondary"
+      },
+      {
+        "name": "가좌로",
+        "distance_m": 487,
+        "type": "secondary"
+      },
+      {
+        "name": "응암로",
+        "distance_m": 533,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  },
+  "한신": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 263,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 276,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 280,
+        "lines": ""
+      },
+      {
+        "name": "상봉",
+        "distance_m": 288,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 306,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울상봉초등학교",
+          "distance_m": 142
+        },
+        {
+          "name": "서울중흥초등학교",
+          "distance_m": 500
+        },
+        {
+          "name": "서울묵동초등학교",
+          "distance_m": 742
+        }
+      ],
+      "mid": [
+        {
+          "name": "한국디지털융합직업전문학교",
+          "distance_m": 371
+        },
+        {
+          "name": "장안중학교",
+          "distance_m": 389
+        },
+        {
+          "name": "상봉중학교",
+          "distance_m": 827
+        }
+      ],
+      "high": [
+        {
+          "name": "중화고등학교",
+          "distance_m": 832
+        },
+        {
+          "name": "신현고등학교",
+          "distance_m": 1248
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "봉황공원",
+        "distance_m": 325
+      },
+      {
+        "name": "봉현마을마당",
+        "distance_m": 355
+      },
+      {
+        "name": "상봉 어린이공원",
+        "distance_m": 458
+      },
+      {
+        "name": "본동공원",
+        "distance_m": 529
+      },
+      {
+        "name": "엔터식스 공원",
+        "distance_m": 572
+      }
+    ],
+    "mart": [
+      {
+        "name": "가락농산물마트",
+        "distance_m": 265,
+        "type": "supermarket"
+      },
+      {
+        "name": "동창상회",
+        "distance_m": 282,
+        "type": "supermarket"
+      },
+      {
+        "name": "그린슈퍼",
+        "distance_m": 288,
+        "type": "supermarket"
+      },
+      {
+        "name": "다사랑교회3F          미리네편의점1F",
+        "distance_m": 397,
+        "type": "supermarket"
+      },
+      {
+        "name": "대원계란",
+        "distance_m": 414,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "88병원",
+        "distance_m": 727,
+        "type": "hospital"
+      },
+      {
+        "name": "서울선병원",
+        "distance_m": 1010,
+        "type": "hospital"
+      },
+      {
+        "name": "중랑구보건소",
+        "distance_m": 1350,
+        "type": "clinic"
+      },
+      {
+        "name": "연세좋은치과",
+        "distance_m": 1352,
+        "type": "hospital"
+      },
+      {
+        "name": "Jang's Women's Hospital",
+        "distance_m": 1393,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "망우로",
+        "distance_m": 190,
+        "type": "primary"
+      },
+      {
+        "name": "망우로",
+        "distance_m": 212,
+        "type": "primary"
+      },
+      {
+        "name": "망우로",
+        "distance_m": 213,
+        "type": "primary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "망우선",
+        "distance_m": 104
+      },
+      {
+        "name": "?",
+        "distance_m": 105
+      }
+    ]
+  },
+  "e편한세상수색에코포레": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 739,
+        "lines": ""
+      },
+      {
+        "name": "수색",
+        "distance_m": 781,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 863,
+        "lines": ""
+      },
+      {
+        "name": "증산",
+        "distance_m": 888,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 889,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울수색초등학교",
+          "distance_m": 466
+        },
+        {
+          "name": "서울증산초등학교",
+          "distance_m": 595
+        },
+        {
+          "name": "서울서신초등학교",
+          "distance_m": 883
+        }
+      ],
+      "mid": [
+        {
+          "name": "증산중학교",
+          "distance_m": 492
+        },
+        {
+          "name": "상신중학교",
+          "distance_m": 655
+        },
+        {
+          "name": "상신중학교",
+          "distance_m": 659
+        }
+      ],
+      "high": [
+        {
+          "name": "숭실중고등학교",
+          "distance_m": 769
+        },
+        {
+          "name": "숭실고등학교",
+          "distance_m": 806
+        },
+        {
+          "name": "향동고등학교",
+          "distance_m": 1246
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 153
+      },
+      {
+        "name": "증산체육공원",
+        "distance_m": 332
+      },
+      {
+        "name": "?",
+        "distance_m": 372
+      },
+      {
+        "name": "?",
+        "distance_m": 460
+      },
+      {
+        "name": "?",
+        "distance_m": 689
+      }
+    ],
+    "mart": [
+      {
+        "name": "수일상가",
+        "distance_m": 618,
+        "type": "supermarket"
+      },
+      {
+        "name": "수색마트",
+        "distance_m": 637,
+        "type": "supermarket"
+      },
+      {
+        "name": "대성마트",
+        "distance_m": 719,
+        "type": "supermarket"
+      },
+      {
+        "name": "25시마트",
+        "distance_m": 733,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 793,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "사랑요양병원",
+        "distance_m": 1463,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "?",
+        "distance_m": 194
+      },
+      {
+        "name": "?",
+        "distance_m": 225
+      },
+      {
+        "name": "?",
+        "distance_m": 275
+      },
+      {
+        "name": "?",
+        "distance_m": 289
+      },
+      {
+        "name": "?",
+        "distance_m": 306
+      }
+    ],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 173
+      },
+      {
+        "name": "?",
+        "distance_m": 263
+      },
+      {
+        "name": "?",
+        "distance_m": 291
+      },
+      {
+        "name": "?",
+        "distance_m": 365
+      },
+      {
+        "name": "?",
+        "distance_m": 386
+      }
+    ],
+    "highway": [
+      {
+        "name": "은평터널로",
+        "distance_m": 255,
+        "type": "secondary"
+      },
+      {
+        "name": "은평터널",
+        "distance_m": 314,
+        "type": "secondary"
+      },
+      {
+        "name": "은평터널로",
+        "distance_m": 645,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 761
+      },
+      {
+        "name": "?",
+        "distance_m": 784
+      }
+    ]
+  },
+  "유원하나": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 968,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 974,
+        "lines": ""
+      },
+      {
+        "name": "홍제",
+        "distance_m": 984,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1000,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 1003,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울홍은초등학교",
+          "distance_m": 314
+        },
+        {
+          "name": "서울홍제초등학교",
+          "distance_m": 681
+        },
+        {
+          "name": "상명대학교 사범대학 부속초등학교",
+          "distance_m": 737
+        }
+      ],
+      "mid": [
+        {
+          "name": "인왕중학교",
+          "distance_m": 262
+        },
+        {
+          "name": "인왕중학교",
+          "distance_m": 264
+        },
+        {
+          "name": "?",
+          "distance_m": 317
+        }
+      ],
+      "high": [
+        {
+          "name": "상명대학교 사범대학 부속여자고등학교",
+          "distance_m": 932
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "조리소공원",
+        "distance_m": 121
+      },
+      {
+        "name": "홍제근린공원",
+        "distance_m": 131
+      },
+      {
+        "name": "인화소공원",
+        "distance_m": 257
+      },
+      {
+        "name": "문화공원",
+        "distance_m": 299
+      },
+      {
+        "name": "101동 놀이터",
+        "distance_m": 308
+      }
+    ],
+    "mart": [
+      {
+        "name": "하모니마트",
+        "distance_m": 658,
+        "type": "supermarket"
+      },
+      {
+        "name": "올가",
+        "distance_m": 988,
+        "type": "supermarket"
+      },
+      {
+        "name": "제일할인마트",
+        "distance_m": 1017,
+        "type": "supermarket"
+      },
+      {
+        "name": "가구마트",
+        "distance_m": 1034,
+        "type": "supermarket"
+      },
+      {
+        "name": "플라워마트",
+        "distance_m": 1073,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1448
+      },
+      {
+        "name": "?",
+        "distance_m": 1476
+      }
+    ],
+    "highway": [
+      {
+        "name": "내부순환로",
+        "distance_m": 105,
+        "type": "trunk"
+      },
+      {
+        "name": "내부순환로",
+        "distance_m": 113,
+        "type": "trunk"
+      },
+      {
+        "name": "내부순환로",
+        "distance_m": 187,
+        "type": "trunk"
+      }
+    ],
+    "railway": [
+      {
+        "name": "수도권광역급행철도에이선",
+        "distance_m": 9841
+      },
+      {
+        "name": "수도권광역급행철도에이선",
+        "distance_m": 9851
+      }
+    ]
+  },
+  "수유래미안": {
+    "subway": [
+      {
+        "name": "가오리",
+        "distance_m": 348,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 369,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 446,
+        "lines": ""
+      },
+      {
+        "name": "4.19민주묘지",
+        "distance_m": 611,
+        "lines": "rail"
+      },
+      {
+        "name": "?",
+        "distance_m": 641,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울쌍문초등학교",
+          "distance_m": 704
+        },
+        {
+          "name": "서울인수초등학교",
+          "distance_m": 725
+        },
+        {
+          "name": "서울우이초등학교",
+          "distance_m": 751
+        }
+      ],
+      "mid": [
+        {
+          "name": "인수중학교",
+          "distance_m": 699
+        },
+        {
+          "name": "강북중학교",
+          "distance_m": 721
+        },
+        {
+          "name": "?",
+          "distance_m": 1297
+        }
+      ],
+      "high": [
+        {
+          "name": "효문중고등학교",
+          "distance_m": 845
+        },
+        {
+          "name": "정의여자중고등학교",
+          "distance_m": 1501
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "꽃동네놀이터",
+        "distance_m": 775
+      },
+      {
+        "name": "?",
+        "distance_m": 925
+      },
+      {
+        "name": "?",
+        "distance_m": 968
+      },
+      {
+        "name": "?",
+        "distance_m": 1049
+      },
+      {
+        "name": "?",
+        "distance_m": 1144
+      }
+    ],
+    "mart": [
+      {
+        "name": "동우마트",
+        "distance_m": 181,
+        "type": "supermarket"
+      },
+      {
+        "name": "국민마트",
+        "distance_m": 211,
+        "type": "supermarket"
+      },
+      {
+        "name": "제일마트",
+        "distance_m": 371,
+        "type": "supermarket"
+      },
+      {
+        "name": "삼우마트",
+        "distance_m": 493,
+        "type": "supermarket"
+      },
+      {
+        "name": "행복슈퍼",
+        "distance_m": 584,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "한일병원",
+        "distance_m": 899,
+        "type": "hospital"
+      },
+      {
+        "name": "국립재활원",
+        "distance_m": 937,
+        "type": "hospital"
+      },
+      {
+        "name": "대한병원",
+        "distance_m": 1135,
+        "type": "hospital"
+      },
+      {
+        "name": "새한빛병원",
+        "distance_m": 1317,
+        "type": "hospital"
+      },
+      {
+        "name": "티엘씨병원",
+        "distance_m": 1352,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "?",
+        "distance_m": 1432
+      }
+    ],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 1189
+      },
+      {
+        "name": "?",
+        "distance_m": 1203
+      },
+      {
+        "name": "?",
+        "distance_m": 1256
+      },
+      {
+        "name": "?",
+        "distance_m": 1258
+      },
+      {
+        "name": "?",
+        "distance_m": 1301
+      }
+    ],
+    "highway": [
+      {
+        "name": "삼양로",
+        "distance_m": 222,
+        "type": "secondary"
+      },
+      {
+        "name": "노해로",
+        "distance_m": 453,
+        "type": "secondary"
+      },
+      {
+        "name": "한천로",
+        "distance_m": 465,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "우이신설선",
+        "distance_m": 799
+      },
+      {
+        "name": "?",
+        "distance_m": 1186
+      }
+    ]
+  },
+  "신림동부": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 349,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 360,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 362,
+        "lines": ""
+      },
+      {
+        "name": "신림",
+        "distance_m": 391,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 393,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울신림초등학교",
+          "distance_m": 403
+        },
+        {
+          "name": "서울남부초등학교",
+          "distance_m": 750
+        },
+        {
+          "name": "서울당곡초등학교",
+          "distance_m": 1030
+        }
+      ],
+      "mid": [
+        {
+          "name": "신관중학교",
+          "distance_m": 467
+        },
+        {
+          "name": "성보중학교",
+          "distance_m": 622
+        },
+        {
+          "name": "남서울중학교",
+          "distance_m": 664
+        }
+      ],
+      "high": [
+        {
+          "name": "남강고등학교",
+          "distance_m": 993
+        },
+        {
+          "name": "신림고등학교",
+          "distance_m": 1032
+        },
+        {
+          "name": "당곡고등학교",
+          "distance_m": 1345
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "서원어린이공원",
+        "distance_m": 597
+      },
+      {
+        "name": "도림천 체육공원-신림지구",
+        "distance_m": 612
+      },
+      {
+        "name": "보명어린이공원",
+        "distance_m": 650
+      },
+      {
+        "name": "난우공원",
+        "distance_m": 687
+      },
+      {
+        "name": "?",
+        "distance_m": 696
+      }
+    ],
+    "mart": [
+      {
+        "name": "대농마트",
+        "distance_m": 98,
+        "type": "supermarket"
+      },
+      {
+        "name": "정림할인마트",
+        "distance_m": 103,
+        "type": "supermarket"
+      },
+      {
+        "name": "훼미리마트신림인석점",
+        "distance_m": 171,
+        "type": "supermarket"
+      },
+      {
+        "name": "대가농산물마트",
+        "distance_m": 187,
+        "type": "supermarket"
+      },
+      {
+        "name": "GS25",
+        "distance_m": 314,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "장수한의원",
+        "distance_m": 411,
+        "type": "hospital"
+      },
+      {
+        "name": "서울특별시 보라매병원",
+        "distance_m": 1509,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "?",
+        "distance_m": 73,
+        "type": "secondary"
+      },
+      {
+        "name": "?",
+        "distance_m": 86,
+        "type": "secondary"
+      },
+      {
+        "name": "관천로",
+        "distance_m": 101,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 1299
+      },
+      {
+        "name": "?",
+        "distance_m": 1305
+      }
+    ]
+  },
+  "관악드림타운": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 620,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 647,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 648,
+        "lines": ""
+      },
+      {
+        "name": "숭실대입구",
+        "distance_m": 659,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 685,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울구암초등학교",
+          "distance_m": 341
+        },
+        {
+          "name": "서울봉현초등학교",
+          "distance_m": 404
+        },
+        {
+          "name": "서울상현초등학교",
+          "distance_m": 527
+        }
+      ],
+      "mid": [
+        {
+          "name": "?",
+          "distance_m": 196
+        },
+        {
+          "name": "구암중학교",
+          "distance_m": 324
+        },
+        {
+          "name": "국사봉중학교",
+          "distance_m": 630
+        }
+      ],
+      "high": [
+        {
+          "name": "구암고등학교",
+          "distance_m": 200
+        },
+        {
+          "name": "서울관광고등학교",
+          "distance_m": 683
+        },
+        {
+          "name": "당곡고등학교",
+          "distance_m": 1415
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "?",
+        "distance_m": 348
+      },
+      {
+        "name": "중앙공원",
+        "distance_m": 376
+      },
+      {
+        "name": "?",
+        "distance_m": 389
+      },
+      {
+        "name": "?",
+        "distance_m": 396
+      },
+      {
+        "name": "?",
+        "distance_m": 477
+      }
+    ],
+    "mart": [
+      {
+        "name": "홍삼마트",
+        "distance_m": 467,
+        "type": "supermarket"
+      },
+      {
+        "name": "싱싱할인마트",
+        "distance_m": 827,
+        "type": "supermarket"
+      },
+      {
+        "name": "대호할인마트",
+        "distance_m": 847,
+        "type": "supermarket"
+      },
+      {
+        "name": "충남상회",
+        "distance_m": 935,
+        "type": "supermarket"
+      },
+      {
+        "name": "홈플러스익스프레스",
+        "distance_m": 943,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "강남고려병원",
+        "distance_m": 771,
+        "type": "hospital"
+      },
+      {
+        "name": "서울명가한의원",
+        "distance_m": 846,
+        "type": "clinic"
+      },
+      {
+        "name": "사랑의병원",
+        "distance_m": 1318,
+        "type": "hospital"
+      },
+      {
+        "name": "관악구보건소",
+        "distance_m": 1373,
+        "type": "clinic"
+      }
+    ],
+    "cemetery": [
+      {
+        "name": "양녕대군 부 묘소",
+        "distance_m": 996
+      }
+    ],
+    "power": [],
+    "highway": [
+      {
+        "name": "양녕로",
+        "distance_m": 425,
+        "type": "secondary"
+      },
+      {
+        "name": "양녕로",
+        "distance_m": 464,
+        "type": "secondary"
+      },
+      {
+        "name": "관악로",
+        "distance_m": 519,
+        "type": "primary"
+      }
+    ],
+    "railway": []
+  },
+  "개봉한진타운": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 618,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 629,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 641,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 653,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 662,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "서울개명초등학교",
+          "distance_m": 240
+        },
+        {
+          "name": "서울개웅초등학교",
+          "distance_m": 402
+        },
+        {
+          "name": "광명초등학교",
+          "distance_m": 736
+        }
+      ],
+      "mid": [
+        {
+          "name": "개웅중학교",
+          "distance_m": 264
+        },
+        {
+          "name": "천왕중학교",
+          "distance_m": 1270
+        },
+        {
+          "name": "광명북중학교",
+          "distance_m": 1313
+        }
+      ],
+      "high": [
+        {
+          "name": "경기항공고등학교",
+          "distance_m": 1372
+        },
+        {
+          "name": "광명북고등학교",
+          "distance_m": 1401
+        },
+        {
+          "name": "덕일전자공업고등학교",
+          "distance_m": 1414
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "유아숲체험장",
+        "distance_m": 331
+      },
+      {
+        "name": "황토길산책로",
+        "distance_m": 345
+      },
+      {
+        "name": "다솜공원",
+        "distance_m": 355
+      },
+      {
+        "name": "?",
+        "distance_m": 371
+      },
+      {
+        "name": "소막골어린이공원",
+        "distance_m": 398
+      }
+    ],
+    "mart": [
+      {
+        "name": "경기마트 개봉점",
+        "distance_m": 489,
+        "type": "supermarket"
+      },
+      {
+        "name": "이에스피마트",
+        "distance_m": 627,
+        "type": "supermarket"
+      },
+      {
+        "name": "?",
+        "distance_m": 765,
+        "type": "supermarket"
+      },
+      {
+        "name": "E-Mart",
+        "distance_m": 767,
+        "type": "supermarket"
+      },
+      {
+        "name": "탑할인마트",
+        "distance_m": 789,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "화담한의원",
+        "distance_m": 609,
+        "type": "hospital"
+      },
+      {
+        "name": "강서효병원",
+        "distance_m": 928,
+        "type": "hospital"
+      },
+      {
+        "name": "병원건물",
+        "distance_m": 1152,
+        "type": "hospital"
+      },
+      {
+        "name": "오류보건지소",
+        "distance_m": 1170,
+        "type": "clinic"
+      },
+      {
+        "name": "남성지소아과의원",
+        "distance_m": 1189,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "개봉로",
+        "distance_m": 434,
+        "type": "secondary"
+      },
+      {
+        "name": "개봉로",
+        "distance_m": 437,
+        "type": "secondary"
+      },
+      {
+        "name": "광명로",
+        "distance_m": 442,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "?",
+        "distance_m": 1119
+      },
+      {
+        "name": "?",
+        "distance_m": 1166
+      }
+    ]
+  },
+  "중계무지개": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 131,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 152,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 252,
+        "lines": ""
+      },
+      {
+        "name": "중계",
+        "distance_m": 284,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 296,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "청계초등학교",
+          "distance_m": 113
+        },
+        {
+          "name": "중원초등학교",
+          "distance_m": 291
+        },
+        {
+          "name": "용동초등학교",
+          "distance_m": 381
+        }
+      ],
+      "mid": [
+        {
+          "name": "중원중학교",
+          "distance_m": 179
+        },
+        {
+          "name": "하계중학교",
+          "distance_m": 582
+        },
+        {
+          "name": "동천학교",
+          "distance_m": 648
+        }
+      ],
+      "high": [
+        {
+          "name": "대진여자고등학교",
+          "distance_m": 305
+        },
+        {
+          "name": "서울아이티고등학교",
+          "distance_m": 390
+        },
+        {
+          "name": "상명중,고등학교",
+          "distance_m": 598
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "어린이교통공원",
+        "distance_m": 377
+      },
+      {
+        "name": "등나무근린공원",
+        "distance_m": 403
+      },
+      {
+        "name": "들국화어린이공원",
+        "distance_m": 409
+      },
+      {
+        "name": "중계근린공원",
+        "distance_m": 442
+      },
+      {
+        "name": "?",
+        "distance_m": 506
+      }
+    ],
+    "mart": [
+      {
+        "name": "롯데슈퍼",
+        "distance_m": 297,
+        "type": "supermarket"
+      },
+      {
+        "name": "2001아울렛 중계점",
+        "distance_m": 315,
+        "type": "mall"
+      },
+      {
+        "name": "주공마트",
+        "distance_m": 415,
+        "type": "supermarket"
+      },
+      {
+        "name": "홈플러스 중계점",
+        "distance_m": 483,
+        "type": "mall"
+      },
+      {
+        "name": "롯데마트 중계점",
+        "distance_m": 550,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "인제대학교상계백병원",
+        "distance_m": 618,
+        "type": "hospital"
+      },
+      {
+        "name": "을지병원 연구동",
+        "distance_m": 937,
+        "type": "hospital"
+      },
+      {
+        "name": "디딤신경정신과",
+        "distance_m": 1236,
+        "type": "hospital"
+      },
+      {
+        "name": "노원삼성정형외과",
+        "distance_m": 1276,
+        "type": "hospital"
+      },
+      {
+        "name": "노원삼성정형외과별관",
+        "distance_m": 1353,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [
+      {
+        "name": "?",
+        "distance_m": 800
+      },
+      {
+        "name": "?",
+        "distance_m": 855
+      },
+      {
+        "name": "?",
+        "distance_m": 879
+      },
+      {
+        "name": "?",
+        "distance_m": 924
+      },
+      {
+        "name": "?",
+        "distance_m": 1103
+      }
+    ],
+    "highway": [
+      {
+        "name": "동일로",
+        "distance_m": 101,
+        "type": "primary"
+      },
+      {
+        "name": "동일로",
+        "distance_m": 118,
+        "type": "primary"
+      },
+      {
+        "name": "덕릉로",
+        "distance_m": 258,
+        "type": "secondary"
+      }
+    ],
+    "railway": [
+      {
+        "name": "경원선",
+        "distance_m": 1029
+      },
+      {
+        "name": "경원선",
+        "distance_m": 1035
+      }
+    ]
+  },
+  "중계주공5단지": {
+    "subway": [
+      {
+        "name": "?",
+        "distance_m": 822,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 847,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 874,
+        "lines": ""
+      },
+      {
+        "name": "상계",
+        "distance_m": 876,
+        "lines": ""
+      },
+      {
+        "name": "?",
+        "distance_m": 893,
+        "lines": ""
+      }
+    ],
+    "school": {
+      "pri": [
+        {
+          "name": "원광초등학교",
+          "distance_m": 178
+        },
+        {
+          "name": "불암초등학교",
+          "distance_m": 422
+        },
+        {
+          "name": "을지초등학교",
+          "distance_m": 440
+        }
+      ],
+      "mid": [
+        {
+          "name": "중계중학교",
+          "distance_m": 252
+        },
+        {
+          "name": "을지중학교",
+          "distance_m": 557
+        },
+        {
+          "name": "상계중학교",
+          "distance_m": 690
+        }
+      ],
+      "high": [
+        {
+          "name": "청암중고등학교",
+          "distance_m": 318
+        },
+        {
+          "name": "영신여자고등학교",
+          "distance_m": 574
+        },
+        {
+          "name": "불암고등학교",
+          "distance_m": 596
+        }
+      ]
+    },
+    "park": [
+      {
+        "name": "전망대",
+        "distance_m": 576
+      },
+      {
+        "name": "양지근린공원",
+        "distance_m": 692
+      },
+      {
+        "name": "노해근린공원",
+        "distance_m": 696
+      },
+      {
+        "name": "?",
+        "distance_m": 746
+      },
+      {
+        "name": "4단지 운동장",
+        "distance_m": 866
+      }
+    ],
+    "mart": [
+      {
+        "name": "진로마트",
+        "distance_m": 549,
+        "type": "supermarket"
+      },
+      {
+        "name": "GS25 중계공원점",
+        "distance_m": 571,
+        "type": "supermarket"
+      },
+      {
+        "name": "그린마트",
+        "distance_m": 618,
+        "type": "supermarket"
+      },
+      {
+        "name": "삼성디지털프라자 중계점",
+        "distance_m": 633,
+        "type": "supermarket"
+      },
+      {
+        "name": "GS25 중계에이스점",
+        "distance_m": 743,
+        "type": "supermarket"
+      }
+    ],
+    "hospital": [
+      {
+        "name": "디딤신경정신과",
+        "distance_m": 1271,
+        "type": "hospital"
+      },
+      {
+        "name": "인제대학교상계백병원",
+        "distance_m": 1306,
+        "type": "hospital"
+      }
+    ],
+    "cemetery": [],
+    "power": [],
+    "highway": [
+      {
+        "name": "한글비석로",
+        "distance_m": 186,
+        "type": "secondary"
+      },
+      {
+        "name": "덕릉로",
+        "distance_m": 273,
+        "type": "secondary"
+      },
+      {
+        "name": "한글비석로",
+        "distance_m": 375,
+        "type": "secondary"
+      }
+    ],
+    "railway": []
+  }
+}
