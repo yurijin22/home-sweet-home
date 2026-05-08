@@ -1,0 +1,8578 @@
+{
+  "삼성그린(205)": {
+    "gu": "동작",
+    "median_price": 64000,
+    "trade_count": 2,
+    "min_price": 63000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "해태보라매타워": {
+    "gu": "동작",
+    "median_price": 68450,
+    "trade_count": 6,
+    "min_price": 64000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "동작상떼빌": {
+    "gu": "동작",
+    "median_price": 97500,
+    "trade_count": 5,
+    "min_price": 92700,
+    "max_price": 102500,
+    "source": "molit_6m"
+  },
+  "신대방": {
+    "gu": "동작",
+    "median_price": 60400,
+    "trade_count": 6,
+    "min_price": 55000,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "현대(관악)": {
+    "gu": "동작",
+    "median_price": 107000,
+    "trade_count": 7,
+    "min_price": 89500,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "상도동삼호아파트": {
+    "gu": "동작",
+    "median_price": 105000,
+    "trade_count": 7,
+    "min_price": 96000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "반석블레스": {
+    "gu": "서대문",
+    "median_price": 71900,
+    "trade_count": 1,
+    "min_price": 71900,
+    "max_price": 71900,
+    "source": "molit_6m"
+  },
+  "현진에버빌": {
+    "gu": "동작",
+    "median_price": 64000,
+    "trade_count": 2,
+    "min_price": 55000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "대창센시티": {
+    "gu": "노원",
+    "median_price": 59500,
+    "trade_count": 2,
+    "min_price": 58000,
+    "max_price": 61000,
+    "source": "molit_6m"
+  },
+  "사당자이": {
+    "gu": "동작",
+    "median_price": 102000,
+    "trade_count": 4,
+    "min_price": 92500,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "현대201동": {
+    "gu": "동작",
+    "median_price": 76500,
+    "trade_count": 1,
+    "min_price": 76500,
+    "max_price": 76500,
+    "source": "molit_6m"
+  },
+  "대림아파트": {
+    "gu": "동작",
+    "median_price": 92000,
+    "trade_count": 5,
+    "min_price": 78000,
+    "max_price": 99500,
+    "source": "molit_6m"
+  },
+  "우리유앤미": {
+    "gu": "동작",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "롯데낙천대": {
+    "gu": "동대문",
+    "median_price": 76000,
+    "trade_count": 1,
+    "min_price": 76000,
+    "max_price": 76000,
+    "source": "molit_6m"
+  },
+  "남해오네뜨": {
+    "gu": "동작",
+    "median_price": 78125,
+    "trade_count": 4,
+    "min_price": 49700,
+    "max_price": 94700,
+    "source": "molit_6m"
+  },
+  "상도1차갑을명가": {
+    "gu": "동작",
+    "median_price": 73000,
+    "trade_count": 3,
+    "min_price": 70000,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "우정": {
+    "gu": "동작",
+    "median_price": 90000,
+    "trade_count": 3,
+    "min_price": 87000,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "샤인": {
+    "gu": "동작",
+    "median_price": 68700,
+    "trade_count": 1,
+    "min_price": 68700,
+    "max_price": 68700,
+    "source": "molit_6m"
+  },
+  "삼익2차아파트": {
+    "gu": "노원",
+    "median_price": 50800,
+    "trade_count": 5,
+    "min_price": 48500,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "동양엔파트": {
+    "gu": "노원",
+    "median_price": 87000,
+    "trade_count": 7,
+    "min_price": 85000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "한양": {
+    "gu": "노원",
+    "median_price": 74500,
+    "trade_count": 13,
+    "min_price": 69200,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "건영2": {
+    "gu": "노원",
+    "median_price": 77500,
+    "trade_count": 8,
+    "min_price": 74000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "현대2차": {
+    "gu": "영등포",
+    "median_price": 94900,
+    "trade_count": 6,
+    "min_price": 56000,
+    "max_price": 102000,
+    "source": "molit_6m"
+  },
+  "보람아파트": {
+    "gu": "노원",
+    "median_price": 58900,
+    "trade_count": 52,
+    "min_price": 44800,
+    "max_price": 71500,
+    "source": "molit_6m"
+  },
+  "현대(6차)": {
+    "gu": "노원",
+    "median_price": 51850,
+    "trade_count": 6,
+    "min_price": 47000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "롯데(505)": {
+    "gu": "노원",
+    "median_price": 58500,
+    "trade_count": 11,
+    "min_price": 54000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "극동늘푸른": {
+    "gu": "양천",
+    "median_price": 87000,
+    "trade_count": 3,
+    "min_price": 85700,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "두산힐스빌아파트": {
+    "gu": "노원",
+    "median_price": 81000,
+    "trade_count": 15,
+    "min_price": 54500,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "중계센트럴파크": {
+    "gu": "노원",
+    "median_price": 84700,
+    "trade_count": 13,
+    "min_price": 76000,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "주공10": {
+    "gu": "노원",
+    "median_price": 70300,
+    "trade_count": 12,
+    "min_price": 65000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "상계주공3(저층)": {
+    "gu": "노원",
+    "median_price": 90000,
+    "trade_count": 1,
+    "min_price": 90000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "중계3벽산": {
+    "gu": "노원",
+    "median_price": 61000,
+    "trade_count": 11,
+    "min_price": 48000,
+    "max_price": 89500,
+    "source": "molit_6m"
+  },
+  "노원프레미어스엠코": {
+    "gu": "노원",
+    "median_price": 87250,
+    "trade_count": 8,
+    "min_price": 83000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "삼호3": {
+    "gu": "노원",
+    "median_price": 100000,
+    "trade_count": 20,
+    "min_price": 87000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "노원롯데캐슬시그니처": {
+    "gu": "노원",
+    "median_price": 89500,
+    "trade_count": 15,
+    "min_price": 83000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "불암현대": {
+    "gu": "노원",
+    "median_price": 54125,
+    "trade_count": 8,
+    "min_price": 43500,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "상계주공2(고층)": {
+    "gu": "노원",
+    "median_price": 65000,
+    "trade_count": 24,
+    "min_price": 42000,
+    "max_price": 77900,
+    "source": "molit_6m"
+  },
+  "중계그린1단지": {
+    "gu": "노원",
+    "median_price": 67500,
+    "trade_count": 11,
+    "min_price": 64500,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "풍림아파트A": {
+    "gu": "노원",
+    "median_price": 77850,
+    "trade_count": 27,
+    "min_price": 68000,
+    "max_price": 94000,
+    "source": "molit_6m"
+  },
+  "현대": {
+    "gu": "마포",
+    "median_price": 83250,
+    "trade_count": 5,
+    "min_price": 70000,
+    "max_price": 99000,
+    "source": "molit_6m"
+  },
+  "벽산": {
+    "gu": "동작",
+    "median_price": 76500,
+    "trade_count": 5,
+    "min_price": 73000,
+    "max_price": 96000,
+    "source": "molit_6m"
+  },
+  "상계주공12(고층)": {
+    "gu": "노원",
+    "median_price": 62000,
+    "trade_count": 16,
+    "min_price": 54800,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "한신2차": {
+    "gu": "노원",
+    "median_price": 46400,
+    "trade_count": 3,
+    "min_price": 46000,
+    "max_price": 46700,
+    "source": "molit_6m"
+  },
+  "동부아파트": {
+    "gu": "노원",
+    "median_price": 66800,
+    "trade_count": 5,
+    "min_price": 49000,
+    "max_price": 69100,
+    "source": "molit_6m"
+  },
+  "상계주공3(고층)": {
+    "gu": "노원",
+    "median_price": 79500,
+    "trade_count": 25,
+    "min_price": 69000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "노원센트럴푸르지오": {
+    "gu": "노원",
+    "median_price": 91000,
+    "trade_count": 24,
+    "min_price": 79500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "상계주공10(고층)": {
+    "gu": "노원",
+    "median_price": 65000,
+    "trade_count": 25,
+    "min_price": 44000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "공릉우성아파트": {
+    "gu": "노원",
+    "median_price": 57000,
+    "trade_count": 10,
+    "min_price": 50500,
+    "max_price": 75500,
+    "source": "molit_6m"
+  },
+  "상계주공9(고층)": {
+    "gu": "노원",
+    "median_price": 60000,
+    "trade_count": 24,
+    "min_price": 50000,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "주공2": {
+    "gu": "동대문",
+    "median_price": 74000,
+    "trade_count": 10,
+    "min_price": 70000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "삼창": {
+    "gu": "노원",
+    "median_price": 43200,
+    "trade_count": 3,
+    "min_price": 42000,
+    "max_price": 48000,
+    "source": "molit_6m"
+  },
+  "태릉우성아파트": {
+    "gu": "노원",
+    "median_price": 76500,
+    "trade_count": 14,
+    "min_price": 69300,
+    "max_price": 89300,
+    "source": "molit_6m"
+  },
+  "양지마을(대림)1": {
+    "gu": "노원",
+    "median_price": 100000,
+    "trade_count": 9,
+    "min_price": 91000,
+    "max_price": 104500,
+    "source": "molit_6m"
+  },
+  "두산": {
+    "gu": "성동",
+    "median_price": 109000,
+    "trade_count": 3,
+    "min_price": 107100,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "탑스빌아파트(101동)": {
+    "gu": "노원",
+    "median_price": 63300,
+    "trade_count": 1,
+    "min_price": 63300,
+    "max_price": 63300,
+    "source": "molit_6m"
+  },
+  "삼익4단지아파트": {
+    "gu": "노원",
+    "median_price": 53200,
+    "trade_count": 9,
+    "min_price": 49000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "수락파크빌": {
+    "gu": "노원",
+    "median_price": 81200,
+    "trade_count": 4,
+    "min_price": 78700,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "우방": {
+    "gu": "금천",
+    "median_price": 47100,
+    "trade_count": 14,
+    "min_price": 39000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "삼익포레스트아파트": {
+    "gu": "노원",
+    "median_price": 67750,
+    "trade_count": 8,
+    "min_price": 64000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "코오롱": {
+    "gu": "마포",
+    "median_price": 106300,
+    "trade_count": 3,
+    "min_price": 104000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "성원1": {
+    "gu": "마포",
+    "median_price": 65000,
+    "trade_count": 1,
+    "min_price": 65000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "풍림아이원": {
+    "gu": "노원",
+    "median_price": 93000,
+    "trade_count": 7,
+    "min_price": 67000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "신성미소지움아파트": {
+    "gu": "노원",
+    "median_price": 67250,
+    "trade_count": 4,
+    "min_price": 66500,
+    "max_price": 68500,
+    "source": "molit_6m"
+  },
+  "중계무지개": {
+    "gu": "노원",
+    "median_price": 65700,
+    "trade_count": 13,
+    "min_price": 60000,
+    "max_price": 69200,
+    "source": "molit_6m"
+  },
+  "상계대림e편한세상": {
+    "gu": "노원",
+    "median_price": 47000,
+    "trade_count": 3,
+    "min_price": 44000,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "현대1(4차)": {
+    "gu": "노원",
+    "median_price": 62850,
+    "trade_count": 6,
+    "min_price": 61000,
+    "max_price": 65500,
+    "source": "molit_6m"
+  },
+  "상계주공6(고층)": {
+    "gu": "노원",
+    "median_price": 72650,
+    "trade_count": 46,
+    "min_price": 56500,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "상계주공14(고층)": {
+    "gu": "노원",
+    "median_price": 58250,
+    "trade_count": 10,
+    "min_price": 55000,
+    "max_price": 79800,
+    "source": "molit_6m"
+  },
+  "하계1청구": {
+    "gu": "노원",
+    "median_price": 93000,
+    "trade_count": 9,
+    "min_price": 86000,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "상계주공16(고층)": {
+    "gu": "노원",
+    "median_price": 53000,
+    "trade_count": 45,
+    "min_price": 42000,
+    "max_price": 73500,
+    "source": "molit_6m"
+  },
+  "한진한화그랑빌": {
+    "gu": "노원",
+    "median_price": 95000,
+    "trade_count": 45,
+    "min_price": 70000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "태릉해링턴플레이스": {
+    "gu": "노원",
+    "median_price": 92500,
+    "trade_count": 17,
+    "min_price": 66000,
+    "max_price": 107700,
+    "source": "molit_6m"
+  },
+  "한신4차": {
+    "gu": "노원",
+    "median_price": 50650,
+    "trade_count": 2,
+    "min_price": 49500,
+    "max_price": 51800,
+    "source": "molit_6m"
+  },
+  "삼성": {
+    "gu": "성북",
+    "median_price": 57000,
+    "trade_count": 1,
+    "min_price": 57000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "금호타운(583)": {
+    "gu": "노원",
+    "median_price": 74000,
+    "trade_count": 15,
+    "min_price": 51000,
+    "max_price": 79800,
+    "source": "molit_6m"
+  },
+  "중계3우성": {
+    "gu": "노원",
+    "median_price": 75650,
+    "trade_count": 6,
+    "min_price": 58000,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "주공5": {
+    "gu": "노원",
+    "median_price": 78750,
+    "trade_count": 20,
+    "min_price": 67500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "한일1": {
+    "gu": "노원",
+    "median_price": 69900,
+    "trade_count": 4,
+    "min_price": 66000,
+    "max_price": 80500,
+    "source": "molit_6m"
+  },
+  "꿈의숲SKVIEW": {
+    "gu": "노원",
+    "median_price": 90250,
+    "trade_count": 14,
+    "min_price": 78000,
+    "max_price": 98500,
+    "source": "molit_6m"
+  },
+  "염광": {
+    "gu": "도봉",
+    "median_price": 39250,
+    "trade_count": 2,
+    "min_price": 38500,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "희락": {
+    "gu": "노원",
+    "median_price": 50350,
+    "trade_count": 2,
+    "min_price": 49700,
+    "max_price": 51000,
+    "source": "molit_6m"
+  },
+  "상계주공11(고층)": {
+    "gu": "노원",
+    "median_price": 63000,
+    "trade_count": 23,
+    "min_price": 55900,
+    "max_price": 85600,
+    "source": "molit_6m"
+  },
+  "태강아파트(아이파크)": {
+    "gu": "노원",
+    "median_price": 66500,
+    "trade_count": 17,
+    "min_price": 63000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "하계2현대": {
+    "gu": "노원",
+    "median_price": 88000,
+    "trade_count": 23,
+    "min_price": 73000,
+    "max_price": 98500,
+    "source": "molit_6m"
+  },
+  "화랑타운아파트": {
+    "gu": "노원",
+    "median_price": 83500,
+    "trade_count": 10,
+    "min_price": 79500,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "장미(시영6)": {
+    "gu": "노원",
+    "median_price": 73100,
+    "trade_count": 10,
+    "min_price": 55000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "수락한신": {
+    "gu": "노원",
+    "median_price": 59900,
+    "trade_count": 2,
+    "min_price": 55000,
+    "max_price": 64800,
+    "source": "molit_6m"
+  },
+  "상계주공1(고층)": {
+    "gu": "노원",
+    "median_price": 60000,
+    "trade_count": 35,
+    "min_price": 42000,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "한신3차": {
+    "gu": "노원",
+    "median_price": 57000,
+    "trade_count": 13,
+    "min_price": 45000,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "상계현대3차": {
+    "gu": "노원",
+    "median_price": 64000,
+    "trade_count": 10,
+    "min_price": 61500,
+    "max_price": 67900,
+    "source": "molit_6m"
+  },
+  "은빛2단지": {
+    "gu": "노원",
+    "median_price": 53900,
+    "trade_count": 14,
+    "min_price": 48500,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "성원2": {
+    "gu": "마포",
+    "median_price": 67500,
+    "trade_count": 2,
+    "min_price": 67000,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "공릉동한보에센시티아파트": {
+    "gu": "노원",
+    "median_price": 58800,
+    "trade_count": 24,
+    "min_price": 51000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "신원아파트": {
+    "gu": "노원",
+    "median_price": 51700,
+    "trade_count": 4,
+    "min_price": 48700,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "건영장미아파트": {
+    "gu": "노원",
+    "median_price": 51900,
+    "trade_count": 8,
+    "min_price": 46300,
+    "max_price": 55700,
+    "source": "molit_6m"
+  },
+  "동신아파트": {
+    "gu": "노원",
+    "median_price": 59350,
+    "trade_count": 16,
+    "min_price": 55000,
+    "max_price": 83000,
+    "source": "molit_6m"
+  },
+  "화랑대디오베이션": {
+    "gu": "노원",
+    "median_price": 66650,
+    "trade_count": 8,
+    "min_price": 62900,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "학여울청구": {
+    "gu": "노원",
+    "median_price": 80750,
+    "trade_count": 28,
+    "min_price": 60000,
+    "max_price": 89400,
+    "source": "molit_6m"
+  },
+  "청구": {
+    "gu": "도봉",
+    "median_price": 55600,
+    "trade_count": 1,
+    "min_price": 55600,
+    "max_price": 55600,
+    "source": "molit_6m"
+  },
+  "중계현대2": {
+    "gu": "노원",
+    "median_price": 70250,
+    "trade_count": 4,
+    "min_price": 63000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "비콘드림힐(602)": {
+    "gu": "노원",
+    "median_price": 59000,
+    "trade_count": 3,
+    "min_price": 43000,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "월계센트럴아이파크": {
+    "gu": "노원",
+    "median_price": 105000,
+    "trade_count": 23,
+    "min_price": 81000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "한일2": {
+    "gu": "노원",
+    "median_price": 68000,
+    "trade_count": 5,
+    "min_price": 58000,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "상계대림": {
+    "gu": "노원",
+    "median_price": 49200,
+    "trade_count": 14,
+    "min_price": 44000,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "동아불암": {
+    "gu": "노원",
+    "median_price": 52500,
+    "trade_count": 15,
+    "min_price": 46800,
+    "max_price": 65500,
+    "source": "molit_6m"
+  },
+  "청솔(시영7)": {
+    "gu": "노원",
+    "median_price": 61500,
+    "trade_count": 5,
+    "min_price": 54000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "수락리버시티3단지": {
+    "gu": "노원",
+    "median_price": 67900,
+    "trade_count": 6,
+    "min_price": 52000,
+    "max_price": 71500,
+    "source": "molit_6m"
+  },
+  "월계흥화브라운빌": {
+    "gu": "노원",
+    "median_price": 62000,
+    "trade_count": 7,
+    "min_price": 55000,
+    "max_price": 63500,
+    "source": "molit_6m"
+  },
+  "대동": {
+    "gu": "도봉",
+    "median_price": 45000,
+    "trade_count": 3,
+    "min_price": 36900,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "롯데캐슬루나": {
+    "gu": "노원",
+    "median_price": 89000,
+    "trade_count": 9,
+    "min_price": 82000,
+    "max_price": 93000,
+    "source": "molit_6m"
+  },
+  "포레나노원": {
+    "gu": "노원",
+    "median_price": 96000,
+    "trade_count": 8,
+    "min_price": 88600,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "비선아파트": {
+    "gu": "노원",
+    "median_price": 55800,
+    "trade_count": 5,
+    "min_price": 55000,
+    "max_price": 58500,
+    "source": "molit_6m"
+  },
+  "성원(사슴4)": {
+    "gu": "노원",
+    "median_price": 59500,
+    "trade_count": 12,
+    "min_price": 56500,
+    "max_price": 63700,
+    "source": "molit_6m"
+  },
+  "삼호4": {
+    "gu": "노원",
+    "median_price": 77750,
+    "trade_count": 2,
+    "min_price": 71500,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "한화꿈에그린": {
+    "gu": "노원",
+    "median_price": 83500,
+    "trade_count": 15,
+    "min_price": 77500,
+    "max_price": 89500,
+    "source": "molit_6m"
+  },
+  "한일유앤아이": {
+    "gu": "노원",
+    "median_price": 69800,
+    "trade_count": 5,
+    "min_price": 68000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "상계주공13(고층)": {
+    "gu": "노원",
+    "median_price": 48600,
+    "trade_count": 11,
+    "min_price": 40000,
+    "max_price": 52500,
+    "source": "molit_6m"
+  },
+  "LIG건영": {
+    "gu": "노원",
+    "median_price": 62500,
+    "trade_count": 3,
+    "min_price": 49500,
+    "max_price": 64500,
+    "source": "molit_6m"
+  },
+  "상계2차중앙하이츠": {
+    "gu": "노원",
+    "median_price": 59800,
+    "trade_count": 21,
+    "min_price": 57000,
+    "max_price": 81000,
+    "source": "molit_6m"
+  },
+  "상계신동아": {
+    "gu": "노원",
+    "median_price": 57000,
+    "trade_count": 11,
+    "min_price": 41000,
+    "max_price": 59000,
+    "source": "molit_6m"
+  },
+  "은빛1단지": {
+    "gu": "노원",
+    "median_price": 52000,
+    "trade_count": 19,
+    "min_price": 44000,
+    "max_price": 56000,
+    "source": "molit_6m"
+  },
+  "테라파크뷰": {
+    "gu": "노원",
+    "median_price": 64000,
+    "trade_count": 1,
+    "min_price": 64000,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "노원우성": {
+    "gu": "노원",
+    "median_price": 65000,
+    "trade_count": 3,
+    "min_price": 63000,
+    "max_price": 66700,
+    "source": "molit_6m"
+  },
+  "청솔아파트9": {
+    "gu": "노원",
+    "median_price": 78000,
+    "trade_count": 6,
+    "min_price": 74000,
+    "max_price": 84500,
+    "source": "molit_6m"
+  },
+  "상계주공10(저층)": {
+    "gu": "노원",
+    "median_price": 56500,
+    "trade_count": 2,
+    "min_price": 55000,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "상계주공4(고층)": {
+    "gu": "노원",
+    "median_price": 62000,
+    "trade_count": 23,
+    "min_price": 54000,
+    "max_price": 85800,
+    "source": "molit_6m"
+  },
+  "청구3": {
+    "gu": "노원",
+    "median_price": 76000,
+    "trade_count": 1,
+    "min_price": 76000,
+    "max_price": 76000,
+    "source": "molit_6m"
+  },
+  "상계주공7(고층)": {
+    "gu": "노원",
+    "median_price": 71875,
+    "trade_count": 12,
+    "min_price": 46000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "하늘공원아파트(103동)": {
+    "gu": "노원",
+    "median_price": 54400,
+    "trade_count": 1,
+    "min_price": 54400,
+    "max_price": 54400,
+    "source": "molit_6m"
+  },
+  "신명아파트": {
+    "gu": "노원",
+    "median_price": 52700,
+    "trade_count": 1,
+    "min_price": 52700,
+    "max_price": 52700,
+    "source": "molit_6m"
+  },
+  "노원현대": {
+    "gu": "노원",
+    "median_price": 74000,
+    "trade_count": 3,
+    "min_price": 72000,
+    "max_price": 76500,
+    "source": "molit_6m"
+  },
+  "진로유통조합대림": {
+    "gu": "노원",
+    "median_price": 65250,
+    "trade_count": 4,
+    "min_price": 47000,
+    "max_price": 68200,
+    "source": "molit_6m"
+  },
+  "청솔아파트8": {
+    "gu": "노원",
+    "median_price": 78000,
+    "trade_count": 7,
+    "min_price": 70000,
+    "max_price": 81500,
+    "source": "molit_6m"
+  },
+  "중앙하이츠": {
+    "gu": "성북",
+    "median_price": 62250,
+    "trade_count": 6,
+    "min_price": 57500,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "양우": {
+    "gu": "노원",
+    "median_price": 68500,
+    "trade_count": 4,
+    "min_price": 66700,
+    "max_price": 73500,
+    "source": "molit_6m"
+  },
+  "미성": {
+    "gu": "노원",
+    "median_price": 83000,
+    "trade_count": 7,
+    "min_price": 60000,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "청암3단지(582)": {
+    "gu": "노원",
+    "median_price": 59000,
+    "trade_count": 3,
+    "min_price": 54000,
+    "max_price": 65700,
+    "source": "molit_6m"
+  },
+  "주공4": {
+    "gu": "노원",
+    "median_price": 78600,
+    "trade_count": 10,
+    "min_price": 61000,
+    "max_price": 96800,
+    "source": "molit_6m"
+  },
+  "상계주공2(저층)": {
+    "gu": "노원",
+    "median_price": 52800,
+    "trade_count": 3,
+    "min_price": 50000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "미라보(성림)": {
+    "gu": "노원",
+    "median_price": 47000,
+    "trade_count": 7,
+    "min_price": 38700,
+    "max_price": 54500,
+    "source": "molit_6m"
+  },
+  "대아2차아파트": {
+    "gu": "노원",
+    "median_price": 60500,
+    "trade_count": 2,
+    "min_price": 55000,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "청백4": {
+    "gu": "노원",
+    "median_price": 53700,
+    "trade_count": 8,
+    "min_price": 41500,
+    "max_price": 62300,
+    "source": "molit_6m"
+  },
+  "금호타운": {
+    "gu": "노원",
+    "median_price": 52400,
+    "trade_count": 4,
+    "min_price": 50000,
+    "max_price": 55000,
+    "source": "molit_6m"
+  },
+  "비콘드림힐3": {
+    "gu": "노원",
+    "median_price": 70250,
+    "trade_count": 2,
+    "min_price": 70000,
+    "max_price": 70500,
+    "source": "molit_6m"
+  },
+  "동신": {
+    "gu": "성북",
+    "median_price": 77000,
+    "trade_count": 15,
+    "min_price": 62000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "르메이에르": {
+    "gu": "동작",
+    "median_price": 72150,
+    "trade_count": 8,
+    "min_price": 66800,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "신일해피트리": {
+    "gu": "서대문",
+    "median_price": 80000,
+    "trade_count": 8,
+    "min_price": 67500,
+    "max_price": 83000,
+    "source": "molit_6m"
+  },
+  "이수교신동아아파트": {
+    "gu": "동작",
+    "median_price": 95800,
+    "trade_count": 2,
+    "min_price": 93600,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "청호": {
+    "gu": "동작",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "경남아너스빌1차": {
+    "gu": "동작",
+    "median_price": 95000,
+    "trade_count": 8,
+    "min_price": 88000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "동아": {
+    "gu": "도봉",
+    "median_price": 96000,
+    "trade_count": 5,
+    "min_price": 57500,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "이너스내안애": {
+    "gu": "동작",
+    "median_price": 103500,
+    "trade_count": 3,
+    "min_price": 94000,
+    "max_price": 104500,
+    "source": "molit_6m"
+  },
+  "남성골든빌A동B동": {
+    "gu": "동작",
+    "median_price": 62000,
+    "trade_count": 1,
+    "min_price": 62000,
+    "max_price": 62000,
+    "source": "molit_6m"
+  },
+  "상도현대": {
+    "gu": "동작",
+    "median_price": 78450,
+    "trade_count": 6,
+    "min_price": 60350,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "동작협성휴포레시그니처": {
+    "gu": "동작",
+    "median_price": 95000,
+    "trade_count": 1,
+    "min_price": 95000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "상도2차갑을명가": {
+    "gu": "동작",
+    "median_price": 72000,
+    "trade_count": 2,
+    "min_price": 71500,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "삼호그린": {
+    "gu": "동작",
+    "median_price": 82500,
+    "trade_count": 3,
+    "min_price": 74000,
+    "max_price": 102500,
+    "source": "molit_6m"
+  },
+  "엘리스": {
+    "gu": "동작",
+    "median_price": 41000,
+    "trade_count": 1,
+    "min_price": 41000,
+    "max_price": 41000,
+    "source": "molit_6m"
+  },
+  "신대방경남": {
+    "gu": "동작",
+    "median_price": 108000,
+    "trade_count": 2,
+    "min_price": 108000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "대성유니드": {
+    "gu": "양천",
+    "median_price": 71900,
+    "trade_count": 6,
+    "min_price": 46000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "상계주공14(저층)": {
+    "gu": "노원",
+    "median_price": 77300,
+    "trade_count": 3,
+    "min_price": 73000,
+    "max_price": 77600,
+    "source": "molit_6m"
+  },
+  "미도": {
+    "gu": "노원",
+    "median_price": 79000,
+    "trade_count": 5,
+    "min_price": 75000,
+    "max_price": 80500,
+    "source": "molit_6m"
+  },
+  "우남그랜드": {
+    "gu": "노원",
+    "median_price": 70750,
+    "trade_count": 6,
+    "min_price": 68000,
+    "max_price": 86500,
+    "source": "molit_6m"
+  },
+  "상계불암대림": {
+    "gu": "노원",
+    "median_price": 54350,
+    "trade_count": 6,
+    "min_price": 49800,
+    "max_price": 74700,
+    "source": "molit_6m"
+  },
+  "성원상떼빌": {
+    "gu": "도봉",
+    "median_price": 59500,
+    "trade_count": 5,
+    "min_price": 55000,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "상계주공1(저층)": {
+    "gu": "노원",
+    "median_price": 72500,
+    "trade_count": 4,
+    "min_price": 69500,
+    "max_price": 82500,
+    "source": "molit_6m"
+  },
+  "건영": {
+    "gu": "성동",
+    "median_price": 96000,
+    "trade_count": 11,
+    "min_price": 65000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "초안1": {
+    "gu": "노원",
+    "median_price": 39450,
+    "trade_count": 2,
+    "min_price": 39100,
+    "max_price": 39800,
+    "source": "molit_6m"
+  },
+  "우방아파트": {
+    "gu": "성북",
+    "median_price": 58000,
+    "trade_count": 1,
+    "min_price": 58000,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "신안": {
+    "gu": "노원",
+    "median_price": 73000,
+    "trade_count": 7,
+    "min_price": 69000,
+    "max_price": 96000,
+    "source": "molit_6m"
+  },
+  "현대그린": {
+    "gu": "서대문",
+    "median_price": 69500,
+    "trade_count": 6,
+    "min_price": 68000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "라메즈아파트": {
+    "gu": "노원",
+    "median_price": 57150,
+    "trade_count": 1,
+    "min_price": 57150,
+    "max_price": 57150,
+    "source": "molit_6m"
+  },
+  "극동": {
+    "gu": "서대문",
+    "median_price": 51500,
+    "trade_count": 4,
+    "min_price": 50000,
+    "max_price": 57500,
+    "source": "molit_6m"
+  },
+  "현대성우아파트": {
+    "gu": "노원",
+    "median_price": 70000,
+    "trade_count": 3,
+    "min_price": 49500,
+    "max_price": 72700,
+    "source": "molit_6m"
+  },
+  "양지마을(대림)2": {
+    "gu": "노원",
+    "median_price": 93000,
+    "trade_count": 19,
+    "min_price": 60000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "그랜드아파트": {
+    "gu": "광진",
+    "median_price": 77500,
+    "trade_count": 2,
+    "min_price": 73000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "성원": {
+    "gu": "영등포",
+    "median_price": 107900,
+    "trade_count": 2,
+    "min_price": 106000,
+    "max_price": 109800,
+    "source": "molit_6m"
+  },
+  "엘림퍼스트중곡동": {
+    "gu": "광진",
+    "median_price": 56000,
+    "trade_count": 3,
+    "min_price": 54000,
+    "max_price": 56500,
+    "source": "molit_6m"
+  },
+  "자양힐101동": {
+    "gu": "광진",
+    "median_price": 95800,
+    "trade_count": 1,
+    "min_price": 95800,
+    "max_price": 95800,
+    "source": "molit_6m"
+  },
+  "광진동양파라곤1단지": {
+    "gu": "광진",
+    "median_price": 109500,
+    "trade_count": 2,
+    "min_price": 109500,
+    "max_price": 109500,
+    "source": "molit_6m"
+  },
+  "중곡1단지": {
+    "gu": "광진",
+    "median_price": 53400,
+    "trade_count": 6,
+    "min_price": 49950,
+    "max_price": 56500,
+    "source": "molit_6m"
+  },
+  "일성파크": {
+    "gu": "광진",
+    "median_price": 84450,
+    "trade_count": 4,
+    "min_price": 76500,
+    "max_price": 98500,
+    "source": "molit_6m"
+  },
+  "스타파크아파트": {
+    "gu": "동대문",
+    "median_price": 54000,
+    "trade_count": 3,
+    "min_price": 52200,
+    "max_price": 56500,
+    "source": "molit_6m"
+  },
+  "마포중동현대": {
+    "gu": "마포",
+    "median_price": 97000,
+    "trade_count": 8,
+    "min_price": 78500,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "월드컵아이파크(667)": {
+    "gu": "마포",
+    "median_price": 106300,
+    "trade_count": 4,
+    "min_price": 103000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "펠리스아트빌": {
+    "gu": "마포",
+    "median_price": 94000,
+    "trade_count": 1,
+    "min_price": 94000,
+    "max_price": 94000,
+    "source": "molit_6m"
+  },
+  "망원동동원데쟈뷰": {
+    "gu": "마포",
+    "median_price": 85000,
+    "trade_count": 3,
+    "min_price": 80500,
+    "max_price": 89500,
+    "source": "molit_6m"
+  },
+  "휴먼빌": {
+    "gu": "마포",
+    "median_price": 89800,
+    "trade_count": 10,
+    "min_price": 80500,
+    "max_price": 94000,
+    "source": "molit_6m"
+  },
+  "함성월드빌": {
+    "gu": "마포",
+    "median_price": 83500,
+    "trade_count": 2,
+    "min_price": 73000,
+    "max_price": 94000,
+    "source": "molit_6m"
+  },
+  "중동계룡아파트": {
+    "gu": "마포",
+    "median_price": 82000,
+    "trade_count": 4,
+    "min_price": 74000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "성산월드타운대림": {
+    "gu": "마포",
+    "median_price": 108500,
+    "trade_count": 9,
+    "min_price": 98000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "건영월드컵": {
+    "gu": "마포",
+    "median_price": 81000,
+    "trade_count": 8,
+    "min_price": 67900,
+    "max_price": 99000,
+    "source": "molit_6m"
+  },
+  "삼호빌라트": {
+    "gu": "마포",
+    "median_price": 70000,
+    "trade_count": 1,
+    "min_price": 70000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "대원": {
+    "gu": "양천",
+    "median_price": 86000,
+    "trade_count": 1,
+    "min_price": 86000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "상암월드컵파크10단지": {
+    "gu": "마포",
+    "median_price": 102000,
+    "trade_count": 7,
+    "min_price": 98000,
+    "max_price": 107500,
+    "source": "molit_6m"
+  },
+  "동원월드타운": {
+    "gu": "마포",
+    "median_price": 75750,
+    "trade_count": 2,
+    "min_price": 70000,
+    "max_price": 81500,
+    "source": "molit_6m"
+  },
+  "성산동성": {
+    "gu": "마포",
+    "median_price": 74000,
+    "trade_count": 4,
+    "min_price": 70500,
+    "max_price": 88800,
+    "source": "molit_6m"
+  },
+  "성산2차e-편한세상": {
+    "gu": "마포",
+    "median_price": 94150,
+    "trade_count": 2,
+    "min_price": 94000,
+    "max_price": 94300,
+    "source": "molit_6m"
+  },
+  "상암월드컵파크9단지": {
+    "gu": "마포",
+    "median_price": 103800,
+    "trade_count": 7,
+    "min_price": 75000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "성사1차풍림아파트101동": {
+    "gu": "마포",
+    "median_price": 71800,
+    "trade_count": 7,
+    "min_price": 69000,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "성산힐아파트": {
+    "gu": "마포",
+    "median_price": 64600,
+    "trade_count": 1,
+    "min_price": 64600,
+    "max_price": 64600,
+    "source": "molit_6m"
+  },
+  "상암월드컵파크2단지": {
+    "gu": "마포",
+    "median_price": 110000,
+    "trade_count": 3,
+    "min_price": 106000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "신대림자이2단지": {
+    "gu": "영등포",
+    "median_price": 90500,
+    "trade_count": 5,
+    "min_price": 84500,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "우성4": {
+    "gu": "영등포",
+    "median_price": 101500,
+    "trade_count": 4,
+    "min_price": 76000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "문래대림": {
+    "gu": "영등포",
+    "median_price": 82000,
+    "trade_count": 8,
+    "min_price": 75200,
+    "max_price": 88000,
+    "source": "molit_6m"
+  },
+  "영등포푸르지오": {
+    "gu": "영등포",
+    "median_price": 88550,
+    "trade_count": 2,
+    "min_price": 85100,
+    "max_price": 92000,
+    "source": "molit_6m"
+  },
+  "남성": {
+    "gu": "영등포",
+    "median_price": 99000,
+    "trade_count": 11,
+    "min_price": 80000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "문래베어스타운": {
+    "gu": "영등포",
+    "median_price": 98000,
+    "trade_count": 7,
+    "min_price": 89500,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "신동아": {
+    "gu": "동작",
+    "median_price": 77000,
+    "trade_count": 1,
+    "min_price": 77000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "한신휴1차": {
+    "gu": "영등포",
+    "median_price": 59200,
+    "trade_count": 6,
+    "min_price": 56000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "삼호": {
+    "gu": "영등포",
+    "median_price": 96500,
+    "trade_count": 3,
+    "min_price": 86000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "우성1": {
+    "gu": "광진",
+    "median_price": 105000,
+    "trade_count": 1,
+    "min_price": 105000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "우성5": {
+    "gu": "영등포",
+    "median_price": 86250,
+    "trade_count": 6,
+    "min_price": 82000,
+    "max_price": 90200,
+    "source": "molit_6m"
+  },
+  "삼환": {
+    "gu": "영등포",
+    "median_price": 99300,
+    "trade_count": 9,
+    "min_price": 66000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "드림리버빌": {
+    "gu": "영등포",
+    "median_price": 103000,
+    "trade_count": 1,
+    "min_price": 103000,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "동아에코빌": {
+    "gu": "도봉",
+    "median_price": 66500,
+    "trade_count": 3,
+    "min_price": 63500,
+    "max_price": 70500,
+    "source": "molit_6m"
+  },
+  "대림현대": {
+    "gu": "영등포",
+    "median_price": 68000,
+    "trade_count": 5,
+    "min_price": 59500,
+    "max_price": 81500,
+    "source": "molit_6m"
+  },
+  "메트하임": {
+    "gu": "영등포",
+    "median_price": 65000,
+    "trade_count": 1,
+    "min_price": 65000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "동양": {
+    "gu": "영등포",
+    "median_price": 94500,
+    "trade_count": 10,
+    "min_price": 60000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "현대2": {
+    "gu": "도봉",
+    "median_price": 50700,
+    "trade_count": 3,
+    "min_price": 48250,
+    "max_price": 52800,
+    "source": "molit_6m"
+  },
+  "경남아너스빌": {
+    "gu": "노원",
+    "median_price": 66100,
+    "trade_count": 1,
+    "min_price": 66100,
+    "max_price": 66100,
+    "source": "molit_6m"
+  },
+  "현대1차": {
+    "gu": "영등포",
+    "median_price": 94350,
+    "trade_count": 12,
+    "min_price": 71900,
+    "max_price": 106300,
+    "source": "molit_6m"
+  },
+  "현대1": {
+    "gu": "도봉",
+    "median_price": 50000,
+    "trade_count": 5,
+    "min_price": 47000,
+    "max_price": 53300,
+    "source": "molit_6m"
+  },
+  "한라": {
+    "gu": "영등포",
+    "median_price": 72000,
+    "trade_count": 3,
+    "min_price": 68000,
+    "max_price": 83000,
+    "source": "molit_6m"
+  },
+  "양평역미소지움": {
+    "gu": "영등포",
+    "median_price": 97500,
+    "trade_count": 8,
+    "min_price": 88200,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "우림루미아트": {
+    "gu": "마포",
+    "median_price": 95700,
+    "trade_count": 1,
+    "min_price": 95700,
+    "max_price": 95700,
+    "source": "molit_6m"
+  },
+  "성원(650)": {
+    "gu": "영등포",
+    "median_price": 68750,
+    "trade_count": 17,
+    "min_price": 61000,
+    "max_price": 78700,
+    "source": "molit_6m"
+  },
+  "두산위브": {
+    "gu": "영등포",
+    "median_price": 80000,
+    "trade_count": 1,
+    "min_price": 80000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "오목교벽산블루밍": {
+    "gu": "영등포",
+    "median_price": 77000,
+    "trade_count": 4,
+    "min_price": 65000,
+    "max_price": 91300,
+    "source": "molit_6m"
+  },
+  "대림동갑을명가아파트": {
+    "gu": "영등포",
+    "median_price": 78500,
+    "trade_count": 4,
+    "min_price": 72000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "동보": {
+    "gu": "영등포",
+    "median_price": 92500,
+    "trade_count": 2,
+    "min_price": 85000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "삼성래미안": {
+    "gu": "도봉",
+    "median_price": 86500,
+    "trade_count": 19,
+    "min_price": 73000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "에이스리버티움": {
+    "gu": "영등포",
+    "median_price": 52000,
+    "trade_count": 1,
+    "min_price": 52000,
+    "max_price": 52000,
+    "source": "molit_6m"
+  },
+  "문래두산위브": {
+    "gu": "영등포",
+    "median_price": 102000,
+    "trade_count": 5,
+    "min_price": 100000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "문래현대5차": {
+    "gu": "영등포",
+    "median_price": 99300,
+    "trade_count": 9,
+    "min_price": 85000,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "선원가와인": {
+    "gu": "영등포",
+    "median_price": 79000,
+    "trade_count": 1,
+    "min_price": 79000,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "성재아이캐슬": {
+    "gu": "영등포",
+    "median_price": 67000,
+    "trade_count": 1,
+    "min_price": 67000,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "문래미원": {
+    "gu": "영등포",
+    "median_price": 80500,
+    "trade_count": 4,
+    "min_price": 70400,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "문래해태": {
+    "gu": "영등포",
+    "median_price": 71500,
+    "trade_count": 1,
+    "min_price": 71500,
+    "max_price": 71500,
+    "source": "molit_6m"
+  },
+  "래미안포레카운티": {
+    "gu": "성북",
+    "median_price": 106500,
+    "trade_count": 4,
+    "min_price": 99800,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "길음서희스타힐스": {
+    "gu": "성북",
+    "median_price": 85500,
+    "trade_count": 10,
+    "min_price": 71500,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운1단지(래미안길음1차)": {
+    "gu": "성북",
+    "median_price": 106000,
+    "trade_count": 13,
+    "min_price": 92000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "돈암코오롱하늘채": {
+    "gu": "성북",
+    "median_price": 94000,
+    "trade_count": 4,
+    "min_price": 91500,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "래미안아트리치": {
+    "gu": "성북",
+    "median_price": 109250,
+    "trade_count": 6,
+    "min_price": 107800,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운8단지(래미안)": {
+    "gu": "성북",
+    "median_price": 104500,
+    "trade_count": 5,
+    "min_price": 103000,
+    "max_price": 107300,
+    "source": "molit_6m"
+  },
+  "삼선푸르지오": {
+    "gu": "성북",
+    "median_price": 93000,
+    "trade_count": 27,
+    "min_price": 80000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "꿈의숲푸르지오": {
+    "gu": "성북",
+    "median_price": 86000,
+    "trade_count": 22,
+    "min_price": 72000,
+    "max_price": 93500,
+    "source": "molit_6m"
+  },
+  "아이파크종암동2차": {
+    "gu": "성북",
+    "median_price": 92750,
+    "trade_count": 22,
+    "min_price": 78500,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운신안파크아파트": {
+    "gu": "성북",
+    "median_price": 49400,
+    "trade_count": 5,
+    "min_price": 42800,
+    "max_price": 57500,
+    "source": "molit_6m"
+  },
+  "아남": {
+    "gu": "성북",
+    "median_price": 64700,
+    "trade_count": 13,
+    "min_price": 53500,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "성북힐스테이트(101동)": {
+    "gu": "성북",
+    "median_price": 87500,
+    "trade_count": 12,
+    "min_price": 75000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "돈암동일하이빌": {
+    "gu": "성북",
+    "median_price": 91900,
+    "trade_count": 5,
+    "min_price": 87000,
+    "max_price": 97000,
+    "source": "molit_6m"
+  },
+  "래미안장위퍼스트하이": {
+    "gu": "성북",
+    "median_price": 108000,
+    "trade_count": 8,
+    "min_price": 104200,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "정릉힐스테이트3차": {
+    "gu": "성북",
+    "median_price": 73750,
+    "trade_count": 12,
+    "min_price": 71000,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "정릉성원상떼빌": {
+    "gu": "성북",
+    "median_price": 55500,
+    "trade_count": 5,
+    "min_price": 50500,
+    "max_price": 55500,
+    "source": "molit_6m"
+  },
+  "래미안세레니티": {
+    "gu": "성북",
+    "median_price": 100500,
+    "trade_count": 22,
+    "min_price": 91000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "중앙하이츠빌1단지": {
+    "gu": "성북",
+    "median_price": 67000,
+    "trade_count": 13,
+    "min_price": 55800,
+    "max_price": 74800,
+    "source": "molit_6m"
+  },
+  "브라운스톤동선": {
+    "gu": "성북",
+    "median_price": 89700,
+    "trade_count": 6,
+    "min_price": 86500,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "라온유": {
+    "gu": "성북",
+    "median_price": 90000,
+    "trade_count": 6,
+    "min_price": 82500,
+    "max_price": 93000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운6단지(래미안)": {
+    "gu": "성북",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "월곡두산위브": {
+    "gu": "성북",
+    "median_price": 89000,
+    "trade_count": 39,
+    "min_price": 73000,
+    "max_price": 101500,
+    "source": "molit_6m"
+  },
+  "정릉우성아파트 101~105동": {
+    "gu": "성북",
+    "median_price": 68000,
+    "trade_count": 14,
+    "min_price": 48750,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "샹그레빌아파트": {
+    "gu": "동대문",
+    "median_price": 70850,
+    "trade_count": 4,
+    "min_price": 69000,
+    "max_price": 71500,
+    "source": "molit_6m"
+  },
+  "쌍용2": {
+    "gu": "성북",
+    "median_price": 58500,
+    "trade_count": 12,
+    "min_price": 50500,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "현대I-PARK": {
+    "gu": "성북",
+    "median_price": 99000,
+    "trade_count": 8,
+    "min_price": 88000,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운2단지푸르지오": {
+    "gu": "성북",
+    "median_price": 97000,
+    "trade_count": 21,
+    "min_price": 78000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "대우": {
+    "gu": "도봉",
+    "median_price": 60000,
+    "trade_count": 22,
+    "min_price": 55300,
+    "max_price": 72200,
+    "source": "molit_6m"
+  },
+  "중앙하이츠빌2단지": {
+    "gu": "성북",
+    "median_price": 70950,
+    "trade_count": 20,
+    "min_price": 60000,
+    "max_price": 83300,
+    "source": "molit_6m"
+  },
+  "한신": {
+    "gu": "도봉",
+    "median_price": 59300,
+    "trade_count": 55,
+    "min_price": 38920,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "이수브라운스톤돈암": {
+    "gu": "성북",
+    "median_price": 87900,
+    "trade_count": 31,
+    "min_price": 74800,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "롯데캐슬골든힐스": {
+    "gu": "성북",
+    "median_price": 99500,
+    "trade_count": 9,
+    "min_price": 87800,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "래미안월곡": {
+    "gu": "성북",
+    "median_price": 95500,
+    "trade_count": 29,
+    "min_price": 81000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "신동아파밀리에": {
+    "gu": "영등포",
+    "median_price": 105750,
+    "trade_count": 2,
+    "min_price": 103500,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "정릉2차e-편한세상": {
+    "gu": "성북",
+    "median_price": 83100,
+    "trade_count": 8,
+    "min_price": 80000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운4단지(e편한세상)": {
+    "gu": "성북",
+    "median_price": 99300,
+    "trade_count": 13,
+    "min_price": 90000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "정릉힐스테이트": {
+    "gu": "성북",
+    "median_price": 83950,
+    "trade_count": 6,
+    "min_price": 77800,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "돈암동더샵아파트": {
+    "gu": "성북",
+    "median_price": 80500,
+    "trade_count": 11,
+    "min_price": 75500,
+    "max_price": 88000,
+    "source": "molit_6m"
+  },
+  "정릉풍림아이원": {
+    "gu": "성북",
+    "median_price": 58000,
+    "trade_count": 65,
+    "min_price": 49000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "이편한세상보문": {
+    "gu": "성북",
+    "median_price": 100000,
+    "trade_count": 9,
+    "min_price": 82000,
+    "max_price": 107500,
+    "source": "molit_6m"
+  },
+  "삼선현대힐스테이트": {
+    "gu": "성북",
+    "median_price": 87000,
+    "trade_count": 8,
+    "min_price": 74500,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "돈암힐스테이트": {
+    "gu": "성북",
+    "median_price": 85500,
+    "trade_count": 5,
+    "min_price": 80000,
+    "max_price": 93000,
+    "source": "molit_6m"
+  },
+  "동소문현대": {
+    "gu": "성북",
+    "median_price": 63900,
+    "trade_count": 4,
+    "min_price": 41000,
+    "max_price": 68500,
+    "source": "molit_6m"
+  },
+  "길음뉴타운3단지푸르지오": {
+    "gu": "성북",
+    "median_price": 89500,
+    "trade_count": 9,
+    "min_price": 84000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "동부센트레빌": {
+    "gu": "서대문",
+    "median_price": 93350,
+    "trade_count": 4,
+    "min_price": 85000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "정릉중앙하이츠아파트": {
+    "gu": "성북",
+    "median_price": 41500,
+    "trade_count": 3,
+    "min_price": 37000,
+    "max_price": 42300,
+    "source": "molit_6m"
+  },
+  "길음뉴타운데시앙": {
+    "gu": "성북",
+    "median_price": 62250,
+    "trade_count": 8,
+    "min_price": 57000,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "한진(609-1)": {
+    "gu": "성북",
+    "median_price": 80500,
+    "trade_count": 42,
+    "min_price": 61800,
+    "max_price": 93000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운경남아너스빌": {
+    "gu": "성북",
+    "median_price": 73000,
+    "trade_count": 19,
+    "min_price": 61000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "송산아파트": {
+    "gu": "성북",
+    "median_price": 63000,
+    "trade_count": 7,
+    "min_price": 59500,
+    "max_price": 83000,
+    "source": "molit_6m"
+  },
+  "정릉e-편한세상": {
+    "gu": "성북",
+    "median_price": 70500,
+    "trade_count": 20,
+    "min_price": 66500,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "일신건영휴먼빌아파트": {
+    "gu": "마포",
+    "median_price": 105000,
+    "trade_count": 1,
+    "min_price": 105000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "안암동삼성래미안": {
+    "gu": "성북",
+    "median_price": 92000,
+    "trade_count": 18,
+    "min_price": 59500,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "래미안크리시엘": {
+    "gu": "성북",
+    "median_price": 94000,
+    "trade_count": 26,
+    "min_price": 82000,
+    "max_price": 104500,
+    "source": "molit_6m"
+  },
+  "삼부컨비니언": {
+    "gu": "성북",
+    "median_price": 70000,
+    "trade_count": 11,
+    "min_price": 44000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "우정에쉐르": {
+    "gu": "성북",
+    "median_price": 67000,
+    "trade_count": 5,
+    "min_price": 59000,
+    "max_price": 71500,
+    "source": "molit_6m"
+  },
+  "종암에스케이": {
+    "gu": "성북",
+    "median_price": 83000,
+    "trade_count": 23,
+    "min_price": 73000,
+    "max_price": 96500,
+    "source": "molit_6m"
+  },
+  "돈암현대아파트": {
+    "gu": "성북",
+    "median_price": 72500,
+    "trade_count": 9,
+    "min_price": 59400,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "길음동동부센트레빌(1278-0)": {
+    "gu": "성북",
+    "median_price": 98500,
+    "trade_count": 14,
+    "min_price": 56000,
+    "max_price": 105500,
+    "source": "molit_6m"
+  },
+  "우림카이저팰리스": {
+    "gu": "성북",
+    "median_price": 75500,
+    "trade_count": 5,
+    "min_price": 54000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "돈암동삼성": {
+    "gu": "성북",
+    "median_price": 83500,
+    "trade_count": 18,
+    "min_price": 67000,
+    "max_price": 96000,
+    "source": "molit_6m"
+  },
+  "아이파크종암동1차": {
+    "gu": "성북",
+    "median_price": 92200,
+    "trade_count": 14,
+    "min_price": 77800,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "삼선에스케이뷰": {
+    "gu": "성북",
+    "median_price": 107750,
+    "trade_count": 2,
+    "min_price": 106500,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "성일우리미": {
+    "gu": "성북",
+    "median_price": 65500,
+    "trade_count": 7,
+    "min_price": 60000,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "정릉푸르지오": {
+    "gu": "성북",
+    "median_price": 77500,
+    "trade_count": 7,
+    "min_price": 72000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "꿈의숲대명루첸아파트": {
+    "gu": "성북",
+    "median_price": 95500,
+    "trade_count": 16,
+    "min_price": 65000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "한신플러스C": {
+    "gu": "성북",
+    "median_price": 85600,
+    "trade_count": 16,
+    "min_price": 78000,
+    "max_price": 97000,
+    "source": "molit_6m"
+  },
+  "월곡래미안루나밸리": {
+    "gu": "성북",
+    "median_price": 98000,
+    "trade_count": 15,
+    "min_price": 86750,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "길음현대": {
+    "gu": "성북",
+    "median_price": 61500,
+    "trade_count": 3,
+    "min_price": 59800,
+    "max_price": 62800,
+    "source": "molit_6m"
+  },
+  "길음뉴타운5단지(래미안)": {
+    "gu": "성북",
+    "median_price": 101000,
+    "trade_count": 3,
+    "min_price": 67600,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "우남푸르미아": {
+    "gu": "노원",
+    "median_price": 64700,
+    "trade_count": 1,
+    "min_price": 64700,
+    "max_price": 64700,
+    "source": "molit_6m"
+  },
+  "래미안라센트": {
+    "gu": "성북",
+    "median_price": 103750,
+    "trade_count": 4,
+    "min_price": 94000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "정릉스카이쌍용아파트": {
+    "gu": "성북",
+    "median_price": 63500,
+    "trade_count": 15,
+    "min_price": 51500,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "동대문더퍼스트데시앙": {
+    "gu": "동대문",
+    "median_price": 90800,
+    "trade_count": 7,
+    "min_price": 87000,
+    "max_price": 108750,
+    "source": "molit_6m"
+  },
+  "시온": {
+    "gu": "동대문",
+    "median_price": 55000,
+    "trade_count": 5,
+    "min_price": 55000,
+    "max_price": 55000,
+    "source": "molit_6m"
+  },
+  "동답한신": {
+    "gu": "동대문",
+    "median_price": 69000,
+    "trade_count": 8,
+    "min_price": 59000,
+    "max_price": 75500,
+    "source": "molit_6m"
+  },
+  "안암골벽산": {
+    "gu": "동대문",
+    "median_price": 92200,
+    "trade_count": 6,
+    "min_price": 86200,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "대림": {
+    "gu": "서대문",
+    "median_price": 74250,
+    "trade_count": 2,
+    "min_price": 70000,
+    "max_price": 78500,
+    "source": "molit_6m"
+  },
+  "장한평월드메르디앙": {
+    "gu": "동대문",
+    "median_price": 83400,
+    "trade_count": 6,
+    "min_price": 75000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "쌍용": {
+    "gu": "도봉",
+    "median_price": 78100,
+    "trade_count": 18,
+    "min_price": 43400,
+    "max_price": 94500,
+    "source": "molit_6m"
+  },
+  "래미안엘파인아파트": {
+    "gu": "동대문",
+    "median_price": 93500,
+    "trade_count": 15,
+    "min_price": 79000,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "대명이룸아파트(565-0)": {
+    "gu": "동대문",
+    "median_price": 75000,
+    "trade_count": 1,
+    "min_price": 75000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "이문삼성래미안아파트": {
+    "gu": "동대문",
+    "median_price": 82850,
+    "trade_count": 2,
+    "min_price": 79000,
+    "max_price": 86700,
+    "source": "molit_6m"
+  },
+  "금성아파트": {
+    "gu": "동대문",
+    "median_price": 52000,
+    "trade_count": 1,
+    "min_price": 52000,
+    "max_price": 52000,
+    "source": "molit_6m"
+  },
+  "서희스타힐스": {
+    "gu": "동대문",
+    "median_price": 61000,
+    "trade_count": 2,
+    "min_price": 59000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "전농우성": {
+    "gu": "동대문",
+    "median_price": 74850,
+    "trade_count": 22,
+    "min_price": 62000,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "대림e-편한세상": {
+    "gu": "양천",
+    "median_price": 93500,
+    "trade_count": 9,
+    "min_price": 51500,
+    "max_price": 97000,
+    "source": "molit_6m"
+  },
+  "전농동삼성래미안": {
+    "gu": "동대문",
+    "median_price": 99500,
+    "trade_count": 6,
+    "min_price": 82000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "휘경해모로프레스티지": {
+    "gu": "동대문",
+    "median_price": 93750,
+    "trade_count": 6,
+    "min_price": 90000,
+    "max_price": 102000,
+    "source": "molit_6m"
+  },
+  "태솔아파트2차": {
+    "gu": "동대문",
+    "median_price": 47200,
+    "trade_count": 1,
+    "min_price": 47200,
+    "max_price": 47200,
+    "source": "molit_6m"
+  },
+  "휘경미소지움": {
+    "gu": "동대문",
+    "median_price": 75000,
+    "trade_count": 9,
+    "min_price": 58500,
+    "max_price": 82800,
+    "source": "molit_6m"
+  },
+  "답십리한화": {
+    "gu": "동대문",
+    "median_price": 93500,
+    "trade_count": 3,
+    "min_price": 91000,
+    "max_price": 95500,
+    "source": "molit_6m"
+  },
+  "답십리청솔우성": {
+    "gu": "동대문",
+    "median_price": 91500,
+    "trade_count": 17,
+    "min_price": 77500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "롯데": {
+    "gu": "동대문",
+    "median_price": 70000,
+    "trade_count": 9,
+    "min_price": 44730,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "장안현대홈타운(336)": {
+    "gu": "동대문",
+    "median_price": 100000,
+    "trade_count": 21,
+    "min_price": 85000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "일성트루엘": {
+    "gu": "동대문",
+    "median_price": 81100,
+    "trade_count": 4,
+    "min_price": 72000,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "현대리노빌103동": {
+    "gu": "동대문",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "삼익": {
+    "gu": "동작",
+    "median_price": 88800,
+    "trade_count": 1,
+    "min_price": 88800,
+    "max_price": 88800,
+    "source": "molit_6m"
+  },
+  "휘경베스트빌현대": {
+    "gu": "동대문",
+    "median_price": 63000,
+    "trade_count": 9,
+    "min_price": 55000,
+    "max_price": 68400,
+    "source": "molit_6m"
+  },
+  "한신아파트": {
+    "gu": "금천",
+    "median_price": 64200,
+    "trade_count": 21,
+    "min_price": 55000,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "우성그린": {
+    "gu": "동대문",
+    "median_price": 76000,
+    "trade_count": 9,
+    "min_price": 59500,
+    "max_price": 86500,
+    "source": "molit_6m"
+  },
+  "중앙하이츠빌": {
+    "gu": "동대문",
+    "median_price": 83000,
+    "trade_count": 6,
+    "min_price": 74000,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "태솔아파트1차": {
+    "gu": "동대문",
+    "median_price": 51500,
+    "trade_count": 1,
+    "min_price": 51500,
+    "max_price": 51500,
+    "source": "molit_6m"
+  },
+  "현대홈타운3차": {
+    "gu": "동대문",
+    "median_price": 92000,
+    "trade_count": 2,
+    "min_price": 91500,
+    "max_price": 92500,
+    "source": "molit_6m"
+  },
+  "장안힐스테이트": {
+    "gu": "동대문",
+    "median_price": 107250,
+    "trade_count": 10,
+    "min_price": 103000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "래미안장안": {
+    "gu": "동대문",
+    "median_price": 103900,
+    "trade_count": 4,
+    "min_price": 99000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "이문2차푸르지오": {
+    "gu": "동대문",
+    "median_price": 77000,
+    "trade_count": 5,
+    "min_price": 77000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "형인허브빌2차(566)": {
+    "gu": "동대문",
+    "median_price": 69500,
+    "trade_count": 1,
+    "min_price": 69500,
+    "max_price": 69500,
+    "source": "molit_6m"
+  },
+  "휘경제이스카이아파트": {
+    "gu": "동대문",
+    "median_price": 67350,
+    "trade_count": 6,
+    "min_price": 63500,
+    "max_price": 70700,
+    "source": "molit_6m"
+  },
+  "현대코아": {
+    "gu": "동대문",
+    "median_price": 65000,
+    "trade_count": 1,
+    "min_price": 65000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "르메이에르장안타운6차": {
+    "gu": "동대문",
+    "median_price": 64200,
+    "trade_count": 1,
+    "min_price": 64200,
+    "max_price": 64200,
+    "source": "molit_6m"
+  },
+  "선일크라시아": {
+    "gu": "동대문",
+    "median_price": 45100,
+    "trade_count": 1,
+    "min_price": 45100,
+    "max_price": 45100,
+    "source": "molit_6m"
+  },
+  "롯데캐슬피렌체": {
+    "gu": "동대문",
+    "median_price": 101750,
+    "trade_count": 2,
+    "min_price": 98000,
+    "max_price": 105500,
+    "source": "molit_6m"
+  },
+  "은하수드림필": {
+    "gu": "동대문",
+    "median_price": 70000,
+    "trade_count": 3,
+    "min_price": 69400,
+    "max_price": 71500,
+    "source": "molit_6m"
+  },
+  "명경아트빌": {
+    "gu": "동대문",
+    "median_price": 40000,
+    "trade_count": 1,
+    "min_price": 40000,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "전농SK": {
+    "gu": "동대문",
+    "median_price": 99500,
+    "trade_count": 20,
+    "min_price": 83500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "은하수드림빌": {
+    "gu": "동대문",
+    "median_price": 64500,
+    "trade_count": 1,
+    "min_price": 64500,
+    "max_price": 64500,
+    "source": "molit_6m"
+  },
+  "이수브라운스톤": {
+    "gu": "동대문",
+    "median_price": 90250,
+    "trade_count": 10,
+    "min_price": 84000,
+    "max_price": 94500,
+    "source": "molit_6m"
+  },
+  "신현대": {
+    "gu": "동대문",
+    "median_price": 90250,
+    "trade_count": 12,
+    "min_price": 69000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "래미안이문2차": {
+    "gu": "동대문",
+    "median_price": 100500,
+    "trade_count": 4,
+    "min_price": 95000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "회기힐스테이트": {
+    "gu": "동대문",
+    "median_price": 103500,
+    "trade_count": 4,
+    "min_price": 95500,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "브라운스톤휘경": {
+    "gu": "동대문",
+    "median_price": 94500,
+    "trade_count": 5,
+    "min_price": 84000,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "동서울한양": {
+    "gu": "동대문",
+    "median_price": 64250,
+    "trade_count": 20,
+    "min_price": 56000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "주공1": {
+    "gu": "동대문",
+    "median_price": 89000,
+    "trade_count": 12,
+    "min_price": 81300,
+    "max_price": 95800,
+    "source": "molit_6m"
+  },
+  "태솔아파트5차": {
+    "gu": "동대문",
+    "median_price": 53250,
+    "trade_count": 2,
+    "min_price": 49500,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "삼희": {
+    "gu": "동대문",
+    "median_price": 50500,
+    "trade_count": 2,
+    "min_price": 35000,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "세양청마루": {
+    "gu": "마포",
+    "median_price": 109000,
+    "trade_count": 1,
+    "min_price": 109000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "신일해피트리아파트101동": {
+    "gu": "동대문",
+    "median_price": 69400,
+    "trade_count": 2,
+    "min_price": 63800,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "한강훼미리주상복합아파트": {
+    "gu": "동대문",
+    "median_price": 61400,
+    "trade_count": 2,
+    "min_price": 60000,
+    "max_price": 62800,
+    "source": "molit_6m"
+  },
+  "신이문금호어울림": {
+    "gu": "동대문",
+    "median_price": 87500,
+    "trade_count": 2,
+    "min_price": 80000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "래미안장안2차": {
+    "gu": "동대문",
+    "median_price": 107700,
+    "trade_count": 12,
+    "min_price": 89900,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "현대홈타운2차": {
+    "gu": "동대문",
+    "median_price": 85000,
+    "trade_count": 3,
+    "min_price": 84500,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "청솔2차우성": {
+    "gu": "동대문",
+    "median_price": 77100,
+    "trade_count": 6,
+    "min_price": 54000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "보성주상복합": {
+    "gu": "양천",
+    "median_price": 77700,
+    "trade_count": 1,
+    "min_price": 77700,
+    "max_price": 77700,
+    "source": "molit_6m"
+  },
+  "목동센트럴아이파크위브2단지": {
+    "gu": "양천",
+    "median_price": 103000,
+    "trade_count": 9,
+    "min_price": 73500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "예담파크뷰": {
+    "gu": "양천",
+    "median_price": 76000,
+    "trade_count": 1,
+    "min_price": 76000,
+    "max_price": 76000,
+    "source": "molit_6m"
+  },
+  "신안파크": {
+    "gu": "양천",
+    "median_price": 38850,
+    "trade_count": 2,
+    "min_price": 37400,
+    "max_price": 40300,
+    "source": "molit_6m"
+  },
+  "이펜하우스2단지": {
+    "gu": "양천",
+    "median_price": 77000,
+    "trade_count": 5,
+    "min_price": 72500,
+    "max_price": 78500,
+    "source": "molit_6m"
+  },
+  "신정6현대": {
+    "gu": "양천",
+    "median_price": 66350,
+    "trade_count": 8,
+    "min_price": 59500,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "신월2차보람쉬움": {
+    "gu": "양천",
+    "median_price": 53000,
+    "trade_count": 3,
+    "min_price": 53000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "상진지오벨리": {
+    "gu": "양천",
+    "median_price": 63750,
+    "trade_count": 2,
+    "min_price": 63500,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "로마아트빌": {
+    "gu": "양천",
+    "median_price": 65000,
+    "trade_count": 2,
+    "min_price": 60000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "태헌(신월프라자)": {
+    "gu": "양천",
+    "median_price": 22500,
+    "trade_count": 2,
+    "min_price": 22000,
+    "max_price": 23000,
+    "source": "molit_6m"
+  },
+  "롯데캐슬": {
+    "gu": "양천",
+    "median_price": 99000,
+    "trade_count": 9,
+    "min_price": 93000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "제이월드": {
+    "gu": "양천",
+    "median_price": 66900,
+    "trade_count": 1,
+    "min_price": 66900,
+    "max_price": 66900,
+    "source": "molit_6m"
+  },
+  "신성미소지움": {
+    "gu": "성동",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "신트리1": {
+    "gu": "양천",
+    "median_price": 88400,
+    "trade_count": 12,
+    "min_price": 66000,
+    "max_price": 99000,
+    "source": "molit_6m"
+  },
+  "정은스카이빌3차": {
+    "gu": "양천",
+    "median_price": 76500,
+    "trade_count": 2,
+    "min_price": 73000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "양천벽산블루밍1단지": {
+    "gu": "양천",
+    "median_price": 74000,
+    "trade_count": 9,
+    "min_price": 50000,
+    "max_price": 76000,
+    "source": "molit_6m"
+  },
+  "해태": {
+    "gu": "양천",
+    "median_price": 59500,
+    "trade_count": 3,
+    "min_price": 56000,
+    "max_price": 59800,
+    "source": "molit_6m"
+  },
+  "푸른마을3": {
+    "gu": "양천",
+    "median_price": 62000,
+    "trade_count": 8,
+    "min_price": 57800,
+    "max_price": 81000,
+    "source": "molit_6m"
+  },
+  "두란": {
+    "gu": "양천",
+    "median_price": 44300,
+    "trade_count": 3,
+    "min_price": 39700,
+    "max_price": 53600,
+    "source": "molit_6m"
+  },
+  "대주파크빌": {
+    "gu": "양천",
+    "median_price": 80500,
+    "trade_count": 3,
+    "min_price": 51500,
+    "max_price": 81000,
+    "source": "molit_6m"
+  },
+  "신정두산위브": {
+    "gu": "양천",
+    "median_price": 105700,
+    "trade_count": 9,
+    "min_price": 93000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "대성유니드1차": {
+    "gu": "양천",
+    "median_price": 58750,
+    "trade_count": 8,
+    "min_price": 57000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "동원데자뷰": {
+    "gu": "양천",
+    "median_price": 75150,
+    "trade_count": 4,
+    "min_price": 57000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "서울": {
+    "gu": "양천",
+    "median_price": 31000,
+    "trade_count": 3,
+    "min_price": 30000,
+    "max_price": 37500,
+    "source": "molit_6m"
+  },
+  "덕현해밀(101동)": {
+    "gu": "양천",
+    "median_price": 55000,
+    "trade_count": 1,
+    "min_price": 55000,
+    "max_price": 55000,
+    "source": "molit_6m"
+  },
+  "인우": {
+    "gu": "양천",
+    "median_price": 69500,
+    "trade_count": 1,
+    "min_price": 69500,
+    "max_price": 69500,
+    "source": "molit_6m"
+  },
+  "흥영": {
+    "gu": "양천",
+    "median_price": 58000,
+    "trade_count": 1,
+    "min_price": 58000,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "푸른마을4": {
+    "gu": "양천",
+    "median_price": 83500,
+    "trade_count": 6,
+    "min_price": 74000,
+    "max_price": 85500,
+    "source": "molit_6m"
+  },
+  "이펜하우스4단지": {
+    "gu": "양천",
+    "median_price": 72200,
+    "trade_count": 8,
+    "min_price": 63500,
+    "max_price": 80200,
+    "source": "molit_6m"
+  },
+  "신안약수": {
+    "gu": "양천",
+    "median_price": 66000,
+    "trade_count": 13,
+    "min_price": 40700,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "신트리4": {
+    "gu": "양천",
+    "median_price": 75250,
+    "trade_count": 18,
+    "min_price": 42000,
+    "max_price": 84750,
+    "source": "molit_6m"
+  },
+  "신정동로마": {
+    "gu": "양천",
+    "median_price": 48000,
+    "trade_count": 1,
+    "min_price": 48000,
+    "max_price": 48000,
+    "source": "molit_6m"
+  },
+  "목동효성": {
+    "gu": "양천",
+    "median_price": 75500,
+    "trade_count": 2,
+    "min_price": 60000,
+    "max_price": 91000,
+    "source": "molit_6m"
+  },
+  "명지해드는터": {
+    "gu": "양천",
+    "median_price": 98000,
+    "trade_count": 2,
+    "min_price": 98000,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "보람쉬움1": {
+    "gu": "양천",
+    "median_price": 54000,
+    "trade_count": 5,
+    "min_price": 50500,
+    "max_price": 58500,
+    "source": "molit_6m"
+  },
+  "동원로데오": {
+    "gu": "양천",
+    "median_price": 90000,
+    "trade_count": 2,
+    "min_price": 85000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "목동우성3": {
+    "gu": "양천",
+    "median_price": 74000,
+    "trade_count": 8,
+    "min_price": 70000,
+    "max_price": 92000,
+    "source": "molit_6m"
+  },
+  "수명산롯데캐슬": {
+    "gu": "양천",
+    "median_price": 72500,
+    "trade_count": 7,
+    "min_price": 65000,
+    "max_price": 80500,
+    "source": "molit_6m"
+  },
+  "이펜하우스1단지": {
+    "gu": "양천",
+    "median_price": 60000,
+    "trade_count": 3,
+    "min_price": 60000,
+    "max_price": 79500,
+    "source": "molit_6m"
+  },
+  "목동벨로스주상복합": {
+    "gu": "양천",
+    "median_price": 51000,
+    "trade_count": 1,
+    "min_price": 51000,
+    "max_price": 51000,
+    "source": "molit_6m"
+  },
+  "이펜하우스3단지": {
+    "gu": "양천",
+    "median_price": 70000,
+    "trade_count": 7,
+    "min_price": 67000,
+    "max_price": 83500,
+    "source": "molit_6m"
+  },
+  "신목동파라곤": {
+    "gu": "양천",
+    "median_price": 85000,
+    "trade_count": 2,
+    "min_price": 80000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "올림푸스(150-1)": {
+    "gu": "양천",
+    "median_price": 45000,
+    "trade_count": 1,
+    "min_price": 45000,
+    "max_price": 45000,
+    "source": "molit_6m"
+  },
+  "벽산블루밍1단지": {
+    "gu": "양천",
+    "median_price": 67500,
+    "trade_count": 6,
+    "min_price": 64500,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "신도신월1차": {
+    "gu": "양천",
+    "median_price": 71300,
+    "trade_count": 3,
+    "min_price": 69000,
+    "max_price": 74750,
+    "source": "molit_6m"
+  },
+  "수명산SKVIEW": {
+    "gu": "양천",
+    "median_price": 81250,
+    "trade_count": 2,
+    "min_price": 75000,
+    "max_price": 87500,
+    "source": "molit_6m"
+  },
+  "금호아파트(768)": {
+    "gu": "양천",
+    "median_price": 91500,
+    "trade_count": 2,
+    "min_price": 80000,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "수명산그린시아": {
+    "gu": "양천",
+    "median_price": 56800,
+    "trade_count": 2,
+    "min_price": 56800,
+    "max_price": 56800,
+    "source": "molit_6m"
+  },
+  "푸른마을2": {
+    "gu": "양천",
+    "median_price": 61000,
+    "trade_count": 8,
+    "min_price": 56500,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "성보": {
+    "gu": "양천",
+    "median_price": 82000,
+    "trade_count": 1,
+    "min_price": 82000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "목동금호베스트빌": {
+    "gu": "양천",
+    "median_price": 98000,
+    "trade_count": 3,
+    "min_price": 83500,
+    "max_price": 104000,
+    "source": "molit_6m"
+  },
+  "장수마을2단지동원데쟈뷰": {
+    "gu": "양천",
+    "median_price": 77350,
+    "trade_count": 2,
+    "min_price": 75900,
+    "max_price": 78800,
+    "source": "molit_6m"
+  },
+  "금하뜨라네": {
+    "gu": "양천",
+    "median_price": 46000,
+    "trade_count": 3,
+    "min_price": 44000,
+    "max_price": 50000,
+    "source": "molit_6m"
+  },
+  "방주아크빌": {
+    "gu": "양천",
+    "median_price": 41000,
+    "trade_count": 1,
+    "min_price": 41000,
+    "max_price": 41000,
+    "source": "molit_6m"
+  },
+  "청송그린힐": {
+    "gu": "양천",
+    "median_price": 42500,
+    "trade_count": 4,
+    "min_price": 38000,
+    "max_price": 43200,
+    "source": "molit_6m"
+  },
+  "신월2차미소지움": {
+    "gu": "양천",
+    "median_price": 71500,
+    "trade_count": 6,
+    "min_price": 70000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "보람쉬움": {
+    "gu": "양천",
+    "median_price": 83000,
+    "trade_count": 3,
+    "min_price": 70200,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "동일하이빌2단지": {
+    "gu": "양천",
+    "median_price": 107500,
+    "trade_count": 4,
+    "min_price": 106500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "방주기픈샘": {
+    "gu": "양천",
+    "median_price": 55000,
+    "trade_count": 3,
+    "min_price": 53400,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "스카이빌1차": {
+    "gu": "광진",
+    "median_price": 73000,
+    "trade_count": 1,
+    "min_price": 73000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "구의현대홈시티": {
+    "gu": "광진",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "에스케이": {
+    "gu": "광진",
+    "median_price": 75250,
+    "trade_count": 4,
+    "min_price": 69000,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "주성힐스톤": {
+    "gu": "광진",
+    "median_price": 75000,
+    "trade_count": 1,
+    "min_price": 75000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "퓨전빌": {
+    "gu": "광진",
+    "median_price": 73000,
+    "trade_count": 1,
+    "min_price": 73000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "구의자이르네": {
+    "gu": "광진",
+    "median_price": 95000,
+    "trade_count": 5,
+    "min_price": 92200,
+    "max_price": 105500,
+    "source": "molit_6m"
+  },
+  "웰빙": {
+    "gu": "광진",
+    "median_price": 69000,
+    "trade_count": 2,
+    "min_price": 68000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "구의동현진에버빌": {
+    "gu": "광진",
+    "median_price": 98000,
+    "trade_count": 1,
+    "min_price": 98000,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "스타파크": {
+    "gu": "광진",
+    "median_price": 74900,
+    "trade_count": 1,
+    "min_price": 74900,
+    "max_price": 74900,
+    "source": "molit_6m"
+  },
+  "광진파크프라이빗": {
+    "gu": "광진",
+    "median_price": 81000,
+    "trade_count": 1,
+    "min_price": 81000,
+    "max_price": 81000,
+    "source": "molit_6m"
+  },
+  "자양동현대": {
+    "gu": "광진",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "정릉푸른마을동아": {
+    "gu": "성북",
+    "median_price": 63250,
+    "trade_count": 10,
+    "min_price": 56000,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "대성유니드(641-0)": {
+    "gu": "성북",
+    "median_price": 70000,
+    "trade_count": 1,
+    "min_price": 70000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "길음역금호어울림센터힐": {
+    "gu": "성북",
+    "median_price": 105000,
+    "trade_count": 7,
+    "min_price": 99000,
+    "max_price": 109300,
+    "source": "molit_6m"
+  },
+  "참누리아파트": {
+    "gu": "성북",
+    "median_price": 76500,
+    "trade_count": 10,
+    "min_price": 67500,
+    "max_price": 79800,
+    "source": "molit_6m"
+  },
+  "정릉힐스테이트1차": {
+    "gu": "성북",
+    "median_price": 81850,
+    "trade_count": 6,
+    "min_price": 78700,
+    "max_price": 84500,
+    "source": "molit_6m"
+  },
+  "선경(127)": {
+    "gu": "성북",
+    "median_price": 48500,
+    "trade_count": 1,
+    "min_price": 48500,
+    "max_price": 48500,
+    "source": "molit_6m"
+  },
+  "돈암동 풍림아파트 101~105동": {
+    "gu": "성북",
+    "median_price": 63000,
+    "trade_count": 11,
+    "min_price": 52000,
+    "max_price": 74500,
+    "source": "molit_6m"
+  },
+  "꿈의숲코오롱하늘채": {
+    "gu": "성북",
+    "median_price": 99700,
+    "trade_count": 7,
+    "min_price": 93500,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "정릉2차대주피오레": {
+    "gu": "성북",
+    "median_price": 61700,
+    "trade_count": 5,
+    "min_price": 46000,
+    "max_price": 68800,
+    "source": "molit_6m"
+  },
+  "성북힐스테이트(102동)": {
+    "gu": "성북",
+    "median_price": 92200,
+    "trade_count": 2,
+    "min_price": 86900,
+    "max_price": 97500,
+    "source": "molit_6m"
+  },
+  "범양": {
+    "gu": "성북",
+    "median_price": 77800,
+    "trade_count": 13,
+    "min_price": 70500,
+    "max_price": 92000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운7단지(두산위브)": {
+    "gu": "성북",
+    "median_price": 104500,
+    "trade_count": 4,
+    "min_price": 103300,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "보문파크뷰자이": {
+    "gu": "성북",
+    "median_price": 107250,
+    "trade_count": 2,
+    "min_price": 105000,
+    "max_price": 109500,
+    "source": "molit_6m"
+  },
+  "종암선경": {
+    "gu": "성북",
+    "median_price": 68500,
+    "trade_count": 9,
+    "min_price": 60000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "종암2차SKVIEW": {
+    "gu": "성북",
+    "median_price": 92000,
+    "trade_count": 3,
+    "min_price": 89000,
+    "max_price": 93000,
+    "source": "molit_6m"
+  },
+  "정릉꿈에그린": {
+    "gu": "성북",
+    "median_price": 81750,
+    "trade_count": 10,
+    "min_price": 76300,
+    "max_price": 93500,
+    "source": "molit_6m"
+  },
+  "돈암동해피트리": {
+    "gu": "성북",
+    "median_price": 93000,
+    "trade_count": 3,
+    "min_price": 89700,
+    "max_price": 94000,
+    "source": "molit_6m"
+  },
+  "월곡갑을명가": {
+    "gu": "성북",
+    "median_price": 68500,
+    "trade_count": 2,
+    "min_price": 68000,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "석관래미안": {
+    "gu": "성북",
+    "median_price": 94500,
+    "trade_count": 9,
+    "min_price": 82000,
+    "max_price": 102500,
+    "source": "molit_6m"
+  },
+  "함성백합": {
+    "gu": "마포",
+    "median_price": 74000,
+    "trade_count": 1,
+    "min_price": 74000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "홍익하이빌": {
+    "gu": "마포",
+    "median_price": 41400,
+    "trade_count": 2,
+    "min_price": 39800,
+    "max_price": 43000,
+    "source": "molit_6m"
+  },
+  "상암월드컵파크12단지": {
+    "gu": "마포",
+    "median_price": 94000,
+    "trade_count": 3,
+    "min_price": 88000,
+    "max_price": 94000,
+    "source": "molit_6m"
+  },
+  "대우미래사랑": {
+    "gu": "마포",
+    "median_price": 68250,
+    "trade_count": 4,
+    "min_price": 66000,
+    "max_price": 69500,
+    "source": "molit_6m"
+  },
+  "DMC상암센트럴파크2단지": {
+    "gu": "마포",
+    "median_price": 109000,
+    "trade_count": 1,
+    "min_price": 109000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "상암월드컵파크11단지": {
+    "gu": "마포",
+    "median_price": 99000,
+    "trade_count": 3,
+    "min_price": 96000,
+    "max_price": 99500,
+    "source": "molit_6m"
+  },
+  "대림2": {
+    "gu": "마포",
+    "median_price": 98500,
+    "trade_count": 2,
+    "min_price": 90000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "중앙하이츠103동": {
+    "gu": "마포",
+    "median_price": 59000,
+    "trade_count": 1,
+    "min_price": 59000,
+    "max_price": 59000,
+    "source": "molit_6m"
+  },
+  "서서울삼성": {
+    "gu": "마포",
+    "median_price": 108000,
+    "trade_count": 1,
+    "min_price": 108000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "대명": {
+    "gu": "마포",
+    "median_price": 99250,
+    "trade_count": 2,
+    "min_price": 93000,
+    "max_price": 105500,
+    "source": "molit_6m"
+  },
+  "성산동자담이움아파트": {
+    "gu": "마포",
+    "median_price": 90000,
+    "trade_count": 1,
+    "min_price": 90000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "대림1": {
+    "gu": "마포",
+    "median_price": 93500,
+    "trade_count": 2,
+    "min_price": 92000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "수풍": {
+    "gu": "마포",
+    "median_price": 39500,
+    "trade_count": 1,
+    "min_price": 39500,
+    "max_price": 39500,
+    "source": "molit_6m"
+  },
+  "예미원": {
+    "gu": "마포",
+    "median_price": 80000,
+    "trade_count": 2,
+    "min_price": 73000,
+    "max_price": 87000,
+    "source": "molit_6m"
+  },
+  "솔루체": {
+    "gu": "마포",
+    "median_price": 67500,
+    "trade_count": 1,
+    "min_price": 67500,
+    "max_price": 67500,
+    "source": "molit_6m"
+  },
+  "에덴지우": {
+    "gu": "마포",
+    "median_price": 80500,
+    "trade_count": 1,
+    "min_price": 80500,
+    "max_price": 80500,
+    "source": "molit_6m"
+  },
+  "보라매경남아너스빌": {
+    "gu": "영등포",
+    "median_price": 97000,
+    "trade_count": 4,
+    "min_price": 80500,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "보라매정은벚꽃마을": {
+    "gu": "영등포",
+    "median_price": 81000,
+    "trade_count": 2,
+    "min_price": 80000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "양평현대6차": {
+    "gu": "영등포",
+    "median_price": 101000,
+    "trade_count": 1,
+    "min_price": 101000,
+    "max_price": 101000,
+    "source": "molit_6m"
+  },
+  "문래동삼환": {
+    "gu": "영등포",
+    "median_price": 97150,
+    "trade_count": 4,
+    "min_price": 93500,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "경남": {
+    "gu": "노원",
+    "median_price": 88500,
+    "trade_count": 2,
+    "min_price": 87000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "한신휴2차": {
+    "gu": "영등포",
+    "median_price": 70000,
+    "trade_count": 1,
+    "min_price": 70000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "당산삼성2차": {
+    "gu": "영등포",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "문래건영": {
+    "gu": "영등포",
+    "median_price": 89500,
+    "trade_count": 3,
+    "min_price": 88000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "현대6차": {
+    "gu": "영등포",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "상록수": {
+    "gu": "영등포",
+    "median_price": 60750,
+    "trade_count": 6,
+    "min_price": 58500,
+    "max_price": 62500,
+    "source": "molit_6m"
+  },
+  "순영웰라이빌": {
+    "gu": "영등포",
+    "median_price": 87750,
+    "trade_count": 2,
+    "min_price": 86500,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "삼호한숲": {
+    "gu": "영등포",
+    "median_price": 97100,
+    "trade_count": 1,
+    "min_price": 97100,
+    "max_price": 97100,
+    "source": "molit_6m"
+  },
+  "유원문래": {
+    "gu": "영등포",
+    "median_price": 99750,
+    "trade_count": 2,
+    "min_price": 99000,
+    "max_price": 100500,
+    "source": "molit_6m"
+  },
+  "동훈노보빌": {
+    "gu": "영등포",
+    "median_price": 83000,
+    "trade_count": 3,
+    "min_price": 81000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "현대3차": {
+    "gu": "영등포",
+    "median_price": 95450,
+    "trade_count": 12,
+    "min_price": 76000,
+    "max_price": 109500,
+    "source": "molit_6m"
+  },
+  "신대림신동아파밀리에": {
+    "gu": "영등포",
+    "median_price": 91750,
+    "trade_count": 6,
+    "min_price": 74500,
+    "max_price": 96000,
+    "source": "molit_6m"
+  },
+  "보라매 신동아 파밀리에": {
+    "gu": "영등포",
+    "median_price": 100000,
+    "trade_count": 11,
+    "min_price": 96000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "한솔솔파크": {
+    "gu": "영등포",
+    "median_price": 88000,
+    "trade_count": 1,
+    "min_price": 88000,
+    "max_price": 88000,
+    "source": "molit_6m"
+  },
+  "양평벽산블루밍": {
+    "gu": "영등포",
+    "median_price": 89000,
+    "trade_count": 7,
+    "min_price": 75000,
+    "max_price": 97000,
+    "source": "molit_6m"
+  },
+  "양평한신": {
+    "gu": "영등포",
+    "median_price": 110000,
+    "trade_count": 5,
+    "min_price": 106500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "도림청구": {
+    "gu": "영등포",
+    "median_price": 87000,
+    "trade_count": 2,
+    "min_price": 84000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "신대림자이1단지": {
+    "gu": "영등포",
+    "median_price": 88250,
+    "trade_count": 2,
+    "min_price": 86500,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "삼두": {
+    "gu": "영등포",
+    "median_price": 71000,
+    "trade_count": 1,
+    "min_price": 71000,
+    "max_price": 71000,
+    "source": "molit_6m"
+  },
+  "무림": {
+    "gu": "영등포",
+    "median_price": 66500,
+    "trade_count": 2,
+    "min_price": 65500,
+    "max_price": 67500,
+    "source": "molit_6m"
+  },
+  "현대프라자": {
+    "gu": "영등포",
+    "median_price": 58900,
+    "trade_count": 4,
+    "min_price": 55000,
+    "max_price": 60500,
+    "source": "molit_6m"
+  },
+  "대방전철": {
+    "gu": "영등포",
+    "median_price": 95700,
+    "trade_count": 1,
+    "min_price": 95700,
+    "max_price": 95700,
+    "source": "molit_6m"
+  },
+  "당산디오빌": {
+    "gu": "영등포",
+    "median_price": 77000,
+    "trade_count": 1,
+    "min_price": 77000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "한솔": {
+    "gu": "서대문",
+    "median_price": 37000,
+    "trade_count": 1,
+    "min_price": 37000,
+    "max_price": 37000,
+    "source": "molit_6m"
+  },
+  "문래우정": {
+    "gu": "영등포",
+    "median_price": 108000,
+    "trade_count": 1,
+    "min_price": 108000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "한신공영": {
+    "gu": "영등포",
+    "median_price": 85750,
+    "trade_count": 6,
+    "min_price": 84500,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "태승훼밀리": {
+    "gu": "영등포",
+    "median_price": 102000,
+    "trade_count": 1,
+    "min_price": 102000,
+    "max_price": 102000,
+    "source": "molit_6m"
+  },
+  "삼천리": {
+    "gu": "양천",
+    "median_price": 62500,
+    "trade_count": 1,
+    "min_price": 62500,
+    "max_price": 62500,
+    "source": "molit_6m"
+  },
+  "반도유보라": {
+    "gu": "영등포",
+    "median_price": 98000,
+    "trade_count": 1,
+    "min_price": 98000,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "세림리오빌": {
+    "gu": "광진",
+    "median_price": 85000,
+    "trade_count": 1,
+    "min_price": 85000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "욱현": {
+    "gu": "광진",
+    "median_price": 61000,
+    "trade_count": 1,
+    "min_price": 61000,
+    "max_price": 61000,
+    "source": "molit_6m"
+  },
+  "현대팰리스": {
+    "gu": "광진",
+    "median_price": 56705,
+    "trade_count": 4,
+    "min_price": 51200,
+    "max_price": 62300,
+    "source": "molit_6m"
+  },
+  "중곡동광덕": {
+    "gu": "광진",
+    "median_price": 66000,
+    "trade_count": 1,
+    "min_price": 66000,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "테라팰리스건대2차": {
+    "gu": "광진",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "브라운스톤": {
+    "gu": "광진",
+    "median_price": 70000,
+    "trade_count": 3,
+    "min_price": 69500,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "광진동양파라곤2단지": {
+    "gu": "광진",
+    "median_price": 101500,
+    "trade_count": 1,
+    "min_price": 101500,
+    "max_price": 101500,
+    "source": "molit_6m"
+  },
+  "한영해시안아파트": {
+    "gu": "광진",
+    "median_price": 80000,
+    "trade_count": 2,
+    "min_price": 78500,
+    "max_price": 81500,
+    "source": "molit_6m"
+  },
+  "광남캐스빌(198-4)": {
+    "gu": "광진",
+    "median_price": 64800,
+    "trade_count": 1,
+    "min_price": 64800,
+    "max_price": 64800,
+    "source": "molit_6m"
+  },
+  "남서울힐스테이트": {
+    "gu": "금천",
+    "median_price": 88500,
+    "trade_count": 35,
+    "min_price": 77000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "각산": {
+    "gu": "금천",
+    "median_price": 45500,
+    "trade_count": 1,
+    "min_price": 45500,
+    "max_price": 45500,
+    "source": "molit_6m"
+  },
+  "관악산벽산타운5": {
+    "gu": "금천",
+    "median_price": 53300,
+    "trade_count": 39,
+    "min_price": 40800,
+    "max_price": 59850,
+    "source": "molit_6m"
+  },
+  "독산주공14단지": {
+    "gu": "금천",
+    "median_price": 56750,
+    "trade_count": 6,
+    "min_price": 51000,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "금천롯데캐슬골드파크3차": {
+    "gu": "금천",
+    "median_price": 96500,
+    "trade_count": 32,
+    "min_price": 91000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "독산동중앙하이츠빌": {
+    "gu": "금천",
+    "median_price": 74250,
+    "trade_count": 10,
+    "min_price": 71600,
+    "max_price": 86200,
+    "source": "molit_6m"
+  },
+  "독산현대": {
+    "gu": "금천",
+    "median_price": 54000,
+    "trade_count": 7,
+    "min_price": 47000,
+    "max_price": 61500,
+    "source": "molit_6m"
+  },
+  "e편한세상독산더타워": {
+    "gu": "금천",
+    "median_price": 81000,
+    "trade_count": 13,
+    "min_price": 75000,
+    "max_price": 97900,
+    "source": "molit_6m"
+  },
+  "금천롯데캐슬골드파크2차201동202동": {
+    "gu": "금천",
+    "median_price": 92500,
+    "trade_count": 13,
+    "min_price": 88000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "금천현대": {
+    "gu": "금천",
+    "median_price": 60000,
+    "trade_count": 34,
+    "min_price": 50800,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "무지개": {
+    "gu": "금천",
+    "median_price": 69650,
+    "trade_count": 2,
+    "min_price": 66000,
+    "max_price": 73300,
+    "source": "molit_6m"
+  },
+  "시흥베르빌": {
+    "gu": "금천",
+    "median_price": 73500,
+    "trade_count": 7,
+    "min_price": 68000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "진도3차아파트": {
+    "gu": "금천",
+    "median_price": 54900,
+    "trade_count": 4,
+    "min_price": 50000,
+    "max_price": 62500,
+    "source": "molit_6m"
+  },
+  "금강": {
+    "gu": "금천",
+    "median_price": 43850,
+    "trade_count": 2,
+    "min_price": 42500,
+    "max_price": 45200,
+    "source": "molit_6m"
+  },
+  "남서울건영2": {
+    "gu": "금천",
+    "median_price": 40000,
+    "trade_count": 7,
+    "min_price": 39000,
+    "max_price": 52500,
+    "source": "molit_6m"
+  },
+  "경남아너스빌2차": {
+    "gu": "동작",
+    "median_price": 91500,
+    "trade_count": 5,
+    "min_price": 82000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "삼익그린뷰": {
+    "gu": "동작",
+    "median_price": 78000,
+    "trade_count": 3,
+    "min_price": 50000,
+    "max_price": 91000,
+    "source": "molit_6m"
+  },
+  "갑을명가": {
+    "gu": "동작",
+    "median_price": 80000,
+    "trade_count": 2,
+    "min_price": 80000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "사당휴먼시아": {
+    "gu": "동작",
+    "median_price": 100000,
+    "trade_count": 5,
+    "min_price": 90000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "초원": {
+    "gu": "동작",
+    "median_price": 49500,
+    "trade_count": 1,
+    "min_price": 49500,
+    "max_price": 49500,
+    "source": "molit_6m"
+  },
+  "보라매아카데미타워": {
+    "gu": "동작",
+    "median_price": 88500,
+    "trade_count": 2,
+    "min_price": 84000,
+    "max_price": 93000,
+    "source": "molit_6m"
+  },
+  "상도팰리스": {
+    "gu": "동작",
+    "median_price": 89000,
+    "trade_count": 1,
+    "min_price": 89000,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "경향렉스빌": {
+    "gu": "동작",
+    "median_price": 90000,
+    "trade_count": 1,
+    "min_price": 90000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "초안2": {
+    "gu": "노원",
+    "median_price": 41500,
+    "trade_count": 2,
+    "min_price": 40000,
+    "max_price": 43000,
+    "source": "molit_6m"
+  },
+  "동원베네스트": {
+    "gu": "서대문",
+    "median_price": 58300,
+    "trade_count": 1,
+    "min_price": 58300,
+    "max_price": 58300,
+    "source": "molit_6m"
+  },
+  "삼익아파트": {
+    "gu": "노원",
+    "median_price": 53375,
+    "trade_count": 4,
+    "min_price": 49500,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "대망드림힐1": {
+    "gu": "노원",
+    "median_price": 57000,
+    "trade_count": 1,
+    "min_price": 57000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "현대2(4차)": {
+    "gu": "노원",
+    "median_price": 62500,
+    "trade_count": 4,
+    "min_price": 49000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "청암2단지": {
+    "gu": "노원",
+    "median_price": 44000,
+    "trade_count": 1,
+    "min_price": 44000,
+    "max_price": 44000,
+    "source": "molit_6m"
+  },
+  "극동의푸른별1차": {
+    "gu": "노원",
+    "median_price": 67000,
+    "trade_count": 1,
+    "min_price": 67000,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "수락파크": {
+    "gu": "노원",
+    "median_price": 35000,
+    "trade_count": 1,
+    "min_price": 35000,
+    "max_price": 35000,
+    "source": "molit_6m"
+  },
+  "유원": {
+    "gu": "서대문",
+    "median_price": 50500,
+    "trade_count": 11,
+    "min_price": 47000,
+    "max_price": 57500,
+    "source": "molit_6m"
+  },
+  "대주파크빌아파트": {
+    "gu": "노원",
+    "median_price": 65000,
+    "trade_count": 3,
+    "min_price": 64400,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "코지아뜨리에101": {
+    "gu": "노원",
+    "median_price": 41800,
+    "trade_count": 1,
+    "min_price": 41800,
+    "max_price": 41800,
+    "source": "molit_6m"
+  },
+  "건영아파트": {
+    "gu": "노원",
+    "median_price": 51700,
+    "trade_count": 2,
+    "min_price": 49400,
+    "max_price": 54000,
+    "source": "molit_6m"
+  },
+  "대동아파트": {
+    "gu": "성북",
+    "median_price": 59250,
+    "trade_count": 2,
+    "min_price": 58500,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "중계스타클래스": {
+    "gu": "노원",
+    "median_price": 69300,
+    "trade_count": 2,
+    "min_price": 69300,
+    "max_price": 69300,
+    "source": "molit_6m"
+  },
+  "서광": {
+    "gu": "도봉",
+    "median_price": 45000,
+    "trade_count": 1,
+    "min_price": 45000,
+    "max_price": 45000,
+    "source": "molit_6m"
+  },
+  "우국리더스빌": {
+    "gu": "노원",
+    "median_price": 58000,
+    "trade_count": 3,
+    "min_price": 56300,
+    "max_price": 58900,
+    "source": "molit_6m"
+  },
+  "상계1차현대아파트": {
+    "gu": "노원",
+    "median_price": 56000,
+    "trade_count": 9,
+    "min_price": 52000,
+    "max_price": 59500,
+    "source": "molit_6m"
+  },
+  "녹천역두산위브아파트": {
+    "gu": "노원",
+    "median_price": 73000,
+    "trade_count": 5,
+    "min_price": 63500,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "초안산쌍용스윗닷홈": {
+    "gu": "노원",
+    "median_price": 61300,
+    "trade_count": 6,
+    "min_price": 55500,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "북부현대": {
+    "gu": "노원",
+    "median_price": 40200,
+    "trade_count": 3,
+    "min_price": 40000,
+    "max_price": 41500,
+    "source": "molit_6m"
+  },
+  "공릉2신도브래뉴아파트": {
+    "gu": "노원",
+    "median_price": 80000,
+    "trade_count": 1,
+    "min_price": 80000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "성북역신도브래뉴": {
+    "gu": "노원",
+    "median_price": 73500,
+    "trade_count": 2,
+    "min_price": 61000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "건양노블레스빌": {
+    "gu": "노원",
+    "median_price": 73500,
+    "trade_count": 4,
+    "min_price": 72500,
+    "max_price": 80100,
+    "source": "molit_6m"
+  },
+  "현대(고려)아파트": {
+    "gu": "노원",
+    "median_price": 51000,
+    "trade_count": 3,
+    "min_price": 48500,
+    "max_price": 51000,
+    "source": "molit_6m"
+  },
+  "성지": {
+    "gu": "마포",
+    "median_price": 75250,
+    "trade_count": 2,
+    "min_price": 73500,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "주상복합두산": {
+    "gu": "금천",
+    "median_price": 38100,
+    "trade_count": 1,
+    "min_price": 38100,
+    "max_price": 38100,
+    "source": "molit_6m"
+  },
+  "성웅": {
+    "gu": "금천",
+    "median_price": 42000,
+    "trade_count": 1,
+    "min_price": 42000,
+    "max_price": 42000,
+    "source": "molit_6m"
+  },
+  "경남아파트": {
+    "gu": "금천",
+    "median_price": 43500,
+    "trade_count": 3,
+    "min_price": 43000,
+    "max_price": 44500,
+    "source": "molit_6m"
+  },
+  "금천롯데캐슬골드파크1차": {
+    "gu": "금천",
+    "median_price": 100000,
+    "trade_count": 7,
+    "min_price": 95000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "청광플러스원": {
+    "gu": "금천",
+    "median_price": 63500,
+    "trade_count": 2,
+    "min_price": 62000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "시흥동월드메르디앙": {
+    "gu": "금천",
+    "median_price": 48750,
+    "trade_count": 4,
+    "min_price": 46800,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "삼일": {
+    "gu": "금천",
+    "median_price": 35000,
+    "trade_count": 2,
+    "min_price": 33000,
+    "max_price": 37000,
+    "source": "molit_6m"
+  },
+  "독산동아아파트": {
+    "gu": "금천",
+    "median_price": 39200,
+    "trade_count": 1,
+    "min_price": 39200,
+    "max_price": 39200,
+    "source": "molit_6m"
+  },
+  "독산동한양수자인": {
+    "gu": "금천",
+    "median_price": 71000,
+    "trade_count": 3,
+    "min_price": 71000,
+    "max_price": 71300,
+    "source": "molit_6m"
+  },
+  "진도1차": {
+    "gu": "금천",
+    "median_price": 51000,
+    "trade_count": 5,
+    "min_price": 38500,
+    "max_price": 54800,
+    "source": "molit_6m"
+  },
+  "예전이룸(965-1)": {
+    "gu": "금천",
+    "median_price": 46500,
+    "trade_count": 1,
+    "min_price": 46500,
+    "max_price": 46500,
+    "source": "molit_6m"
+  },
+  "이랜드해가든": {
+    "gu": "금천",
+    "median_price": 72000,
+    "trade_count": 4,
+    "min_price": 70000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "벽산3": {
+    "gu": "금천",
+    "median_price": 51150,
+    "trade_count": 2,
+    "min_price": 49500,
+    "max_price": 52800,
+    "source": "molit_6m"
+  },
+  "남서울건영아파트": {
+    "gu": "금천",
+    "median_price": 55000,
+    "trade_count": 3,
+    "min_price": 53500,
+    "max_price": 68500,
+    "source": "molit_6m"
+  },
+  "워커힐 팰리스": {
+    "gu": "광진",
+    "median_price": 109000,
+    "trade_count": 1,
+    "min_price": 109000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "서원힐탑": {
+    "gu": "광진",
+    "median_price": 72000,
+    "trade_count": 1,
+    "min_price": 72000,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "구의현대7단지현대홈타운": {
+    "gu": "광진",
+    "median_price": 107000,
+    "trade_count": 1,
+    "min_price": 107000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "아차산한라아파트": {
+    "gu": "광진",
+    "median_price": 73000,
+    "trade_count": 1,
+    "min_price": 73000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "대성빌라트(552-6)": {
+    "gu": "광진",
+    "median_price": 44150,
+    "trade_count": 2,
+    "min_price": 43000,
+    "max_price": 45300,
+    "source": "molit_6m"
+  },
+  "동우아파트": {
+    "gu": "광진",
+    "median_price": 68000,
+    "trade_count": 1,
+    "min_price": 68000,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "중곡2단지": {
+    "gu": "광진",
+    "median_price": 60000,
+    "trade_count": 3,
+    "min_price": 50000,
+    "max_price": 62000,
+    "source": "molit_6m"
+  },
+  "화양현대": {
+    "gu": "광진",
+    "median_price": 109000,
+    "trade_count": 1,
+    "min_price": 109000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "세진": {
+    "gu": "양천",
+    "median_price": 57900,
+    "trade_count": 1,
+    "min_price": 57900,
+    "max_price": 57900,
+    "source": "molit_6m"
+  },
+  "로데오휘버스빌": {
+    "gu": "양천",
+    "median_price": 78000,
+    "trade_count": 1,
+    "min_price": 78000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "금강에스쁘아": {
+    "gu": "양천",
+    "median_price": 95000,
+    "trade_count": 1,
+    "min_price": 95000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "목동센트럴아이파크위브1단지": {
+    "gu": "양천",
+    "median_price": 105500,
+    "trade_count": 3,
+    "min_price": 104800,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "신한이모르젠": {
+    "gu": "양천",
+    "median_price": 64500,
+    "trade_count": 1,
+    "min_price": 64500,
+    "max_price": 64500,
+    "source": "molit_6m"
+  },
+  "목동태진드림피아": {
+    "gu": "양천",
+    "median_price": 95000,
+    "trade_count": 1,
+    "min_price": 95000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "양천벽산블루밍2단지": {
+    "gu": "양천",
+    "median_price": 67000,
+    "trade_count": 7,
+    "min_price": 58300,
+    "max_price": 71500,
+    "source": "molit_6m"
+  },
+  "목동센트럴아이파크위브3단지": {
+    "gu": "양천",
+    "median_price": 105250,
+    "trade_count": 2,
+    "min_price": 104000,
+    "max_price": 106500,
+    "source": "molit_6m"
+  },
+  "중앙하이츠목동펠리시티": {
+    "gu": "양천",
+    "median_price": 93500,
+    "trade_count": 2,
+    "min_price": 90000,
+    "max_price": 97000,
+    "source": "molit_6m"
+  },
+  "학마을1단지": {
+    "gu": "양천",
+    "median_price": 69950,
+    "trade_count": 4,
+    "min_price": 69700,
+    "max_price": 77500,
+    "source": "molit_6m"
+  },
+  "은일로즈힐": {
+    "gu": "양천",
+    "median_price": 53000,
+    "trade_count": 1,
+    "min_price": 53000,
+    "max_price": 53000,
+    "source": "molit_6m"
+  },
+  "신트리3": {
+    "gu": "양천",
+    "median_price": 106500,
+    "trade_count": 10,
+    "min_price": 97500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "장수마을": {
+    "gu": "양천",
+    "median_price": 60500,
+    "trade_count": 2,
+    "min_price": 56500,
+    "max_price": 64500,
+    "source": "molit_6m"
+  },
+  "일신파스텔": {
+    "gu": "양천",
+    "median_price": 60500,
+    "trade_count": 1,
+    "min_price": 60500,
+    "max_price": 60500,
+    "source": "molit_6m"
+  },
+  "나이아가라": {
+    "gu": "양천",
+    "median_price": 63500,
+    "trade_count": 3,
+    "min_price": 57500,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "신정현대5": {
+    "gu": "양천",
+    "median_price": 103000,
+    "trade_count": 1,
+    "min_price": 103000,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "대림(주상복합)": {
+    "gu": "양천",
+    "median_price": 45500,
+    "trade_count": 1,
+    "min_price": 45500,
+    "max_price": 45500,
+    "source": "molit_6m"
+  },
+  "벽산블루밍2단지": {
+    "gu": "양천",
+    "median_price": 70750,
+    "trade_count": 6,
+    "min_price": 68500,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "대성유니드2차": {
+    "gu": "양천",
+    "median_price": 74100,
+    "trade_count": 2,
+    "min_price": 73700,
+    "max_price": 74500,
+    "source": "molit_6m"
+  },
+  "동도센트리움": {
+    "gu": "양천",
+    "median_price": 70000,
+    "trade_count": 2,
+    "min_price": 70000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "월드메르디앙": {
+    "gu": "양천",
+    "median_price": 97000,
+    "trade_count": 1,
+    "min_price": 97000,
+    "max_price": 97000,
+    "source": "molit_6m"
+  },
+  "정은스카이빌2차": {
+    "gu": "양천",
+    "median_price": 73000,
+    "trade_count": 5,
+    "min_price": 55000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "신월시영": {
+    "gu": "양천",
+    "median_price": 75250,
+    "trade_count": 2,
+    "min_price": 70500,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "휘경센트레빌": {
+    "gu": "동대문",
+    "median_price": 98000,
+    "trade_count": 3,
+    "min_price": 98000,
+    "max_price": 99000,
+    "source": "molit_6m"
+  },
+  "경남하이빌": {
+    "gu": "동대문",
+    "median_price": 62400,
+    "trade_count": 2,
+    "min_price": 62000,
+    "max_price": 62800,
+    "source": "molit_6m"
+  },
+  "정은스카이빌201동": {
+    "gu": "동대문",
+    "median_price": 68800,
+    "trade_count": 1,
+    "min_price": 68800,
+    "max_price": 68800,
+    "source": "molit_6m"
+  },
+  "서울가든": {
+    "gu": "양천",
+    "median_price": 60950,
+    "trade_count": 4,
+    "min_price": 59000,
+    "max_price": 62500,
+    "source": "molit_6m"
+  },
+  "답십리대우": {
+    "gu": "동대문",
+    "median_price": 101000,
+    "trade_count": 8,
+    "min_price": 83000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "장안평월드메르디앙2차": {
+    "gu": "동대문",
+    "median_price": 78150,
+    "trade_count": 4,
+    "min_price": 74500,
+    "max_price": 83000,
+    "source": "molit_6m"
+  },
+  "청계천대성스카이렉스1": {
+    "gu": "동대문",
+    "median_price": 75500,
+    "trade_count": 1,
+    "min_price": 75500,
+    "max_price": 75500,
+    "source": "molit_6m"
+  },
+  "신일해피트리3차(568)": {
+    "gu": "동대문",
+    "median_price": 73850,
+    "trade_count": 3,
+    "min_price": 68000,
+    "max_price": 76000,
+    "source": "molit_6m"
+  },
+  "신동아아파트1": {
+    "gu": "도봉",
+    "median_price": 42500,
+    "trade_count": 13,
+    "min_price": 39950,
+    "max_price": 62000,
+    "source": "molit_6m"
+  },
+  "삼익세라믹아파트": {
+    "gu": "도봉",
+    "median_price": 36500,
+    "trade_count": 5,
+    "min_price": 35000,
+    "max_price": 55000,
+    "source": "molit_6m"
+  },
+  "한양5": {
+    "gu": "도봉",
+    "median_price": 46850,
+    "trade_count": 4,
+    "min_price": 43500,
+    "max_price": 51500,
+    "source": "molit_6m"
+  },
+  "대우그린": {
+    "gu": "도봉",
+    "median_price": 76950,
+    "trade_count": 4,
+    "min_price": 60500,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "창동주공3단지(해등마을)": {
+    "gu": "도봉",
+    "median_price": 70000,
+    "trade_count": 35,
+    "min_price": 43000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "금호2": {
+    "gu": "도봉",
+    "median_price": 56200,
+    "trade_count": 6,
+    "min_price": 50500,
+    "max_price": 57300,
+    "source": "molit_6m"
+  },
+  "래미안도봉": {
+    "gu": "도봉",
+    "median_price": 60000,
+    "trade_count": 11,
+    "min_price": 54000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "상아2차아파트": {
+    "gu": "도봉",
+    "median_price": 61300,
+    "trade_count": 6,
+    "min_price": 53000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "LIG건영캐스빌": {
+    "gu": "도봉",
+    "median_price": 59100,
+    "trade_count": 4,
+    "min_price": 50000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "동아청솔": {
+    "gu": "도봉",
+    "median_price": 82000,
+    "trade_count": 35,
+    "min_price": 61000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "창동주공18단지": {
+    "gu": "도봉",
+    "median_price": 66300,
+    "trade_count": 5,
+    "min_price": 42000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "삼익세라믹": {
+    "gu": "도봉",
+    "median_price": 49250,
+    "trade_count": 14,
+    "min_price": 38750,
+    "max_price": 61000,
+    "source": "molit_6m"
+  },
+  "대상타운현대아파트": {
+    "gu": "도봉",
+    "median_price": 77500,
+    "trade_count": 15,
+    "min_price": 64500,
+    "max_price": 87700,
+    "source": "molit_6m"
+  },
+  "한양7": {
+    "gu": "도봉",
+    "median_price": 56750,
+    "trade_count": 8,
+    "min_price": 50000,
+    "max_price": 59200,
+    "source": "molit_6m"
+  },
+  "북한산아이파크5차": {
+    "gu": "도봉",
+    "median_price": 93500,
+    "trade_count": 11,
+    "min_price": 87250,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "벽산아파트2": {
+    "gu": "도봉",
+    "median_price": 41250,
+    "trade_count": 8,
+    "min_price": 39000,
+    "max_price": 53500,
+    "source": "molit_6m"
+  },
+  "신동아아파트2": {
+    "gu": "도봉",
+    "median_price": 53650,
+    "trade_count": 6,
+    "min_price": 37700,
+    "max_price": 54500,
+    "source": "molit_6m"
+  },
+  "주공19단지(창동리버타운)": {
+    "gu": "도봉",
+    "median_price": 88500,
+    "trade_count": 33,
+    "min_price": 59000,
+    "max_price": 109500,
+    "source": "molit_6m"
+  },
+  "극동아파트": {
+    "gu": "도봉",
+    "median_price": 49000,
+    "trade_count": 5,
+    "min_price": 30000,
+    "max_price": 53000,
+    "source": "molit_6m"
+  },
+  "우성아파트1": {
+    "gu": "도봉",
+    "median_price": 49750,
+    "trade_count": 4,
+    "min_price": 44000,
+    "max_price": 52200,
+    "source": "molit_6m"
+  },
+  "태영데시앙": {
+    "gu": "양천",
+    "median_price": 79000,
+    "trade_count": 3,
+    "min_price": 77000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "도봉파크빌3": {
+    "gu": "도봉",
+    "median_price": 60250,
+    "trade_count": 8,
+    "min_price": 58000,
+    "max_price": 66700,
+    "source": "molit_6m"
+  },
+  "금호어울림": {
+    "gu": "서대문",
+    "median_price": 95000,
+    "trade_count": 12,
+    "min_price": 85000,
+    "max_price": 99800,
+    "source": "molit_6m"
+  },
+  "신일라이프": {
+    "gu": "도봉",
+    "median_price": 48600,
+    "trade_count": 2,
+    "min_price": 46500,
+    "max_price": 50700,
+    "source": "molit_6m"
+  },
+  "청구아파트": {
+    "gu": "도봉",
+    "median_price": 53000,
+    "trade_count": 10,
+    "min_price": 47500,
+    "max_price": 58500,
+    "source": "molit_6m"
+  },
+  "상아1차아파트": {
+    "gu": "도봉",
+    "median_price": 68500,
+    "trade_count": 4,
+    "min_price": 63500,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "창동역블루핀1동": {
+    "gu": "도봉",
+    "median_price": 53500,
+    "trade_count": 3,
+    "min_price": 52300,
+    "max_price": 54000,
+    "source": "molit_6m"
+  },
+  "에덴": {
+    "gu": "도봉",
+    "median_price": 42700,
+    "trade_count": 1,
+    "min_price": 42700,
+    "max_price": 42700,
+    "source": "molit_6m"
+  },
+  "창동역블루핀2동": {
+    "gu": "도봉",
+    "median_price": 54000,
+    "trade_count": 2,
+    "min_price": 54000,
+    "max_price": 54000,
+    "source": "molit_6m"
+  },
+  "북한산코오롱하늘채": {
+    "gu": "도봉",
+    "median_price": 72650,
+    "trade_count": 6,
+    "min_price": 64500,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "현대조합": {
+    "gu": "도봉",
+    "median_price": 55500,
+    "trade_count": 7,
+    "min_price": 52500,
+    "max_price": 57500,
+    "source": "molit_6m"
+  },
+  "동아그린": {
+    "gu": "도봉",
+    "median_price": 70000,
+    "trade_count": 7,
+    "min_price": 63000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "한양1": {
+    "gu": "도봉",
+    "median_price": 70000,
+    "trade_count": 4,
+    "min_price": 59000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "신동아아파트5": {
+    "gu": "도봉",
+    "median_price": 37000,
+    "trade_count": 3,
+    "min_price": 35000,
+    "max_price": 38800,
+    "source": "molit_6m"
+  },
+  "양우내안애": {
+    "gu": "도봉",
+    "median_price": 59000,
+    "trade_count": 3,
+    "min_price": 58800,
+    "max_price": 59500,
+    "source": "molit_6m"
+  },
+  "창동2차현대": {
+    "gu": "도봉",
+    "median_price": 82000,
+    "trade_count": 15,
+    "min_price": 68000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "금용": {
+    "gu": "도봉",
+    "median_price": 54000,
+    "trade_count": 1,
+    "min_price": 54000,
+    "max_price": 54000,
+    "source": "molit_6m"
+  },
+  "청계천대성스카이렉스2": {
+    "gu": "동대문",
+    "median_price": 94000,
+    "trade_count": 5,
+    "min_price": 91000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "SM이로빌(350-11)": {
+    "gu": "동대문",
+    "median_price": 58000,
+    "trade_count": 1,
+    "min_price": 58000,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "양지쉐르빌아파트(415-1)": {
+    "gu": "동대문",
+    "median_price": 46000,
+    "trade_count": 1,
+    "min_price": 46000,
+    "max_price": 46000,
+    "source": "molit_6m"
+  },
+  "홍릉동부": {
+    "gu": "동대문",
+    "median_price": 89000,
+    "trade_count": 6,
+    "min_price": 83000,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "동일스카이시티3차": {
+    "gu": "동대문",
+    "median_price": 40000,
+    "trade_count": 1,
+    "min_price": 40000,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "래미안아름숲": {
+    "gu": "동대문",
+    "median_price": 70000,
+    "trade_count": 1,
+    "min_price": 70000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "동일스위트리버": {
+    "gu": "동대문",
+    "median_price": 88000,
+    "trade_count": 5,
+    "min_price": 80000,
+    "max_price": 89800,
+    "source": "molit_6m"
+  },
+  "브이티스타일": {
+    "gu": "동대문",
+    "median_price": 58000,
+    "trade_count": 1,
+    "min_price": 58000,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "동양1차": {
+    "gu": "동대문",
+    "median_price": 70500,
+    "trade_count": 4,
+    "min_price": 58000,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "정은스카이빌101동": {
+    "gu": "동대문",
+    "median_price": 68250,
+    "trade_count": 2,
+    "min_price": 67000,
+    "max_price": 69500,
+    "source": "molit_6m"
+  },
+  "한신휴플러스그린파크": {
+    "gu": "동대문",
+    "median_price": 95000,
+    "trade_count": 3,
+    "min_price": 89000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "청계벽산메가트리움": {
+    "gu": "동대문",
+    "median_price": 75800,
+    "trade_count": 3,
+    "min_price": 74000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "이문동웰츠타워": {
+    "gu": "동대문",
+    "median_price": 73000,
+    "trade_count": 1,
+    "min_price": 73000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "건영스타밸리": {
+    "gu": "동대문",
+    "median_price": 66000,
+    "trade_count": 3,
+    "min_price": 64000,
+    "max_price": 66500,
+    "source": "molit_6m"
+  },
+  "시티프라디움": {
+    "gu": "도봉",
+    "median_price": 60000,
+    "trade_count": 5,
+    "min_price": 59700,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "창동주공1단지": {
+    "gu": "도봉",
+    "median_price": 60650,
+    "trade_count": 4,
+    "min_price": 57700,
+    "max_price": 62000,
+    "source": "molit_6m"
+  },
+  "럭키": {
+    "gu": "도봉",
+    "median_price": 55000,
+    "trade_count": 7,
+    "min_price": 52800,
+    "max_price": 56000,
+    "source": "molit_6m"
+  },
+  "북한산한신휴플러스": {
+    "gu": "도봉",
+    "median_price": 79500,
+    "trade_count": 3,
+    "min_price": 79000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "원산아파트33차": {
+    "gu": "도봉",
+    "median_price": 27000,
+    "trade_count": 1,
+    "min_price": 27000,
+    "max_price": 27000,
+    "source": "molit_6m"
+  },
+  "수산트리플": {
+    "gu": "도봉",
+    "median_price": 62250,
+    "trade_count": 2,
+    "min_price": 57000,
+    "max_price": 67500,
+    "source": "molit_6m"
+  },
+  "이에스에이아파트2": {
+    "gu": "도봉",
+    "median_price": 67500,
+    "trade_count": 4,
+    "min_price": 62500,
+    "max_price": 74700,
+    "source": "molit_6m"
+  },
+  "성원아파트": {
+    "gu": "도봉",
+    "median_price": 50500,
+    "trade_count": 1,
+    "min_price": 50500,
+    "max_price": 50500,
+    "source": "molit_6m"
+  },
+  "한양6": {
+    "gu": "도봉",
+    "median_price": 51750,
+    "trade_count": 12,
+    "min_price": 47500,
+    "max_price": 59400,
+    "source": "molit_6m"
+  },
+  "우성아파트2": {
+    "gu": "도봉",
+    "median_price": 52000,
+    "trade_count": 6,
+    "min_price": 49500,
+    "max_price": 55500,
+    "source": "molit_6m"
+  },
+  "DK포시즌": {
+    "gu": "도봉",
+    "median_price": 36250,
+    "trade_count": 2,
+    "min_price": 36000,
+    "max_price": 36500,
+    "source": "molit_6m"
+  },
+  "우암쎈스뷰아파트": {
+    "gu": "도봉",
+    "median_price": 51000,
+    "trade_count": 3,
+    "min_price": 50800,
+    "max_price": 52000,
+    "source": "molit_6m"
+  },
+  "벽산아파트1": {
+    "gu": "도봉",
+    "median_price": 40000,
+    "trade_count": 3,
+    "min_price": 39500,
+    "max_price": 52000,
+    "source": "molit_6m"
+  },
+  "삼성브래뉴": {
+    "gu": "도봉",
+    "median_price": 32000,
+    "trade_count": 1,
+    "min_price": 32000,
+    "max_price": 32000,
+    "source": "molit_6m"
+  },
+  "신동아아파트4": {
+    "gu": "도봉",
+    "median_price": 48900,
+    "trade_count": 2,
+    "min_price": 48800,
+    "max_price": 49000,
+    "source": "molit_6m"
+  },
+  "창동신도브래뉴1차": {
+    "gu": "도봉",
+    "median_price": 83250,
+    "trade_count": 6,
+    "min_price": 77000,
+    "max_price": 94900,
+    "source": "molit_6m"
+  },
+  "도봉금강아미움파크타운": {
+    "gu": "도봉",
+    "median_price": 49750,
+    "trade_count": 2,
+    "min_price": 49500,
+    "max_price": 50000,
+    "source": "molit_6m"
+  },
+  "창동한승미메이드": {
+    "gu": "도봉",
+    "median_price": 56800,
+    "trade_count": 3,
+    "min_price": 52000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "북한산청호아파트": {
+    "gu": "도봉",
+    "median_price": 48600,
+    "trade_count": 1,
+    "min_price": 48600,
+    "max_price": 48600,
+    "source": "molit_6m"
+  },
+  "한양2": {
+    "gu": "도봉",
+    "median_price": 48500,
+    "trade_count": 6,
+    "min_price": 37500,
+    "max_price": 54700,
+    "source": "molit_6m"
+  },
+  "금광포란재아파트": {
+    "gu": "도봉",
+    "median_price": 51750,
+    "trade_count": 4,
+    "min_price": 48000,
+    "max_price": 52400,
+    "source": "molit_6m"
+  },
+  "한화성원아파트": {
+    "gu": "도봉",
+    "median_price": 36000,
+    "trade_count": 6,
+    "min_price": 35000,
+    "max_price": 50900,
+    "source": "molit_6m"
+  },
+  "창동현대타운": {
+    "gu": "도봉",
+    "median_price": 44250,
+    "trade_count": 2,
+    "min_price": 41000,
+    "max_price": 47500,
+    "source": "molit_6m"
+  },
+  "초안산신도브래뉴": {
+    "gu": "도봉",
+    "median_price": 58800,
+    "trade_count": 3,
+    "min_price": 58500,
+    "max_price": 59000,
+    "source": "molit_6m"
+  },
+  "수산팰리스": {
+    "gu": "양천",
+    "median_price": 73000,
+    "trade_count": 2,
+    "min_price": 68000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "삼종레이빌101동": {
+    "gu": "양천",
+    "median_price": 41000,
+    "trade_count": 1,
+    "min_price": 41000,
+    "max_price": 41000,
+    "source": "molit_6m"
+  },
+  "동방": {
+    "gu": "양천",
+    "median_price": 50800,
+    "trade_count": 3,
+    "min_price": 48900,
+    "max_price": 53000,
+    "source": "molit_6m"
+  },
+  "목동길성그랑프리텔": {
+    "gu": "양천",
+    "median_price": 64500,
+    "trade_count": 2,
+    "min_price": 61000,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "동구햇살아파트2차": {
+    "gu": "양천",
+    "median_price": 57000,
+    "trade_count": 1,
+    "min_price": 57000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "삼정그린뷰": {
+    "gu": "양천",
+    "median_price": 66700,
+    "trade_count": 5,
+    "min_price": 57000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "이형원앙": {
+    "gu": "양천",
+    "median_price": 43900,
+    "trade_count": 1,
+    "min_price": 43900,
+    "max_price": 43900,
+    "source": "molit_6m"
+  },
+  "코아루2단지": {
+    "gu": "양천",
+    "median_price": 54250,
+    "trade_count": 2,
+    "min_price": 49700,
+    "max_price": 58800,
+    "source": "molit_6m"
+  },
+  "주건드림빌": {
+    "gu": "양천",
+    "median_price": 74000,
+    "trade_count": 1,
+    "min_price": 74000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "월드메르디앙2": {
+    "gu": "양천",
+    "median_price": 105000,
+    "trade_count": 1,
+    "min_price": 105000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "목동진흥": {
+    "gu": "양천",
+    "median_price": 58500,
+    "trade_count": 1,
+    "min_price": 58500,
+    "max_price": 58500,
+    "source": "molit_6m"
+  },
+  "신월동금용": {
+    "gu": "양천",
+    "median_price": 41000,
+    "trade_count": 3,
+    "min_price": 41000,
+    "max_price": 59500,
+    "source": "molit_6m"
+  },
+  "신월대림": {
+    "gu": "양천",
+    "median_price": 63500,
+    "trade_count": 2,
+    "min_price": 57000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "목동보미리즌빌": {
+    "gu": "양천",
+    "median_price": 73000,
+    "trade_count": 1,
+    "min_price": 73000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "신성미소지움3차아파트": {
+    "gu": "양천",
+    "median_price": 63500,
+    "trade_count": 2,
+    "min_price": 63000,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "궁전": {
+    "gu": "양천",
+    "median_price": 35000,
+    "trade_count": 1,
+    "min_price": 35000,
+    "max_price": 35000,
+    "source": "molit_6m"
+  },
+  "목동노블레스": {
+    "gu": "양천",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "신월동방원": {
+    "gu": "양천",
+    "median_price": 55150,
+    "trade_count": 2,
+    "min_price": 54300,
+    "max_price": 56000,
+    "source": "molit_6m"
+  },
+  "은성마을승윤노블리안": {
+    "gu": "양천",
+    "median_price": 66500,
+    "trade_count": 1,
+    "min_price": 66500,
+    "max_price": 66500,
+    "source": "molit_6m"
+  },
+  "웨스트빌": {
+    "gu": "양천",
+    "median_price": 71000,
+    "trade_count": 2,
+    "min_price": 62000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "상진지오밸리가동": {
+    "gu": "양천",
+    "median_price": 67500,
+    "trade_count": 1,
+    "min_price": 67500,
+    "max_price": 67500,
+    "source": "molit_6m"
+  },
+  "제일에비앙101동": {
+    "gu": "양천",
+    "median_price": 81000,
+    "trade_count": 1,
+    "min_price": 81000,
+    "max_price": 81000,
+    "source": "molit_6m"
+  },
+  "스카이빌아파트": {
+    "gu": "양천",
+    "median_price": 109500,
+    "trade_count": 3,
+    "min_price": 107000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "해주": {
+    "gu": "양천",
+    "median_price": 42500,
+    "trade_count": 2,
+    "min_price": 40000,
+    "max_price": 45000,
+    "source": "molit_6m"
+  },
+  "대방샤인힐": {
+    "gu": "양천",
+    "median_price": 50500,
+    "trade_count": 4,
+    "min_price": 50000,
+    "max_price": 53000,
+    "source": "molit_6m"
+  },
+  "롯데캐슬(1057-0)": {
+    "gu": "양천",
+    "median_price": 70400,
+    "trade_count": 6,
+    "min_price": 68000,
+    "max_price": 89500,
+    "source": "molit_6m"
+  },
+  "웨스트빌(102동)": {
+    "gu": "양천",
+    "median_price": 83750,
+    "trade_count": 2,
+    "min_price": 79000,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "목동성원초원": {
+    "gu": "양천",
+    "median_price": 82800,
+    "trade_count": 1,
+    "min_price": 82800,
+    "max_price": 82800,
+    "source": "molit_6m"
+  },
+  "인왕산현대": {
+    "gu": "서대문",
+    "median_price": 95000,
+    "trade_count": 22,
+    "min_price": 80000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "홍제현대": {
+    "gu": "서대문",
+    "median_price": 91750,
+    "trade_count": 18,
+    "min_price": 69000,
+    "max_price": 101500,
+    "source": "molit_6m"
+  },
+  "월드컵현대": {
+    "gu": "서대문",
+    "median_price": 83000,
+    "trade_count": 9,
+    "min_price": 74500,
+    "max_price": 94700,
+    "source": "molit_6m"
+  },
+  "청구3차": {
+    "gu": "서대문",
+    "median_price": 83000,
+    "trade_count": 11,
+    "min_price": 72800,
+    "max_price": 102500,
+    "source": "molit_6m"
+  },
+  "현대(1,2차)": {
+    "gu": "서대문",
+    "median_price": 64000,
+    "trade_count": 13,
+    "min_price": 60000,
+    "max_price": 81500,
+    "source": "molit_6m"
+  },
+  "홍은동벽산": {
+    "gu": "서대문",
+    "median_price": 70000,
+    "trade_count": 37,
+    "min_price": 59000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "제일아파트": {
+    "gu": "서대문",
+    "median_price": 77500,
+    "trade_count": 3,
+    "min_price": 72000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "풍림2": {
+    "gu": "서대문",
+    "median_price": 65000,
+    "trade_count": 13,
+    "min_price": 53000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "홍일": {
+    "gu": "서대문",
+    "median_price": 35750,
+    "trade_count": 4,
+    "min_price": 28000,
+    "max_price": 37000,
+    "source": "molit_6m"
+  },
+  "선명(101동)": {
+    "gu": "서대문",
+    "median_price": 48500,
+    "trade_count": 1,
+    "min_price": 48500,
+    "max_price": 48500,
+    "source": "molit_6m"
+  },
+  "무악재한화": {
+    "gu": "서대문",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "유원하나": {
+    "gu": "서대문",
+    "median_price": 59000,
+    "trade_count": 13,
+    "min_price": 54500,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "홍제원현대(459-0)": {
+    "gu": "서대문",
+    "median_price": 99000,
+    "trade_count": 23,
+    "min_price": 81000,
+    "max_price": 109800,
+    "source": "molit_6m"
+  },
+  "홍은미성": {
+    "gu": "서대문",
+    "median_price": 50000,
+    "trade_count": 9,
+    "min_price": 46500,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "북한산두산위브": {
+    "gu": "서대문",
+    "median_price": 85500,
+    "trade_count": 23,
+    "min_price": 73800,
+    "max_price": 101000,
+    "source": "molit_6m"
+  },
+  "피어리스": {
+    "gu": "서대문",
+    "median_price": 70750,
+    "trade_count": 2,
+    "min_price": 67000,
+    "max_price": 74500,
+    "source": "molit_6m"
+  },
+  "홍제삼성래미안": {
+    "gu": "서대문",
+    "median_price": 90500,
+    "trade_count": 7,
+    "min_price": 79500,
+    "max_price": 92500,
+    "source": "molit_6m"
+  },
+  "DMC래미안클라시스": {
+    "gu": "서대문",
+    "median_price": 95000,
+    "trade_count": 21,
+    "min_price": 81500,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "청구1차": {
+    "gu": "서대문",
+    "median_price": 103500,
+    "trade_count": 9,
+    "min_price": 95000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "홍제한양": {
+    "gu": "서대문",
+    "median_price": 79650,
+    "trade_count": 24,
+    "min_price": 63000,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "인왕산한신휴플러스": {
+    "gu": "서대문",
+    "median_price": 101000,
+    "trade_count": 4,
+    "min_price": 94000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "풍림1차": {
+    "gu": "서대문",
+    "median_price": 49000,
+    "trade_count": 7,
+    "min_price": 41000,
+    "max_price": 59700,
+    "source": "molit_6m"
+  },
+  "천연뜨란채": {
+    "gu": "서대문",
+    "median_price": 95000,
+    "trade_count": 17,
+    "min_price": 85000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "북가좌삼호": {
+    "gu": "서대문",
+    "median_price": 85000,
+    "trade_count": 17,
+    "min_price": 76000,
+    "max_price": 92000,
+    "source": "molit_6m"
+  },
+  "대우푸르지오": {
+    "gu": "서대문",
+    "median_price": 92500,
+    "trade_count": 12,
+    "min_price": 83000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "DMC현대아파트": {
+    "gu": "서대문",
+    "median_price": 76400,
+    "trade_count": 8,
+    "min_price": 59900,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "남가좌동현대": {
+    "gu": "서대문",
+    "median_price": 84900,
+    "trade_count": 27,
+    "min_price": 72500,
+    "max_price": 109200,
+    "source": "molit_6m"
+  },
+  "인왕": {
+    "gu": "서대문",
+    "median_price": 78000,
+    "trade_count": 3,
+    "min_price": 75000,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "DMC한양": {
+    "gu": "서대문",
+    "median_price": 82800,
+    "trade_count": 25,
+    "min_price": 72800,
+    "max_price": 96500,
+    "source": "molit_6m"
+  },
+  "DMC두산위브": {
+    "gu": "서대문",
+    "median_price": 88000,
+    "trade_count": 6,
+    "min_price": 80000,
+    "max_price": 92000,
+    "source": "molit_6m"
+  },
+  "문화촌현대": {
+    "gu": "서대문",
+    "median_price": 71500,
+    "trade_count": 32,
+    "min_price": 61000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "북한산두산위브2차": {
+    "gu": "서대문",
+    "median_price": 78700,
+    "trade_count": 10,
+    "min_price": 76700,
+    "max_price": 83500,
+    "source": "molit_6m"
+  },
+  "사랑채": {
+    "gu": "서대문",
+    "median_price": 53000,
+    "trade_count": 1,
+    "min_price": 53000,
+    "max_price": 53000,
+    "source": "molit_6m"
+  },
+  "연희파크푸르지오": {
+    "gu": "서대문",
+    "median_price": 99750,
+    "trade_count": 6,
+    "min_price": 98500,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "독립문극동(200-0)": {
+    "gu": "서대문",
+    "median_price": 109500,
+    "trade_count": 4,
+    "min_price": 106000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "서대문푸르지오센트럴파크": {
+    "gu": "서대문",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "요진": {
+    "gu": "서대문",
+    "median_price": 63000,
+    "trade_count": 3,
+    "min_price": 63000,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "서강2차(2동)": {
+    "gu": "서대문",
+    "median_price": 42000,
+    "trade_count": 1,
+    "min_price": 42000,
+    "max_price": 42000,
+    "source": "molit_6m"
+  },
+  "경남102동": {
+    "gu": "서대문",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "HDX휴팰리스": {
+    "gu": "서대문",
+    "median_price": 64500,
+    "trade_count": 5,
+    "min_price": 62000,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "인왕산벽산": {
+    "gu": "서대문",
+    "median_price": 78750,
+    "trade_count": 8,
+    "min_price": 72500,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "래미안남가좌2차": {
+    "gu": "서대문",
+    "median_price": 96000,
+    "trade_count": 2,
+    "min_price": 85000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "충림예하임": {
+    "gu": "서대문",
+    "median_price": 85500,
+    "trade_count": 2,
+    "min_price": 85000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "DMC금호리첸시아": {
+    "gu": "서대문",
+    "median_price": 108500,
+    "trade_count": 1,
+    "min_price": 108500,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "안산맨숀": {
+    "gu": "서대문",
+    "median_price": 72000,
+    "trade_count": 1,
+    "min_price": 72000,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "상계1차중앙하이츠": {
+    "gu": "노원",
+    "median_price": 59400,
+    "trade_count": 8,
+    "min_price": 54000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "중앙하이츠아쿠아": {
+    "gu": "노원",
+    "median_price": 92500,
+    "trade_count": 3,
+    "min_price": 91500,
+    "max_price": 93500,
+    "source": "molit_6m"
+  },
+  "우림루미아트201동": {
+    "gu": "노원",
+    "median_price": 69900,
+    "trade_count": 1,
+    "min_price": 69900,
+    "max_price": 69900,
+    "source": "molit_6m"
+  },
+  "태승훼미리아파트": {
+    "gu": "노원",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "청백3": {
+    "gu": "노원",
+    "median_price": 45500,
+    "trade_count": 1,
+    "min_price": 45500,
+    "max_price": 45500,
+    "source": "molit_6m"
+  },
+  "참다움아파트": {
+    "gu": "노원",
+    "median_price": 47500,
+    "trade_count": 1,
+    "min_price": 47500,
+    "max_price": 47500,
+    "source": "molit_6m"
+  },
+  "대호": {
+    "gu": "노원",
+    "median_price": 47500,
+    "trade_count": 1,
+    "min_price": 47500,
+    "max_price": 47500,
+    "source": "molit_6m"
+  },
+  "청암1단지": {
+    "gu": "노원",
+    "median_price": 69500,
+    "trade_count": 2,
+    "min_price": 69000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "대동황토방": {
+    "gu": "노원",
+    "median_price": 60750,
+    "trade_count": 2,
+    "min_price": 58500,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "현대(3차)": {
+    "gu": "노원",
+    "median_price": 59500,
+    "trade_count": 3,
+    "min_price": 57000,
+    "max_price": 62000,
+    "source": "molit_6m"
+  },
+  "효성아파트": {
+    "gu": "노원",
+    "median_price": 79500,
+    "trade_count": 1,
+    "min_price": 79500,
+    "max_price": 79500,
+    "source": "molit_6m"
+  },
+  "하늘공원(101동)": {
+    "gu": "노원",
+    "median_price": 51000,
+    "trade_count": 1,
+    "min_price": 51000,
+    "max_price": 51000,
+    "source": "molit_6m"
+  },
+  "신도1차아파트": {
+    "gu": "노원",
+    "median_price": 80000,
+    "trade_count": 3,
+    "min_price": 76000,
+    "max_price": 83500,
+    "source": "molit_6m"
+  },
+  "태양아파트": {
+    "gu": "동작",
+    "median_price": 76500,
+    "trade_count": 1,
+    "min_price": 76500,
+    "max_price": 76500,
+    "source": "molit_6m"
+  },
+  "보라매우성": {
+    "gu": "동작",
+    "median_price": 73000,
+    "trade_count": 1,
+    "min_price": 73000,
+    "max_price": 73000,
+    "source": "molit_6m"
+  },
+  "원아파트": {
+    "gu": "동작",
+    "median_price": 80000,
+    "trade_count": 1,
+    "min_price": 80000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "레디앙스": {
+    "gu": "동작",
+    "median_price": 72500,
+    "trade_count": 1,
+    "min_price": 72500,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "우성2차": {
+    "gu": "동작",
+    "median_price": 86500,
+    "trade_count": 2,
+    "min_price": 84500,
+    "max_price": 88500,
+    "source": "molit_6m"
+  },
+  "대방1차e-편한세상": {
+    "gu": "동작",
+    "median_price": 105150,
+    "trade_count": 1,
+    "min_price": 105150,
+    "max_price": 105150,
+    "source": "molit_6m"
+  },
+  "홍제역해링턴플레이스": {
+    "gu": "서대문",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "홍제에스피엘": {
+    "gu": "서대문",
+    "median_price": 50022,
+    "trade_count": 14,
+    "min_price": 47520,
+    "max_price": 53330,
+    "source": "molit_6m"
+  },
+  "독립문파크빌": {
+    "gu": "서대문",
+    "median_price": 64750,
+    "trade_count": 14,
+    "min_price": 62000,
+    "max_price": 68500,
+    "source": "molit_6m"
+  },
+  "남양": {
+    "gu": "서대문",
+    "median_price": 60000,
+    "trade_count": 8,
+    "min_price": 53000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "북한산더샵": {
+    "gu": "서대문",
+    "median_price": 83500,
+    "trade_count": 2,
+    "min_price": 80000,
+    "max_price": 87000,
+    "source": "molit_6m"
+  },
+  "반석블레스포레": {
+    "gu": "서대문",
+    "median_price": 107500,
+    "trade_count": 2,
+    "min_price": 107000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "쌍용스윗닷홈": {
+    "gu": "동작",
+    "median_price": 101000,
+    "trade_count": 2,
+    "min_price": 98000,
+    "max_price": 104000,
+    "source": "molit_6m"
+  },
+  "힐스테이트홍은포레스트": {
+    "gu": "서대문",
+    "median_price": 97000,
+    "trade_count": 14,
+    "min_price": 55400,
+    "max_price": 101000,
+    "source": "molit_6m"
+  },
+  "로하스": {
+    "gu": "서대문",
+    "median_price": 47700,
+    "trade_count": 3,
+    "min_price": 46000,
+    "max_price": 48000,
+    "source": "molit_6m"
+  },
+  "e편한세상서대문": {
+    "gu": "서대문",
+    "median_price": 105500,
+    "trade_count": 4,
+    "min_price": 102700,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "청구2차": {
+    "gu": "서대문",
+    "median_price": 71800,
+    "trade_count": 5,
+    "min_price": 65000,
+    "max_price": 92000,
+    "source": "molit_6m"
+  },
+  "장성미모아": {
+    "gu": "서대문",
+    "median_price": 44500,
+    "trade_count": 1,
+    "min_price": 44500,
+    "max_price": 44500,
+    "source": "molit_6m"
+  },
+  "제니스": {
+    "gu": "서대문",
+    "median_price": 74000,
+    "trade_count": 1,
+    "min_price": 74000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "DMC센트레빌": {
+    "gu": "서대문",
+    "median_price": 108000,
+    "trade_count": 3,
+    "min_price": 106500,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "제니스뷰아파트": {
+    "gu": "서대문",
+    "median_price": 78000,
+    "trade_count": 1,
+    "min_price": 78000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "히페리온리버팰리스": {
+    "gu": "성동",
+    "median_price": 96800,
+    "trade_count": 3,
+    "min_price": 94500,
+    "max_price": 101500,
+    "source": "molit_6m"
+  },
+  "왕십리금호어울림": {
+    "gu": "성동",
+    "median_price": 108000,
+    "trade_count": 1,
+    "min_price": 108000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "YM프라젠": {
+    "gu": "성동",
+    "median_price": 70000,
+    "trade_count": 3,
+    "min_price": 68000,
+    "max_price": 84500,
+    "source": "molit_6m"
+  },
+  "삼성쉐르빌": {
+    "gu": "성동",
+    "median_price": 104500,
+    "trade_count": 4,
+    "min_price": 95000,
+    "max_price": 108700,
+    "source": "molit_6m"
+  },
+  "무학현대": {
+    "gu": "성동",
+    "median_price": 106000,
+    "trade_count": 2,
+    "min_price": 104000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "성수1차대우아파트": {
+    "gu": "성동",
+    "median_price": 74000,
+    "trade_count": 5,
+    "min_price": 70000,
+    "max_price": 98500,
+    "source": "molit_6m"
+  },
+  "홍익한신": {
+    "gu": "성동",
+    "median_price": 68500,
+    "trade_count": 2,
+    "min_price": 68000,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "성수우방2차아파트": {
+    "gu": "성동",
+    "median_price": 104250,
+    "trade_count": 2,
+    "min_price": 104000,
+    "max_price": 104500,
+    "source": "molit_6m"
+  },
+  "동서": {
+    "gu": "양천",
+    "median_price": 42900,
+    "trade_count": 1,
+    "min_price": 42900,
+    "max_price": 42900,
+    "source": "molit_6m"
+  },
+  "오투힐": {
+    "gu": "양천",
+    "median_price": 34800,
+    "trade_count": 1,
+    "min_price": 34800,
+    "max_price": 34800,
+    "source": "molit_6m"
+  },
+  "두원B동": {
+    "gu": "양천",
+    "median_price": 40000,
+    "trade_count": 1,
+    "min_price": 40000,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "우당": {
+    "gu": "양천",
+    "median_price": 64000,
+    "trade_count": 1,
+    "min_price": 64000,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "삼백": {
+    "gu": "양천",
+    "median_price": 36500,
+    "trade_count": 1,
+    "min_price": 36500,
+    "max_price": 36500,
+    "source": "molit_6m"
+  },
+  "목동현대3차": {
+    "gu": "양천",
+    "median_price": 105000,
+    "trade_count": 1,
+    "min_price": 105000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "길훈엔트런스빌": {
+    "gu": "양천",
+    "median_price": 40000,
+    "trade_count": 1,
+    "min_price": 40000,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "삼동": {
+    "gu": "양천",
+    "median_price": 44000,
+    "trade_count": 2,
+    "min_price": 43000,
+    "max_price": 45000,
+    "source": "molit_6m"
+  },
+  "동원데쟈뷰": {
+    "gu": "양천",
+    "median_price": 59000,
+    "trade_count": 2,
+    "min_price": 55000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "삼성(528-7)": {
+    "gu": "양천",
+    "median_price": 54000,
+    "trade_count": 1,
+    "min_price": 54000,
+    "max_price": 54000,
+    "source": "molit_6m"
+  },
+  "상아아름": {
+    "gu": "양천",
+    "median_price": 46300,
+    "trade_count": 1,
+    "min_price": 46300,
+    "max_price": 46300,
+    "source": "molit_6m"
+  },
+  "탑건진선미": {
+    "gu": "양천",
+    "median_price": 40000,
+    "trade_count": 1,
+    "min_price": 40000,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "신부파스카(563)": {
+    "gu": "동대문",
+    "median_price": 72000,
+    "trade_count": 1,
+    "min_price": 72000,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "래미안 허브리츠": {
+    "gu": "동대문",
+    "median_price": 105000,
+    "trade_count": 1,
+    "min_price": 105000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "우성3차(562)": {
+    "gu": "동대문",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "신일해피트리2차(567)": {
+    "gu": "동대문",
+    "median_price": 72825,
+    "trade_count": 4,
+    "min_price": 68500,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "에메랄드(351-5)": {
+    "gu": "동대문",
+    "median_price": 47500,
+    "trade_count": 1,
+    "min_price": 47500,
+    "max_price": 47500,
+    "source": "molit_6m"
+  },
+  "우성5차에비뉴": {
+    "gu": "동대문",
+    "median_price": 70000,
+    "trade_count": 1,
+    "min_price": 70000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "르메이에르1차(344-1)": {
+    "gu": "동대문",
+    "median_price": 63000,
+    "trade_count": 1,
+    "min_price": 63000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "신답경남": {
+    "gu": "동대문",
+    "median_price": 74500,
+    "trade_count": 4,
+    "min_price": 62800,
+    "max_price": 86500,
+    "source": "molit_6m"
+  },
+  "선경이노블": {
+    "gu": "동대문",
+    "median_price": 56900,
+    "trade_count": 1,
+    "min_price": 56900,
+    "max_price": 56900,
+    "source": "molit_6m"
+  },
+  "상록파라브3차": {
+    "gu": "동대문",
+    "median_price": 67500,
+    "trade_count": 1,
+    "min_price": 67500,
+    "max_price": 67500,
+    "source": "molit_6m"
+  },
+  "장안위더스빌": {
+    "gu": "동대문",
+    "median_price": 81000,
+    "trade_count": 3,
+    "min_price": 79000,
+    "max_price": 83000,
+    "source": "molit_6m"
+  },
+  "태솔아파트3차": {
+    "gu": "동대문",
+    "median_price": 54000,
+    "trade_count": 3,
+    "min_price": 53950,
+    "max_price": 54500,
+    "source": "molit_6m"
+  },
+  "현대리노빌102동": {
+    "gu": "동대문",
+    "median_price": 57000,
+    "trade_count": 1,
+    "min_price": 57000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "서광아침의빛": {
+    "gu": "동대문",
+    "median_price": 82500,
+    "trade_count": 1,
+    "min_price": 82500,
+    "max_price": 82500,
+    "source": "molit_6m"
+  },
+  "양지쉐르빌아파트": {
+    "gu": "성동",
+    "median_price": 65200,
+    "trade_count": 1,
+    "min_price": 65200,
+    "max_price": 65200,
+    "source": "molit_6m"
+  },
+  "우성에비뉴": {
+    "gu": "성동",
+    "median_price": 69000,
+    "trade_count": 5,
+    "min_price": 65000,
+    "max_price": 72000,
+    "source": "molit_6m"
+  },
+  "금호베스트빌": {
+    "gu": "성동",
+    "median_price": 107250,
+    "trade_count": 2,
+    "min_price": 106500,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "마장동중앙하이츠": {
+    "gu": "성동",
+    "median_price": 107250,
+    "trade_count": 2,
+    "min_price": 106500,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "래미안에스티움": {
+    "gu": "영등포",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "신길자이": {
+    "gu": "영등포",
+    "median_price": 108000,
+    "trade_count": 3,
+    "min_price": 107000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "문영칸타빌레": {
+    "gu": "영등포",
+    "median_price": 63700,
+    "trade_count": 2,
+    "min_price": 59700,
+    "max_price": 67700,
+    "source": "molit_6m"
+  },
+  "보라매길성그랑프리텔": {
+    "gu": "영등포",
+    "median_price": 82500,
+    "trade_count": 1,
+    "min_price": 82500,
+    "max_price": 82500,
+    "source": "molit_6m"
+  },
+  "드림시드": {
+    "gu": "영등포",
+    "median_price": 74000,
+    "trade_count": 1,
+    "min_price": 74000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "브라운스톤영등포": {
+    "gu": "영등포",
+    "median_price": 106000,
+    "trade_count": 5,
+    "min_price": 100000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "삼익플라주101동": {
+    "gu": "영등포",
+    "median_price": 93000,
+    "trade_count": 1,
+    "min_price": 93000,
+    "max_price": 93000,
+    "source": "molit_6m"
+  },
+  "신기목련아파트": {
+    "gu": "영등포",
+    "median_price": 61000,
+    "trade_count": 1,
+    "min_price": 61000,
+    "max_price": 61000,
+    "source": "molit_6m"
+  },
+  "신명스카이뷰": {
+    "gu": "성동",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "도봉파크빌2": {
+    "gu": "도봉",
+    "median_price": 61000,
+    "trade_count": 3,
+    "min_price": 61000,
+    "max_price": 62000,
+    "source": "molit_6m"
+  },
+  "e편한세상": {
+    "gu": "도봉",
+    "median_price": 62150,
+    "trade_count": 4,
+    "min_price": 56000,
+    "max_price": 65800,
+    "source": "molit_6m"
+  },
+  "신원2": {
+    "gu": "도봉",
+    "median_price": 44600,
+    "trade_count": 2,
+    "min_price": 40200,
+    "max_price": 49000,
+    "source": "molit_6m"
+  },
+  "금호1": {
+    "gu": "도봉",
+    "median_price": 55000,
+    "trade_count": 5,
+    "min_price": 39300,
+    "max_price": 62500,
+    "source": "molit_6m"
+  },
+  "쌍문동삼성래미안": {
+    "gu": "도봉",
+    "median_price": 62000,
+    "trade_count": 7,
+    "min_price": 61000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "동익미라벨": {
+    "gu": "도봉",
+    "median_price": 37000,
+    "trade_count": 3,
+    "min_price": 32200,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "거성학마을아파트": {
+    "gu": "도봉",
+    "median_price": 61500,
+    "trade_count": 2,
+    "min_price": 60000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "한양수자인": {
+    "gu": "도봉",
+    "median_price": 55500,
+    "trade_count": 1,
+    "min_price": 55500,
+    "max_price": 55500,
+    "source": "molit_6m"
+  },
+  "서원": {
+    "gu": "도봉",
+    "median_price": 46500,
+    "trade_count": 5,
+    "min_price": 43500,
+    "max_price": 46800,
+    "source": "molit_6m"
+  },
+  "유원도봉": {
+    "gu": "도봉",
+    "median_price": 48400,
+    "trade_count": 7,
+    "min_price": 47000,
+    "max_price": 51500,
+    "source": "molit_6m"
+  },
+  "이에스에이아파트1": {
+    "gu": "도봉",
+    "median_price": 64750,
+    "trade_count": 4,
+    "min_price": 64000,
+    "max_price": 65500,
+    "source": "molit_6m"
+  },
+  "브라운스톤방학아파트": {
+    "gu": "도봉",
+    "median_price": 70700,
+    "trade_count": 1,
+    "min_price": 70700,
+    "max_price": 70700,
+    "source": "molit_6m"
+  },
+  "신동아아파트3": {
+    "gu": "도봉",
+    "median_price": 50000,
+    "trade_count": 3,
+    "min_price": 43000,
+    "max_price": 52000,
+    "source": "molit_6m"
+  },
+  "방학동삼성래미안2": {
+    "gu": "도봉",
+    "median_price": 78250,
+    "trade_count": 2,
+    "min_price": 75500,
+    "max_price": 81000,
+    "source": "molit_6m"
+  },
+  "신창": {
+    "gu": "도봉",
+    "median_price": 41800,
+    "trade_count": 1,
+    "min_price": 41800,
+    "max_price": 41800,
+    "source": "molit_6m"
+  },
+  "홍은센트레빌": {
+    "gu": "서대문",
+    "median_price": 83000,
+    "trade_count": 9,
+    "min_price": 73500,
+    "max_price": 93500,
+    "source": "molit_6m"
+  },
+  "신원": {
+    "gu": "서대문",
+    "median_price": 46000,
+    "trade_count": 1,
+    "min_price": 46000,
+    "max_price": 46000,
+    "source": "molit_6m"
+  },
+  "세한숲속마을": {
+    "gu": "서대문",
+    "median_price": 49900,
+    "trade_count": 2,
+    "min_price": 49800,
+    "max_price": 50000,
+    "source": "molit_6m"
+  },
+  "현대하이츠": {
+    "gu": "서대문",
+    "median_price": 51000,
+    "trade_count": 1,
+    "min_price": 51000,
+    "max_price": 51000,
+    "source": "molit_6m"
+  },
+  "진흥": {
+    "gu": "서대문",
+    "median_price": 64600,
+    "trade_count": 2,
+    "min_price": 62000,
+    "max_price": 67200,
+    "source": "molit_6m"
+  },
+  "씨밀레": {
+    "gu": "서대문",
+    "median_price": 64500,
+    "trade_count": 1,
+    "min_price": 64500,
+    "max_price": 64500,
+    "source": "molit_6m"
+  },
+  "창덕에버빌": {
+    "gu": "서대문",
+    "median_price": 63000,
+    "trade_count": 1,
+    "min_price": 63000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "미동": {
+    "gu": "서대문",
+    "median_price": 45000,
+    "trade_count": 2,
+    "min_price": 45000,
+    "max_price": 45000,
+    "source": "molit_6m"
+  },
+  "신촌럭키": {
+    "gu": "서대문",
+    "median_price": 65500,
+    "trade_count": 1,
+    "min_price": 65500,
+    "max_price": 65500,
+    "source": "molit_6m"
+  },
+  "동도하이츠에이동": {
+    "gu": "서대문",
+    "median_price": 56500,
+    "trade_count": 1,
+    "min_price": 56500,
+    "max_price": 56500,
+    "source": "molit_6m"
+  },
+  "충우팰리스2": {
+    "gu": "서대문",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "북한산삼부르네상스101동": {
+    "gu": "서대문",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "홍은동풍림아이원": {
+    "gu": "서대문",
+    "median_price": 69750,
+    "trade_count": 4,
+    "min_price": 65000,
+    "max_price": 70700,
+    "source": "molit_6m"
+  },
+  "DMC이랜드해가든": {
+    "gu": "서대문",
+    "median_price": 94000,
+    "trade_count": 3,
+    "min_price": 90000,
+    "max_price": 96000,
+    "source": "molit_6m"
+  },
+  "마체스터": {
+    "gu": "서대문",
+    "median_price": 80000,
+    "trade_count": 1,
+    "min_price": 80000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "백운한비치5": {
+    "gu": "금천",
+    "median_price": 35000,
+    "trade_count": 1,
+    "min_price": 35000,
+    "max_price": 35000,
+    "source": "molit_6m"
+  },
+  "진도2차": {
+    "gu": "금천",
+    "median_price": 45700,
+    "trade_count": 3,
+    "min_price": 45300,
+    "max_price": 57500,
+    "source": "molit_6m"
+  },
+  "신도브래뉴": {
+    "gu": "금천",
+    "median_price": 57000,
+    "trade_count": 4,
+    "min_price": 54900,
+    "max_price": 58300,
+    "source": "molit_6m"
+  },
+  "리치힐(976-6)": {
+    "gu": "금천",
+    "median_price": 59260,
+    "trade_count": 1,
+    "min_price": 59260,
+    "max_price": 59260,
+    "source": "molit_6m"
+  },
+  "원평5차": {
+    "gu": "금천",
+    "median_price": 32700,
+    "trade_count": 1,
+    "min_price": 32700,
+    "max_price": 32700,
+    "source": "molit_6m"
+  },
+  "시흥목련": {
+    "gu": "금천",
+    "median_price": 47500,
+    "trade_count": 2,
+    "min_price": 43000,
+    "max_price": 52000,
+    "source": "molit_6m"
+  },
+  "한아(987-21)": {
+    "gu": "금천",
+    "median_price": 51250,
+    "trade_count": 2,
+    "min_price": 51000,
+    "max_price": 51500,
+    "source": "molit_6m"
+  },
+  "덕산": {
+    "gu": "금천",
+    "median_price": 44000,
+    "trade_count": 1,
+    "min_price": 44000,
+    "max_price": 44000,
+    "source": "molit_6m"
+  },
+  "설악솔내음": {
+    "gu": "금천",
+    "median_price": 33000,
+    "trade_count": 1,
+    "min_price": 33000,
+    "max_price": 33000,
+    "source": "molit_6m"
+  },
+  "시민": {
+    "gu": "서대문",
+    "median_price": 16000,
+    "trade_count": 1,
+    "min_price": 16000,
+    "max_price": 16000,
+    "source": "molit_6m"
+  },
+  "성우": {
+    "gu": "서대문",
+    "median_price": 52000,
+    "trade_count": 1,
+    "min_price": 52000,
+    "max_price": 52000,
+    "source": "molit_6m"
+  },
+  "홍은동아더프라임": {
+    "gu": "서대문",
+    "median_price": 65250,
+    "trade_count": 2,
+    "min_price": 63500,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "동일": {
+    "gu": "서대문",
+    "median_price": 65000,
+    "trade_count": 1,
+    "min_price": 65000,
+    "max_price": 65000,
+    "source": "molit_6m"
+  },
+  "임광": {
+    "gu": "서대문",
+    "median_price": 75250,
+    "trade_count": 6,
+    "min_price": 74000,
+    "max_price": 95000,
+    "source": "molit_6m"
+  },
+  "북한산삼부르네상스304동305동": {
+    "gu": "서대문",
+    "median_price": 71000,
+    "trade_count": 1,
+    "min_price": 71000,
+    "max_price": 71000,
+    "source": "molit_6m"
+  },
+  "아름채": {
+    "gu": "서대문",
+    "median_price": 54000,
+    "trade_count": 1,
+    "min_price": 54000,
+    "max_price": 54000,
+    "source": "molit_6m"
+  },
+  "건우그린": {
+    "gu": "서대문",
+    "median_price": 56700,
+    "trade_count": 1,
+    "min_price": 56700,
+    "max_price": 56700,
+    "source": "molit_6m"
+  },
+  "홍제비콘드림힐": {
+    "gu": "서대문",
+    "median_price": 61700,
+    "trade_count": 2,
+    "min_price": 59600,
+    "max_price": 63800,
+    "source": "molit_6m"
+  },
+  "동도하이츠비동": {
+    "gu": "서대문",
+    "median_price": 59000,
+    "trade_count": 1,
+    "min_price": 59000,
+    "max_price": 59000,
+    "source": "molit_6m"
+  },
+  "DMC아이파크": {
+    "gu": "서대문",
+    "median_price": 109000,
+    "trade_count": 1,
+    "min_price": 109000,
+    "max_price": 109000,
+    "source": "molit_6m"
+  },
+  "원일": {
+    "gu": "서대문",
+    "median_price": 32000,
+    "trade_count": 1,
+    "min_price": 32000,
+    "max_price": 32000,
+    "source": "molit_6m"
+  },
+  "DMC에코자이": {
+    "gu": "서대문",
+    "median_price": 108000,
+    "trade_count": 2,
+    "min_price": 108000,
+    "max_price": 108000,
+    "source": "molit_6m"
+  },
+  "독립문삼호": {
+    "gu": "서대문",
+    "median_price": 105300,
+    "trade_count": 1,
+    "min_price": 105300,
+    "max_price": 105300,
+    "source": "molit_6m"
+  },
+  "엘리시아": {
+    "gu": "양천",
+    "median_price": 67000,
+    "trade_count": 1,
+    "min_price": 67000,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "동일아파트": {
+    "gu": "양천",
+    "median_price": 68000,
+    "trade_count": 1,
+    "min_price": 68000,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "예지보금자리(102동)": {
+    "gu": "양천",
+    "median_price": 69000,
+    "trade_count": 1,
+    "min_price": 69000,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "정은스카이빌(959)": {
+    "gu": "양천",
+    "median_price": 69050,
+    "trade_count": 2,
+    "min_price": 67300,
+    "max_price": 70800,
+    "source": "molit_6m"
+  },
+  "태청": {
+    "gu": "양천",
+    "median_price": 44000,
+    "trade_count": 1,
+    "min_price": 44000,
+    "max_price": 44000,
+    "source": "molit_6m"
+  },
+  "신이모닝빌": {
+    "gu": "양천",
+    "median_price": 56000,
+    "trade_count": 1,
+    "min_price": 56000,
+    "max_price": 56000,
+    "source": "molit_6m"
+  },
+  "삼익플라주": {
+    "gu": "양천",
+    "median_price": 64000,
+    "trade_count": 1,
+    "min_price": 64000,
+    "max_price": 64000,
+    "source": "molit_6m"
+  },
+  "청남": {
+    "gu": "양천",
+    "median_price": 50000,
+    "trade_count": 1,
+    "min_price": 50000,
+    "max_price": 50000,
+    "source": "molit_6m"
+  },
+  "수명": {
+    "gu": "양천",
+    "median_price": 34000,
+    "trade_count": 1,
+    "min_price": 34000,
+    "max_price": 34000,
+    "source": "molit_6m"
+  },
+  "세종그랑시아": {
+    "gu": "양천",
+    "median_price": 74500,
+    "trade_count": 1,
+    "min_price": 74500,
+    "max_price": 74500,
+    "source": "molit_6m"
+  },
+  "목동센트럴아이파크위브4단지": {
+    "gu": "양천",
+    "median_price": 85000,
+    "trade_count": 1,
+    "min_price": 85000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "샤인팰리스": {
+    "gu": "양천",
+    "median_price": 52700,
+    "trade_count": 1,
+    "min_price": 52700,
+    "max_price": 52700,
+    "source": "molit_6m"
+  },
+  "이에스에이아파트3": {
+    "gu": "도봉",
+    "median_price": 65500,
+    "trade_count": 3,
+    "min_price": 61000,
+    "max_price": 68000,
+    "source": "molit_6m"
+  },
+  "황지": {
+    "gu": "도봉",
+    "median_price": 34000,
+    "trade_count": 1,
+    "min_price": 34000,
+    "max_price": 34000,
+    "source": "molit_6m"
+  },
+  "백조": {
+    "gu": "도봉",
+    "median_price": 34000,
+    "trade_count": 1,
+    "min_price": 34000,
+    "max_price": 34000,
+    "source": "molit_6m"
+  },
+  "대성유니드아파트": {
+    "gu": "동대문",
+    "median_price": 83500,
+    "trade_count": 3,
+    "min_price": 80000,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "전농동신성미소지움": {
+    "gu": "동대문",
+    "median_price": 108350,
+    "trade_count": 2,
+    "min_price": 108000,
+    "max_price": 108700,
+    "source": "molit_6m"
+  },
+  "휘경동일하이빌": {
+    "gu": "동대문",
+    "median_price": 80100,
+    "trade_count": 2,
+    "min_price": 79700,
+    "max_price": 80500,
+    "source": "molit_6m"
+  },
+  "용두롯데캐슬리치": {
+    "gu": "동대문",
+    "median_price": 108000,
+    "trade_count": 3,
+    "min_price": 108000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "정은101동(332-2)": {
+    "gu": "동대문",
+    "median_price": 54000,
+    "trade_count": 1,
+    "min_price": 54000,
+    "max_price": 54000,
+    "source": "molit_6m"
+  },
+  "이문휘경지웰에스테이트": {
+    "gu": "동대문",
+    "median_price": 81000,
+    "trade_count": 1,
+    "min_price": 81000,
+    "max_price": 81000,
+    "source": "molit_6m"
+  },
+  "U-포그니": {
+    "gu": "동대문",
+    "median_price": 40750,
+    "trade_count": 2,
+    "min_price": 40000,
+    "max_price": 41500,
+    "source": "molit_6m"
+  },
+  "서울숲해오름(717-0)": {
+    "gu": "성동",
+    "median_price": 74000,
+    "trade_count": 1,
+    "min_price": 74000,
+    "max_price": 74000,
+    "source": "molit_6m"
+  },
+  "동인샤인빌": {
+    "gu": "성동",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "대우2": {
+    "gu": "성동",
+    "median_price": 95900,
+    "trade_count": 1,
+    "min_price": 95900,
+    "max_price": 95900,
+    "source": "molit_6m"
+  },
+  "방학동삼성래미안1": {
+    "gu": "도봉",
+    "median_price": 82500,
+    "trade_count": 1,
+    "min_price": 82500,
+    "max_price": 82500,
+    "source": "molit_6m"
+  },
+  "동부센트레빌아파트": {
+    "gu": "도봉",
+    "median_price": 70000,
+    "trade_count": 3,
+    "min_price": 67000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "현대3": {
+    "gu": "도봉",
+    "median_price": 55500,
+    "trade_count": 1,
+    "min_price": 55500,
+    "max_price": 55500,
+    "source": "molit_6m"
+  },
+  "현대성우": {
+    "gu": "도봉",
+    "median_price": 40900,
+    "trade_count": 2,
+    "min_price": 40700,
+    "max_price": 41100,
+    "source": "molit_6m"
+  },
+  "파크힐": {
+    "gu": "서대문",
+    "median_price": 53700,
+    "trade_count": 1,
+    "min_price": 53700,
+    "max_price": 53700,
+    "source": "molit_6m"
+  },
+  "젬스톤힐즈": {
+    "gu": "동대문",
+    "median_price": 45300,
+    "trade_count": 1,
+    "min_price": 45300,
+    "max_price": 45300,
+    "source": "molit_6m"
+  },
+  "신부파스카(313-7)": {
+    "gu": "동대문",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "정암(363-11)": {
+    "gu": "동대문",
+    "median_price": 48000,
+    "trade_count": 1,
+    "min_price": 48000,
+    "max_price": 48000,
+    "source": "molit_6m"
+  },
+  "리치": {
+    "gu": "동대문",
+    "median_price": 36500,
+    "trade_count": 1,
+    "min_price": 36500,
+    "max_price": 36500,
+    "source": "molit_6m"
+  },
+  "삼성힐": {
+    "gu": "동대문",
+    "median_price": 53000,
+    "trade_count": 1,
+    "min_price": 53000,
+    "max_price": 53000,
+    "source": "molit_6m"
+  },
+  "우성2차아파트(334-6)": {
+    "gu": "동대문",
+    "median_price": 63500,
+    "trade_count": 1,
+    "min_price": 63500,
+    "max_price": 63500,
+    "source": "molit_6m"
+  },
+  "르메이에르7차(313-8)": {
+    "gu": "동대문",
+    "median_price": 58500,
+    "trade_count": 1,
+    "min_price": 58500,
+    "max_price": 58500,
+    "source": "molit_6m"
+  },
+  "에이원": {
+    "gu": "양천",
+    "median_price": 25500,
+    "trade_count": 1,
+    "min_price": 25500,
+    "max_price": 25500,
+    "source": "molit_6m"
+  },
+  "목동동화옥시죤-7": {
+    "gu": "양천",
+    "median_price": 79500,
+    "trade_count": 1,
+    "min_price": 79500,
+    "max_price": 79500,
+    "source": "molit_6m"
+  },
+  "예지팰리스50차": {
+    "gu": "양천",
+    "median_price": 75300,
+    "trade_count": 1,
+    "min_price": 75300,
+    "max_price": 75300,
+    "source": "molit_6m"
+  },
+  "태진": {
+    "gu": "양천",
+    "median_price": 53500,
+    "trade_count": 1,
+    "min_price": 53500,
+    "max_price": 53500,
+    "source": "molit_6m"
+  },
+  "상신": {
+    "gu": "양천",
+    "median_price": 31000,
+    "trade_count": 1,
+    "min_price": 31000,
+    "max_price": 31000,
+    "source": "molit_6m"
+  },
+  "수명산타워빌": {
+    "gu": "양천",
+    "median_price": 52500,
+    "trade_count": 1,
+    "min_price": 52500,
+    "max_price": 52500,
+    "source": "molit_6m"
+  },
+  "동양브로미(102동)A": {
+    "gu": "양천",
+    "median_price": 49000,
+    "trade_count": 1,
+    "min_price": 49000,
+    "max_price": 49000,
+    "source": "molit_6m"
+  },
+  "목동성원": {
+    "gu": "양천",
+    "median_price": 107200,
+    "trade_count": 1,
+    "min_price": 107200,
+    "max_price": 107200,
+    "source": "molit_6m"
+  },
+  "태형": {
+    "gu": "양천",
+    "median_price": 42000,
+    "trade_count": 1,
+    "min_price": 42000,
+    "max_price": 42000,
+    "source": "molit_6m"
+  },
+  "신도브래뉴2차": {
+    "gu": "양천",
+    "median_price": 63000,
+    "trade_count": 1,
+    "min_price": 63000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "동일하이빌1단지": {
+    "gu": "양천",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "방주기픈샘2": {
+    "gu": "양천",
+    "median_price": 60400,
+    "trade_count": 1,
+    "min_price": 60400,
+    "max_price": 60400,
+    "source": "molit_6m"
+  },
+  "삼백훼미리": {
+    "gu": "양천",
+    "median_price": 47700,
+    "trade_count": 1,
+    "min_price": 47700,
+    "max_price": 47700,
+    "source": "molit_6m"
+  },
+  "예지보금자리74차": {
+    "gu": "양천",
+    "median_price": 31100,
+    "trade_count": 1,
+    "min_price": 31100,
+    "max_price": 31100,
+    "source": "molit_6m"
+  },
+  "삼익4차플라주": {
+    "gu": "양천",
+    "median_price": 61300,
+    "trade_count": 1,
+    "min_price": 61300,
+    "max_price": 61300,
+    "source": "molit_6m"
+  },
+  "정릉한일유앤아이": {
+    "gu": "성북",
+    "median_price": 54000,
+    "trade_count": 2,
+    "min_price": 50000,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "장위자이레디언트(4단지)": {
+    "gu": "성북",
+    "median_price": 85000,
+    "trade_count": 1,
+    "min_price": 85000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "장위동동원베네스트": {
+    "gu": "성북",
+    "median_price": 65500,
+    "trade_count": 1,
+    "min_price": 65500,
+    "max_price": 65500,
+    "source": "molit_6m"
+  },
+  "풍산쉐르빌(815-1)": {
+    "gu": "성북",
+    "median_price": 44500,
+    "trade_count": 1,
+    "min_price": 44500,
+    "max_price": 44500,
+    "source": "molit_6m"
+  },
+  "보문리슈빌하우트": {
+    "gu": "성북",
+    "median_price": 102800,
+    "trade_count": 1,
+    "min_price": 102800,
+    "max_price": 102800,
+    "source": "molit_6m"
+  },
+  "대광": {
+    "gu": "성북",
+    "median_price": 21000,
+    "trade_count": 1,
+    "min_price": 21000,
+    "max_price": 21000,
+    "source": "molit_6m"
+  },
+  "길음뉴타운9단지(래미안)": {
+    "gu": "성북",
+    "median_price": 108000,
+    "trade_count": 3,
+    "min_price": 104900,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "미원2": {
+    "gu": "마포",
+    "median_price": 64700,
+    "trade_count": 4,
+    "min_price": 59500,
+    "max_price": 68500,
+    "source": "molit_6m"
+  },
+  "강림월드타운": {
+    "gu": "마포",
+    "median_price": 70800,
+    "trade_count": 1,
+    "min_price": 70800,
+    "max_price": 70800,
+    "source": "molit_6m"
+  },
+  "울트라월드컵(참누리)": {
+    "gu": "마포",
+    "median_price": 105000,
+    "trade_count": 1,
+    "min_price": 105000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "고려": {
+    "gu": "성북",
+    "median_price": 34540,
+    "trade_count": 2,
+    "min_price": 31380,
+    "max_price": 37700,
+    "source": "molit_6m"
+  },
+  "대상3": {
+    "gu": "마포",
+    "median_price": 88250,
+    "trade_count": 2,
+    "min_price": 87500,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "미원1": {
+    "gu": "마포",
+    "median_price": 59300,
+    "trade_count": 3,
+    "min_price": 55500,
+    "max_price": 62500,
+    "source": "molit_6m"
+  },
+  "한국프라우드": {
+    "gu": "마포",
+    "median_price": 107000,
+    "trade_count": 1,
+    "min_price": 107000,
+    "max_price": 107000,
+    "source": "molit_6m"
+  },
+  "강변타운": {
+    "gu": "마포",
+    "median_price": 92000,
+    "trade_count": 1,
+    "min_price": 92000,
+    "max_price": 92000,
+    "source": "molit_6m"
+  },
+  "그레이스": {
+    "gu": "마포",
+    "median_price": 79000,
+    "trade_count": 1,
+    "min_price": 79000,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "동심": {
+    "gu": "금천",
+    "median_price": 35500,
+    "trade_count": 1,
+    "min_price": 35500,
+    "max_price": 35500,
+    "source": "molit_6m"
+  },
+  "관악산신도브래뉴": {
+    "gu": "금천",
+    "median_price": 66000,
+    "trade_count": 1,
+    "min_price": 66000,
+    "max_price": 66000,
+    "source": "molit_6m"
+  },
+  "백운": {
+    "gu": "금천",
+    "median_price": 38300,
+    "trade_count": 1,
+    "min_price": 38300,
+    "max_price": 38300,
+    "source": "molit_6m"
+  },
+  "현대(209)": {
+    "gu": "금천",
+    "median_price": 44500,
+    "trade_count": 3,
+    "min_price": 44000,
+    "max_price": 45700,
+    "source": "molit_6m"
+  },
+  "신세계": {
+    "gu": "금천",
+    "median_price": 42000,
+    "trade_count": 1,
+    "min_price": 42000,
+    "max_price": 42000,
+    "source": "molit_6m"
+  },
+  "계룡아파트": {
+    "gu": "금천",
+    "median_price": 49000,
+    "trade_count": 1,
+    "min_price": 49000,
+    "max_price": 49000,
+    "source": "molit_6m"
+  },
+  "대광아파트": {
+    "gu": "금천",
+    "median_price": 57000,
+    "trade_count": 1,
+    "min_price": 57000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "선유도삼성홈타운": {
+    "gu": "영등포",
+    "median_price": 72500,
+    "trade_count": 1,
+    "min_price": 72500,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "리버뷰신안인스빌1단지": {
+    "gu": "영등포",
+    "median_price": 109500,
+    "trade_count": 1,
+    "min_price": 109500,
+    "max_price": 109500,
+    "source": "molit_6m"
+  },
+  "삼익플라주201동": {
+    "gu": "영등포",
+    "median_price": 86000,
+    "trade_count": 2,
+    "min_price": 82000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "진로": {
+    "gu": "영등포",
+    "median_price": 109500,
+    "trade_count": 1,
+    "min_price": 109500,
+    "max_price": 109500,
+    "source": "molit_6m"
+  },
+  "문래공원한신": {
+    "gu": "영등포",
+    "median_price": 94000,
+    "trade_count": 3,
+    "min_price": 70000,
+    "max_price": 107500,
+    "source": "molit_6m"
+  },
+  "한강아파트": {
+    "gu": "영등포",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "신길센트럴자이아파트": {
+    "gu": "영등포",
+    "median_price": 98000,
+    "trade_count": 1,
+    "min_price": 98000,
+    "max_price": 98000,
+    "source": "molit_6m"
+  },
+  "상암마젤란21": {
+    "gu": "마포",
+    "median_price": 95000,
+    "trade_count": 2,
+    "min_price": 90000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "삼익플라주서교1": {
+    "gu": "마포",
+    "median_price": 96000,
+    "trade_count": 1,
+    "min_price": 96000,
+    "max_price": 96000,
+    "source": "molit_6m"
+  },
+  "마포월드컵제이스카이": {
+    "gu": "마포",
+    "median_price": 80000,
+    "trade_count": 1,
+    "min_price": 80000,
+    "max_price": 80000,
+    "source": "molit_6m"
+  },
+  "삼우하이뷰": {
+    "gu": "마포",
+    "median_price": 77000,
+    "trade_count": 1,
+    "min_price": 77000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "노블레스빌2": {
+    "gu": "마포",
+    "median_price": 72500,
+    "trade_count": 1,
+    "min_price": 72500,
+    "max_price": 72500,
+    "source": "molit_6m"
+  },
+  "동보프리미아": {
+    "gu": "마포",
+    "median_price": 69000,
+    "trade_count": 2,
+    "min_price": 67000,
+    "max_price": 71000,
+    "source": "molit_6m"
+  },
+  "신부파스카4차": {
+    "gu": "마포",
+    "median_price": 84000,
+    "trade_count": 2,
+    "min_price": 82000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "한강월드컵": {
+    "gu": "마포",
+    "median_price": 79500,
+    "trade_count": 1,
+    "min_price": 79500,
+    "max_price": 79500,
+    "source": "molit_6m"
+  },
+  "신촌금호": {
+    "gu": "마포",
+    "median_price": 90000,
+    "trade_count": 1,
+    "min_price": 90000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "참존2차(102동)": {
+    "gu": "마포",
+    "median_price": 76800,
+    "trade_count": 1,
+    "min_price": 76800,
+    "max_price": 76800,
+    "source": "molit_6m"
+  },
+  "한화오벨리스크": {
+    "gu": "마포",
+    "median_price": 100150,
+    "trade_count": 2,
+    "min_price": 95800,
+    "max_price": 104500,
+    "source": "molit_6m"
+  },
+  "신수동성원": {
+    "gu": "마포",
+    "median_price": 104500,
+    "trade_count": 2,
+    "min_price": 99000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "뉴마인": {
+    "gu": "마포",
+    "median_price": 85000,
+    "trade_count": 1,
+    "min_price": 85000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "제일": {
+    "gu": "동작",
+    "median_price": 103500,
+    "trade_count": 2,
+    "min_price": 102500,
+    "max_price": 104500,
+    "source": "molit_6m"
+  },
+  "동아쉐르빌": {
+    "gu": "성북",
+    "median_price": 42000,
+    "trade_count": 1,
+    "min_price": 42000,
+    "max_price": 42000,
+    "source": "molit_6m"
+  },
+  "극동옥정": {
+    "gu": "성동",
+    "median_price": 101000,
+    "trade_count": 1,
+    "min_price": 101000,
+    "max_price": 101000,
+    "source": "molit_6m"
+  },
+  "서울숲 한신 더 휴": {
+    "gu": "성동",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "청계대주파크빌": {
+    "gu": "성동",
+    "median_price": 108500,
+    "trade_count": 1,
+    "min_price": 108500,
+    "max_price": 108500,
+    "source": "molit_6m"
+  },
+  "서울숲한성": {
+    "gu": "성동",
+    "median_price": 83500,
+    "trade_count": 1,
+    "min_price": 83500,
+    "max_price": 83500,
+    "source": "molit_6m"
+  },
+  "창방누리애": {
+    "gu": "영등포",
+    "median_price": 78000,
+    "trade_count": 1,
+    "min_price": 78000,
+    "max_price": 78000,
+    "source": "molit_6m"
+  },
+  "창건애드웰": {
+    "gu": "영등포",
+    "median_price": 84000,
+    "trade_count": 1,
+    "min_price": 84000,
+    "max_price": 84000,
+    "source": "molit_6m"
+  },
+  "예지팰리스77차": {
+    "gu": "영등포",
+    "median_price": 70500,
+    "trade_count": 2,
+    "min_price": 66000,
+    "max_price": 75000,
+    "source": "molit_6m"
+  },
+  "미주프라자": {
+    "gu": "영등포",
+    "median_price": 58000,
+    "trade_count": 1,
+    "min_price": 58000,
+    "max_price": 58000,
+    "source": "molit_6m"
+  },
+  "문래동원데자뷰": {
+    "gu": "영등포",
+    "median_price": 104000,
+    "trade_count": 1,
+    "min_price": 104000,
+    "max_price": 104000,
+    "source": "molit_6m"
+  },
+  "동남": {
+    "gu": "영등포",
+    "median_price": 85000,
+    "trade_count": 1,
+    "min_price": 85000,
+    "max_price": 85000,
+    "source": "molit_6m"
+  },
+  "주성AURA": {
+    "gu": "광진",
+    "median_price": 61000,
+    "trade_count": 1,
+    "min_price": 61000,
+    "max_price": 61000,
+    "source": "molit_6m"
+  },
+  "자양우성7": {
+    "gu": "광진",
+    "median_price": 100000,
+    "trade_count": 1,
+    "min_price": 100000,
+    "max_price": 100000,
+    "source": "molit_6m"
+  },
+  "명성": {
+    "gu": "광진",
+    "median_price": 50000,
+    "trade_count": 1,
+    "min_price": 50000,
+    "max_price": 50000,
+    "source": "molit_6m"
+  },
+  "천우": {
+    "gu": "마포",
+    "median_price": 65400,
+    "trade_count": 2,
+    "min_price": 65400,
+    "max_price": 65400,
+    "source": "molit_6m"
+  },
+  "광남캐스빌B": {
+    "gu": "마포",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "대아": {
+    "gu": "마포",
+    "median_price": 76000,
+    "trade_count": 1,
+    "min_price": 76000,
+    "max_price": 76000,
+    "source": "molit_6m"
+  },
+  "DMC마포청구아파트": {
+    "gu": "마포",
+    "median_price": 110000,
+    "trade_count": 5,
+    "min_price": 101000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "래미안공덕4차": {
+    "gu": "마포",
+    "median_price": 110000,
+    "trade_count": 1,
+    "min_price": 110000,
+    "max_price": 110000,
+    "source": "molit_6m"
+  },
+  "보성": {
+    "gu": "마포",
+    "median_price": 90000,
+    "trade_count": 1,
+    "min_price": 90000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "상록": {
+    "gu": "마포",
+    "median_price": 106000,
+    "trade_count": 1,
+    "min_price": 106000,
+    "max_price": 106000,
+    "source": "molit_6m"
+  },
+  "안암": {
+    "gu": "성북",
+    "median_price": 29000,
+    "trade_count": 1,
+    "min_price": 29000,
+    "max_price": 29000,
+    "source": "molit_6m"
+  },
+  "동관아트빌": {
+    "gu": "성북",
+    "median_price": 51000,
+    "trade_count": 1,
+    "min_price": 51000,
+    "max_price": 51000,
+    "source": "molit_6m"
+  },
+  "동양크레오아파트": {
+    "gu": "도봉",
+    "median_price": 56600,
+    "trade_count": 1,
+    "min_price": 56600,
+    "max_price": 56600,
+    "source": "molit_6m"
+  },
+  "대우파크힐(쌍문동이안)": {
+    "gu": "도봉",
+    "median_price": 50500,
+    "trade_count": 1,
+    "min_price": 50500,
+    "max_price": 50500,
+    "source": "molit_6m"
+  },
+  "솔밭노블리안": {
+    "gu": "도봉",
+    "median_price": 42000,
+    "trade_count": 1,
+    "min_price": 42000,
+    "max_price": 42000,
+    "source": "molit_6m"
+  },
+  "랜드": {
+    "gu": "광진",
+    "median_price": 41500,
+    "trade_count": 1,
+    "min_price": 41500,
+    "max_price": 41500,
+    "source": "molit_6m"
+  },
+  "파크타운": {
+    "gu": "광진",
+    "median_price": 84800,
+    "trade_count": 1,
+    "min_price": 84800,
+    "max_price": 84800,
+    "source": "molit_6m"
+  },
+  "그린빌아파트": {
+    "gu": "성북",
+    "median_price": 56000,
+    "trade_count": 1,
+    "min_price": 56000,
+    "max_price": 56000,
+    "source": "molit_6m"
+  },
+  "동일스카이": {
+    "gu": "성북",
+    "median_price": 34500,
+    "trade_count": 1,
+    "min_price": 34500,
+    "max_price": 34500,
+    "source": "molit_6m"
+  },
+  "중앙드림빌": {
+    "gu": "성북",
+    "median_price": 41500,
+    "trade_count": 1,
+    "min_price": 41500,
+    "max_price": 41500,
+    "source": "molit_6m"
+  },
+  "코아루센타시아": {
+    "gu": "성북",
+    "median_price": 77000,
+    "trade_count": 1,
+    "min_price": 77000,
+    "max_price": 77000,
+    "source": "molit_6m"
+  },
+  "공덕아이파크": {
+    "gu": "마포",
+    "median_price": 89000,
+    "trade_count": 1,
+    "min_price": 89000,
+    "max_price": 89000,
+    "source": "molit_6m"
+  },
+  "상인파크빌": {
+    "gu": "마포",
+    "median_price": 80500,
+    "trade_count": 2,
+    "min_price": 75000,
+    "max_price": 86000,
+    "source": "molit_6m"
+  },
+  "예인하우스": {
+    "gu": "마포",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "대상4": {
+    "gu": "마포",
+    "median_price": 77500,
+    "trade_count": 1,
+    "min_price": 77500,
+    "max_price": 77500,
+    "source": "molit_6m"
+  },
+  "신부3차파스카": {
+    "gu": "마포",
+    "median_price": 67000,
+    "trade_count": 1,
+    "min_price": 67000,
+    "max_price": 67000,
+    "source": "molit_6m"
+  },
+  "중앙하이츠101동": {
+    "gu": "마포",
+    "median_price": 59000,
+    "trade_count": 1,
+    "min_price": 59000,
+    "max_price": 59000,
+    "source": "molit_6m"
+  },
+  "성대아파트": {
+    "gu": "동작",
+    "median_price": 104700,
+    "trade_count": 1,
+    "min_price": 104700,
+    "max_price": 104700,
+    "source": "molit_6m"
+  },
+  "신동아5": {
+    "gu": "동작",
+    "median_price": 69000,
+    "trade_count": 1,
+    "min_price": 69000,
+    "max_price": 69000,
+    "source": "molit_6m"
+  },
+  "한성아파트": {
+    "gu": "동작",
+    "median_price": 78000,
+    "trade_count": 2,
+    "min_price": 53000,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "형인한강": {
+    "gu": "동작",
+    "median_price": 88000,
+    "trade_count": 1,
+    "min_price": 88000,
+    "max_price": 88000,
+    "source": "molit_6m"
+  },
+  "우성1차": {
+    "gu": "동작",
+    "median_price": 106000,
+    "trade_count": 3,
+    "min_price": 104000,
+    "max_price": 107500,
+    "source": "molit_6m"
+  },
+  "백운한비치": {
+    "gu": "금천",
+    "median_price": 53100,
+    "trade_count": 1,
+    "min_price": 53100,
+    "max_price": 53100,
+    "source": "molit_6m"
+  },
+  "해찬행복드림": {
+    "gu": "금천",
+    "median_price": 57500,
+    "trade_count": 1,
+    "min_price": 57500,
+    "max_price": 57500,
+    "source": "molit_6m"
+  },
+  "금광": {
+    "gu": "금천",
+    "median_price": 40000,
+    "trade_count": 1,
+    "min_price": 40000,
+    "max_price": 40000,
+    "source": "molit_6m"
+  },
+  "한빛": {
+    "gu": "금천",
+    "median_price": 41000,
+    "trade_count": 1,
+    "min_price": 41000,
+    "max_price": 41000,
+    "source": "molit_6m"
+  },
+  "목화102": {
+    "gu": "금천",
+    "median_price": 40800,
+    "trade_count": 1,
+    "min_price": 40800,
+    "max_price": 40800,
+    "source": "molit_6m"
+  },
+  "서초파레스": {
+    "gu": "금천",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "태영아파트": {
+    "gu": "금천",
+    "median_price": 43000,
+    "trade_count": 1,
+    "min_price": 43000,
+    "max_price": 43000,
+    "source": "molit_6m"
+  },
+  "DMC휴먼빌아파트": {
+    "gu": "서대문",
+    "median_price": 82000,
+    "trade_count": 1,
+    "min_price": 82000,
+    "max_price": 82000,
+    "source": "molit_6m"
+  },
+  "드리밍아파트": {
+    "gu": "서대문",
+    "median_price": 57000,
+    "trade_count": 1,
+    "min_price": 57000,
+    "max_price": 57000,
+    "source": "molit_6m"
+  },
+  "우공팰리스": {
+    "gu": "서대문",
+    "median_price": 105000,
+    "trade_count": 1,
+    "min_price": 105000,
+    "max_price": 105000,
+    "source": "molit_6m"
+  },
+  "동양드림": {
+    "gu": "서대문",
+    "median_price": 63000,
+    "trade_count": 1,
+    "min_price": 63000,
+    "max_price": 63000,
+    "source": "molit_6m"
+  },
+  "서대문센트럴아이파크": {
+    "gu": "서대문",
+    "median_price": 79000,
+    "trade_count": 1,
+    "min_price": 79000,
+    "max_price": 79000,
+    "source": "molit_6m"
+  },
+  "우림루미아트1": {
+    "gu": "노원",
+    "median_price": 71700,
+    "trade_count": 2,
+    "min_price": 67900,
+    "max_price": 75500,
+    "source": "molit_6m"
+  },
+  "신일": {
+    "gu": "노원",
+    "median_price": 55400,
+    "trade_count": 2,
+    "min_price": 54000,
+    "max_price": 56800,
+    "source": "molit_6m"
+  },
+  "서경하누리아파트": {
+    "gu": "노원",
+    "median_price": 39800,
+    "trade_count": 1,
+    "min_price": 39800,
+    "max_price": 39800,
+    "source": "molit_6m"
+  },
+  "대동아파트2": {
+    "gu": "노원",
+    "median_price": 53500,
+    "trade_count": 1,
+    "min_price": 53500,
+    "max_price": 53500,
+    "source": "molit_6m"
+  },
+  "현대4차": {
+    "gu": "노원",
+    "median_price": 60000,
+    "trade_count": 1,
+    "min_price": 60000,
+    "max_price": 60000,
+    "source": "molit_6m"
+  },
+  "화랑해링턴플레이스아파트": {
+    "gu": "노원",
+    "median_price": 73500,
+    "trade_count": 1,
+    "min_price": 73500,
+    "max_price": 73500,
+    "source": "molit_6m"
+  },
+  "중앙하이츠(5지역)": {
+    "gu": "노원",
+    "median_price": 39200,
+    "trade_count": 1,
+    "min_price": 39200,
+    "max_price": 39200,
+    "source": "molit_6m"
+  },
+  "한화꿈에그린TheFIRST": {
+    "gu": "노원",
+    "median_price": 101500,
+    "trade_count": 1,
+    "min_price": 101500,
+    "max_price": 101500,
+    "source": "molit_6m"
+  },
+  "길성그랑프리텔아파트": {
+    "gu": "노원",
+    "median_price": 61500,
+    "trade_count": 1,
+    "min_price": 61500,
+    "max_price": 61500,
+    "source": "molit_6m"
+  },
+  "한신월드": {
+    "gu": "노원",
+    "median_price": 45000,
+    "trade_count": 1,
+    "min_price": 45000,
+    "max_price": 45000,
+    "source": "molit_6m"
+  },
+  "신한토탈": {
+    "gu": "동작",
+    "median_price": 90000,
+    "trade_count": 2,
+    "min_price": 90000,
+    "max_price": 90000,
+    "source": "molit_6m"
+  },
+  "진흥아리엘": {
+    "gu": "동작",
+    "median_price": 79800,
+    "trade_count": 1,
+    "min_price": 79800,
+    "max_price": 79800,
+    "source": "molit_6m"
+  },
+  "경동윈츠리버": {
+    "gu": "동작",
+    "median_price": 103000,
+    "trade_count": 1,
+    "min_price": 103000,
+    "max_price": 103000,
+    "source": "molit_6m"
+  },
+  "하늘공원아파트(102동)": {
+    "gu": "노원",
+    "median_price": 50000,
+    "trade_count": 1,
+    "min_price": 50000,
+    "max_price": 50000,
+    "source": "molit_6m"
+  },
+  "수락현대": {
+    "gu": "노원",
+    "median_price": 59000,
+    "trade_count": 1,
+    "min_price": 59000,
+    "max_price": 59000,
+    "source": "molit_6m"
+  },
+  "비콘아파트": {
+    "gu": "노원",
+    "median_price": 57500,
+    "trade_count": 1,
+    "min_price": 57500,
+    "max_price": 57500,
+    "source": "molit_6m"
+  },
+  "한진아파트": {
+    "gu": "노원",
+    "median_price": 48000,
+    "trade_count": 1,
+    "min_price": 48000,
+    "max_price": 48000,
+    "source": "molit_6m"
+  },
+  "월계역신도브래뉴": {
+    "gu": "노원",
+    "median_price": 62500,
+    "trade_count": 2,
+    "min_price": 55000,
+    "max_price": 70000,
+    "source": "molit_6m"
+  },
+  "청구빌아파트": {
+    "gu": "노원",
+    "median_price": 43500,
+    "trade_count": 1,
+    "min_price": 43500,
+    "max_price": 43500,
+    "source": "molit_6m"
+  }
+}

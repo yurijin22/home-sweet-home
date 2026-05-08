@@ -1,0 +1,7103 @@
+{
+  "강남브리즈힐(토지임대부아파트)": {
+    "gu": "강남구",
+    "year": "2014",
+    "price_median": 95000,
+    "price_min": 95000,
+    "price_max": 95000,
+    "trade_count": 2,
+    "area_typical": 74.0
+  },
+  "역삼동우정에쉐르1": {
+    "gu": "강남구",
+    "year": "2004",
+    "price_median": 81000,
+    "price_min": 81000,
+    "price_max": 81000,
+    "trade_count": 1,
+    "area_typical": 71.8
+  },
+  "브라운스톤역삼": {
+    "gu": "강남구",
+    "year": "2004",
+    "price_median": 92000,
+    "price_min": 92000,
+    "price_max": 92000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "강남자곡 힐스테이트": {
+    "gu": "강남구",
+    "year": "2015",
+    "price_median": 105000,
+    "price_min": 102000,
+    "price_max": 107500,
+    "trade_count": 6,
+    "area_typical": 64.9
+  },
+  "대우디오빌": {
+    "gu": "강남구",
+    "year": "2002",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 1,
+    "area_typical": 59.5
+  },
+  "LG선릉에클라트(B)": {
+    "gu": "강남구",
+    "year": "2004",
+    "price_median": 107000,
+    "price_min": 107000,
+    "price_max": 107000,
+    "trade_count": 1,
+    "area_typical": 56.7
+  },
+  "논현동한화꿈에그린": {
+    "gu": "강남구",
+    "year": "2005",
+    "price_median": 109000,
+    "price_min": 102500,
+    "price_max": 109000,
+    "trade_count": 2,
+    "area_typical": 67.7
+  },
+  "SK허브프리모": {
+    "gu": "강남구",
+    "year": "2006",
+    "price_median": 102000,
+    "price_min": 99000,
+    "price_max": 102500,
+    "trade_count": 3,
+    "area_typical": 67.6
+  },
+  "삼성월드타워": {
+    "gu": "강남구",
+    "year": "1997",
+    "price_median": 97000,
+    "price_min": 97000,
+    "price_max": 97000,
+    "trade_count": 1,
+    "area_typical": 58.8
+  },
+  "신사동씨티빌": {
+    "gu": "강남구",
+    "year": "2002",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 63.1
+  },
+  "역삼예명": {
+    "gu": "강남구",
+    "year": "2001",
+    "price_median": 82500,
+    "price_min": 82500,
+    "price_max": 82500,
+    "trade_count": 1,
+    "area_typical": 66.3
+  },
+  "대치동우정에쉐르2(890-42)": {
+    "gu": "강남구",
+    "year": "2004",
+    "price_median": 77500,
+    "price_min": 77500,
+    "price_max": 77500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "로데오현대": {
+    "gu": "강남구",
+    "year": "1998",
+    "price_median": 90000,
+    "price_min": 90000,
+    "price_max": 90000,
+    "trade_count": 1,
+    "area_typical": 55.1
+  },
+  "신성둔촌미소지움1": {
+    "gu": "강동구",
+    "year": "1998",
+    "price_median": 90000,
+    "price_min": 85000,
+    "price_max": 94900,
+    "trade_count": 14,
+    "area_typical": 59.8
+  },
+  "강일리버파크5단지": {
+    "gu": "강동구",
+    "year": "2009",
+    "price_median": 87500,
+    "price_min": 81000,
+    "price_max": 87500,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "코오롱(1차)": {
+    "gu": "강동구",
+    "year": "1999",
+    "price_median": 78800,
+    "price_min": 76300,
+    "price_max": 81000,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "프라자": {
+    "gu": "강동구",
+    "year": "1984",
+    "price_median": 94250,
+    "price_min": 91000,
+    "price_max": 102500,
+    "trade_count": 7,
+    "area_typical": 83.4
+  },
+  "선사현대아파트": {
+    "gu": "강동구",
+    "year": "2000",
+    "price_median": 100000,
+    "price_min": 90000,
+    "price_max": 110000,
+    "trade_count": 60,
+    "area_typical": 62.8
+  },
+  "삼익파크맨션": {
+    "gu": "강동구",
+    "year": "1982",
+    "price_median": 82000,
+    "price_min": 72000,
+    "price_max": 101500,
+    "trade_count": 28,
+    "area_typical": 64.4
+  },
+  "둔촌하이츠": {
+    "gu": "강동구",
+    "year": "1998",
+    "price_median": 82000,
+    "price_min": 80000,
+    "price_max": 85000,
+    "trade_count": 7,
+    "area_typical": 59.8
+  },
+  "중앙하이츠": {
+    "gu": "성동구",
+    "year": "1989",
+    "price_median": 80000,
+    "price_min": 70700,
+    "price_max": 110000,
+    "trade_count": 28,
+    "area_typical": 68.1
+  },
+  "성내동삼성아파트": {
+    "gu": "강동구",
+    "year": "1999",
+    "price_median": 91500,
+    "price_min": 81800,
+    "price_max": 99900,
+    "trade_count": 19,
+    "area_typical": 59.9
+  },
+  "현대2": {
+    "gu": "영등포구",
+    "year": "1986",
+    "price_median": 91500,
+    "price_min": 73000,
+    "price_max": 97000,
+    "trade_count": 9,
+    "area_typical": 74.5
+  },
+  "우성": {
+    "gu": "마포구",
+    "year": "1991",
+    "price_median": 91000,
+    "price_min": 72000,
+    "price_max": 108000,
+    "trade_count": 20,
+    "area_typical": 61.6
+  },
+  "동아하이빌아파트": {
+    "gu": "강동구",
+    "year": "2000",
+    "price_median": 70500,
+    "price_min": 70400,
+    "price_max": 70500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "명일지에스아파트": {
+    "gu": "강동구",
+    "year": "1999",
+    "price_median": 77800,
+    "price_min": 73500,
+    "price_max": 79000,
+    "trade_count": 12,
+    "area_typical": 59.8
+  },
+  "천호동삼성아파트": {
+    "gu": "강동구",
+    "year": "1997",
+    "price_median": 77000,
+    "price_min": 76000,
+    "price_max": 79700,
+    "trade_count": 7,
+    "area_typical": 59.9
+  },
+  "강동리버스트4단지": {
+    "gu": "강동구",
+    "year": "2020",
+    "price_median": 87500,
+    "price_min": 84650,
+    "price_max": 90000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "배재현대": {
+    "gu": "강동구",
+    "year": "1995",
+    "price_median": 105000,
+    "price_min": 98000,
+    "price_max": 110000,
+    "trade_count": 12,
+    "area_typical": 59.9
+  },
+  "현대(명일)": {
+    "gu": "강동구",
+    "year": "1988",
+    "price_median": 75000,
+    "price_min": 70000,
+    "price_max": 90000,
+    "trade_count": 7,
+    "area_typical": 68.5
+  },
+  "현대홈타운": {
+    "gu": "마포구",
+    "year": "2000",
+    "price_median": 106000,
+    "price_min": 103500,
+    "price_max": 109000,
+    "trade_count": 7,
+    "area_typical": 59.4
+  },
+  "현대3": {
+    "gu": "광진구",
+    "year": "1990",
+    "price_median": 106000,
+    "price_min": 74700,
+    "price_max": 110000,
+    "trade_count": 8,
+    "area_typical": 63.4
+  },
+  "삼성광나루": {
+    "gu": "강동구",
+    "year": "2002",
+    "price_median": 99000,
+    "price_min": 94000,
+    "price_max": 100500,
+    "trade_count": 3,
+    "area_typical": 59.8
+  },
+  "우림루미아트": {
+    "gu": "영등포구",
+    "year": "2004",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 87000,
+    "trade_count": 3,
+    "area_typical": 73.9
+  },
+  "둔촌역청구": {
+    "gu": "강동구",
+    "year": "1999",
+    "price_median": 83300,
+    "price_min": 78000,
+    "price_max": 83300,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "영풍마드레빌": {
+    "gu": "강동구",
+    "year": "2002",
+    "price_median": 91500,
+    "price_min": 77000,
+    "price_max": 102300,
+    "trade_count": 6,
+    "area_typical": 79.3
+  },
+  "현대": {
+    "gu": "중구",
+    "year": "1993",
+    "price_median": 86000,
+    "price_min": 70000,
+    "price_max": 104490,
+    "trade_count": 90,
+    "area_typical": 63.0
+  },
+  "현대1": {
+    "gu": "송파구",
+    "year": "1989",
+    "price_median": 104700,
+    "price_min": 70000,
+    "price_max": 109500,
+    "trade_count": 9,
+    "area_typical": 73.2
+  },
+  "삼익가든": {
+    "gu": "강동구",
+    "year": "1984",
+    "price_median": 98500,
+    "price_min": 85850,
+    "price_max": 108000,
+    "trade_count": 22,
+    "area_typical": 69.4
+  },
+  "힐데스하임올림픽파크아파트": {
+    "gu": "강동구",
+    "year": "2020",
+    "price_median": 99100,
+    "price_min": 93500,
+    "price_max": 100000,
+    "trade_count": 5,
+    "area_typical": 77.7
+  },
+  "천호태영아파트": {
+    "gu": "강동구",
+    "year": "1999",
+    "price_median": 87500,
+    "price_min": 87000,
+    "price_max": 87500,
+    "trade_count": 2,
+    "area_typical": 59.6
+  },
+  "한강현대": {
+    "gu": "강동구",
+    "year": "1999",
+    "price_median": 86000,
+    "price_min": 83700,
+    "price_max": 95000,
+    "trade_count": 8,
+    "area_typical": 62.9
+  },
+  "성안마을청구": {
+    "gu": "강동구",
+    "year": "2002",
+    "price_median": 85000,
+    "price_min": 75000,
+    "price_max": 89000,
+    "trade_count": 7,
+    "area_typical": 59.9
+  },
+  "둔촌푸르지오": {
+    "gu": "강동구",
+    "year": "2010",
+    "price_median": 107000,
+    "price_min": 105000,
+    "price_max": 110000,
+    "trade_count": 8,
+    "area_typical": 60.0
+  },
+  "신성둔촌미소지움2": {
+    "gu": "강동구",
+    "year": "2000",
+    "price_median": 95000,
+    "price_min": 86000,
+    "price_max": 95500,
+    "trade_count": 6,
+    "area_typical": 59.9
+  },
+  "프라이어팰리스": {
+    "gu": "강동구",
+    "year": "2007",
+    "price_median": 101000,
+    "price_min": 100500,
+    "price_max": 102500,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "한영해시안아파트": {
+    "gu": "송파구",
+    "year": "2019",
+    "price_median": 87000,
+    "price_min": 76900,
+    "price_max": 88000,
+    "trade_count": 6,
+    "area_typical": 63.4
+  },
+  "강일리버파크7단지": {
+    "gu": "강동구",
+    "year": "2009",
+    "price_median": 86700,
+    "price_min": 86700,
+    "price_max": 86700,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "집앤사비키아파트": {
+    "gu": "강동구",
+    "year": "2019",
+    "price_median": 75800,
+    "price_min": 75800,
+    "price_max": 75800,
+    "trade_count": 1,
+    "area_typical": 72.1
+  },
+  "강동역두산위브센티움": {
+    "gu": "강동구",
+    "year": "2004",
+    "price_median": 73000,
+    "price_min": 72500,
+    "price_max": 73000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "다원애버니아": {
+    "gu": "강동구",
+    "year": "2004",
+    "price_median": 81500,
+    "price_min": 81500,
+    "price_max": 81500,
+    "trade_count": 1,
+    "area_typical": 81.9
+  },
+  "한전우성1": {
+    "gu": "강동구",
+    "year": "1989",
+    "price_median": 72000,
+    "price_min": 70000,
+    "price_max": 75000,
+    "trade_count": 7,
+    "area_typical": 81.6
+  },
+  "강일리버파크3단지": {
+    "gu": "강동구",
+    "year": "2009",
+    "price_median": 87000,
+    "price_min": 83700,
+    "price_max": 92000,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "길동우성": {
+    "gu": "강동구",
+    "year": "1994",
+    "price_median": 74000,
+    "price_min": 72000,
+    "price_max": 76900,
+    "trade_count": 7,
+    "area_typical": 57.1
+  },
+  "한강포스파크": {
+    "gu": "강동구",
+    "year": "2002",
+    "price_median": 90000,
+    "price_min": 85000,
+    "price_max": 90000,
+    "trade_count": 2,
+    "area_typical": 80.7
+  },
+  "메이저": {
+    "gu": "강동구",
+    "year": "2001",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 83.7
+  },
+  "고덕센트럴푸르지오": {
+    "gu": "강동구",
+    "year": "2020",
+    "price_median": 109000,
+    "price_min": 108000,
+    "price_max": 110000,
+    "trade_count": 3,
+    "area_typical": 59.1
+  },
+  "새한올림픽": {
+    "gu": "강동구",
+    "year": "2001",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 1,
+    "area_typical": 82.2
+  },
+  "성원아파트": {
+    "gu": "강동구",
+    "year": "1998",
+    "price_median": 77500,
+    "price_min": 71500,
+    "price_max": 77500,
+    "trade_count": 3,
+    "area_typical": 83.2
+  },
+  "고덕주공9": {
+    "gu": "강동구",
+    "year": "1985",
+    "price_median": 100000,
+    "price_min": 73000,
+    "price_max": 100000,
+    "trade_count": 3,
+    "area_typical": 83.3
+  },
+  "다성이즈빌(320)": {
+    "gu": "강동구",
+    "year": "2017",
+    "price_median": 71500,
+    "price_min": 71500,
+    "price_max": 71500,
+    "trade_count": 1,
+    "area_typical": 57.8
+  },
+  "고덕리엔파크3단지": {
+    "gu": "강동구",
+    "year": "2011",
+    "price_median": 83000,
+    "price_min": 83000,
+    "price_max": 83000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "월드메르디앙올림픽파크": {
+    "gu": "강동구",
+    "year": "2024",
+    "price_median": 91000,
+    "price_min": 91000,
+    "price_max": 91000,
+    "trade_count": 1,
+    "area_typical": 54.5
+  },
+  "광남캐스빌101동": {
+    "gu": "강동구",
+    "year": "2004",
+    "price_median": 88900,
+    "price_min": 84000,
+    "price_max": 88900,
+    "trade_count": 2,
+    "area_typical": 84.0
+  },
+  "라움포레": {
+    "gu": "강동구",
+    "year": "2020",
+    "price_median": 82000,
+    "price_min": 75800,
+    "price_max": 82000,
+    "trade_count": 2,
+    "area_typical": 59.1
+  },
+  "성내1차e-편한세상": {
+    "gu": "강동구",
+    "year": "2003",
+    "price_median": 103300,
+    "price_min": 95000,
+    "price_max": 103300,
+    "trade_count": 2,
+    "area_typical": 84.0
+  },
+  "신일유토빌(603-0)": {
+    "gu": "강동구",
+    "year": "2004",
+    "price_median": 89800,
+    "price_min": 89800,
+    "price_max": 89800,
+    "trade_count": 2,
+    "area_typical": 78.7
+  },
+  "광남캐스빌(443-26)": {
+    "gu": "강동구",
+    "year": "2009",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 63.2
+  },
+  "신동아파밀리에": {
+    "gu": "영등포구",
+    "year": "2008",
+    "price_median": 85000,
+    "price_min": 80200,
+    "price_max": 90000,
+    "trade_count": 7,
+    "area_typical": 59.4
+  },
+  "현대4": {
+    "gu": "강동구",
+    "year": "1996",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 58.3
+  },
+  "아남1": {
+    "gu": "강동구",
+    "year": "1996",
+    "price_median": 101000,
+    "price_min": 100000,
+    "price_max": 101000,
+    "trade_count": 2,
+    "area_typical": 78.3
+  },
+  "한건브리앙아파트": {
+    "gu": "강동구",
+    "year": "2004",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 1,
+    "area_typical": 63.2
+  },
+  "하나플러스": {
+    "gu": "강동구",
+    "year": "2003",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "태성": {
+    "gu": "강동구",
+    "year": "2003",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 76.5
+  },
+  "대우": {
+    "gu": "강동구",
+    "year": "1986",
+    "price_median": 89500,
+    "price_min": 89500,
+    "price_max": 89500,
+    "trade_count": 1,
+    "area_typical": 72.0
+  },
+  "래미안강동팰리스": {
+    "gu": "강동구",
+    "year": "2017",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "꿈의숲한신더휴": {
+    "gu": "강북구",
+    "year": "2022",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 73000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "송천센트레빌": {
+    "gu": "강북구",
+    "year": "2010",
+    "price_median": 85000,
+    "price_min": 83500,
+    "price_max": 87500,
+    "trade_count": 7,
+    "area_typical": 59.8
+  },
+  "꿈의숲해링턴플레이스": {
+    "gu": "강북구",
+    "year": "2019",
+    "price_median": 78500,
+    "price_min": 77500,
+    "price_max": 79500,
+    "trade_count": 6,
+    "area_typical": 59.4
+  },
+  "두산위브트레지움": {
+    "gu": "강북구",
+    "year": "2011",
+    "price_median": 72000,
+    "price_min": 71000,
+    "price_max": 72900,
+    "trade_count": 5,
+    "area_typical": 59.7
+  },
+  "경남아너스빌": {
+    "gu": "중랑구",
+    "year": "2006",
+    "price_median": 89000,
+    "price_min": 70000,
+    "price_max": 94000,
+    "trade_count": 27,
+    "area_typical": 61.1
+  },
+  "삼성래미안트리베라2단지": {
+    "gu": "강북구",
+    "year": "2010",
+    "price_median": 74500,
+    "price_min": 70000,
+    "price_max": 77800,
+    "trade_count": 19,
+    "area_typical": 59.3
+  },
+  "꿈의숲롯데캐슬": {
+    "gu": "강북구",
+    "year": "2017",
+    "price_median": 79000,
+    "price_min": 78000,
+    "price_max": 79500,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "미아동부센트레빌": {
+    "gu": "강북구",
+    "year": "2006",
+    "price_median": 77400,
+    "price_min": 75500,
+    "price_max": 78700,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "래미안트리베라1단지": {
+    "gu": "강북구",
+    "year": "2010",
+    "price_median": 74500,
+    "price_min": 73000,
+    "price_max": 77000,
+    "trade_count": 8,
+    "area_typical": 59.6
+  },
+  "북서울자이폴라리스(2단지)": {
+    "gu": "강북구",
+    "year": "2024",
+    "price_median": 88000,
+    "price_min": 88000,
+    "price_max": 88000,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "미아1차래미안": {
+    "gu": "강북구",
+    "year": "2006",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "북서울자이폴라리스(3단지)": {
+    "gu": "강북구",
+    "year": "2024",
+    "price_median": 86700,
+    "price_min": 86700,
+    "price_max": 86700,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "우장산아이파크,이편한세상": {
+    "gu": "강서구",
+    "year": "2008",
+    "price_median": 107300,
+    "price_min": 97000,
+    "price_max": 110000,
+    "trade_count": 22,
+    "area_typical": 60.0
+  },
+  "동아3": {
+    "gu": "구로구",
+    "year": "2000",
+    "price_median": 94800,
+    "price_min": 79500,
+    "price_max": 105000,
+    "trade_count": 26,
+    "area_typical": 59.9
+  },
+  "관음삼성": {
+    "gu": "강서구",
+    "year": "1997",
+    "price_median": 79500,
+    "price_min": 77900,
+    "price_max": 81900,
+    "trade_count": 8,
+    "area_typical": 60.0
+  },
+  "주공10": {
+    "gu": "노원구",
+    "year": "1995",
+    "price_median": 75000,
+    "price_min": 71500,
+    "price_max": 80500,
+    "trade_count": 15,
+    "area_typical": 58.1
+  },
+  "보람(640)": {
+    "gu": "강서구",
+    "year": "2002",
+    "price_median": 87000,
+    "price_min": 83000,
+    "price_max": 87000,
+    "trade_count": 2,
+    "area_typical": 83.1
+  },
+  "초록": {
+    "gu": "강서구",
+    "year": "1998",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 71500,
+    "trade_count": 5,
+    "area_typical": 59.3
+  },
+  "태진드림피아": {
+    "gu": "강서구",
+    "year": "2003",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 79.8
+  },
+  "가양강나루현대": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 86500,
+    "price_min": 77800,
+    "price_max": 89500,
+    "trade_count": 15,
+    "area_typical": 59.8
+  },
+  "부영": {
+    "gu": "강서구",
+    "year": "1994",
+    "price_median": 88500,
+    "price_min": 85000,
+    "price_max": 91000,
+    "trade_count": 15,
+    "area_typical": 80.6
+  },
+  "마곡수명산파크4단지": {
+    "gu": "강서구",
+    "year": "2008",
+    "price_median": 85000,
+    "price_min": 82000,
+    "price_max": 90000,
+    "trade_count": 16,
+    "area_typical": 59.8
+  },
+  "주공3": {
+    "gu": "강서구",
+    "year": "1995",
+    "price_median": 82150,
+    "price_min": 76000,
+    "price_max": 87000,
+    "trade_count": 18,
+    "area_typical": 58.1
+  },
+  "가양6단지": {
+    "gu": "강서구",
+    "year": "1992",
+    "price_median": 83500,
+    "price_min": 78300,
+    "price_max": 87500,
+    "trade_count": 15,
+    "area_typical": 58.6
+  },
+  "우장산힐스테이트": {
+    "gu": "강서구",
+    "year": "2005",
+    "price_median": 108000,
+    "price_min": 104500,
+    "price_max": 110000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "강서힐스테이트": {
+    "gu": "강서구",
+    "year": "2015",
+    "price_median": 108000,
+    "price_min": 100000,
+    "price_max": 109500,
+    "trade_count": 16,
+    "area_typical": 60.0
+  },
+  "주공5": {
+    "gu": "노원구",
+    "year": "1992",
+    "price_median": 74500,
+    "price_min": 70000,
+    "price_max": 97500,
+    "trade_count": 36,
+    "area_typical": 61.3
+  },
+  "벽산": {
+    "gu": "성동구",
+    "year": "2001",
+    "price_median": 99500,
+    "price_min": 70000,
+    "price_max": 110000,
+    "trade_count": 44,
+    "area_typical": 60.4
+  },
+  "가양우성": {
+    "gu": "강서구",
+    "year": "1990",
+    "price_median": 80500,
+    "price_min": 80500,
+    "price_max": 80500,
+    "trade_count": 1,
+    "area_typical": 75.5
+  },
+  "강서센트레빌3차(894-0)": {
+    "gu": "강서구",
+    "year": "2009",
+    "price_median": 92000,
+    "price_min": 92000,
+    "price_max": 92000,
+    "trade_count": 1,
+    "area_typical": 72.4
+  },
+  "염창2차보람": {
+    "gu": "강서구",
+    "year": "2005",
+    "price_median": 75000,
+    "price_min": 75000,
+    "price_max": 75000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "마곡수명산파크5단지": {
+    "gu": "강서구",
+    "year": "2008",
+    "price_median": 86500,
+    "price_min": 82000,
+    "price_max": 89700,
+    "trade_count": 20,
+    "area_typical": 59.8
+  },
+  "신마곡벽산블루밍": {
+    "gu": "강서구",
+    "year": "2020",
+    "price_median": 84100,
+    "price_min": 77850,
+    "price_max": 89500,
+    "trade_count": 4,
+    "area_typical": 69.6
+  },
+  "무학": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 72700,
+    "price_min": 70000,
+    "price_max": 75000,
+    "trade_count": 6,
+    "area_typical": 59.4
+  },
+  "극동": {
+    "gu": "송파구",
+    "year": "1987",
+    "price_median": 105000,
+    "price_min": 70000,
+    "price_max": 110000,
+    "trade_count": 22,
+    "area_typical": 62.7
+  },
+  "월드메르디앙201동,202동": {
+    "gu": "강서구",
+    "year": "2004",
+    "price_median": 76000,
+    "price_min": 70500,
+    "price_max": 76000,
+    "trade_count": 2,
+    "area_typical": 83.4
+  },
+  "염창동한강우성": {
+    "gu": "강서구",
+    "year": "1990",
+    "price_median": 70150,
+    "price_min": 70000,
+    "price_max": 71500,
+    "trade_count": 3,
+    "area_typical": 65.9
+  },
+  "신안": {
+    "gu": "노원구",
+    "year": "1999",
+    "price_median": 79000,
+    "price_min": 72500,
+    "price_max": 83500,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "청성": {
+    "gu": "강서구",
+    "year": "2002",
+    "price_median": 75000,
+    "price_min": 75000,
+    "price_max": 75000,
+    "trade_count": 1,
+    "area_typical": 83.7
+  },
+  "동아": {
+    "gu": "동대문구",
+    "year": "2001",
+    "price_median": 72700,
+    "price_min": 70300,
+    "price_max": 77000,
+    "trade_count": 16,
+    "area_typical": 60.5
+  },
+  "강서아이파크": {
+    "gu": "강서구",
+    "year": "2005",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 83.1
+  },
+  "태진한솔": {
+    "gu": "강서구",
+    "year": "1994",
+    "price_median": 74500,
+    "price_min": 71000,
+    "price_max": 76500,
+    "trade_count": 4,
+    "area_typical": 58.9
+  },
+  "서광등촌마을아파트": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 74000,
+    "price_min": 71000,
+    "price_max": 80000,
+    "trade_count": 8,
+    "area_typical": 59.7
+  },
+  "마곡엠밸리9단지": {
+    "gu": "강서구",
+    "year": "2021",
+    "price_median": 110000,
+    "price_min": 109000,
+    "price_max": 110000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "염창1차한화꿈에그린": {
+    "gu": "강서구",
+    "year": "2005",
+    "price_median": 107900,
+    "price_min": 107900,
+    "price_max": 107900,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "강변힐스테이트": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 104800,
+    "price_min": 97000,
+    "price_max": 104800,
+    "trade_count": 2,
+    "area_typical": 59.7
+  },
+  "한보구암마을": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 73500,
+    "price_min": 73000,
+    "price_max": 74000,
+    "trade_count": 3,
+    "area_typical": 59.5
+  },
+  "등촌파밀리에더클래식201동": {
+    "gu": "강서구",
+    "year": "2020",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 62.7
+  },
+  "가양역두산위브": {
+    "gu": "강서구",
+    "year": "2022",
+    "price_median": 93000,
+    "price_min": 92500,
+    "price_max": 93000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "마곡우림필유아파트": {
+    "gu": "강서구",
+    "year": "2003",
+    "price_median": 83000,
+    "price_min": 83000,
+    "price_max": 83000,
+    "trade_count": 1,
+    "area_typical": 74.9
+  },
+  "성원": {
+    "gu": "영등포구",
+    "year": "1997",
+    "price_median": 75500,
+    "price_min": 74000,
+    "price_max": 85000,
+    "trade_count": 7,
+    "area_typical": 59.9
+  },
+  "삼성한마음": {
+    "gu": "강서구",
+    "year": "1995",
+    "price_median": 73000,
+    "price_min": 72000,
+    "price_max": 74000,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "원미": {
+    "gu": "강서구",
+    "year": "1988",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 1,
+    "area_typical": 54.8
+  },
+  "금호타운": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 78000,
+    "price_min": 76500,
+    "price_max": 83500,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "형제": {
+    "gu": "강서구",
+    "year": "1982",
+    "price_median": 87000,
+    "price_min": 87000,
+    "price_max": 87000,
+    "trade_count": 1,
+    "area_typical": 80.0
+  },
+  "대동황토방2": {
+    "gu": "강서구",
+    "year": "2003",
+    "price_median": 90000,
+    "price_min": 84000,
+    "price_max": 90000,
+    "trade_count": 2,
+    "area_typical": 80.9
+  },
+  "대림": {
+    "gu": "송파구",
+    "year": "1988",
+    "price_median": 96500,
+    "price_min": 72500,
+    "price_max": 98000,
+    "trade_count": 10,
+    "area_typical": 66.6
+  },
+  "한솔솔파크": {
+    "gu": "강서구",
+    "year": "2005",
+    "price_median": 83000,
+    "price_min": 83000,
+    "price_max": 83000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "태영": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 70500,
+    "price_min": 70000,
+    "price_max": 70500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "빛고을우방": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 75500,
+    "price_min": 74500,
+    "price_max": 75500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "길성그랑프리텔": {
+    "gu": "강서구",
+    "year": "2002",
+    "price_median": 75000,
+    "price_min": 74500,
+    "price_max": 75000,
+    "trade_count": 2,
+    "area_typical": 70.2
+  },
+  "강서쌍용예가": {
+    "gu": "강서구",
+    "year": "2014",
+    "price_median": 89000,
+    "price_min": 87800,
+    "price_max": 89000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "동성": {
+    "gu": "강서구",
+    "year": "1993",
+    "price_median": 75000,
+    "price_min": 75000,
+    "price_max": 75000,
+    "trade_count": 1,
+    "area_typical": 76.8
+  },
+  "한강동아": {
+    "gu": "강서구",
+    "year": "1998",
+    "price_median": 79500,
+    "price_min": 79000,
+    "price_max": 83000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "일신건영휴먼빌": {
+    "gu": "강서구",
+    "year": "2004",
+    "price_median": 77500,
+    "price_min": 77500,
+    "price_max": 77500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "우장산동문디이스트": {
+    "gu": "강서구",
+    "year": "2023",
+    "price_median": 90000,
+    "price_min": 83500,
+    "price_max": 90000,
+    "trade_count": 2,
+    "area_typical": 74.0
+  },
+  "강서한강자이": {
+    "gu": "강서구",
+    "year": "2013",
+    "price_median": 110000,
+    "price_min": 103000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "우장산숲아이파크": {
+    "gu": "강서구",
+    "year": "2022",
+    "price_median": 109000,
+    "price_min": 109000,
+    "price_max": 109000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "보람": {
+    "gu": "강서구",
+    "year": "2001",
+    "price_median": 74500,
+    "price_min": 74500,
+    "price_max": 74500,
+    "trade_count": 1,
+    "area_typical": 79.5
+  },
+  "수산오성": {
+    "gu": "강서구",
+    "year": "2002",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 1,
+    "area_typical": 82.5
+  },
+  "극동상록수": {
+    "gu": "강서구",
+    "year": "1999",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "태승훼미리": {
+    "gu": "강서구",
+    "year": "2004",
+    "price_median": 78500,
+    "price_min": 78500,
+    "price_max": 78500,
+    "trade_count": 1,
+    "area_typical": 83.6
+  },
+  "월드메르디앙": {
+    "gu": "강서구",
+    "year": "2004",
+    "price_median": 87000,
+    "price_min": 87000,
+    "price_max": 87000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "대림e-편한세상": {
+    "gu": "양천구",
+    "year": "2004",
+    "price_median": 84000,
+    "price_min": 74300,
+    "price_max": 110000,
+    "trade_count": 43,
+    "area_typical": 61.9
+  },
+  "관악드림(삼성)": {
+    "gu": "관악구",
+    "year": "2003",
+    "price_median": 78800,
+    "price_min": 73500,
+    "price_max": 84500,
+    "trade_count": 21,
+    "area_typical": 59.9
+  },
+  "관악동부센트레빌": {
+    "gu": "관악구",
+    "year": "2004",
+    "price_median": 84000,
+    "price_min": 80500,
+    "price_max": 86000,
+    "trade_count": 10,
+    "area_typical": 59.8
+  },
+  "e편한세상서울대입구1단지": {
+    "gu": "관악구",
+    "year": "2019",
+    "price_median": 107500,
+    "price_min": 102000,
+    "price_max": 110000,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "관악드림(동아)": {
+    "gu": "관악구",
+    "year": "2003",
+    "price_median": 80000,
+    "price_min": 71000,
+    "price_max": 85800,
+    "trade_count": 43,
+    "area_typical": 59.9
+  },
+  "봉천우성": {
+    "gu": "관악구",
+    "year": "2000",
+    "price_median": 73500,
+    "price_min": 71000,
+    "price_max": 76000,
+    "trade_count": 13,
+    "area_typical": 59.8
+  },
+  "e편한세상서울대입구2단지": {
+    "gu": "관악구",
+    "year": "2019",
+    "price_median": 105800,
+    "price_min": 97500,
+    "price_max": 106000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "건영6": {
+    "gu": "관악구",
+    "year": "1999",
+    "price_median": 90000,
+    "price_min": 84000,
+    "price_max": 90000,
+    "trade_count": 2,
+    "area_typical": 82.8
+  },
+  "브라운스톤관악": {
+    "gu": "관악구",
+    "year": "2005",
+    "price_median": 73500,
+    "price_min": 73500,
+    "price_max": 73500,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "신림동신도브래뉴": {
+    "gu": "관악구",
+    "year": "2003",
+    "price_median": 77500,
+    "price_min": 73000,
+    "price_max": 80000,
+    "trade_count": 3,
+    "area_typical": 81.4
+  },
+  "관악파크푸르지오": {
+    "gu": "관악구",
+    "year": "2014",
+    "price_median": 79500,
+    "price_min": 74500,
+    "price_max": 81500,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "두산": {
+    "gu": "종로구",
+    "year": "1999",
+    "price_median": 89000,
+    "price_min": 70000,
+    "price_max": 110000,
+    "trade_count": 100,
+    "area_typical": 60.1
+  },
+  "봉천동아": {
+    "gu": "관악구",
+    "year": "2000",
+    "price_median": 71800,
+    "price_min": 70000,
+    "price_max": 72400,
+    "trade_count": 10,
+    "area_typical": 59.8
+  },
+  "서울대입구삼성": {
+    "gu": "관악구",
+    "year": "1999",
+    "price_median": 71800,
+    "price_min": 70400,
+    "price_max": 71800,
+    "trade_count": 2,
+    "area_typical": 59.8
+  },
+  "금강아미움(101동)": {
+    "gu": "관악구",
+    "year": "2010",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 1,
+    "area_typical": 71.1
+  },
+  "서울대입구아이원(1560-62)": {
+    "gu": "관악구",
+    "year": "2006",
+    "price_median": 83000,
+    "price_min": 81500,
+    "price_max": 85000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "현대(관악)": {
+    "gu": "관악구",
+    "year": "1992",
+    "price_median": 74000,
+    "price_min": 70500,
+    "price_max": 83000,
+    "trade_count": 10,
+    "area_typical": 64.7
+  },
+  "힐스테이트뉴포레": {
+    "gu": "관악구",
+    "year": "2022",
+    "price_median": 106500,
+    "price_min": 105000,
+    "price_max": 110000,
+    "trade_count": 12,
+    "area_typical": 60.0
+  },
+  "관악푸르지오": {
+    "gu": "관악구",
+    "year": "2004",
+    "price_median": 80000,
+    "price_min": 73000,
+    "price_max": 85000,
+    "trade_count": 33,
+    "area_typical": 59.6
+  },
+  "e편한세상서울대입구2차": {
+    "gu": "관악구",
+    "year": "2020",
+    "price_median": 102000,
+    "price_min": 101000,
+    "price_max": 104500,
+    "trade_count": 5,
+    "area_typical": 59.8
+  },
+  "예성2차그린캐슬": {
+    "gu": "관악구",
+    "year": "2004",
+    "price_median": 77500,
+    "price_min": 77500,
+    "price_max": 77500,
+    "trade_count": 1,
+    "area_typical": 74.6
+  },
+  "신림현대": {
+    "gu": "관악구",
+    "year": "1993",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 73000,
+    "trade_count": 4,
+    "area_typical": 82.2
+  },
+  "동부": {
+    "gu": "관악구",
+    "year": "1993",
+    "price_median": 86000,
+    "price_min": 71100,
+    "price_max": 86000,
+    "trade_count": 4,
+    "area_typical": 69.4
+  },
+  "서울대입구아이원(1560-61)": {
+    "gu": "관악구",
+    "year": "2006",
+    "price_median": 85000,
+    "price_min": 77200,
+    "price_max": 85000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "벽산블루밍": {
+    "gu": "관악구",
+    "year": "2005",
+    "price_median": 76100,
+    "price_min": 72500,
+    "price_max": 77200,
+    "trade_count": 10,
+    "area_typical": 60.0
+  },
+  "늘푸른": {
+    "gu": "관악구",
+    "year": "2009",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 82.0
+  },
+  "벽산블루밍3차": {
+    "gu": "관악구",
+    "year": "2004",
+    "price_median": 79000,
+    "price_min": 76800,
+    "price_max": 80300,
+    "trade_count": 6,
+    "area_typical": 67.8
+  },
+  "예성그린캐슬1차": {
+    "gu": "관악구",
+    "year": "2003",
+    "price_median": 72300,
+    "price_min": 72300,
+    "price_max": 72300,
+    "trade_count": 2,
+    "area_typical": 63.4
+  },
+  "낙성대현대(296)": {
+    "gu": "관악구",
+    "year": "1998",
+    "price_median": 75000,
+    "price_min": 75000,
+    "price_max": 75000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "관악중앙하이츠포레": {
+    "gu": "관악구",
+    "year": "2022",
+    "price_median": 77000,
+    "price_min": 77000,
+    "price_max": 77000,
+    "trade_count": 2,
+    "area_typical": 79.2
+  },
+  "낙성대현대아파트": {
+    "gu": "관악구",
+    "year": "1988",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 72000,
+    "trade_count": 1,
+    "area_typical": 61.7
+  },
+  "대우디오슈페리움1단지": {
+    "gu": "관악구",
+    "year": "2007",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 1,
+    "area_typical": 78.4
+  },
+  "우성1": {
+    "gu": "영등포구",
+    "year": "1985",
+    "price_median": 94900,
+    "price_min": 80000,
+    "price_max": 103500,
+    "trade_count": 19,
+    "area_typical": 69.4
+  },
+  "현대프라임": {
+    "gu": "광진구",
+    "year": "1997",
+    "price_median": 110000,
+    "price_min": 108000,
+    "price_max": 110000,
+    "trade_count": 2,
+    "area_typical": 59.8
+  },
+  "테라팰리스건대2차": {
+    "gu": "광진구",
+    "year": "2018",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 1,
+    "area_typical": 75.0
+  },
+  "화양현대": {
+    "gu": "광진구",
+    "year": "1999",
+    "price_median": 83400,
+    "price_min": 79400,
+    "price_max": 87000,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "구의현대7단지현대홈타운": {
+    "gu": "광진구",
+    "year": "1997",
+    "price_median": 98000,
+    "price_min": 93000,
+    "price_max": 104500,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "워커힐푸르지오": {
+    "gu": "광진구",
+    "year": "1987",
+    "price_median": 102000,
+    "price_min": 102000,
+    "price_max": 109000,
+    "trade_count": 3,
+    "area_typical": 66.8
+  },
+  "금호베스트빌": {
+    "gu": "성동구",
+    "year": "2001",
+    "price_median": 81500,
+    "price_min": 74000,
+    "price_max": 103000,
+    "trade_count": 21,
+    "area_typical": 59.8
+  },
+  "스타파크": {
+    "gu": "광진구",
+    "year": "2022",
+    "price_median": 79000,
+    "price_min": 73000,
+    "price_max": 79000,
+    "trade_count": 2,
+    "area_typical": 60.3
+  },
+  "청구": {
+    "gu": "은평구",
+    "year": "2000",
+    "price_median": 103800,
+    "price_min": 70000,
+    "price_max": 109800,
+    "trade_count": 14,
+    "area_typical": 61.5
+  },
+  "일성파크": {
+    "gu": "광진구",
+    "year": "1996",
+    "price_median": 73500,
+    "price_min": 70500,
+    "price_max": 74500,
+    "trade_count": 7,
+    "area_typical": 60.0
+  },
+  "대동": {
+    "gu": "광진구",
+    "year": "1999",
+    "price_median": 96500,
+    "price_min": 96500,
+    "price_max": 98500,
+    "trade_count": 3,
+    "area_typical": 59.5
+  },
+  "한강아남": {
+    "gu": "광진구",
+    "year": "1995",
+    "price_median": 89900,
+    "price_min": 89900,
+    "price_max": 89900,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "자양7차현대홈타운": {
+    "gu": "광진구",
+    "year": "2001",
+    "price_median": 109500,
+    "price_min": 107000,
+    "price_max": 109500,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "한강이레": {
+    "gu": "광진구",
+    "year": "2003",
+    "price_median": 71500,
+    "price_min": 71500,
+    "price_max": 71500,
+    "trade_count": 1,
+    "area_typical": 57.4
+  },
+  "자양힐101동": {
+    "gu": "광진구",
+    "year": "2005",
+    "price_median": 89500,
+    "price_min": 84000,
+    "price_max": 89500,
+    "trade_count": 2,
+    "area_typical": 82.8
+  },
+  "우방리버파크": {
+    "gu": "광진구",
+    "year": "2003",
+    "price_median": 100000,
+    "price_min": 100000,
+    "price_max": 100000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "우성2": {
+    "gu": "영등포구",
+    "year": "1986",
+    "price_median": 96900,
+    "price_min": 90000,
+    "price_max": 105500,
+    "trade_count": 12,
+    "area_typical": 64.6
+  },
+  "한강성원": {
+    "gu": "광진구",
+    "year": "1997",
+    "price_median": 100000,
+    "price_min": 97000,
+    "price_max": 100000,
+    "trade_count": 4,
+    "area_typical": 59.5
+  },
+  "자양현대5": {
+    "gu": "광진구",
+    "year": "1998",
+    "price_median": 86500,
+    "price_min": 86500,
+    "price_max": 88000,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "자양삼성": {
+    "gu": "광진구",
+    "year": "1999",
+    "price_median": 105000,
+    "price_min": 98000,
+    "price_max": 108000,
+    "trade_count": 5,
+    "area_typical": 59.8
+  },
+  "삼성광장2": {
+    "gu": "광진구",
+    "year": "1989",
+    "price_median": 93000,
+    "price_min": 91000,
+    "price_max": 94000,
+    "trade_count": 3,
+    "area_typical": 58.6
+  },
+  "성동강변파크빌101(강변타워)": {
+    "gu": "광진구",
+    "year": "2001",
+    "price_median": 83200,
+    "price_min": 83000,
+    "price_max": 83200,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "경남": {
+    "gu": "영등포구",
+    "year": "1999",
+    "price_median": 79500,
+    "price_min": 72800,
+    "price_max": 88000,
+    "trade_count": 7,
+    "area_typical": 62.0
+  },
+  "자양현대6": {
+    "gu": "광진구",
+    "year": "1999",
+    "price_median": 103000,
+    "price_min": 103000,
+    "price_max": 103000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "상록타워아파트": {
+    "gu": "광진구",
+    "year": "1997",
+    "price_median": 95500,
+    "price_min": 95500,
+    "price_max": 95500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "자양우성7": {
+    "gu": "광진구",
+    "year": "1998",
+    "price_median": 110000,
+    "price_min": 106000,
+    "price_max": 110000,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "그린": {
+    "gu": "광진구",
+    "year": "2003",
+    "price_median": 83000,
+    "price_min": 83000,
+    "price_max": 83000,
+    "trade_count": 1,
+    "area_typical": 75.3
+  },
+  "한라아파트": {
+    "gu": "광진구",
+    "year": "1996",
+    "price_median": 104000,
+    "price_min": 104000,
+    "price_max": 104000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "새한": {
+    "gu": "광진구",
+    "year": "2000",
+    "price_median": 81500,
+    "price_min": 81500,
+    "price_max": 81500,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "삼성홈타운": {
+    "gu": "광진구",
+    "year": "2007",
+    "price_median": 74500,
+    "price_min": 74500,
+    "price_max": 74500,
+    "trade_count": 1,
+    "area_typical": 79.4
+  },
+  "아차산한라아파트": {
+    "gu": "광진구",
+    "year": "2009",
+    "price_median": 78000,
+    "price_min": 71700,
+    "price_max": 78000,
+    "trade_count": 2,
+    "area_typical": 75.7
+  },
+  "주성힐스톤": {
+    "gu": "광진구",
+    "year": "2014",
+    "price_median": 71500,
+    "price_min": 71500,
+    "price_max": 71500,
+    "trade_count": 1,
+    "area_typical": 71.0
+  },
+  "퓨전빌": {
+    "gu": "광진구",
+    "year": "2003",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 83.7
+  },
+  "호동": {
+    "gu": "광진구",
+    "year": "2002",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 2,
+    "area_typical": 75.6
+  },
+  "한솔리베르": {
+    "gu": "광진구",
+    "year": "2002",
+    "price_median": 109000,
+    "price_min": 109000,
+    "price_max": 109000,
+    "trade_count": 1,
+    "area_typical": 61.3
+  },
+  "와이엠프라젠스파": {
+    "gu": "광진구",
+    "year": "2005",
+    "price_median": 75000,
+    "price_min": 75000,
+    "price_max": 75000,
+    "trade_count": 1,
+    "area_typical": 56.1
+  },
+  "위너스힐(111-89)": {
+    "gu": "광진구",
+    "year": "2021",
+    "price_median": 90000,
+    "price_min": 90000,
+    "price_max": 90000,
+    "trade_count": 1,
+    "area_typical": 61.2
+  },
+  "아차산포레안": {
+    "gu": "광진구",
+    "year": "2010",
+    "price_median": 92000,
+    "price_min": 92000,
+    "price_max": 92000,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "현대강변": {
+    "gu": "광진구",
+    "year": "1991",
+    "price_median": 107000,
+    "price_min": 107000,
+    "price_max": 107000,
+    "trade_count": 1,
+    "area_typical": 82.1
+  },
+  "주공1": {
+    "gu": "구로구",
+    "year": "1986",
+    "price_median": 74500,
+    "price_min": 70000,
+    "price_max": 85200,
+    "trade_count": 22,
+    "area_typical": 75.2
+  },
+  "동아1": {
+    "gu": "구로구",
+    "year": "1999",
+    "price_median": 95200,
+    "price_min": 83500,
+    "price_max": 105000,
+    "trade_count": 14,
+    "area_typical": 60.0
+  },
+  "개봉푸르지오": {
+    "gu": "구로구",
+    "year": "2014",
+    "price_median": 77700,
+    "price_min": 73500,
+    "price_max": 82000,
+    "trade_count": 13,
+    "area_typical": 67.2
+  },
+  "삼성래미안": {
+    "gu": "영등포구",
+    "year": "2001",
+    "price_median": 81800,
+    "price_min": 70500,
+    "price_max": 108000,
+    "trade_count": 50,
+    "area_typical": 62.7
+  },
+  "신도림태영타운": {
+    "gu": "구로구",
+    "year": "2000",
+    "price_median": 91700,
+    "price_min": 88800,
+    "price_max": 95000,
+    "trade_count": 14,
+    "area_typical": 59.9
+  },
+  "대림1": {
+    "gu": "구로구",
+    "year": "1999",
+    "price_median": 87500,
+    "price_min": 82800,
+    "price_max": 95900,
+    "trade_count": 23,
+    "area_typical": 59.9
+  },
+  "중앙하이츠(1269)": {
+    "gu": "구로구",
+    "year": "2001",
+    "price_median": 77800,
+    "price_min": 71000,
+    "price_max": 81000,
+    "trade_count": 6,
+    "area_typical": 78.5
+  },
+  "현대홈타운아파트": {
+    "gu": "구로구",
+    "year": "1999",
+    "price_median": 75300,
+    "price_min": 74000,
+    "price_max": 77000,
+    "trade_count": 7,
+    "area_typical": 59.7
+  },
+  "한신휴플러스(1280-0)": {
+    "gu": "구로구",
+    "year": "2007",
+    "price_median": 71000,
+    "price_min": 70000,
+    "price_max": 71500,
+    "trade_count": 3,
+    "area_typical": 58.0
+  },
+  "보광": {
+    "gu": "구로구",
+    "year": "1984",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 72000,
+    "trade_count": 1,
+    "area_typical": 73.9
+  },
+  "하버라인3단지": {
+    "gu": "구로구",
+    "year": "2019",
+    "price_median": 77500,
+    "price_min": 76000,
+    "price_max": 78800,
+    "trade_count": 4,
+    "area_typical": 74.9
+  },
+  "천왕연지타운1단지": {
+    "gu": "구로구",
+    "year": "2013",
+    "price_median": 71500,
+    "price_min": 70000,
+    "price_max": 71500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "미성": {
+    "gu": "노원구",
+    "year": "1989",
+    "price_median": 82000,
+    "price_min": 70000,
+    "price_max": 85700,
+    "trade_count": 12,
+    "area_typical": 80.3
+  },
+  "동아2": {
+    "gu": "구로구",
+    "year": "2000",
+    "price_median": 92700,
+    "price_min": 86000,
+    "price_max": 96500,
+    "trade_count": 7,
+    "area_typical": 59.6
+  },
+  "한마을": {
+    "gu": "구로구",
+    "year": "1999",
+    "price_median": 71000,
+    "price_min": 70000,
+    "price_max": 74500,
+    "trade_count": 14,
+    "area_typical": 59.6
+  },
+  "개봉동현대아이파크": {
+    "gu": "구로구",
+    "year": "2006",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 77750,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "하버라인2단지": {
+    "gu": "구로구",
+    "year": "2019",
+    "price_median": 74800,
+    "price_min": 73000,
+    "price_max": 77500,
+    "trade_count": 3,
+    "area_typical": 74.8
+  },
+  "금강(343)": {
+    "gu": "구로구",
+    "year": "2003",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 1,
+    "area_typical": 60.1
+  },
+  "한양수자인에듀힐즈": {
+    "gu": "구로구",
+    "year": "2019",
+    "price_median": 82000,
+    "price_min": 80000,
+    "price_max": 82800,
+    "trade_count": 4,
+    "area_typical": 76.9
+  },
+  "우성5": {
+    "gu": "구로구",
+    "year": "1994",
+    "price_median": 80000,
+    "price_min": 74000,
+    "price_max": 81500,
+    "trade_count": 4,
+    "area_typical": 74.6
+  },
+  "천왕이펜하우스1단지": {
+    "gu": "구로구",
+    "year": "2011",
+    "price_median": 73000,
+    "price_min": 71200,
+    "price_max": 73000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "우남퍼스트빌더센트럴": {
+    "gu": "구로구",
+    "year": "2020",
+    "price_median": 75000,
+    "price_min": 74800,
+    "price_max": 75000,
+    "trade_count": 2,
+    "area_typical": 80.0
+  },
+  "고척파크푸르지오": {
+    "gu": "구로구",
+    "year": "2009",
+    "price_median": 86000,
+    "price_min": 80000,
+    "price_max": 89000,
+    "trade_count": 9,
+    "area_typical": 59.9
+  },
+  "신도림3차푸르지오": {
+    "gu": "구로구",
+    "year": "2007",
+    "price_median": 98500,
+    "price_min": 97000,
+    "price_max": 98500,
+    "trade_count": 2,
+    "area_typical": 82.8
+  },
+  "삼환로즈빌": {
+    "gu": "구로구",
+    "year": "2004",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 78000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "대림2": {
+    "gu": "구로구",
+    "year": "2001",
+    "price_median": 87000,
+    "price_min": 79500,
+    "price_max": 94700,
+    "trade_count": 17,
+    "area_typical": 59.9
+  },
+  "신도림롯데아파트": {
+    "gu": "구로구",
+    "year": "1999",
+    "price_median": 77500,
+    "price_min": 73500,
+    "price_max": 81300,
+    "trade_count": 11,
+    "area_typical": 59.7
+  },
+  "디큐브시티": {
+    "gu": "구로구",
+    "year": "2011",
+    "price_median": 100000,
+    "price_min": 98500,
+    "price_max": 100000,
+    "trade_count": 3,
+    "area_typical": 59.6
+  },
+  "신성은하수": {
+    "gu": "구로구",
+    "year": "1997",
+    "price_median": 71500,
+    "price_min": 71500,
+    "price_max": 71500,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "신도림현대": {
+    "gu": "구로구",
+    "year": "1994",
+    "price_median": 88000,
+    "price_min": 84700,
+    "price_max": 88200,
+    "trade_count": 3,
+    "area_typical": 80.0
+  },
+  "우성(23)": {
+    "gu": "구로구",
+    "year": "1985",
+    "price_median": 88500,
+    "price_min": 88500,
+    "price_max": 88500,
+    "trade_count": 2,
+    "area_typical": 64.4
+  },
+  "금천롯데캐슬골드파크1차": {
+    "gu": "금천구",
+    "year": "2016",
+    "price_median": 93000,
+    "price_min": 91000,
+    "price_max": 103500,
+    "trade_count": 5,
+    "area_typical": 65.0
+  },
+  "e편한세상독산더타워": {
+    "gu": "금천구",
+    "year": "2019",
+    "price_median": 73500,
+    "price_min": 72200,
+    "price_max": 86000,
+    "trade_count": 10,
+    "area_typical": 63.2
+  },
+  "시흥베르빌": {
+    "gu": "금천구",
+    "year": "2004",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 81.2
+  },
+  "독산동한양수자인": {
+    "gu": "금천구",
+    "year": "2011",
+    "price_median": 71500,
+    "price_min": 71500,
+    "price_max": 71500,
+    "trade_count": 1,
+    "area_typical": 68.3
+  },
+  "금천롯데캐슬골드파크3차": {
+    "gu": "금천구",
+    "year": "2018",
+    "price_median": 90700,
+    "price_min": 87800,
+    "price_max": 94000,
+    "trade_count": 19,
+    "area_typical": 60.0
+  },
+  "금천롯데캐슬골드파크2차201동202동": {
+    "gu": "금천구",
+    "year": "2017",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "남서울힐스테이트": {
+    "gu": "금천구",
+    "year": "2014",
+    "price_median": 77000,
+    "price_min": 76500,
+    "price_max": 78000,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "한진한화그랑빌": {
+    "gu": "노원구",
+    "year": "2002",
+    "price_median": 76300,
+    "price_min": 70000,
+    "price_max": 83150,
+    "trade_count": 40,
+    "area_typical": 62.3
+  },
+  "태릉해링턴플레이스": {
+    "gu": "노원구",
+    "year": "2022",
+    "price_median": 84500,
+    "price_min": 80400,
+    "price_max": 97500,
+    "trade_count": 28,
+    "area_typical": 66.4
+  },
+  "상계주공11(고층)": {
+    "gu": "노원구",
+    "year": "1988",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 68.9
+  },
+  "포레나노원": {
+    "gu": "노원구",
+    "year": "2020",
+    "price_median": 90000,
+    "price_min": 85000,
+    "price_max": 110000,
+    "trade_count": 10,
+    "area_typical": 66.0
+  },
+  "삼호3": {
+    "gu": "노원구",
+    "year": "1986",
+    "price_median": 79500,
+    "price_min": 75500,
+    "price_max": 84000,
+    "trade_count": 24,
+    "area_typical": 59.2
+  },
+  "월계센트럴아이파크": {
+    "gu": "노원구",
+    "year": "2020",
+    "price_median": 85500,
+    "price_min": 85000,
+    "price_max": 87000,
+    "trade_count": 9,
+    "area_typical": 60.0
+  },
+  "노원센트럴푸르지오": {
+    "gu": "노원구",
+    "year": "2021",
+    "price_median": 82000,
+    "price_min": 77500,
+    "price_max": 83000,
+    "trade_count": 10,
+    "area_typical": 60.0
+  },
+  "상계주공3(고층)": {
+    "gu": "노원구",
+    "year": "1987",
+    "price_median": 77000,
+    "price_min": 71500,
+    "price_max": 85000,
+    "trade_count": 6,
+    "area_typical": 69.6
+  },
+  "삼익2차아파트": {
+    "gu": "노원구",
+    "year": "2004",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 83.4
+  },
+  "상계주공9(고층)": {
+    "gu": "노원구",
+    "year": "1988",
+    "price_median": 74300,
+    "price_min": 71000,
+    "price_max": 76800,
+    "trade_count": 6,
+    "area_typical": 79.1
+  },
+  "꿈의숲SKVIEW": {
+    "gu": "노원구",
+    "year": "2016",
+    "price_median": 73000,
+    "price_min": 70200,
+    "price_max": 76700,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "삼호4": {
+    "gu": "노원구",
+    "year": "1987",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 59.5
+  },
+  "하계2현대": {
+    "gu": "노원구",
+    "year": "1997",
+    "price_median": 75500,
+    "price_min": 74500,
+    "price_max": 76000,
+    "trade_count": 4,
+    "area_typical": 75.3
+  },
+  "상계주공10(고층)": {
+    "gu": "노원구",
+    "year": "1988",
+    "price_median": 72300,
+    "price_min": 72300,
+    "price_max": 72300,
+    "trade_count": 1,
+    "area_typical": 66.6
+  },
+  "성원1": {
+    "gu": "노원구",
+    "year": "1996",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 75000,
+    "trade_count": 3,
+    "area_typical": 59.8
+  },
+  "상아": {
+    "gu": "노원구",
+    "year": "1989",
+    "price_median": 70500,
+    "price_min": 70000,
+    "price_max": 70500,
+    "trade_count": 2,
+    "area_typical": 72.7
+  },
+  "두산힐스빌아파트": {
+    "gu": "노원구",
+    "year": "2000",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "상계주공4(고층)": {
+    "gu": "노원구",
+    "year": "1988",
+    "price_median": 80500,
+    "price_min": 75000,
+    "price_max": 80500,
+    "trade_count": 2,
+    "area_typical": 78.8
+  },
+  "건영": {
+    "gu": "성동구",
+    "year": "2000",
+    "price_median": 79000,
+    "price_min": 74500,
+    "price_max": 79000,
+    "trade_count": 4,
+    "area_typical": 63.4
+  },
+  "상계주공7(고층)": {
+    "gu": "노원구",
+    "year": "1988",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 59.4
+  },
+  "노원롯데캐슬시그니처": {
+    "gu": "노원구",
+    "year": "2023",
+    "price_median": 86000,
+    "price_min": 80000,
+    "price_max": 88500,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "한화꿈에그린TheFIRST": {
+    "gu": "노원구",
+    "year": "2014",
+    "price_median": 82000,
+    "price_min": 81500,
+    "price_max": 82000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "풍림아이원": {
+    "gu": "노원구",
+    "year": "2005",
+    "price_median": 75500,
+    "price_min": 75000,
+    "price_max": 75700,
+    "trade_count": 4,
+    "area_typical": 59.1
+  },
+  "롯데캐슬루나": {
+    "gu": "노원구",
+    "year": "2006",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 72000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "양우": {
+    "gu": "노원구",
+    "year": "2002",
+    "price_median": 70300,
+    "price_min": 70300,
+    "price_max": 70300,
+    "trade_count": 1,
+    "area_typical": 79.4
+  },
+  "동아청솔": {
+    "gu": "도봉구",
+    "year": "1997",
+    "price_median": 71900,
+    "price_min": 70000,
+    "price_max": 72700,
+    "trade_count": 7,
+    "area_typical": 59.8
+  },
+  "주공19단지(창동리버타운)": {
+    "gu": "도봉구",
+    "year": "1988",
+    "price_median": 81000,
+    "price_min": 71000,
+    "price_max": 83500,
+    "trade_count": 10,
+    "area_typical": 67.2
+  },
+  "창동주공3단지(해등마을)": {
+    "gu": "도봉구",
+    "year": "1990",
+    "price_median": 82000,
+    "price_min": 82000,
+    "price_max": 82000,
+    "trade_count": 1,
+    "area_typical": 79.1
+  },
+  "쌍용": {
+    "gu": "동대문구",
+    "year": "2000",
+    "price_median": 71800,
+    "price_min": 70000,
+    "price_max": 77000,
+    "trade_count": 24,
+    "area_typical": 60.0
+  },
+  "래미안 허브리츠": {
+    "gu": "동대문구",
+    "year": "2011",
+    "price_median": 107000,
+    "price_min": 104000,
+    "price_max": 110000,
+    "trade_count": 8,
+    "area_typical": 60.0
+  },
+  "안암골벽산": {
+    "gu": "동대문구",
+    "year": "2003",
+    "price_median": 71000,
+    "price_min": 70300,
+    "price_max": 72000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "래미안이문2차": {
+    "gu": "동대문구",
+    "year": "2004",
+    "price_median": 84000,
+    "price_min": 79000,
+    "price_max": 86800,
+    "trade_count": 9,
+    "area_typical": 59.8
+  },
+  "두산위브": {
+    "gu": "영등포구",
+    "year": "2004",
+    "price_median": 95500,
+    "price_min": 79000,
+    "price_max": 101000,
+    "trade_count": 15,
+    "area_typical": 63.1
+  },
+  "전농동삼성래미안": {
+    "gu": "동대문구",
+    "year": "2000",
+    "price_median": 75000,
+    "price_min": 72000,
+    "price_max": 78000,
+    "trade_count": 11,
+    "area_typical": 59.9
+  },
+  "래미안장안2차": {
+    "gu": "동대문구",
+    "year": "2007",
+    "price_median": 95000,
+    "price_min": 82000,
+    "price_max": 103000,
+    "trade_count": 28,
+    "area_typical": 75.3
+  },
+  "청계벽산메가트리움": {
+    "gu": "동대문구",
+    "year": "2006",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "한신아파트": {
+    "gu": "동대문구",
+    "year": "2004",
+    "price_median": 72700,
+    "price_min": 70000,
+    "price_max": 80000,
+    "trade_count": 25,
+    "area_typical": 59.8
+  },
+  "청계한신휴플러스": {
+    "gu": "동대문구",
+    "year": "2010",
+    "price_median": 103000,
+    "price_min": 97800,
+    "price_max": 107000,
+    "trade_count": 12,
+    "area_typical": 63.3
+  },
+  "브라운스톤휘경": {
+    "gu": "동대문구",
+    "year": "2013",
+    "price_median": 81000,
+    "price_min": 74600,
+    "price_max": 82000,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "전농SK": {
+    "gu": "동대문구",
+    "year": "2000",
+    "price_median": 72000,
+    "price_min": 70000,
+    "price_max": 80000,
+    "trade_count": 23,
+    "area_typical": 59.5
+  },
+  "전농동신성미소지움": {
+    "gu": "동대문구",
+    "year": "2005",
+    "price_median": 86000,
+    "price_min": 85500,
+    "price_max": 88000,
+    "trade_count": 5,
+    "area_typical": 55.4
+  },
+  "래미안장안": {
+    "gu": "동대문구",
+    "year": "2003",
+    "price_median": 84500,
+    "price_min": 80300,
+    "price_max": 85000,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "래미안엘파인아파트": {
+    "gu": "동대문구",
+    "year": "2011",
+    "price_median": 75000,
+    "price_min": 74500,
+    "price_max": 77500,
+    "trade_count": 7,
+    "area_typical": 59.9
+  },
+  "래미안아름숲": {
+    "gu": "동대문구",
+    "year": "2012",
+    "price_median": 92500,
+    "price_min": 89000,
+    "price_max": 94500,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "청솔2차우성": {
+    "gu": "동대문구",
+    "year": "2000",
+    "price_median": 72000,
+    "price_min": 70000,
+    "price_max": 72900,
+    "trade_count": 4,
+    "area_typical": 76.9
+  },
+  "장안현대홈타운(336)": {
+    "gu": "동대문구",
+    "year": "2003",
+    "price_median": 81000,
+    "price_min": 77000,
+    "price_max": 83500,
+    "trade_count": 13,
+    "area_typical": 59.3
+  },
+  "장안힐스테이트": {
+    "gu": "동대문구",
+    "year": "2007",
+    "price_median": 85000,
+    "price_min": 75000,
+    "price_max": 87900,
+    "trade_count": 13,
+    "area_typical": 59.8
+  },
+  "동대문더퍼스트데시앙": {
+    "gu": "동대문구",
+    "year": "2019",
+    "price_median": 93000,
+    "price_min": 92800,
+    "price_max": 93700,
+    "trade_count": 7,
+    "area_typical": 75.8
+  },
+  "동일스위트리버": {
+    "gu": "동대문구",
+    "year": "2007",
+    "price_median": 71500,
+    "price_min": 70200,
+    "price_max": 71500,
+    "trade_count": 3,
+    "area_typical": 59.7
+  },
+  "휘경SK뷰": {
+    "gu": "동대문구",
+    "year": "2019",
+    "price_median": 100000,
+    "price_min": 88500,
+    "price_max": 106500,
+    "trade_count": 14,
+    "area_typical": 59.4
+  },
+  "주함해븐아파트": {
+    "gu": "동대문구",
+    "year": "2008",
+    "price_median": 71500,
+    "price_min": 71500,
+    "price_max": 71500,
+    "trade_count": 1,
+    "area_typical": 67.8
+  },
+  "답십리대우": {
+    "gu": "동대문구",
+    "year": "2002",
+    "price_median": 76500,
+    "price_min": 74200,
+    "price_max": 78500,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "답십리청솔우성": {
+    "gu": "동대문구",
+    "year": "2000",
+    "price_median": 71800,
+    "price_min": 70000,
+    "price_max": 77700,
+    "trade_count": 16,
+    "area_typical": 59.8
+  },
+  "청계천대성스카이렉스1": {
+    "gu": "동대문구",
+    "year": "2007",
+    "price_median": 76700,
+    "price_min": 70000,
+    "price_max": 80800,
+    "trade_count": 5,
+    "area_typical": 75.2
+  },
+  "래미안엘리니티": {
+    "gu": "동대문구",
+    "year": "2022",
+    "price_median": 88000,
+    "price_min": 88000,
+    "price_max": 88000,
+    "trade_count": 1,
+    "area_typical": 74.9
+  },
+  "휘경해모로프레스티지": {
+    "gu": "동대문구",
+    "year": "2021",
+    "price_median": 84300,
+    "price_min": 83000,
+    "price_max": 86500,
+    "trade_count": 6,
+    "area_typical": 59.8
+  },
+  "용두두산위브": {
+    "gu": "동대문구",
+    "year": "2009",
+    "price_median": 98500,
+    "price_min": 93500,
+    "price_max": 99500,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "신동아": {
+    "gu": "영등포구",
+    "year": "1982",
+    "price_median": 86000,
+    "price_min": 70000,
+    "price_max": 99000,
+    "trade_count": 45,
+    "area_typical": 61.0
+  },
+  "래미안위브": {
+    "gu": "동대문구",
+    "year": "2014",
+    "price_median": 106000,
+    "price_min": 105000,
+    "price_max": 110000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "힐스테이트청계": {
+    "gu": "동대문구",
+    "year": "2018",
+    "price_median": 109500,
+    "price_min": 102500,
+    "price_max": 109500,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "용두롯데캐슬리치": {
+    "gu": "동대문구",
+    "year": "2015",
+    "price_median": 95000,
+    "price_min": 95000,
+    "price_max": 95000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "래미안크레시티": {
+    "gu": "동대문구",
+    "year": "2014",
+    "price_median": 107000,
+    "price_min": 105000,
+    "price_max": 108500,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "래미안미드카운티": {
+    "gu": "동대문구",
+    "year": "2019",
+    "price_median": 109500,
+    "price_min": 106500,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "청계와이즈노벨리아": {
+    "gu": "동대문구",
+    "year": "2017",
+    "price_median": 87500,
+    "price_min": 83000,
+    "price_max": 91500,
+    "trade_count": 3,
+    "area_typical": 69.9
+  },
+  "홍릉동부": {
+    "gu": "동대문구",
+    "year": "2001",
+    "price_median": 72000,
+    "price_min": 70400,
+    "price_max": 72000,
+    "trade_count": 2,
+    "area_typical": 59.7
+  },
+  "래미안라그란데": {
+    "gu": "동대문구",
+    "year": "2025",
+    "price_median": 103253,
+    "price_min": 103253,
+    "price_max": 103253,
+    "trade_count": 1,
+    "area_typical": 75.0
+  },
+  "신현대": {
+    "gu": "동대문구",
+    "year": "1989",
+    "price_median": 72000,
+    "price_min": 70000,
+    "price_max": 72000,
+    "trade_count": 2,
+    "area_typical": 72.3
+  },
+  "신이문금호어울림": {
+    "gu": "동대문구",
+    "year": "2008",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "롯데낙천대": {
+    "gu": "동작구",
+    "year": "2003",
+    "price_median": 85000,
+    "price_min": 72700,
+    "price_max": 106500,
+    "trade_count": 28,
+    "area_typical": 64.3
+  },
+  "신답경남": {
+    "gu": "동대문구",
+    "year": "1991",
+    "price_median": 74000,
+    "price_min": 70000,
+    "price_max": 74500,
+    "trade_count": 3,
+    "area_typical": 79.1
+  },
+  "한신휴플러스그린파크": {
+    "gu": "동대문구",
+    "year": "2010",
+    "price_median": 83500,
+    "price_min": 83500,
+    "price_max": 83500,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "이문휘경지웰에스테이트": {
+    "gu": "동대문구",
+    "year": "2021",
+    "price_median": 76500,
+    "price_min": 76500,
+    "price_max": 76500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "우정": {
+    "gu": "동작구",
+    "year": "1999",
+    "price_median": 79000,
+    "price_min": 76000,
+    "price_max": 80900,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "대림아파트": {
+    "gu": "동작구",
+    "year": "1993",
+    "price_median": 97000,
+    "price_min": 72000,
+    "price_max": 103500,
+    "trade_count": 22,
+    "area_typical": 60.5
+  },
+  "포스코더샵": {
+    "gu": "동작구",
+    "year": "2007",
+    "price_median": 108000,
+    "price_min": 105000,
+    "price_max": 108000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "제일": {
+    "gu": "동작구",
+    "year": "1987",
+    "price_median": 81000,
+    "price_min": 79500,
+    "price_max": 83000,
+    "trade_count": 7,
+    "area_typical": 60.0
+  },
+  "삼성": {
+    "gu": "중구",
+    "year": "1999",
+    "price_median": 98500,
+    "price_min": 71000,
+    "price_max": 104300,
+    "trade_count": 28,
+    "area_typical": 61.0
+  },
+  "우리유앤미": {
+    "gu": "동작구",
+    "year": "2003",
+    "price_median": 90000,
+    "price_min": 80500,
+    "price_max": 104500,
+    "trade_count": 14,
+    "area_typical": 73.4
+  },
+  "사당자이": {
+    "gu": "동작구",
+    "year": "1999",
+    "price_median": 84250,
+    "price_min": 79000,
+    "price_max": 87500,
+    "trade_count": 15,
+    "area_typical": 59.9
+  },
+  "보라매e편한세상": {
+    "gu": "동작구",
+    "year": "2010",
+    "price_median": 104000,
+    "price_min": 97000,
+    "price_max": 105000,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "사당우성2": {
+    "gu": "동작구",
+    "year": "1993",
+    "price_median": 107000,
+    "price_min": 102500,
+    "price_max": 109500,
+    "trade_count": 6,
+    "area_typical": 59.9
+  },
+  "한강쌍용": {
+    "gu": "동작구",
+    "year": "1999",
+    "price_median": 99000,
+    "price_min": 99000,
+    "price_max": 99000,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "신일해피트리": {
+    "gu": "동작구",
+    "year": "2005",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "신동아4": {
+    "gu": "동작구",
+    "year": "1993",
+    "price_median": 102000,
+    "price_min": 88000,
+    "price_max": 108000,
+    "trade_count": 20,
+    "area_typical": 59.9
+  },
+  "현대홈타운2": {
+    "gu": "동작구",
+    "year": "1999",
+    "price_median": 84000,
+    "price_min": 82000,
+    "price_max": 88700,
+    "trade_count": 7,
+    "area_typical": 59.9
+  },
+  "삼호그린": {
+    "gu": "동작구",
+    "year": "1999",
+    "price_median": 73250,
+    "price_min": 73250,
+    "price_max": 73250,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "신동아리버파크": {
+    "gu": "동작구",
+    "year": "2001",
+    "price_median": 94000,
+    "price_min": 86000,
+    "price_max": 100000,
+    "trade_count": 15,
+    "area_typical": 59.7
+  },
+  "사당롯데캐슬골든포레": {
+    "gu": "동작구",
+    "year": "2021",
+    "price_median": 109000,
+    "price_min": 107900,
+    "price_max": 110000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "사당우성3": {
+    "gu": "동작구",
+    "year": "1993",
+    "price_median": 103500,
+    "price_min": 94000,
+    "price_max": 106000,
+    "trade_count": 8,
+    "area_typical": 59.9
+  },
+  "흑석동양아파트": {
+    "gu": "동작구",
+    "year": "2003",
+    "price_median": 96000,
+    "price_min": 88500,
+    "price_max": 104000,
+    "trade_count": 11,
+    "area_typical": 59.5
+  },
+  "대방동현대": {
+    "gu": "동작구",
+    "year": "1994",
+    "price_median": 89700,
+    "price_min": 87000,
+    "price_max": 89700,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "극동(105)": {
+    "gu": "동작구",
+    "year": "1993",
+    "price_median": 102500,
+    "price_min": 99500,
+    "price_max": 104800,
+    "trade_count": 7,
+    "area_typical": 59.2
+  },
+  "한성아파트": {
+    "gu": "동작구",
+    "year": "1995",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "삼성래미안2": {
+    "gu": "동작구",
+    "year": "2003",
+    "price_median": 92000,
+    "price_min": 87500,
+    "price_max": 98000,
+    "trade_count": 10,
+    "area_typical": 59.9
+  },
+  "한신휴플러스": {
+    "gu": "동작구",
+    "year": "2004",
+    "price_median": 85000,
+    "price_min": 82000,
+    "price_max": 85000,
+    "trade_count": 2,
+    "area_typical": 59.7
+  },
+  "금강KCC": {
+    "gu": "송파구",
+    "year": "2003",
+    "price_median": 91000,
+    "price_min": 90000,
+    "price_max": 98300,
+    "trade_count": 3,
+    "area_typical": 58.9
+  },
+  "주공2": {
+    "gu": "동작구",
+    "year": "1995",
+    "price_median": 96500,
+    "price_min": 92000,
+    "price_max": 96500,
+    "trade_count": 4,
+    "area_typical": 59.6
+  },
+  "대림(169-8)": {
+    "gu": "동작구",
+    "year": "1990",
+    "price_median": 100000,
+    "price_min": 98000,
+    "price_max": 101000,
+    "trade_count": 3,
+    "area_typical": 59.7
+  },
+  "경동윈츠리버": {
+    "gu": "동작구",
+    "year": "2004",
+    "price_median": 95000,
+    "price_min": 92000,
+    "price_max": 105700,
+    "trade_count": 7,
+    "area_typical": 63.3
+  },
+  "우성1차": {
+    "gu": "동작구",
+    "year": "1988",
+    "price_median": 84200,
+    "price_min": 77500,
+    "price_max": 86000,
+    "trade_count": 6,
+    "area_typical": 66.7
+  },
+  "경남아너스빌1차": {
+    "gu": "동작구",
+    "year": "1997",
+    "price_median": 80000,
+    "price_min": 76500,
+    "price_max": 80000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "쌍용스윗닷홈": {
+    "gu": "동작구",
+    "year": "2003",
+    "price_median": 93500,
+    "price_min": 89500,
+    "price_max": 95000,
+    "trade_count": 6,
+    "area_typical": 59.6
+  },
+  "신대방경남": {
+    "gu": "동작구",
+    "year": "2003",
+    "price_median": 86000,
+    "price_min": 74000,
+    "price_max": 90500,
+    "trade_count": 4,
+    "area_typical": 67.1
+  },
+  "상도효성해링턴플레이스": {
+    "gu": "동작구",
+    "year": "2016",
+    "price_median": 107500,
+    "price_min": 107500,
+    "price_max": 107500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "우성2차": {
+    "gu": "동작구",
+    "year": "1995",
+    "price_median": 75000,
+    "price_min": 73500,
+    "price_max": 75000,
+    "trade_count": 2,
+    "area_typical": 76.8
+  },
+  "중앙하이츠빌": {
+    "gu": "동작구",
+    "year": "2003",
+    "price_median": 95000,
+    "price_min": 95000,
+    "price_max": 95000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "신동아5": {
+    "gu": "동작구",
+    "year": "1998",
+    "price_median": 93500,
+    "price_min": 92000,
+    "price_max": 95000,
+    "trade_count": 5,
+    "area_typical": 59.7
+  },
+  "반석블레스": {
+    "gu": "동작구",
+    "year": "2016",
+    "price_median": 73000,
+    "price_min": 72800,
+    "price_max": 73000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "사당휴먼시아": {
+    "gu": "동작구",
+    "year": "2009",
+    "price_median": 85000,
+    "price_min": 83000,
+    "price_max": 85000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "갑을명가": {
+    "gu": "동작구",
+    "year": "2006",
+    "price_median": 80000,
+    "price_min": 80000,
+    "price_max": 80000,
+    "trade_count": 1,
+    "area_typical": 80.8
+  },
+  "남해오네뜨": {
+    "gu": "동작구",
+    "year": "2002",
+    "price_median": 75500,
+    "price_min": 75500,
+    "price_max": 75500,
+    "trade_count": 1,
+    "area_typical": 66.6
+  },
+  "롯데캐슬비엔": {
+    "gu": "동작구",
+    "year": "2010",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 2,
+    "area_typical": 68.6
+  },
+  "래미안상도3차": {
+    "gu": "동작구",
+    "year": "2004",
+    "price_median": 100000,
+    "price_min": 100000,
+    "price_max": 100000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "건영(103동-106동)": {
+    "gu": "동작구",
+    "year": "1997",
+    "price_median": 94500,
+    "price_min": 91000,
+    "price_max": 94500,
+    "trade_count": 3,
+    "area_typical": 59.8
+  },
+  "이수프라자": {
+    "gu": "동작구",
+    "year": "2004",
+    "price_median": 78000,
+    "price_min": 78000,
+    "price_max": 78000,
+    "trade_count": 1,
+    "area_typical": 79.5
+  },
+  "이수교KCC스위첸": {
+    "gu": "동작구",
+    "year": "2006",
+    "price_median": 102000,
+    "price_min": 102000,
+    "price_max": 102000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "형인한강": {
+    "gu": "동작구",
+    "year": "2001",
+    "price_median": 75000,
+    "price_min": 71000,
+    "price_max": 75000,
+    "trade_count": 2,
+    "area_typical": 76.0
+  },
+  "청호": {
+    "gu": "동작구",
+    "year": "1997",
+    "price_median": 74000,
+    "price_min": 73000,
+    "price_max": 78500,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "대창센시티": {
+    "gu": "동작구",
+    "year": "2005",
+    "price_median": 80000,
+    "price_min": 80000,
+    "price_max": 80000,
+    "trade_count": 1,
+    "area_typical": 59.4
+  },
+  "도화동현대": {
+    "gu": "마포구",
+    "year": "1996",
+    "price_median": 103000,
+    "price_min": 94000,
+    "price_max": 110000,
+    "trade_count": 13,
+    "area_typical": 65.0
+  },
+  "건영월드컵": {
+    "gu": "마포구",
+    "year": "2002",
+    "price_median": 80000,
+    "price_min": 80000,
+    "price_max": 80000,
+    "trade_count": 1,
+    "area_typical": 79.6
+  },
+  "신공덕래미안2차": {
+    "gu": "마포구",
+    "year": "2000",
+    "price_median": 98000,
+    "price_min": 94200,
+    "price_max": 109900,
+    "trade_count": 14,
+    "area_typical": 59.5
+  },
+  "상암월드컵파크2단지": {
+    "gu": "마포구",
+    "year": "2003",
+    "price_median": 97000,
+    "price_min": 90000,
+    "price_max": 102500,
+    "trade_count": 21,
+    "area_typical": 59.9
+  },
+  "성산시영(유원)": {
+    "gu": "마포구",
+    "year": "1986",
+    "price_median": 110000,
+    "price_min": 80000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 59.4
+  },
+  "신촌삼익": {
+    "gu": "마포구",
+    "year": "1997",
+    "price_median": 103000,
+    "price_min": 95000,
+    "price_max": 110000,
+    "trade_count": 11,
+    "area_typical": 59.9
+  },
+  "대명": {
+    "gu": "마포구",
+    "year": "1995",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 55.2
+  },
+  "상록": {
+    "gu": "마포구",
+    "year": "1997",
+    "price_median": 89500,
+    "price_min": 80000,
+    "price_max": 93500,
+    "trade_count": 7,
+    "area_typical": 58.2
+  },
+  "보성": {
+    "gu": "마포구",
+    "year": "1996",
+    "price_median": 84000,
+    "price_min": 82000,
+    "price_max": 87500,
+    "trade_count": 4,
+    "area_typical": 59.4
+  },
+  "울트라월드컵(참누리)": {
+    "gu": "마포구",
+    "year": "2006",
+    "price_median": 90000,
+    "price_min": 90000,
+    "price_max": 90000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "신촌금호": {
+    "gu": "마포구",
+    "year": "2001",
+    "price_median": 89500,
+    "price_min": 89500,
+    "price_max": 89500,
+    "trade_count": 1,
+    "area_typical": 59.2
+  },
+  "마포동원베네스트": {
+    "gu": "마포구",
+    "year": "2010",
+    "price_median": 104000,
+    "price_min": 103000,
+    "price_max": 104000,
+    "trade_count": 2,
+    "area_typical": 58.6
+  },
+  "한화오벨리스크": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 109000,
+    "price_min": 92000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 71.5
+  },
+  "신수동성원": {
+    "gu": "마포구",
+    "year": "1998",
+    "price_median": 87000,
+    "price_min": 83000,
+    "price_max": 89900,
+    "trade_count": 6,
+    "area_typical": 59.8
+  },
+  "상암월드컵파크12단지": {
+    "gu": "마포구",
+    "year": "2010",
+    "price_median": 82000,
+    "price_min": 81000,
+    "price_max": 85500,
+    "trade_count": 3,
+    "area_typical": 59.7
+  },
+  "서강GS": {
+    "gu": "마포구",
+    "year": "1999",
+    "price_median": 106000,
+    "price_min": 93000,
+    "price_max": 110000,
+    "trade_count": 9,
+    "area_typical": 60.0
+  },
+  "두영이지안": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 100000,
+    "price_min": 81500,
+    "price_max": 100000,
+    "trade_count": 2,
+    "area_typical": 72.7
+  },
+  "휴먼빌": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 87000,
+    "price_min": 84000,
+    "price_max": 91800,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "태청": {
+    "gu": "마포구",
+    "year": "2003",
+    "price_median": 73000,
+    "price_min": 72000,
+    "price_max": 76000,
+    "trade_count": 3,
+    "area_typical": 74.8
+  },
+  "성산월드타운대림": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 81500,
+    "price_min": 80000,
+    "price_max": 82500,
+    "trade_count": 4,
+    "area_typical": 59.9
+  },
+  "도화현대": {
+    "gu": "마포구",
+    "year": "1998",
+    "price_median": 96000,
+    "price_min": 95000,
+    "price_max": 97000,
+    "trade_count": 3,
+    "area_typical": 59.4
+  },
+  "DMC상암센트럴파크2단지": {
+    "gu": "마포구",
+    "year": "2009",
+    "price_median": 98000,
+    "price_min": 98000,
+    "price_max": 98000,
+    "trade_count": 3,
+    "area_typical": 74.6
+  },
+  "한강삼성": {
+    "gu": "마포구",
+    "year": "1997",
+    "price_median": 99800,
+    "price_min": 95000,
+    "price_max": 108000,
+    "trade_count": 3,
+    "area_typical": 59.8
+  },
+  "강림스위트빌": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 80500,
+    "price_min": 75000,
+    "price_max": 84000,
+    "trade_count": 5,
+    "area_typical": 81.7
+  },
+  "고려": {
+    "gu": "마포구",
+    "year": "1984",
+    "price_median": 82500,
+    "price_min": 82500,
+    "price_max": 82500,
+    "trade_count": 1,
+    "area_typical": 81.7
+  },
+  "마포현대": {
+    "gu": "마포구",
+    "year": "1988",
+    "price_median": 103500,
+    "price_min": 88700,
+    "price_max": 110000,
+    "trade_count": 10,
+    "area_typical": 65.0
+  },
+  "솔루체": {
+    "gu": "마포구",
+    "year": "2021",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 54.1
+  },
+  "마포쌍용황금아파트": {
+    "gu": "마포구",
+    "year": "2000",
+    "price_median": 94500,
+    "price_min": 91000,
+    "price_max": 102500,
+    "trade_count": 6,
+    "area_typical": 59.9
+  },
+  "창전래미안": {
+    "gu": "마포구",
+    "year": "1998",
+    "price_median": 106800,
+    "price_min": 99000,
+    "price_max": 110000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "월드컵아이파크(667)": {
+    "gu": "마포구",
+    "year": "2009",
+    "price_median": 95000,
+    "price_min": 91000,
+    "price_max": 95000,
+    "trade_count": 5,
+    "area_typical": 59.7
+  },
+  "강변한신코아": {
+    "gu": "마포구",
+    "year": "1992",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 1,
+    "area_typical": 83.2
+  },
+  "마포중동현대": {
+    "gu": "마포구",
+    "year": "2001",
+    "price_median": 79000,
+    "price_min": 79000,
+    "price_max": 79000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "공덕현대": {
+    "gu": "마포구",
+    "year": "1989",
+    "price_median": 106500,
+    "price_min": 104900,
+    "price_max": 106500,
+    "trade_count": 2,
+    "area_typical": 73.1
+  },
+  "상암마젤란21": {
+    "gu": "마포구",
+    "year": "2005",
+    "price_median": 85500,
+    "price_min": 85500,
+    "price_max": 85500,
+    "trade_count": 1,
+    "area_typical": 82.4
+  },
+  "코오롱": {
+    "gu": "영등포구",
+    "year": "1998",
+    "price_median": 83000,
+    "price_min": 70500,
+    "price_max": 98000,
+    "trade_count": 10,
+    "area_typical": 60.8
+  },
+  "중동계룡아파트": {
+    "gu": "마포구",
+    "year": "2000",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "세양청마루": {
+    "gu": "양천구",
+    "year": "2006",
+    "price_median": 85000,
+    "price_min": 80500,
+    "price_max": 100000,
+    "trade_count": 7,
+    "area_typical": 61.4
+  },
+  "현진에버빌2": {
+    "gu": "마포구",
+    "year": "2003",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 2,
+    "area_typical": 83.7
+  },
+  "신공덕e편한세상": {
+    "gu": "마포구",
+    "year": "2007",
+    "price_median": 109000,
+    "price_min": 109000,
+    "price_max": 109000,
+    "trade_count": 2,
+    "area_typical": 59.6
+  },
+  "래미안공덕4차": {
+    "gu": "마포구",
+    "year": "2005",
+    "price_median": 100000,
+    "price_min": 100000,
+    "price_max": 100000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "염리삼성래미안": {
+    "gu": "마포구",
+    "year": "2001",
+    "price_median": 110000,
+    "price_min": 109500,
+    "price_max": 110000,
+    "trade_count": 2,
+    "area_typical": 59.8
+  },
+  "공덕1삼성래미안": {
+    "gu": "마포구",
+    "year": "1999",
+    "price_median": 109300,
+    "price_min": 109300,
+    "price_max": 109300,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "함성월드빌": {
+    "gu": "마포구",
+    "year": "2003",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "그레이스3차": {
+    "gu": "마포구",
+    "year": "2005",
+    "price_median": 83500,
+    "price_min": 83500,
+    "price_max": 83500,
+    "trade_count": 1,
+    "area_typical": 70.2
+  },
+  "예지안파크뷰": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 81500,
+    "price_min": 81500,
+    "price_max": 81500,
+    "trade_count": 2,
+    "area_typical": 83.7
+  },
+  "뉴성신아파트": {
+    "gu": "마포구",
+    "year": "2021",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 1,
+    "area_typical": 59.3
+  },
+  "마포월드컵제이스카이": {
+    "gu": "마포구",
+    "year": "2021",
+    "price_median": 83600,
+    "price_min": 83600,
+    "price_max": 83600,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "공덕2삼성래미안": {
+    "gu": "마포구",
+    "year": "2004",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "홍제원현대(459-0)": {
+    "gu": "서대문구",
+    "year": "2000",
+    "price_median": 73800,
+    "price_min": 70000,
+    "price_max": 75000,
+    "trade_count": 16,
+    "area_typical": 59.9
+  },
+  "독립문삼호": {
+    "gu": "서대문구",
+    "year": "1995",
+    "price_median": 100000,
+    "price_min": 95000,
+    "price_max": 100000,
+    "trade_count": 2,
+    "area_typical": 75.7
+  },
+  "홍제센트럴IPARK": {
+    "gu": "서대문구",
+    "year": "2020",
+    "price_median": 105000,
+    "price_min": 104000,
+    "price_max": 110000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "홍제역해링턴플레이스": {
+    "gu": "서대문구",
+    "year": "2024",
+    "price_median": 109000,
+    "price_min": 71500,
+    "price_max": 110000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "천연뜨란채": {
+    "gu": "서대문구",
+    "year": "2006",
+    "price_median": 81300,
+    "price_min": 72500,
+    "price_max": 86000,
+    "trade_count": 43,
+    "area_typical": 56.8
+  },
+  "충정솔레디움(102동)": {
+    "gu": "서대문구",
+    "year": "2005",
+    "price_median": 107250,
+    "price_min": 100650,
+    "price_max": 107250,
+    "trade_count": 2,
+    "area_typical": 81.8
+  },
+  "DMC래미안클라시스": {
+    "gu": "서대문구",
+    "year": "2000",
+    "price_median": 79900,
+    "price_min": 73500,
+    "price_max": 84000,
+    "trade_count": 29,
+    "area_typical": 59.9
+  },
+  "DMC에코자이": {
+    "gu": "서대문구",
+    "year": "2019",
+    "price_median": 107000,
+    "price_min": 103000,
+    "price_max": 109000,
+    "trade_count": 11,
+    "area_typical": 60.9
+  },
+  "신촌럭키": {
+    "gu": "서대문구",
+    "year": "1999",
+    "price_median": 98000,
+    "price_min": 74500,
+    "price_max": 108500,
+    "trade_count": 41,
+    "area_typical": 74.7
+  },
+  "임광": {
+    "gu": "서대문구",
+    "year": "1999",
+    "price_median": 75400,
+    "price_min": 70000,
+    "price_max": 76000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "남가좌동현대": {
+    "gu": "서대문구",
+    "year": "1999",
+    "price_median": 72000,
+    "price_min": 70000,
+    "price_max": 79500,
+    "trade_count": 19,
+    "area_typical": 60.1
+  },
+  "북가좌삼호": {
+    "gu": "서대문구",
+    "year": "1996",
+    "price_median": 77000,
+    "price_min": 75500,
+    "price_max": 77000,
+    "trade_count": 2,
+    "area_typical": 75.8
+  },
+  "DMC파크뷰자이3단지": {
+    "gu": "서대문구",
+    "year": "2015",
+    "price_median": 102000,
+    "price_min": 100000,
+    "price_max": 107500,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "DMC래미안e편한세상": {
+    "gu": "서대문구",
+    "year": "2012",
+    "price_median": 104300,
+    "price_min": 94500,
+    "price_max": 106500,
+    "trade_count": 16,
+    "area_typical": 60.0
+  },
+  "월드컵현대": {
+    "gu": "서대문구",
+    "year": "1998",
+    "price_median": 73500,
+    "price_min": 70000,
+    "price_max": 74000,
+    "trade_count": 3,
+    "area_typical": 59.8
+  },
+  "인왕산현대": {
+    "gu": "서대문구",
+    "year": "2000",
+    "price_median": 73700,
+    "price_min": 70000,
+    "price_max": 75800,
+    "trade_count": 10,
+    "area_typical": 59.9
+  },
+  "DMC금호리첸시아": {
+    "gu": "서대문구",
+    "year": "2024",
+    "price_median": 108700,
+    "price_min": 97000,
+    "price_max": 109100,
+    "trade_count": 8,
+    "area_typical": 59.9
+  },
+  "북한산두산위브2차": {
+    "gu": "서대문구",
+    "year": "2021",
+    "price_median": 72000,
+    "price_min": 71800,
+    "price_max": 73500,
+    "trade_count": 5,
+    "area_typical": 59.2
+  },
+  "동부센트레빌": {
+    "gu": "성북구",
+    "year": "2003",
+    "price_median": 73500,
+    "price_min": 72800,
+    "price_max": 89000,
+    "trade_count": 13,
+    "area_typical": 67.8
+  },
+  "래미안남가좌2차": {
+    "gu": "서대문구",
+    "year": "2005",
+    "price_median": 93500,
+    "price_min": 89000,
+    "price_max": 97000,
+    "trade_count": 14,
+    "area_typical": 59.8
+  },
+  "힐스테이트홍은포레스트": {
+    "gu": "서대문구",
+    "year": "2023",
+    "price_median": 97000,
+    "price_min": 88000,
+    "price_max": 102500,
+    "trade_count": 7,
+    "area_typical": 69.1
+  },
+  "연희파크푸르지오": {
+    "gu": "서대문구",
+    "year": "2018",
+    "price_median": 93700,
+    "price_min": 93700,
+    "price_max": 93700,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "화신": {
+    "gu": "서대문구",
+    "year": "2004",
+    "price_median": 86400,
+    "price_min": 86400,
+    "price_max": 86400,
+    "trade_count": 1,
+    "area_typical": 58.4
+  },
+  "홍제한양": {
+    "gu": "서대문구",
+    "year": "1993",
+    "price_median": 71000,
+    "price_min": 70000,
+    "price_max": 73500,
+    "trade_count": 10,
+    "area_typical": 60.1
+  },
+  "e편한세상서대문": {
+    "gu": "서대문구",
+    "year": "2023",
+    "price_median": 97000,
+    "price_min": 93000,
+    "price_max": 98500,
+    "trade_count": 8,
+    "area_typical": 60.0
+  },
+  "북한산두산위브": {
+    "gu": "서대문구",
+    "year": "2020",
+    "price_median": 78000,
+    "price_min": 74500,
+    "price_max": 78000,
+    "trade_count": 2,
+    "area_typical": 59.8
+  },
+  "힐스테이트신촌": {
+    "gu": "서대문구",
+    "year": "2023",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "서대문푸르지오센트럴파크": {
+    "gu": "서대문구",
+    "year": "2023",
+    "price_median": 110000,
+    "price_min": 88000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 58.8
+  },
+  "대우푸르지오": {
+    "gu": "서대문구",
+    "year": "2002",
+    "price_median": 79000,
+    "price_min": 76000,
+    "price_max": 81500,
+    "trade_count": 4,
+    "area_typical": 59.7
+  },
+  "독립문극동(200-0)": {
+    "gu": "서대문구",
+    "year": "1998",
+    "price_median": 99000,
+    "price_min": 90000,
+    "price_max": 104000,
+    "trade_count": 14,
+    "area_typical": 59.6
+  },
+  "홍제삼성래미안": {
+    "gu": "서대문구",
+    "year": "2001",
+    "price_median": 70500,
+    "price_min": 70000,
+    "price_max": 70500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "래미안루센티아": {
+    "gu": "서대문구",
+    "year": "2020",
+    "price_median": 108000,
+    "price_min": 103000,
+    "price_max": 110000,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "현대(1,2차)": {
+    "gu": "서대문구",
+    "year": "1988",
+    "price_median": 72000,
+    "price_min": 71700,
+    "price_max": 72000,
+    "trade_count": 2,
+    "area_typical": 74.0
+  },
+  "홍은센트레빌": {
+    "gu": "서대문구",
+    "year": "2009",
+    "price_median": 72000,
+    "price_min": 70000,
+    "price_max": 73000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "DMC센트럴아이파크": {
+    "gu": "서대문구",
+    "year": "2018",
+    "price_median": 100000,
+    "price_min": 98000,
+    "price_max": 100000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "DMC아이파크": {
+    "gu": "서대문구",
+    "year": "2009",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "홍제현대": {
+    "gu": "서대문구",
+    "year": "1992",
+    "price_median": 84500,
+    "price_min": 75600,
+    "price_max": 95500,
+    "trade_count": 5,
+    "area_typical": 78.3
+  },
+  "우민A": {
+    "gu": "서대문구",
+    "year": "2001",
+    "price_median": 108700,
+    "price_min": 108700,
+    "price_max": 108700,
+    "trade_count": 1,
+    "area_typical": 77.2
+  },
+  "돈의문센트레빌": {
+    "gu": "서대문구",
+    "year": "2011",
+    "price_median": 109500,
+    "price_min": 109000,
+    "price_max": 109500,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "DMC센트레빌": {
+    "gu": "서대문구",
+    "year": "2009",
+    "price_median": 94500,
+    "price_min": 93000,
+    "price_max": 94500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "충정솔레디움(101동)": {
+    "gu": "서대문구",
+    "year": "2005",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 1,
+    "area_typical": 83.1
+  },
+  "청구2차": {
+    "gu": "서대문구",
+    "year": "1997",
+    "price_median": 73500,
+    "price_min": 73500,
+    "price_max": 73500,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "DMC파크뷰자이4단지": {
+    "gu": "서대문구",
+    "year": "2015",
+    "price_median": 108500,
+    "price_min": 108500,
+    "price_max": 108500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "인왕산벽산": {
+    "gu": "서대문구",
+    "year": "2003",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "한라": {
+    "gu": "서초구",
+    "year": "1994",
+    "price_median": 106000,
+    "price_min": 106000,
+    "price_max": 106000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "서초이오빌": {
+    "gu": "서초구",
+    "year": "2003",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 2,
+    "area_typical": 58.5
+  },
+  "서초태동스위트": {
+    "gu": "서초구",
+    "year": "2001",
+    "price_median": 102000,
+    "price_min": 102000,
+    "price_max": 102000,
+    "trade_count": 1,
+    "area_typical": 82.9
+  },
+  "두진한아름": {
+    "gu": "서초구",
+    "year": "1995",
+    "price_median": 76450,
+    "price_min": 76450,
+    "price_max": 76450,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "리시본하우스": {
+    "gu": "서초구",
+    "year": "2020",
+    "price_median": 93000,
+    "price_min": 90000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 57.6
+  },
+  "미영(101)": {
+    "gu": "서초구",
+    "year": "2003",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 1,
+    "area_typical": 83.2
+  },
+  "바흐하우스반포캐슬": {
+    "gu": "서초구",
+    "year": "2024",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 1,
+    "area_typical": 61.1
+  },
+  "서초동대우디오빌프라임": {
+    "gu": "서초구",
+    "year": "2005",
+    "price_median": 100000,
+    "price_min": 100000,
+    "price_max": 100000,
+    "trade_count": 1,
+    "area_typical": 82.0
+  },
+  "서초포레스타7단지": {
+    "gu": "서초구",
+    "year": "2013",
+    "price_median": 103000,
+    "price_min": 103000,
+    "price_max": 103000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "서초쌍용플래티넘": {
+    "gu": "서초구",
+    "year": "2006",
+    "price_median": 72500,
+    "price_min": 72500,
+    "price_max": 72500,
+    "trade_count": 1,
+    "area_typical": 56.0
+  },
+  "해청3차": {
+    "gu": "서초구",
+    "year": "2004",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 1,
+    "area_typical": 75.5
+  },
+  "서초훼미리하우스": {
+    "gu": "서초구",
+    "year": "2017",
+    "price_median": 105500,
+    "price_min": 105500,
+    "price_max": 105500,
+    "trade_count": 1,
+    "area_typical": 59.5
+  },
+  "서초동삼성쉐르빌2": {
+    "gu": "서초구",
+    "year": "2002",
+    "price_median": 95000,
+    "price_min": 95000,
+    "price_max": 95000,
+    "trade_count": 1,
+    "area_typical": 70.5
+  },
+  "양재": {
+    "gu": "서초구",
+    "year": "2001",
+    "price_median": 75000,
+    "price_min": 75000,
+    "price_max": 75000,
+    "trade_count": 1,
+    "area_typical": 69.1
+  },
+  "프라임": {
+    "gu": "서초구",
+    "year": "2002",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 1,
+    "area_typical": 78.9
+  },
+  "연우": {
+    "gu": "서초구",
+    "year": "2015",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 1,
+    "area_typical": 80.5
+  },
+  "더-클라스(402-8)": {
+    "gu": "서초구",
+    "year": "2003",
+    "price_median": 90000,
+    "price_min": 90000,
+    "price_max": 90000,
+    "trade_count": 1,
+    "area_typical": 83.7
+  },
+  "옥스포드빌라트": {
+    "gu": "서초구",
+    "year": "2003",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 1,
+    "area_typical": 76.4
+  },
+  "밀라텔쉐르빌": {
+    "gu": "서초구",
+    "year": "2001",
+    "price_median": 87000,
+    "price_min": 87000,
+    "price_max": 87000,
+    "trade_count": 1,
+    "area_typical": 65.3
+  },
+  "행당브라운스톤": {
+    "gu": "성동구",
+    "year": "2005",
+    "price_median": 107700,
+    "price_min": 99800,
+    "price_max": 109000,
+    "trade_count": 6,
+    "area_typical": 59.3
+  },
+  "세림": {
+    "gu": "성동구",
+    "year": "1986",
+    "price_median": 92000,
+    "price_min": 88500,
+    "price_max": 98000,
+    "trade_count": 11,
+    "area_typical": 72.8
+  },
+  "금호한신": {
+    "gu": "성동구",
+    "year": "2005",
+    "price_median": 101500,
+    "price_min": 93000,
+    "price_max": 110000,
+    "trade_count": 10,
+    "area_typical": 60.0
+  },
+  "서울숲한성": {
+    "gu": "성동구",
+    "year": "2003",
+    "price_median": 80000,
+    "price_min": 80000,
+    "price_max": 80000,
+    "trade_count": 1,
+    "area_typical": 83.6
+  },
+  "왕십리금호어울림": {
+    "gu": "성동구",
+    "year": "2006",
+    "price_median": 108000,
+    "price_min": 108000,
+    "price_max": 108000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "행당한진타운": {
+    "gu": "성동구",
+    "year": "2000",
+    "price_median": 108000,
+    "price_min": 96000,
+    "price_max": 110000,
+    "trade_count": 11,
+    "area_typical": 60.0
+  },
+  "동아그린": {
+    "gu": "성동구",
+    "year": "1999",
+    "price_median": 101000,
+    "price_min": 87000,
+    "price_max": 106500,
+    "trade_count": 8,
+    "area_typical": 58.3
+  },
+  "대림강변타운": {
+    "gu": "성동구",
+    "year": "2001",
+    "price_median": 108000,
+    "price_min": 99500,
+    "price_max": 109500,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "신성미소지움": {
+    "gu": "성동구",
+    "year": "2004",
+    "price_median": 88000,
+    "price_min": 83500,
+    "price_max": 107000,
+    "trade_count": 8,
+    "area_typical": 59.7
+  },
+  "대림(2차)": {
+    "gu": "성동구",
+    "year": "1989",
+    "price_median": 94400,
+    "price_min": 89500,
+    "price_max": 98000,
+    "trade_count": 8,
+    "area_typical": 59.9
+  },
+  "서울숲르씨엘": {
+    "gu": "성동구",
+    "year": "2023",
+    "price_median": 104700,
+    "price_min": 100000,
+    "price_max": 104700,
+    "trade_count": 2,
+    "area_typical": 59.5
+  },
+  "왕십리풍림아이원": {
+    "gu": "성동구",
+    "year": "2004",
+    "price_median": 102000,
+    "price_min": 93000,
+    "price_max": 108750,
+    "trade_count": 19,
+    "area_typical": 59.9
+  },
+  "대림(1차)": {
+    "gu": "성동구",
+    "year": "1986",
+    "price_median": 102000,
+    "price_min": 102000,
+    "price_max": 102000,
+    "trade_count": 1,
+    "area_typical": 63.2
+  },
+  "마장동중앙하이츠": {
+    "gu": "성동구",
+    "year": "1999",
+    "price_median": 86000,
+    "price_min": 83800,
+    "price_max": 87000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "왕십리삼성아파트": {
+    "gu": "성동구",
+    "year": "1996",
+    "price_median": 92000,
+    "price_min": 90000,
+    "price_max": 95000,
+    "trade_count": 8,
+    "area_typical": 59.8
+  },
+  "서울숲행당푸르지오": {
+    "gu": "성동구",
+    "year": "2011",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "금호타운2차아파트": {
+    "gu": "성동구",
+    "year": "1997",
+    "price_median": 104000,
+    "price_min": 104000,
+    "price_max": 104000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "극동미라주": {
+    "gu": "성동구",
+    "year": "2001",
+    "price_median": 84800,
+    "price_min": 83000,
+    "price_max": 87000,
+    "trade_count": 4,
+    "area_typical": 59.4
+  },
+  "대성유니드": {
+    "gu": "성동구",
+    "year": "2004",
+    "price_median": 90000,
+    "price_min": 84000,
+    "price_max": 94600,
+    "trade_count": 3,
+    "area_typical": 59.7
+  },
+  "금호삼성래미안": {
+    "gu": "성동구",
+    "year": "2001",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "금호현대": {
+    "gu": "성동구",
+    "year": "1990",
+    "price_median": 95000,
+    "price_min": 89000,
+    "price_max": 110000,
+    "trade_count": 11,
+    "area_typical": 65.3
+  },
+  "한신무학": {
+    "gu": "성동구",
+    "year": "1989",
+    "price_median": 91500,
+    "price_min": 84500,
+    "price_max": 94500,
+    "trade_count": 7,
+    "area_typical": 69.7
+  },
+  "왕십리KCC스위첸": {
+    "gu": "성동구",
+    "year": "2016",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 1,
+    "area_typical": 64.2
+  },
+  "동인샤인빌": {
+    "gu": "성동구",
+    "year": "2003",
+    "price_median": 106000,
+    "price_min": 91000,
+    "price_max": 106000,
+    "trade_count": 2,
+    "area_typical": 70.0
+  },
+  "신금호두산위브": {
+    "gu": "성동구",
+    "year": "2006",
+    "price_median": 100000,
+    "price_min": 100000,
+    "price_max": 100000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "서울숲리버그린동아아파트": {
+    "gu": "성동구",
+    "year": "2003",
+    "price_median": 108500,
+    "price_min": 108500,
+    "price_max": 108500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "서울숲 한신 더 휴": {
+    "gu": "성동구",
+    "year": "2003",
+    "price_median": 109000,
+    "price_min": 109000,
+    "price_max": 109000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "우성에비뉴": {
+    "gu": "성동구",
+    "year": "2017",
+    "price_median": 79000,
+    "price_min": 79000,
+    "price_max": 79000,
+    "trade_count": 1,
+    "area_typical": 70.9
+  },
+  "극동그린": {
+    "gu": "성동구",
+    "year": "1997",
+    "price_median": 105000,
+    "price_min": 100800,
+    "price_max": 105000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "서울숲성수현대": {
+    "gu": "성동구",
+    "year": "1990",
+    "price_median": 109000,
+    "price_min": 109000,
+    "price_max": 109000,
+    "trade_count": 1,
+    "area_typical": 59.1
+  },
+  "대우2": {
+    "gu": "성동구",
+    "year": "1999",
+    "price_median": 108500,
+    "price_min": 101500,
+    "price_max": 108500,
+    "trade_count": 2,
+    "area_typical": 59.8
+  },
+  "서울숲한양현대": {
+    "gu": "성동구",
+    "year": "1999",
+    "price_median": 108500,
+    "price_min": 108500,
+    "price_max": 108500,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "히페리온리버팰리스": {
+    "gu": "성동구",
+    "year": "2022",
+    "price_median": 91000,
+    "price_min": 91000,
+    "price_max": 91000,
+    "trade_count": 1,
+    "area_typical": 83.5
+  },
+  "보문파크뷰자이": {
+    "gu": "성북구",
+    "year": "2017",
+    "price_median": 104000,
+    "price_min": 90000,
+    "price_max": 108000,
+    "trade_count": 20,
+    "area_typical": 67.0
+  },
+  "월곡두산위브": {
+    "gu": "성북구",
+    "year": "2003",
+    "price_median": 72500,
+    "price_min": 70000,
+    "price_max": 75000,
+    "trade_count": 14,
+    "area_typical": 59.9
+  },
+  "롯데캐슬골든힐스": {
+    "gu": "성북구",
+    "year": "2019",
+    "price_median": 82000,
+    "price_min": 81000,
+    "price_max": 89000,
+    "trade_count": 5,
+    "area_typical": 65.6
+  },
+  "래미안포레카운티": {
+    "gu": "성북구",
+    "year": "2021",
+    "price_median": 90000,
+    "price_min": 85000,
+    "price_max": 90000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "삼선현대힐스테이트": {
+    "gu": "성북구",
+    "year": "2009",
+    "price_median": 72200,
+    "price_min": 70000,
+    "price_max": 74000,
+    "trade_count": 8,
+    "area_typical": 56.8
+  },
+  "길음뉴타운5단지(래미안)": {
+    "gu": "성북구",
+    "year": "2006",
+    "price_median": 84300,
+    "price_min": 80700,
+    "price_max": 89800,
+    "trade_count": 8,
+    "area_typical": 59.8
+  },
+  "길음뉴타운8단지(래미안)": {
+    "gu": "성북구",
+    "year": "2010",
+    "price_median": 93000,
+    "price_min": 87000,
+    "price_max": 99500,
+    "trade_count": 23,
+    "area_typical": 60.0
+  },
+  "길음동동부센트레빌(1278-0)": {
+    "gu": "성북구",
+    "year": "2003",
+    "price_median": 75000,
+    "price_min": 70800,
+    "price_max": 82700,
+    "trade_count": 28,
+    "area_typical": 60.0
+  },
+  "석관래미안": {
+    "gu": "성북구",
+    "year": "2009",
+    "price_median": 78700,
+    "price_min": 73000,
+    "price_max": 80800,
+    "trade_count": 14,
+    "area_typical": 59.9
+  },
+  "롯데캐슬클라시아": {
+    "gu": "성북구",
+    "year": "2022",
+    "price_median": 100000,
+    "price_min": 100000,
+    "price_max": 109000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "래미안월곡": {
+    "gu": "성북구",
+    "year": "2006",
+    "price_median": 74000,
+    "price_min": 70500,
+    "price_max": 77500,
+    "trade_count": 23,
+    "area_typical": 59.8
+  },
+  "래미안크리시엘": {
+    "gu": "성북구",
+    "year": "2004",
+    "price_median": 75000,
+    "price_min": 70000,
+    "price_max": 79000,
+    "trade_count": 19,
+    "area_typical": 60.0
+  },
+  "길음뉴타운7단지(두산위브)": {
+    "gu": "성북구",
+    "year": "2010",
+    "price_median": 85500,
+    "price_min": 85000,
+    "price_max": 89000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "삼선푸르지오": {
+    "gu": "성북구",
+    "year": "2008",
+    "price_median": 74700,
+    "price_min": 71700,
+    "price_max": 76000,
+    "trade_count": 12,
+    "area_typical": 60.0
+  },
+  "래미안길음센터피스": {
+    "gu": "성북구",
+    "year": "2019",
+    "price_median": 107500,
+    "price_min": 103500,
+    "price_max": 110000,
+    "trade_count": 22,
+    "area_typical": 59.9
+  },
+  "돈암힐스테이트": {
+    "gu": "성북구",
+    "year": "2007",
+    "price_median": 73500,
+    "price_min": 71500,
+    "price_max": 76000,
+    "trade_count": 3,
+    "area_typical": 59.6
+  },
+  "월곡래미안루나밸리": {
+    "gu": "성북구",
+    "year": "2007",
+    "price_median": 82000,
+    "price_min": 76000,
+    "price_max": 85000,
+    "trade_count": 11,
+    "area_typical": 60.0
+  },
+  "한신플러스C": {
+    "gu": "성북구",
+    "year": "2004",
+    "price_median": 72500,
+    "price_min": 70250,
+    "price_max": 74500,
+    "trade_count": 9,
+    "area_typical": 59.9
+  },
+  "래미안장위퍼스트하이": {
+    "gu": "성북구",
+    "year": "2020",
+    "price_median": 93000,
+    "price_min": 87000,
+    "price_max": 95500,
+    "trade_count": 13,
+    "area_typical": 60.0
+  },
+  "돈암코오롱하늘채": {
+    "gu": "성북구",
+    "year": "2016",
+    "price_median": 87500,
+    "price_min": 85000,
+    "price_max": 90000,
+    "trade_count": 7,
+    "area_typical": 59.9
+  },
+  "래미안아트리치": {
+    "gu": "성북구",
+    "year": "2019",
+    "price_median": 91500,
+    "price_min": 88000,
+    "price_max": 93500,
+    "trade_count": 18,
+    "area_typical": 59.9
+  },
+  "이수브라운스톤돈암": {
+    "gu": "성북구",
+    "year": "2004",
+    "price_median": 76000,
+    "price_min": 70500,
+    "price_max": 80000,
+    "trade_count": 12,
+    "area_typical": 60.0
+  },
+  "길음뉴타운1단지(래미안길음1차)": {
+    "gu": "성북구",
+    "year": "2003",
+    "price_median": 83300,
+    "price_min": 77000,
+    "price_max": 87500,
+    "trade_count": 22,
+    "area_typical": 60.0
+  },
+  "정릉꿈에그린": {
+    "gu": "성북구",
+    "year": "2015",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "길음역금호어울림센터힐": {
+    "gu": "성북구",
+    "year": "2014",
+    "price_median": 80800,
+    "price_min": 78200,
+    "price_max": 83500,
+    "trade_count": 10,
+    "area_typical": 59.8
+  },
+  "정릉2차e-편한세상": {
+    "gu": "성북구",
+    "year": "2009",
+    "price_median": 73500,
+    "price_min": 70000,
+    "price_max": 77000,
+    "trade_count": 9,
+    "area_typical": 59.4
+  },
+  "꿈의숲푸르지오": {
+    "gu": "성북구",
+    "year": "2010",
+    "price_median": 72500,
+    "price_min": 70000,
+    "price_max": 74500,
+    "trade_count": 18,
+    "area_typical": 59.6
+  },
+  "종암2차SKVIEW": {
+    "gu": "성북구",
+    "year": "2010",
+    "price_median": 80500,
+    "price_min": 80000,
+    "price_max": 82000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "길음뉴타운4단지(e편한세상)": {
+    "gu": "성북구",
+    "year": "2005",
+    "price_median": 76800,
+    "price_min": 70000,
+    "price_max": 83000,
+    "trade_count": 26,
+    "area_typical": 59.9
+  },
+  "아이파크종암동1차": {
+    "gu": "성북구",
+    "year": "2004",
+    "price_median": 79000,
+    "price_min": 74300,
+    "price_max": 79000,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "길음뉴타운3단지푸르지오": {
+    "gu": "성북구",
+    "year": "2005",
+    "price_median": 70800,
+    "price_min": 70000,
+    "price_max": 71000,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "아이파크종암동2차": {
+    "gu": "성북구",
+    "year": "2005",
+    "price_median": 75000,
+    "price_min": 73000,
+    "price_max": 76500,
+    "trade_count": 6,
+    "area_typical": 59.7
+  },
+  "꿈의숲아이파크": {
+    "gu": "성북구",
+    "year": "2022",
+    "price_median": 100000,
+    "price_min": 95500,
+    "price_max": 102500,
+    "trade_count": 16,
+    "area_typical": 61.3
+  },
+  "구현대": {
+    "gu": "성북구",
+    "year": "1981",
+    "price_median": 97565,
+    "price_min": 97565,
+    "price_max": 97565,
+    "trade_count": 1,
+    "area_typical": 66.0
+  },
+  "래미안라센트": {
+    "gu": "성북구",
+    "year": "2011",
+    "price_median": 92300,
+    "price_min": 85000,
+    "price_max": 93500,
+    "trade_count": 7,
+    "area_typical": 60.0
+  },
+  "보문리슈빌하우트": {
+    "gu": "성북구",
+    "year": "2022",
+    "price_median": 106000,
+    "price_min": 97000,
+    "price_max": 110000,
+    "trade_count": 7,
+    "area_typical": 59.8
+  },
+  "길음뉴타운6단지(래미안)": {
+    "gu": "성북구",
+    "year": "2007",
+    "price_median": 95000,
+    "price_min": 91500,
+    "price_max": 100000,
+    "trade_count": 9,
+    "area_typical": 59.4
+  },
+  "보문하우스토리": {
+    "gu": "성북구",
+    "year": "2011",
+    "price_median": 97000,
+    "price_min": 97000,
+    "price_max": 97000,
+    "trade_count": 1,
+    "area_typical": 82.0
+  },
+  "길음뉴타운2단지푸르지오": {
+    "gu": "성북구",
+    "year": "2005",
+    "price_median": 70500,
+    "price_min": 70000,
+    "price_max": 73000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "길음뉴타운9단지(래미안)": {
+    "gu": "성북구",
+    "year": "2010",
+    "price_median": 93000,
+    "price_min": 91000,
+    "price_max": 95300,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "안암동삼성래미안": {
+    "gu": "성북구",
+    "year": "2005",
+    "price_median": 75400,
+    "price_min": 72500,
+    "price_max": 76000,
+    "trade_count": 5,
+    "area_typical": 59.7
+  },
+  "현대I-PARK": {
+    "gu": "양천구",
+    "year": "2003",
+    "price_median": 81500,
+    "price_min": 72000,
+    "price_max": 108000,
+    "trade_count": 5,
+    "area_typical": 59.6
+  },
+  "삼선에스케이뷰": {
+    "gu": "성북구",
+    "year": "2012",
+    "price_median": 98000,
+    "price_min": 98000,
+    "price_max": 98000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "해링턴플레이스안암": {
+    "gu": "성북구",
+    "year": "2024",
+    "price_median": 87500,
+    "price_min": 87500,
+    "price_max": 87500,
+    "trade_count": 1,
+    "area_typical": 75.7
+  },
+  "래미안세레니티": {
+    "gu": "성북구",
+    "year": "2009",
+    "price_median": 87000,
+    "price_min": 85000,
+    "price_max": 88500,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "브라운스톤동선": {
+    "gu": "성북구",
+    "year": "2010",
+    "price_median": 83000,
+    "price_min": 80000,
+    "price_max": 85800,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "정릉힐스테이트3차": {
+    "gu": "성북구",
+    "year": "2008",
+    "price_median": 70500,
+    "price_min": 70500,
+    "price_max": 70500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "꿈의숲코오롱하늘채": {
+    "gu": "성북구",
+    "year": "2017",
+    "price_median": 88000,
+    "price_min": 79500,
+    "price_max": 90000,
+    "trade_count": 4,
+    "area_typical": 59.5
+  },
+  "꿈의숲대명루첸아파트": {
+    "gu": "성북구",
+    "year": "2008",
+    "price_median": 78000,
+    "price_min": 75500,
+    "price_max": 78000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "강남팰리스": {
+    "gu": "송파구",
+    "year": "2022",
+    "price_median": 73500,
+    "price_min": 72100,
+    "price_max": 76400,
+    "trade_count": 5,
+    "area_typical": 56.7
+  },
+  "상아2차아파트": {
+    "gu": "송파구",
+    "year": "1988",
+    "price_median": 98000,
+    "price_min": 94500,
+    "price_max": 106700,
+    "trade_count": 8,
+    "area_typical": 60.0
+  },
+  "가락쌍용(2차)": {
+    "gu": "송파구",
+    "year": "1999",
+    "price_median": 109000,
+    "price_min": 102800,
+    "price_max": 110000,
+    "trade_count": 6,
+    "area_typical": 59.9
+  },
+  "거여5단지": {
+    "gu": "송파구",
+    "year": "1997",
+    "price_median": 77800,
+    "price_min": 74500,
+    "price_max": 83500,
+    "trade_count": 15,
+    "area_typical": 59.7
+  },
+  "현대(62-5)": {
+    "gu": "송파구",
+    "year": "1993",
+    "price_median": 90000,
+    "price_min": 70000,
+    "price_max": 92500,
+    "trade_count": 5,
+    "area_typical": 76.1
+  },
+  "거여4단지": {
+    "gu": "송파구",
+    "year": "1997",
+    "price_median": 87000,
+    "price_min": 81250,
+    "price_max": 89500,
+    "trade_count": 8,
+    "area_typical": 59.7
+  },
+  "현대1차": {
+    "gu": "영등포구",
+    "year": "1986",
+    "price_median": 83000,
+    "price_min": 79200,
+    "price_max": 96000,
+    "trade_count": 7,
+    "area_typical": 76.2
+  },
+  "송파": {
+    "gu": "송파구",
+    "year": "2003",
+    "price_median": 99000,
+    "price_min": 74200,
+    "price_max": 99000,
+    "trade_count": 2,
+    "area_typical": 83.6
+  },
+  "씨티극동1": {
+    "gu": "송파구",
+    "year": "1998",
+    "price_median": 86000,
+    "price_min": 84000,
+    "price_max": 93700,
+    "trade_count": 6,
+    "area_typical": 63.9
+  },
+  "송파두산위브": {
+    "gu": "송파구",
+    "year": "2019",
+    "price_median": 97500,
+    "price_min": 94000,
+    "price_max": 106000,
+    "trade_count": 12,
+    "area_typical": 60.0
+  },
+  "현대백조": {
+    "gu": "송파구",
+    "year": "1997",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 2,
+    "area_typical": 78.5
+  },
+  "호수임광": {
+    "gu": "송파구",
+    "year": "1995",
+    "price_median": 93500,
+    "price_min": 93000,
+    "price_max": 93500,
+    "trade_count": 2,
+    "area_typical": 56.6
+  },
+  "강변현대": {
+    "gu": "송파구",
+    "year": "1991",
+    "price_median": 94500,
+    "price_min": 80000,
+    "price_max": 94500,
+    "trade_count": 2,
+    "area_typical": 83.2
+  },
+  "올림픽베어스타운1": {
+    "gu": "송파구",
+    "year": "1996",
+    "price_median": 93000,
+    "price_min": 90000,
+    "price_max": 93000,
+    "trade_count": 2,
+    "area_typical": 59.4
+  },
+  "현대리버빌2지구": {
+    "gu": "송파구",
+    "year": "1999",
+    "price_median": 90000,
+    "price_min": 90000,
+    "price_max": 90000,
+    "trade_count": 1,
+    "area_typical": 59.4
+  },
+  "한강극동": {
+    "gu": "송파구",
+    "year": "1995",
+    "price_median": 93500,
+    "price_min": 84000,
+    "price_max": 96500,
+    "trade_count": 4,
+    "area_typical": 59.3
+  },
+  "마천대성": {
+    "gu": "송파구",
+    "year": "1995",
+    "price_median": 80000,
+    "price_min": 80000,
+    "price_max": 80000,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "가락우성2": {
+    "gu": "송파구",
+    "year": "2000",
+    "price_median": 91000,
+    "price_min": 90000,
+    "price_max": 96200,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "문정대우푸르지오2차": {
+    "gu": "송파구",
+    "year": "2001",
+    "price_median": 99000,
+    "price_min": 96500,
+    "price_max": 100000,
+    "trade_count": 3,
+    "area_typical": 59.6
+  },
+  "현대2차": {
+    "gu": "영등포구",
+    "year": "1987",
+    "price_median": 102000,
+    "price_min": 70000,
+    "price_max": 110000,
+    "trade_count": 23,
+    "area_typical": 75.4
+  },
+  "마천금호어울림1차아파트": {
+    "gu": "송파구",
+    "year": "2002",
+    "price_median": 97000,
+    "price_min": 97000,
+    "price_max": 97000,
+    "trade_count": 1,
+    "area_typical": 80.9
+  },
+  "잠실월드메르디앙": {
+    "gu": "송파구",
+    "year": "2005",
+    "price_median": 105000,
+    "price_min": 98000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 59.2
+  },
+  "문정대우푸르지오1차": {
+    "gu": "송파구",
+    "year": "1999",
+    "price_median": 103500,
+    "price_min": 93500,
+    "price_max": 105000,
+    "trade_count": 6,
+    "area_typical": 59.8
+  },
+  "마천동금호타운1": {
+    "gu": "송파구",
+    "year": "1998",
+    "price_median": 80000,
+    "price_min": 80000,
+    "price_max": 80000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "옥산크리스탈": {
+    "gu": "송파구",
+    "year": "2001",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 2,
+    "area_typical": 74.5
+  },
+  "진넥스베르디엠": {
+    "gu": "송파구",
+    "year": "2017",
+    "price_median": 82000,
+    "price_min": 79000,
+    "price_max": 82800,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "하늘공원(69-5)": {
+    "gu": "송파구",
+    "year": "2006",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 72000,
+    "trade_count": 1,
+    "area_typical": 83.5
+  },
+  "우방아파트": {
+    "gu": "송파구",
+    "year": "2002",
+    "price_median": 87300,
+    "price_min": 72000,
+    "price_max": 87300,
+    "trade_count": 2,
+    "area_typical": 67.2
+  },
+  "잠실한솔": {
+    "gu": "송파구",
+    "year": "2000",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "풍림1": {
+    "gu": "송파구",
+    "year": "1995",
+    "price_median": 92000,
+    "price_min": 86000,
+    "price_max": 92000,
+    "trade_count": 2,
+    "area_typical": 70.2
+  },
+  "우방": {
+    "gu": "송파구",
+    "year": "2001",
+    "price_median": 76000,
+    "price_min": 76000,
+    "price_max": 81000,
+    "trade_count": 3,
+    "area_typical": 59.8
+  },
+  "우방1": {
+    "gu": "송파구",
+    "year": "1999",
+    "price_median": 77000,
+    "price_min": 73500,
+    "price_max": 77000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "더뷰21": {
+    "gu": "송파구",
+    "year": "2021",
+    "price_median": 89500,
+    "price_min": 89500,
+    "price_max": 89500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "현대(60동)": {
+    "gu": "송파구",
+    "year": "1991",
+    "price_median": 108000,
+    "price_min": 108000,
+    "price_max": 108000,
+    "trade_count": 1,
+    "area_typical": 82.2
+  },
+  "현대(5차)": {
+    "gu": "송파구",
+    "year": "1989",
+    "price_median": 103800,
+    "price_min": 103800,
+    "price_max": 103800,
+    "trade_count": 1,
+    "area_typical": 82.3
+  },
+  "신성노바빌아파트": {
+    "gu": "송파구",
+    "year": "2000",
+    "price_median": 89000,
+    "price_min": 88000,
+    "price_max": 92500,
+    "trade_count": 3,
+    "area_typical": 59.8
+  },
+  "SK": {
+    "gu": "송파구",
+    "year": "2001",
+    "price_median": 90000,
+    "price_min": 90000,
+    "price_max": 90000,
+    "trade_count": 2,
+    "area_typical": 83.8
+  },
+  "대아(제101상가동)": {
+    "gu": "송파구",
+    "year": "1998",
+    "price_median": 77500,
+    "price_min": 77500,
+    "price_max": 77500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "동아한가람1": {
+    "gu": "송파구",
+    "year": "1995",
+    "price_median": 99330,
+    "price_min": 99330,
+    "price_max": 99330,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "거여1단지": {
+    "gu": "송파구",
+    "year": "1997",
+    "price_median": 88000,
+    "price_min": 85000,
+    "price_max": 91000,
+    "trade_count": 5,
+    "area_typical": 59.7
+  },
+  "가락금호아파트": {
+    "gu": "송파구",
+    "year": "1997",
+    "price_median": 95000,
+    "price_min": 95000,
+    "price_max": 95000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "동궁리치웰(69-3)": {
+    "gu": "송파구",
+    "year": "2004",
+    "price_median": 77250,
+    "price_min": 77250,
+    "price_max": 77250,
+    "trade_count": 2,
+    "area_typical": 72.8
+  },
+  "골드팰리스아파트": {
+    "gu": "송파구",
+    "year": "2007",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 2,
+    "area_typical": 80.4
+  },
+  "삼환": {
+    "gu": "영등포구",
+    "year": "1999",
+    "price_median": 88000,
+    "price_min": 73500,
+    "price_max": 104500,
+    "trade_count": 29,
+    "area_typical": 60.1
+  },
+  "이트리움송파(281-4)": {
+    "gu": "송파구",
+    "year": "2024",
+    "price_median": 78660,
+    "price_min": 78660,
+    "price_max": 78660,
+    "trade_count": 1,
+    "area_typical": 60.2
+  },
+  "송파파크데일1단지": {
+    "gu": "송파구",
+    "year": "2011",
+    "price_median": 90000,
+    "price_min": 88500,
+    "price_max": 90000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "송파파크데일2단지": {
+    "gu": "송파구",
+    "year": "2011",
+    "price_median": 87500,
+    "price_min": 87500,
+    "price_max": 87500,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "윈저하우스": {
+    "gu": "송파구",
+    "year": "2002",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 1,
+    "area_typical": 78.4
+  },
+  "신동아타워": {
+    "gu": "송파구",
+    "year": "1995",
+    "price_median": 76000,
+    "price_min": 76000,
+    "price_max": 76000,
+    "trade_count": 1,
+    "area_typical": 58.4
+  },
+  "신트리1": {
+    "gu": "양천구",
+    "year": "1999",
+    "price_median": 72700,
+    "price_min": 70400,
+    "price_max": 74200,
+    "trade_count": 13,
+    "area_typical": 59.7
+  },
+  "파인빌": {
+    "gu": "양천구",
+    "year": "2001",
+    "price_median": 78500,
+    "price_min": 70000,
+    "price_max": 82000,
+    "trade_count": 5,
+    "area_typical": 63.1
+  },
+  "블레스빌": {
+    "gu": "양천구",
+    "year": "2002",
+    "price_median": 101000,
+    "price_min": 96500,
+    "price_max": 101000,
+    "trade_count": 2,
+    "area_typical": 81.3
+  },
+  "월드메르디앙2": {
+    "gu": "양천구",
+    "year": "2003",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 1,
+    "area_typical": 61.9
+  },
+  "금강에스쁘아": {
+    "gu": "양천구",
+    "year": "2002",
+    "price_median": 96000,
+    "price_min": 87300,
+    "price_max": 96500,
+    "trade_count": 3,
+    "area_typical": 75.0
+  },
+  "롯데캐슬": {
+    "gu": "중구",
+    "year": "2008",
+    "price_median": 86000,
+    "price_min": 74500,
+    "price_max": 93000,
+    "trade_count": 28,
+    "area_typical": 59.8
+  },
+  "목동2삼성래미안": {
+    "gu": "양천구",
+    "year": "2001",
+    "price_median": 99000,
+    "price_min": 87500,
+    "price_max": 103800,
+    "trade_count": 10,
+    "area_typical": 59.7
+  },
+  "목동우성3": {
+    "gu": "양천구",
+    "year": "1999",
+    "price_median": 72300,
+    "price_min": 72300,
+    "price_max": 72300,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "목동롯데캐슬마에스트로": {
+    "gu": "양천구",
+    "year": "2019",
+    "price_median": 106500,
+    "price_min": 102000,
+    "price_max": 107500,
+    "trade_count": 10,
+    "area_typical": 60.0
+  },
+  "극동늘푸른": {
+    "gu": "양천구",
+    "year": "1998",
+    "price_median": 81000,
+    "price_min": 81000,
+    "price_max": 81000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "목동성원": {
+    "gu": "양천구",
+    "year": "2000",
+    "price_median": 85700,
+    "price_min": 85700,
+    "price_max": 95000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "목동센트럴아이파크위브1단지": {
+    "gu": "양천구",
+    "year": "2020",
+    "price_median": 102000,
+    "price_min": 102000,
+    "price_max": 102000,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "진도1": {
+    "gu": "양천구",
+    "year": "1998",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 1,
+    "area_typical": 59.8
+  },
+  "삼익": {
+    "gu": "영등포구",
+    "year": "1979",
+    "price_median": 93500,
+    "price_min": 79000,
+    "price_max": 104000,
+    "trade_count": 13,
+    "area_typical": 65.3
+  },
+  "목동센트럴아이파크위브2단지": {
+    "gu": "양천구",
+    "year": "2020",
+    "price_median": 97800,
+    "price_min": 97500,
+    "price_max": 97800,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "롯데캐슬위너": {
+    "gu": "양천구",
+    "year": "2005",
+    "price_median": 98000,
+    "price_min": 97000,
+    "price_max": 102500,
+    "trade_count": 7,
+    "area_typical": 60.0
+  },
+  "목동신시가지12": {
+    "gu": "양천구",
+    "year": "1988",
+    "price_median": 100000,
+    "price_min": 100000,
+    "price_max": 100000,
+    "trade_count": 1,
+    "area_typical": 64.7
+  },
+  "신정두산위브": {
+    "gu": "양천구",
+    "year": "2012",
+    "price_median": 88000,
+    "price_min": 88000,
+    "price_max": 88000,
+    "trade_count": 1,
+    "area_typical": 75.6
+  },
+  "목동현대3차": {
+    "gu": "양천구",
+    "year": "1997",
+    "price_median": 107000,
+    "price_min": 106000,
+    "price_max": 107500,
+    "trade_count": 3,
+    "area_typical": 71.2
+  },
+  "롯데캐슬(1057-1)": {
+    "gu": "양천구",
+    "year": "2010",
+    "price_median": 70500,
+    "price_min": 70500,
+    "price_max": 70500,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "래미안목동아델리체(119동~123동)": {
+    "gu": "양천구",
+    "year": "2021",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 2,
+    "area_typical": 59.8
+  },
+  "목동성원(926-8)": {
+    "gu": "양천구",
+    "year": "1997",
+    "price_median": 109000,
+    "price_min": 109000,
+    "price_max": 109000,
+    "trade_count": 1,
+    "area_typical": 58.0
+  },
+  "자성": {
+    "gu": "양천구",
+    "year": "2004",
+    "price_median": 84000,
+    "price_min": 80000,
+    "price_max": 84000,
+    "trade_count": 2,
+    "area_typical": 80.2
+  },
+  "목동센트럴아이파크위브3단지": {
+    "gu": "양천구",
+    "year": "2020",
+    "price_median": 96900,
+    "price_min": 96900,
+    "price_max": 96900,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "목동센트럴아이파크위브4단지": {
+    "gu": "양천구",
+    "year": "2020",
+    "price_median": 102500,
+    "price_min": 102500,
+    "price_max": 102500,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "웨스트빌(102동)": {
+    "gu": "양천구",
+    "year": "2005",
+    "price_median": 78000,
+    "price_min": 78000,
+    "price_max": 78000,
+    "trade_count": 1,
+    "area_typical": 77.3
+  },
+  "동원로데오": {
+    "gu": "양천구",
+    "year": "2006",
+    "price_median": 90000,
+    "price_min": 90000,
+    "price_max": 90000,
+    "trade_count": 1,
+    "area_typical": 81.0
+  },
+  "청학": {
+    "gu": "양천구",
+    "year": "2002",
+    "price_median": 83000,
+    "price_min": 83000,
+    "price_max": 83000,
+    "trade_count": 1,
+    "area_typical": 57.2
+  },
+  "엘리온": {
+    "gu": "양천구",
+    "year": "2011",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 72.5
+  },
+  "신정숲속마을": {
+    "gu": "양천구",
+    "year": "2016",
+    "price_median": 73500,
+    "price_min": 73500,
+    "price_max": 73500,
+    "trade_count": 1,
+    "area_typical": 75.0
+  },
+  "당산2가현대홈타운": {
+    "gu": "영등포구",
+    "year": "1994",
+    "price_median": 106800,
+    "price_min": 103000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 82.8
+  },
+  "당산효성1차": {
+    "gu": "영등포구",
+    "year": "1999",
+    "price_median": 108000,
+    "price_min": 106500,
+    "price_max": 110000,
+    "trade_count": 7,
+    "area_typical": 59.9
+  },
+  "쌍용예가클래식": {
+    "gu": "영등포구",
+    "year": "2010",
+    "price_median": 105000,
+    "price_min": 98800,
+    "price_max": 105000,
+    "trade_count": 2,
+    "area_typical": 72.9
+  },
+  "당산삼성2차": {
+    "gu": "영등포구",
+    "year": "1997",
+    "price_median": 97700,
+    "price_min": 91000,
+    "price_max": 99900,
+    "trade_count": 6,
+    "area_typical": 59.8
+  },
+  "선원가와인": {
+    "gu": "영등포구",
+    "year": "2013",
+    "price_median": 78500,
+    "price_min": 77800,
+    "price_max": 78500,
+    "trade_count": 2,
+    "area_typical": 80.4
+  },
+  "당산한양": {
+    "gu": "영등포구",
+    "year": "1986",
+    "price_median": 103000,
+    "price_min": 99700,
+    "price_max": 103700,
+    "trade_count": 7,
+    "area_typical": 73.9
+  },
+  "영등포푸르지오": {
+    "gu": "영등포구",
+    "year": "2002",
+    "price_median": 108000,
+    "price_min": 82000,
+    "price_max": 110000,
+    "trade_count": 23,
+    "area_typical": 69.7
+  },
+  "우성4": {
+    "gu": "영등포구",
+    "year": "1991",
+    "price_median": 92000,
+    "price_min": 91000,
+    "price_max": 92000,
+    "trade_count": 2,
+    "area_typical": 75.4
+  },
+  "우성3": {
+    "gu": "영등포구",
+    "year": "1989",
+    "price_median": 85000,
+    "price_min": 83000,
+    "price_max": 87000,
+    "trade_count": 3,
+    "area_typical": 77.2
+  },
+  "양평현대6차": {
+    "gu": "영등포구",
+    "year": "2000",
+    "price_median": 94000,
+    "price_min": 91500,
+    "price_max": 97500,
+    "trade_count": 13,
+    "area_typical": 60.0
+  },
+  "남성": {
+    "gu": "영등포구",
+    "year": "1983",
+    "price_median": 75000,
+    "price_min": 73000,
+    "price_max": 88000,
+    "trade_count": 5,
+    "area_typical": 64.3
+  },
+  "문래동삼환": {
+    "gu": "영등포구",
+    "year": "2001",
+    "price_median": 79800,
+    "price_min": 77000,
+    "price_max": 82200,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "한신공영": {
+    "gu": "영등포구",
+    "year": "1996",
+    "price_median": 74000,
+    "price_min": 71500,
+    "price_max": 75000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "당산현대5차": {
+    "gu": "영등포구",
+    "year": "2000",
+    "price_median": 108500,
+    "price_min": 107000,
+    "price_max": 108700,
+    "trade_count": 4,
+    "area_typical": 59.7
+  },
+  "양평한신": {
+    "gu": "영등포구",
+    "year": "1996",
+    "price_median": 89000,
+    "price_min": 78000,
+    "price_max": 94000,
+    "trade_count": 39,
+    "area_typical": 59.9
+  },
+  "강변래미안": {
+    "gu": "영등포구",
+    "year": "2002",
+    "price_median": 107500,
+    "price_min": 100000,
+    "price_max": 110000,
+    "trade_count": 8,
+    "area_typical": 55.9
+  },
+  "진로": {
+    "gu": "영등포구",
+    "year": "1997",
+    "price_median": 92000,
+    "price_min": 84000,
+    "price_max": 98000,
+    "trade_count": 14,
+    "area_typical": 59.4
+  },
+  "삼호": {
+    "gu": "영등포구",
+    "year": "1998",
+    "price_median": 74000,
+    "price_min": 73500,
+    "price_max": 74500,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "신길자이": {
+    "gu": "영등포구",
+    "year": "2011",
+    "price_median": 88000,
+    "price_min": 86500,
+    "price_max": 90000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "거성파스텔": {
+    "gu": "영등포구",
+    "year": "1999",
+    "price_median": 89000,
+    "price_min": 85000,
+    "price_max": 91000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "영등포아트자이": {
+    "gu": "영등포구",
+    "year": "2014",
+    "price_median": 104500,
+    "price_min": 104000,
+    "price_max": 110000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "동보": {
+    "gu": "영등포구",
+    "year": "1998",
+    "price_median": 81700,
+    "price_min": 80500,
+    "price_max": 81900,
+    "trade_count": 3,
+    "area_typical": 59.4
+  },
+  "동양": {
+    "gu": "영등포구",
+    "year": "2000",
+    "price_median": 74000,
+    "price_min": 73300,
+    "price_max": 74000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "영등포중흥에스클래스": {
+    "gu": "영등포구",
+    "year": "2021",
+    "price_median": 105000,
+    "price_min": 103000,
+    "price_max": 109500,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "브라운스톤당산": {
+    "gu": "영등포구",
+    "year": "2015",
+    "price_median": 108000,
+    "price_min": 103500,
+    "price_max": 108000,
+    "trade_count": 4,
+    "area_typical": 76.0
+  },
+  "신길센트럴아이파크": {
+    "gu": "영등포구",
+    "year": "2019",
+    "price_median": 110000,
+    "price_min": 106500,
+    "price_max": 110000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "문래공원한신": {
+    "gu": "영등포구",
+    "year": "1988",
+    "price_median": 88000,
+    "price_min": 82000,
+    "price_max": 107000,
+    "trade_count": 14,
+    "area_typical": 62.2
+  },
+  "오목교벽산블루밍": {
+    "gu": "영등포구",
+    "year": "1996",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "현대3차": {
+    "gu": "영등포구",
+    "year": "1997",
+    "price_median": 83300,
+    "price_min": 77000,
+    "price_max": 88000,
+    "trade_count": 17,
+    "area_typical": 62.3
+  },
+  "문래우정": {
+    "gu": "영등포구",
+    "year": "1998",
+    "price_median": 80000,
+    "price_min": 79000,
+    "price_max": 80000,
+    "trade_count": 2,
+    "area_typical": 59.8
+  },
+  "한솔": {
+    "gu": "영등포구",
+    "year": "1999",
+    "price_median": 72300,
+    "price_min": 72200,
+    "price_max": 72300,
+    "trade_count": 2,
+    "area_typical": 59.3
+  },
+  "삼익플라주": {
+    "gu": "영등포구",
+    "year": "2013",
+    "price_median": 85000,
+    "price_min": 85000,
+    "price_max": 85000,
+    "trade_count": 1,
+    "area_typical": 71.1
+  },
+  "한강아파트": {
+    "gu": "영등포구",
+    "year": "1999",
+    "price_median": 87000,
+    "price_min": 85000,
+    "price_max": 88000,
+    "trade_count": 5,
+    "area_typical": 59.4
+  },
+  "우창": {
+    "gu": "영등포구",
+    "year": "1983",
+    "price_median": 90000,
+    "price_min": 79500,
+    "price_max": 97500,
+    "trade_count": 7,
+    "area_typical": 61.6
+  },
+  "문래두산위브": {
+    "gu": "영등포구",
+    "year": "1988",
+    "price_median": 77500,
+    "price_min": 72000,
+    "price_max": 84900,
+    "trade_count": 5,
+    "area_typical": 74.1
+  },
+  "더샵파크프레스티지": {
+    "gu": "영등포구",
+    "year": "2022",
+    "price_median": 109000,
+    "price_min": 101000,
+    "price_max": 109000,
+    "trade_count": 7,
+    "area_typical": 59.8
+  },
+  "대원": {
+    "gu": "영등포구",
+    "year": "1998",
+    "price_median": 75500,
+    "price_min": 70800,
+    "price_max": 75500,
+    "trade_count": 2,
+    "area_typical": 59.2
+  },
+  "당산현대3차": {
+    "gu": "영등포구",
+    "year": "1988",
+    "price_median": 96500,
+    "price_min": 87000,
+    "price_max": 108500,
+    "trade_count": 8,
+    "area_typical": 64.5
+  },
+  "보라매경남아너스빌": {
+    "gu": "영등포구",
+    "year": "2005",
+    "price_median": 86500,
+    "price_min": 86000,
+    "price_max": 89500,
+    "trade_count": 7,
+    "area_typical": 59.8
+  },
+  "양평벽산블루밍": {
+    "gu": "영등포구",
+    "year": "1990",
+    "price_median": 71100,
+    "price_min": 70000,
+    "price_max": 73000,
+    "trade_count": 8,
+    "area_typical": 61.0
+  },
+  "e편한세상영등포아델포레": {
+    "gu": "영등포구",
+    "year": "2020",
+    "price_median": 105000,
+    "price_min": 93700,
+    "price_max": 107000,
+    "trade_count": 6,
+    "area_typical": 60.0
+  },
+  "당산디오빌": {
+    "gu": "영등포구",
+    "year": "2005",
+    "price_median": 82000,
+    "price_min": 70000,
+    "price_max": 82000,
+    "trade_count": 2,
+    "area_typical": 58.9
+  },
+  "삼익플라주101동": {
+    "gu": "영등포구",
+    "year": "2009",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 72000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "문래베어스타운": {
+    "gu": "영등포구",
+    "year": "1997",
+    "price_median": 80500,
+    "price_min": 73000,
+    "price_max": 83000,
+    "trade_count": 8,
+    "area_typical": 59.9
+  },
+  "정호샤인빌": {
+    "gu": "영등포구",
+    "year": "2001",
+    "price_median": 87500,
+    "price_min": 87500,
+    "price_max": 87500,
+    "trade_count": 1,
+    "area_typical": 84.0
+  },
+  "문래해태": {
+    "gu": "영등포구",
+    "year": "1999",
+    "price_median": 72000,
+    "price_min": 72000,
+    "price_max": 72000,
+    "trade_count": 1,
+    "area_typical": 65.7
+  },
+  "한성": {
+    "gu": "영등포구",
+    "year": "1997",
+    "price_median": 85000,
+    "price_min": 83000,
+    "price_max": 86800,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "당산푸르지오": {
+    "gu": "영등포구",
+    "year": "2004",
+    "price_median": 104500,
+    "price_min": 104500,
+    "price_max": 104500,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "문래건영": {
+    "gu": "영등포구",
+    "year": "1998",
+    "price_median": 78400,
+    "price_min": 74000,
+    "price_max": 85000,
+    "trade_count": 3,
+    "area_typical": 59.4
+  },
+  "드림리버빌": {
+    "gu": "영등포구",
+    "year": "2002",
+    "price_median": 84000,
+    "price_min": 84000,
+    "price_max": 84000,
+    "trade_count": 1,
+    "area_typical": 74.1
+  },
+  "래미안당산1차": {
+    "gu": "영등포구",
+    "year": "1995",
+    "price_median": 104500,
+    "price_min": 104400,
+    "price_max": 109000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "신대림신동아파밀리에": {
+    "gu": "영등포구",
+    "year": "2013",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "e편한세상 문래 에듀플라츠": {
+    "gu": "영등포구",
+    "year": "2020",
+    "price_median": 108400,
+    "price_min": 105000,
+    "price_max": 110000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "삼호한숲": {
+    "gu": "영등포구",
+    "year": "2000",
+    "price_median": 87500,
+    "price_min": 85000,
+    "price_max": 87500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "다울103동": {
+    "gu": "영등포구",
+    "year": "2006",
+    "price_median": 79000,
+    "price_min": 79000,
+    "price_max": 79000,
+    "trade_count": 1,
+    "area_typical": 81.9
+  },
+  "문래미원": {
+    "gu": "영등포구",
+    "year": "1996",
+    "price_median": 72000,
+    "price_min": 71500,
+    "price_max": 72500,
+    "trade_count": 4,
+    "area_typical": 59.4
+  },
+  "보라매 신동아 파밀리에": {
+    "gu": "영등포구",
+    "year": "2016",
+    "price_median": 81000,
+    "price_min": 81000,
+    "price_max": 81000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "삼천리": {
+    "gu": "영등포구",
+    "year": "2000",
+    "price_median": 86500,
+    "price_min": 86500,
+    "price_max": 86500,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "순복음(초원)": {
+    "gu": "영등포구",
+    "year": "1971",
+    "price_median": 108500,
+    "price_min": 108500,
+    "price_max": 108500,
+    "trade_count": 1,
+    "area_typical": 66.9
+  },
+  "동남": {
+    "gu": "영등포구",
+    "year": "1971",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 66.5
+  },
+  "리버힐삼성": {
+    "gu": "용산구",
+    "year": "2001",
+    "price_median": 105000,
+    "price_min": 100000,
+    "price_max": 110000,
+    "trade_count": 15,
+    "area_typical": 59.5
+  },
+  "후암미주": {
+    "gu": "용산구",
+    "year": "1980",
+    "price_median": 88600,
+    "price_min": 88000,
+    "price_max": 89500,
+    "trade_count": 4,
+    "area_typical": 63.2
+  },
+  "한강타운": {
+    "gu": "용산구",
+    "year": "2001",
+    "price_median": 85500,
+    "price_min": 80000,
+    "price_max": 88000,
+    "trade_count": 5,
+    "area_typical": 59.7
+  },
+  "강변": {
+    "gu": "용산구",
+    "year": "1971",
+    "price_median": 95000,
+    "price_min": 85000,
+    "price_max": 97000,
+    "trade_count": 10,
+    "area_typical": 65.4
+  },
+  "효창파크푸르지오": {
+    "gu": "용산구",
+    "year": "2010",
+    "price_median": 102500,
+    "price_min": 102500,
+    "price_max": 102500,
+    "trade_count": 1,
+    "area_typical": 59.4
+  },
+  "대호드림빌(38-213)": {
+    "gu": "용산구",
+    "year": "2002",
+    "price_median": 81500,
+    "price_min": 81500,
+    "price_max": 81500,
+    "trade_count": 1,
+    "area_typical": 83.7
+  },
+  "용암한신": {
+    "gu": "용산구",
+    "year": "1982",
+    "price_median": 79000,
+    "price_min": 79000,
+    "price_max": 79000,
+    "trade_count": 1,
+    "area_typical": 72.7
+  },
+  "용산더프라임": {
+    "gu": "용산구",
+    "year": "2014",
+    "price_median": 107000,
+    "price_min": 107000,
+    "price_max": 107000,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "지오베르크": {
+    "gu": "용산구",
+    "year": "2004",
+    "price_median": 95000,
+    "price_min": 95000,
+    "price_max": 95000,
+    "trade_count": 1,
+    "area_typical": 76.0
+  },
+  "아일랜드캐슬": {
+    "gu": "용산구",
+    "year": "2003",
+    "price_median": 91500,
+    "price_min": 91500,
+    "price_max": 91500,
+    "trade_count": 1,
+    "area_typical": 62.5
+  },
+  "리버탑": {
+    "gu": "용산구",
+    "year": "2001",
+    "price_median": 110000,
+    "price_min": 110000,
+    "price_max": 110000,
+    "trade_count": 1,
+    "area_typical": 59.6
+  },
+  "북한산힐스테이트7차": {
+    "gu": "은평구",
+    "year": "2011",
+    "price_median": 90000,
+    "price_min": 88000,
+    "price_max": 93000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "백련산해모로": {
+    "gu": "은평구",
+    "year": "2020",
+    "price_median": 80700,
+    "price_min": 79500,
+    "price_max": 88200,
+    "trade_count": 5,
+    "area_typical": 62.9
+  },
+  "북한산현대홈타운": {
+    "gu": "은평구",
+    "year": "2004",
+    "price_median": 79000,
+    "price_min": 72500,
+    "price_max": 80000,
+    "trade_count": 8,
+    "area_typical": 60.0
+  },
+  "북한산래미안아파트(1단지)": {
+    "gu": "은평구",
+    "year": "2010",
+    "price_median": 76000,
+    "price_min": 76000,
+    "price_max": 76000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "백련산에스케이뷰아이파크": {
+    "gu": "은평구",
+    "year": "2020",
+    "price_median": 88000,
+    "price_min": 83000,
+    "price_max": 90000,
+    "trade_count": 13,
+    "area_typical": 59.9
+  },
+  "e편한세상백련산": {
+    "gu": "은평구",
+    "year": "2022",
+    "price_median": 76000,
+    "price_min": 76000,
+    "price_max": 76000,
+    "trade_count": 1,
+    "area_typical": 59.7
+  },
+  "북한산힐스테이트1차아파트": {
+    "gu": "은평구",
+    "year": "2009",
+    "price_median": 75000,
+    "price_min": 70000,
+    "price_max": 86500,
+    "trade_count": 5,
+    "area_typical": 59.8
+  },
+  "대경아르체": {
+    "gu": "은평구",
+    "year": "2024",
+    "price_median": 84500,
+    "price_min": 82500,
+    "price_max": 85400,
+    "trade_count": 3,
+    "area_typical": 65.9
+  },
+  "백련산파크자이": {
+    "gu": "은평구",
+    "year": "2021",
+    "price_median": 81400,
+    "price_min": 79000,
+    "price_max": 83000,
+    "trade_count": 9,
+    "area_typical": 59.8
+  },
+  "마고정3단지센트레빌(310~322동)BL2-3": {
+    "gu": "은평구",
+    "year": "2009",
+    "price_median": 74000,
+    "price_min": 71000,
+    "price_max": 74500,
+    "trade_count": 4,
+    "area_typical": 59.4
+  },
+  "은평뉴타운엘크루": {
+    "gu": "은평구",
+    "year": "2017",
+    "price_median": 71000,
+    "price_min": 71000,
+    "price_max": 71000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "녹번역e편한세상캐슬": {
+    "gu": "은평구",
+    "year": "2021",
+    "price_median": 105000,
+    "price_min": 95000,
+    "price_max": 109000,
+    "trade_count": 37,
+    "area_typical": 60.0
+  },
+  "박석고개1단지힐스테이트(116~131동)BL2-1": {
+    "gu": "은평구",
+    "year": "2009",
+    "price_median": 83800,
+    "price_min": 78900,
+    "price_max": 84500,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "백련산힐스테이트4차": {
+    "gu": "은평구",
+    "year": "2018",
+    "price_median": 80500,
+    "price_min": 79300,
+    "price_max": 81500,
+    "trade_count": 11,
+    "area_typical": 60.0
+  },
+  "백련산힐스테이트2차": {
+    "gu": "은평구",
+    "year": "2011",
+    "price_median": 74500,
+    "price_min": 72000,
+    "price_max": 75900,
+    "trade_count": 14,
+    "area_typical": 59.8
+  },
+  "북한산현대힐스테이트3차아파트": {
+    "gu": "은평구",
+    "year": "2010",
+    "price_median": 75500,
+    "price_min": 70800,
+    "price_max": 77500,
+    "trade_count": 17,
+    "area_typical": 60.0
+  },
+  "백련산힐스테이트3차": {
+    "gu": "은평구",
+    "year": "2011",
+    "price_median": 73750,
+    "price_min": 70200,
+    "price_max": 74000,
+    "trade_count": 5,
+    "area_typical": 59.6
+  },
+  "불광롯데캐슬": {
+    "gu": "은평구",
+    "year": "2018",
+    "price_median": 88000,
+    "price_min": 85500,
+    "price_max": 89000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "DMC우방": {
+    "gu": "은평구",
+    "year": "2000",
+    "price_median": 71000,
+    "price_min": 70000,
+    "price_max": 71700,
+    "trade_count": 6,
+    "area_typical": 59.9
+  },
+  "북한산푸르지오": {
+    "gu": "은평구",
+    "year": "2015",
+    "price_median": 91500,
+    "price_min": 89000,
+    "price_max": 92000,
+    "trade_count": 5,
+    "area_typical": 60.0
+  },
+  "응암역효성해링턴플레이스": {
+    "gu": "은평구",
+    "year": "2019",
+    "price_median": 76000,
+    "price_min": 71200,
+    "price_max": 79500,
+    "trade_count": 8,
+    "area_typical": 66.0
+  },
+  "북한산래미안아파트(2단지)": {
+    "gu": "은평구",
+    "year": "2010",
+    "price_median": 82500,
+    "price_min": 77500,
+    "price_max": 82500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "래미안베라힐즈": {
+    "gu": "은평구",
+    "year": "2019",
+    "price_median": 102500,
+    "price_min": 99500,
+    "price_max": 102500,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "백련산힐스테이트1차": {
+    "gu": "은평구",
+    "year": "2011",
+    "price_median": 73300,
+    "price_min": 70600,
+    "price_max": 74000,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "힐스테이트녹번": {
+    "gu": "은평구",
+    "year": "2019",
+    "price_median": 103000,
+    "price_min": 70000,
+    "price_max": 105500,
+    "trade_count": 11,
+    "area_typical": 59.9
+  },
+  "수정가,나동": {
+    "gu": "은평구",
+    "year": "1987",
+    "price_median": 72000,
+    "price_min": 70700,
+    "price_max": 72000,
+    "trade_count": 2,
+    "area_typical": 64.3
+  },
+  "우물골2단지두산위브(204~208동)BL2-5": {
+    "gu": "은평구",
+    "year": "2009",
+    "price_median": 75000,
+    "price_min": 71000,
+    "price_max": 76000,
+    "trade_count": 3,
+    "area_typical": 59.7
+  },
+  "힐스테이트녹번역": {
+    "gu": "은평구",
+    "year": "2022",
+    "price_median": 106500,
+    "price_min": 106000,
+    "price_max": 108000,
+    "trade_count": 4,
+    "area_typical": 60.0
+  },
+  "은평뉴타운꿈에그린": {
+    "gu": "은평구",
+    "year": "2018",
+    "price_median": 74000,
+    "price_min": 73500,
+    "price_max": 74000,
+    "trade_count": 3,
+    "area_typical": 60.0
+  },
+  "더-위일이노펠리체": {
+    "gu": "은평구",
+    "year": "2024",
+    "price_median": 71700,
+    "price_min": 70000,
+    "price_max": 71700,
+    "trade_count": 2,
+    "area_typical": 57.2
+  },
+  "네르비": {
+    "gu": "은평구",
+    "year": "2003",
+    "price_median": 71500,
+    "price_min": 71500,
+    "price_max": 71500,
+    "trade_count": 1,
+    "area_typical": 72.2
+  },
+  "박석고개1단지힐스테이트(101~111동)BL2-12": {
+    "gu": "은평구",
+    "year": "2009",
+    "price_median": 83000,
+    "price_min": 78000,
+    "price_max": 83000,
+    "trade_count": 3,
+    "area_typical": 59.9
+  },
+  "리더스파크": {
+    "gu": "은평구",
+    "year": "2006",
+    "price_median": 74000,
+    "price_min": 74000,
+    "price_max": 74000,
+    "trade_count": 1,
+    "area_typical": 82.5
+  },
+  "마고정3단지센트레빌(323~335동)BL2-2": {
+    "gu": "은평구",
+    "year": "2009",
+    "price_median": 76000,
+    "price_min": 76000,
+    "price_max": 76000,
+    "trade_count": 1,
+    "area_typical": 59.4
+  },
+  "라이프미성": {
+    "gu": "은평구",
+    "year": "1988",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 2,
+    "area_typical": 66.7
+  },
+  "DMC파인시티자이": {
+    "gu": "은평구",
+    "year": "2025",
+    "price_median": 105000,
+    "price_min": 105000,
+    "price_max": 105000,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "종로센트레빌": {
+    "gu": "종로구",
+    "year": "2008",
+    "price_median": 86000,
+    "price_min": 85500,
+    "price_max": 87400,
+    "trade_count": 5,
+    "area_typical": 59.9
+  },
+  "아남2": {
+    "gu": "종로구",
+    "year": "1996",
+    "price_median": 94000,
+    "price_min": 84000,
+    "price_max": 94000,
+    "trade_count": 2,
+    "area_typical": 59.4
+  },
+  "인왕산아이파크": {
+    "gu": "종로구",
+    "year": "2008",
+    "price_median": 103000,
+    "price_min": 101000,
+    "price_max": 103000,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "청운현대": {
+    "gu": "종로구",
+    "year": "2000",
+    "price_median": 109000,
+    "price_min": 109000,
+    "price_max": 109000,
+    "trade_count": 1,
+    "area_typical": 78.8
+  },
+  "창신쌍용1": {
+    "gu": "종로구",
+    "year": "1992",
+    "price_median": 74000,
+    "price_min": 71500,
+    "price_max": 76000,
+    "trade_count": 4,
+    "area_typical": 79.9
+  },
+  "종로청계힐스테이트": {
+    "gu": "종로구",
+    "year": "2009",
+    "price_median": 83300,
+    "price_min": 81500,
+    "price_max": 83300,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "운현신화타워": {
+    "gu": "종로구",
+    "year": "1998",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 2,
+    "area_typical": 78.2
+  },
+  "두레엘리시안": {
+    "gu": "종로구",
+    "year": "2007",
+    "price_median": 89000,
+    "price_min": 89000,
+    "price_max": 89000,
+    "trade_count": 1,
+    "area_typical": 59.9
+  },
+  "약수하이츠": {
+    "gu": "중구",
+    "year": "1999",
+    "price_median": 100000,
+    "price_min": 83000,
+    "price_max": 110000,
+    "trade_count": 40,
+    "area_typical": 60.3
+  },
+  "남산타운": {
+    "gu": "중구",
+    "year": "2002",
+    "price_median": 106300,
+    "price_min": 72000,
+    "price_max": 110000,
+    "trade_count": 42,
+    "area_typical": 59.9
+  },
+  "탑힐": {
+    "gu": "중구",
+    "year": "2002",
+    "price_median": 99000,
+    "price_min": 99000,
+    "price_max": 99000,
+    "trade_count": 2,
+    "area_typical": 54.8
+  },
+  "신당동파라다이스": {
+    "gu": "중구",
+    "year": "2000",
+    "price_median": 75000,
+    "price_min": 72000,
+    "price_max": 75000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "래미안하이베르": {
+    "gu": "중구",
+    "year": "2011",
+    "price_median": 107500,
+    "price_min": 99700,
+    "price_max": 110000,
+    "trade_count": 13,
+    "area_typical": 59.9
+  },
+  "덕수궁롯데캐슬": {
+    "gu": "중구",
+    "year": "2016",
+    "price_median": 98000,
+    "price_min": 95250,
+    "price_max": 98500,
+    "trade_count": 4,
+    "area_typical": 56.3
+  },
+  "프라임2": {
+    "gu": "중구",
+    "year": "2003",
+    "price_median": 73300,
+    "price_min": 73300,
+    "price_max": 73300,
+    "trade_count": 1,
+    "area_typical": 67.3
+  },
+  "신당KCC스위첸": {
+    "gu": "중구",
+    "year": "2019",
+    "price_median": 105000,
+    "price_min": 103300,
+    "price_max": 109000,
+    "trade_count": 5,
+    "area_typical": 59.5
+  },
+  "한진해모로": {
+    "gu": "중구",
+    "year": "2001",
+    "price_median": 81500,
+    "price_min": 81500,
+    "price_max": 83500,
+    "trade_count": 4,
+    "area_typical": 59.8
+  },
+  "태원팰리스": {
+    "gu": "중구",
+    "year": "2004",
+    "price_median": 75000,
+    "price_min": 75000,
+    "price_max": 75000,
+    "trade_count": 2,
+    "area_typical": 83.8
+  },
+  "프라임1": {
+    "gu": "중구",
+    "year": "2003",
+    "price_median": 74500,
+    "price_min": 74500,
+    "price_max": 74500,
+    "trade_count": 1,
+    "area_typical": 77.5
+  },
+  "타워": {
+    "gu": "중구",
+    "year": "2002",
+    "price_median": 73500,
+    "price_min": 73500,
+    "price_max": 73500,
+    "trade_count": 1,
+    "area_typical": 74.5
+  },
+  "충무": {
+    "gu": "중구",
+    "year": "1982",
+    "price_median": 73000,
+    "price_min": 73000,
+    "price_max": 73000,
+    "trade_count": 1,
+    "area_typical": 67.8
+  },
+  "사가정센트럴아이파크": {
+    "gu": "중랑구",
+    "year": "2020",
+    "price_median": 107000,
+    "price_min": 104000,
+    "price_max": 107000,
+    "trade_count": 2,
+    "area_typical": 59.9
+  },
+  "이편한세상화랑대": {
+    "gu": "중랑구",
+    "year": "2017",
+    "price_median": 87900,
+    "price_min": 83350,
+    "price_max": 96000,
+    "trade_count": 7,
+    "area_typical": 62.2
+  },
+  "우정아파트": {
+    "gu": "중랑구",
+    "year": "2002",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 57.2
+  },
+  "한양수자인사가정파크": {
+    "gu": "중랑구",
+    "year": "2019",
+    "price_median": 96000,
+    "price_min": 84900,
+    "price_max": 97000,
+    "trade_count": 4,
+    "area_typical": 67.4
+  },
+  "한일써너스빌": {
+    "gu": "중랑구",
+    "year": "2003",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 61.5
+  },
+  "용마산모아엘가파크포레": {
+    "gu": "중랑구",
+    "year": "2023",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 58.7
+  },
+  "브라운스톤태릉": {
+    "gu": "중랑구",
+    "year": "2004",
+    "price_median": 87800,
+    "price_min": 79500,
+    "price_max": 87800,
+    "trade_count": 2,
+    "area_typical": 83.5
+  },
+  "쌍용더플래티넘용마산": {
+    "gu": "중랑구",
+    "year": "2020",
+    "price_median": 80500,
+    "price_min": 80500,
+    "price_max": 80500,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "데시앙": {
+    "gu": "중랑구",
+    "year": "2010",
+    "price_median": 71800,
+    "price_min": 70500,
+    "price_max": 71800,
+    "trade_count": 2,
+    "area_typical": 60.0
+  },
+  "프레미어스엠코": {
+    "gu": "중랑구",
+    "year": "2013",
+    "price_median": 103000,
+    "price_min": 103000,
+    "price_max": 103000,
+    "trade_count": 1,
+    "area_typical": 79.7
+  },
+  "라온프라이빗": {
+    "gu": "중랑구",
+    "year": "2020",
+    "price_median": 86300,
+    "price_min": 86300,
+    "price_max": 86300,
+    "trade_count": 1,
+    "area_typical": 60.0
+  },
+  "마젤란21": {
+    "gu": "중랑구",
+    "year": "2007",
+    "price_median": 70000,
+    "price_min": 70000,
+    "price_max": 70000,
+    "trade_count": 1,
+    "area_typical": 78.9
+  }
+}

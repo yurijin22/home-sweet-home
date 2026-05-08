@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>예산 내 전체 후보 지도</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  body { margin: 0; font-family: -apple-system, sans-serif; }
+  #map { height: 100vh; }
+  .legend { background: white; padding: 12px 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); line-height: 1.8; font-size: 13px; }
+  .legend-item { display: flex; align-items: center; gap: 8px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+  .leaflet-popup-content { font-size: 13px; line-height: 1.7; min-width: 180px; }
+  .popup-title { font-weight: bold; font-size: 15px; margin-bottom: 4px; }
+  .popup-score { color: #E74C3C; font-weight: bold; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+const map = L.map('map').setView([37.53, 126.99], 12);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+const markers = [{"name": "월곡두산위브", "lat": 37.607121, "lon": 127.038703, "score": 73.0, "price": "9억 1천", "price_raw": 91000, "household": 2197, "year": 2003, "region": "성북_길음장위", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 5.1}, {"name": "한신,한진", "lat": 37.594958, "lon": 127.010493, "score": 72.2, "price": "8억", "price_raw": 80000, "household": 4509, "year": 1998, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 4.4}, {"name": "꿈의숲푸르지오", "lat": 37.610644, "lon": 127.038646, "score": 72.1, "price": "8억 8천", "price_raw": 88000, "household": 714, "year": 2010, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 5.5}, {"name": "래미안라센트", "lat": 37.599193, "lon": 127.03876, "score": 71.1, "price": "10억 5천", "price_raw": 105000, "household": 1025, "year": 2011, "region": "성북_길음장위", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 4.2}, {"name": "돈암브라운스톤", "lat": 37.597991, "lon": 127.01761, "score": 70.6, "price": "8억 7천", "price_raw": 87500, "household": 1074, "year": 2004, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 4.4}, {"name": "백련산힐스테이트2차", "lat": 37.591148, "lon": 126.92362, "score": 67.8, "price": "8억 4천", "price_raw": 84000, "household": 1148, "year": 2011, "region": "은평_녹번", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 10.5}, {"name": "동아에코빌", "lat": 37.607917, "lon": 127.045737, "score": 67.0, "price": "7억 9천", "price_raw": 79000, "household": 1253, "year": 2003, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 5.2}, {"name": "정릉e-편한세상2차", "lat": 37.599963, "lon": 127.019577, "score": 66.8, "price": "8억 3천", "price_raw": 83000, "household": 527, "year": 2009, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 4.5}, {"name": "길음뉴타운2단지푸르지오", "lat": 37.611669, "lon": 127.016592, "score": 66.7, "price": "9억 5천", "price_raw": 95000, "household": 1634, "year": 2005, "region": "성북_길음장위", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 5.9}, {"name": "두산", "lat": 37.569637, "lon": 127.059867, "score": 66.2, "price": "10억 5천", "price_raw": 105000, "household": 739, "year": 2000, "region": "동대문_답십리", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 2.3}, {"name": "중계무지개", "lat": 37.643671, "lon": 127.066073, "score": 66.0, "price": "6억 8천", "price_raw": 68500, "household": 2433, "year": 1991, "region": "노원_중계하계", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 9.5}, {"name": "롯데캐슬베네치아(주상복합)", "lat": 37.570971, "lon": 127.021134, "score": 65.7, "price": "10억 7천", "price_raw": 107000, "household": 1870, "year": 2008, "region": "성동_왕십리행당", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 1.7}, {"name": "관악드림타운", "lat": 37.490479, "lon": 126.950561, "score": 65.7, "price": "11억", "price_raw": 110000, "household": 3544, "year": 2003, "region": "관악_봉천신림", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 10.9}, {"name": "장안래미안2차", "lat": 37.574254, "lon": 127.075159, "score": 65.2, "price": "10억 3천", "price_raw": 103000, "household": 1786, "year": 2007, "region": "동대문_답십리", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 3.7}, {"name": "동신", "lat": 37.604597, "lon": 127.035224, "score": 64.8, "price": "7억 5천", "price_raw": 75000, "household": 746, "year": 1998, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 4.8}, {"name": "극동.건영.벽산", "lat": 37.63561, "lon": 127.064282, "score": 64.6, "price": "6억 3천", "price_raw": 63000, "household": 1980, "year": 1988, "region": "노원_월계공릉", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 8.6}, {"name": "길음동부센트레빌", "lat": 37.61076, "lon": 127.024226, "score": 64.4, "price": "10억 4천", "price_raw": 104000, "household": 1377, "year": 2003, "region": "성북_길음장위", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 5.6}, {"name": "수유래미안", "lat": 37.644937, "lon": 127.01783, "score": 64.3, "price": "5억 5천", "price_raw": 55000, "household": 690, "year": 2001, "region": "강북_수유", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 9.4}, {"name": "한신", "lat": 37.59726, "lon": 127.082394, "score": 63.8, "price": "10억 6천", "price_raw": 106000, "household": 1070, "year": 1997, "region": "중랑_상봉묵동", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 5.7}, {"name": "관악파크푸르지오", "lat": 37.482834, "lon": 126.961341, "score": 63.7, "price": "10억 7천", "price_raw": 107000, "household": 363, "year": 2014, "region": "동작_사당이수", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 11.0}, {"name": "래미안크리시엘", "lat": 37.600966, "lon": 127.029711, "score": 63.6, "price": "10억 5천", "price_raw": 105000, "household": 1168, "year": 2004, "region": "성북_길음장위", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 4.4}, {"name": "푸른마을동아", "lat": 37.607579, "lon": 127.014437, "score": 63.3, "price": "6억 3천", "price_raw": 63000, "household": 529, "year": 2003, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 5.5}, {"name": "정릉힐스테이트3차", "lat": 37.614571, "lon": 127.007968, "score": 63.3, "price": "7억 6천", "price_raw": 76000, "household": 522, "year": 2008, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 6.4}, {"name": "정릉e-편한세상1차", "lat": 37.615328, "lon": 127.010155, "score": 62.7, "price": "7억 2천", "price_raw": 72000, "household": 739, "year": 2006, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 6.4}, {"name": "범양", "lat": 37.603392, "lon": 127.027879, "score": 62.7, "price": "8억", "price_raw": 80000, "household": 499, "year": 1998, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 4.7}, {"name": "백련산힐스테이트1차", "lat": 37.592015, "lon": 126.925346, "score": 62.7, "price": "8억", "price_raw": 80000, "household": 1106, "year": 2011, "region": "은평_녹번", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 10.4}, {"name": "길음뉴타운데시앙", "lat": 37.606547, "lon": 127.016048, "score": 62.5, "price": "6억 4천", "price_raw": 64000, "household": 514, "year": 1999, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 5.3}, {"name": "홍은벽산", "lat": 37.595278, "lon": 126.944471, "score": 62.5, "price": "7억", "price_raw": 70000, "household": 1509, "year": 1997, "region": "은평_녹번", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 8.9}, {"name": "래미안트리베라1차", "lat": 37.613215, "lon": 127.020411, "score": 62.4, "price": "10억 1천", "price_raw": 101000, "household": 1247, "year": 2010, "region": "성북_길음장위", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 5.9}, {"name": "돈암현대", "lat": 37.60425, "lon": 127.027687, "score": 62.1, "price": "7억 2천", "price_raw": 72000, "household": 619, "year": 1991, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 4.8}, {"name": "성현동아", "lat": 37.489795, "lon": 126.955715, "score": 61.6, "price": "10억 8천", "price_raw": 108000, "household": 1261, "year": 2000, "region": "동작_사당이수", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 10.7}, {"name": "종암SK", "lat": 37.601544, "lon": 127.036532, "score": 61.6, "price": "8억", "price_raw": 80000, "household": 1318, "year": 1999, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 4.5}, {"name": "길음뉴타운경남아너스빌", "lat": 37.604853, "lon": 127.017449, "score": 61.2, "price": "8억", "price_raw": 80000, "household": 860, "year": 1999, "region": "성북_길음장위", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 5.1}, {"name": "신림현대", "lat": 37.475527, "lon": 126.932093, "score": 61.1, "price": "7억 6천", "price_raw": 76000, "household": 1634, "year": 1993, "region": "관악_봉천신림", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 13.3}, {"name": "관악우성", "lat": 37.485423, "lon": 126.959587, "score": 60.4, "price": "8억 8천", "price_raw": 88000, "household": 1597, "year": 2000, "region": "관악_봉천신림", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 10.8}, {"name": "동서울한양", "lat": 37.571631, "lon": 127.060147, "score": 60.1, "price": "6억", "price_raw": 60000, "household": 499, "year": 1989, "region": "동대문_답십리", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 2.4}, {"name": "수유벽산1차", "lat": 37.642336, "lon": 127.019349, "score": 59.7, "price": "4억 9천", "price_raw": 49500, "household": 1454, "year": 1993, "region": "강북_수유", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 9.1}, {"name": "미성", "lat": 37.58962, "lon": 126.908849, "score": 59.6, "price": "6억 5천", "price_raw": 65000, "household": 570, "year": 1987, "region": "마포_상암", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 11.7}, {"name": "현대", "lat": 37.590182, "lon": 126.937794, "score": 59.3, "price": "7억 2천", "price_raw": 72000, "household": 610, "year": 1988, "region": "서대문_홍은남가좌", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 9.3}, {"name": "신창", "lat": 37.640963, "lon": 127.04187, "score": 58.8, "price": "3억 8천", "price_raw": 38000, "household": 609, "year": 1998, "region": "강북_수유", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 8.9}, {"name": "벽산블루밍1차", "lat": 37.48952, "lon": 126.945056, "score": 57.9, "price": "9억 4천", "price_raw": 94000, "household": 2105, "year": 2005, "region": "관악_봉천신림", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 11.3}, {"name": "답십리청솔우성", "lat": 37.574897, "lon": 127.059574, "score": 56.5, "price": "10억", "price_raw": 100000, "household": 1542, "year": 2000, "region": "동대문_답십리", "color": "#3498DB", "budget_type": "시댁포함", "wangsimni": 2.5}, {"name": "초안2단지", "lat": 37.631608, "lon": 127.042681, "score": 56.2, "price": "3억 8천", "price_raw": 38000, "household": 571, "year": 1997, "region": "강북_수유", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 7.8}, {"name": "남가좌현대", "lat": 37.574716, "lon": 126.920478, "score": 55.0, "price": "8억 8천", "price_raw": 88000, "household": 1155, "year": 1999, "region": "서대문_홍은남가좌", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 10.3}, {"name": "유원하나", "lat": 37.595093, "lon": 126.951958, "score": 53.6, "price": "5억 2천", "price_raw": 52000, "household": 704, "year": 1996, "region": "은평_녹번", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 8.3}, {"name": "전농우성", "lat": 37.57728, "lon": 127.06477, "score": 53.0, "price": "8억", "price_raw": 80000, "household": 1234, "year": 1992, "region": "동대문_답십리", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 3.1}, {"name": "신림동부", "lat": 37.480778, "lon": 126.928852, "score": 51.6, "price": "8억", "price_raw": 80000, "household": 592, "year": 1993, "region": "관악_봉천신림", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 13.1}, {"name": "e편한세상수색에코포레", "lat": 37.586667, "lon": 126.900355, "score": 50.0, "price": "7억 4천", "price_raw": 74000, "household": 976, "year": 2003, "region": "마포_상암", "color": "#E74C3C", "budget_type": "자력가능", "wangsimni": 12.3}];
+
+markers.forEach(m => {
+  const marker = L.circleMarker([m.lat, m.lon], {
+    radius: 10,
+    fillColor: m.color,
+    color: '#fff',
+    weight: 2,
+    opacity: 1,
+    fillOpacity: 0.85
+  }).addTo(map);
+
+  marker.bindPopup(`
+    <div class="popup-title">${m.name}</div>
+    <div class="popup-score">★ ${m.score}점</div>
+    <div>💰 ${m.price} <span style="font-size:11px;color:${m.color}">(${m.budget_type})</span></div>
+    <div>🏢 ${m.household}세대 · ${m.year}년</div>
+    <div>🚇 왕십리 ${m.wangsimni}km</div>
+    <div style="color:#888;font-size:11px;margin-top:4px">${m.region}</div>
+  `);
+
+  const label = L.divIcon({
+    html: `<div style="background:${m.color};color:white;border-radius:4px;padding:1px 5px;font-size:10px;font-weight:bold;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.3)">${m.name}</div>`,
+    className: '',
+    iconAnchor: [-12, 8]
+  });
+  L.marker([m.lat, m.lon], { icon: label, interactive: false }).addTo(map);
+});
+
+// 직장 표시
+[
+  { name: '왕십리 (신부직장)', lat: 37.5614, lon: 127.0364, color: '#F39C12' },
+  { name: '과천 (신랑직장)', lat: 37.4288, lon: 126.9876, color: '#1ABC9C' },
+].forEach(w => {
+  L.circleMarker([w.lat, w.lon], {
+    radius: 14, fillColor: w.color, color: '#fff', weight: 3, fillOpacity: 1
+  }).addTo(map).bindPopup(`<b>${w.name}</b>`);
+});
+
+const legend = L.control({ position: 'bottomright' });
+legend.onAdd = () => {
+  const div = L.DomUtil.create('div', 'legend');
+  div.innerHTML = `
+    <b>예산 내 전체 후보</b><br><br>
+    <div class="legend-item"><span class="legend-dot" style="background:#E74C3C"></span> 자력 가능 (~9억)</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#3498DB"></span> 시댁 포함 (9~11억)</div>
+    <br>
+    <div class="legend-item"><span class="legend-dot" style="background:#F39C12"></span> 신부 직장 (왕십리)</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#1ABC9C"></span> 신랑 직장 (과천)</div>
+  `;
+  return div;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>
