@@ -1,5 +1,7 @@
-.claude/
+.claude/settings*
+.claude/*.json
 __pycache__/
 *.pyc
 .DS_Store
 .env
+.claude/settings*
