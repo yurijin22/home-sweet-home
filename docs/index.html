@@ -1,0 +1,2216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_98b0e677e3d39cb0244c4b7d79f0c20f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style='position:fixed;bottom:20px;left:20px;z-index:9999;background:white;padding:12px;border-radius:8px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.15);font-family:-apple-system,sans-serif;font-size:12px;'>
+  <div style='font-weight:bold;margin-bottom:6px;'>워치리스트 41개 단지</div>
+  <div style='margin:2px 0;'>🔴 거품 강함 (+15% 이상)</div>
+  <div style='margin:2px 0;'>🟡 거품 보통 (+5~15%)</div>
+  <div style='margin:2px 0;'>🟢 안정 (+5% 이하)</div>
+  <div style='margin:2px 0;'>⚫ 데이터 없음</div>
+  <div style='margin:6px 0 2px 0;border-top:1px solid #eee;padding-top:6px;'>⭐ 통근 우수 (왕십리/과천 30분 이하)</div>
+  <div style='margin:2px 0;color:#888;font-size:11px;'>핀 클릭 → 단지 상세 + 네이버부동산 링크</div>
+</div>
+    
+            <div class="folium-map" id="map_98b0e677e3d39cb0244c4b7d79f0c20f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_98b0e677e3d39cb0244c4b7d79f0c20f = L.map(
+                "map_98b0e677e3d39cb0244c4b7d79f0c20f",
+                {
+                    center: [37.5665, 126.978],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+
+            
+
+        
+    
+            var tile_layer_019dea76cb5aad3b9d2d267054809f27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_019dea76cb5aad3b9d2d267054809f27.addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+        
+    
+            var marker_31aca4b76e16351e2ed4f0f3cb483cef = L.marker(
+                [37.5614, 127.0381],
+                {
+}
+            ).addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+        
+    
+            var icon_8c48df012e61c0bf8e785e3178c7bef9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "briefcase",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a69055a5d3bee922ef07db0ae617d78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bb0d47d768071d6102a09981f306c8b = $(`<div id="html_4bb0d47d768071d6102a09981f306c8b" style="width: 100.0%; height: 100.0%;"><b>왕십리역</b> (신부 직장)</div>`)[0];
+                popup_5a69055a5d3bee922ef07db0ae617d78.setContent(html_4bb0d47d768071d6102a09981f306c8b);
+            
+        
+
+        marker_31aca4b76e16351e2ed4f0f3cb483cef.bindPopup(popup_5a69055a5d3bee922ef07db0ae617d78)
+        ;
+
+        
+    
+    
+                marker_31aca4b76e16351e2ed4f0f3cb483cef.setIcon(icon_8c48df012e61c0bf8e785e3178c7bef9);
+            
+    
+            var marker_c3ba37fcb3107e1668b79db8cee67c4a = L.marker(
+                [37.4279, 126.9876],
+                {
+}
+            ).addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+        
+    
+            var icon_bf630a326aa9f9dc33fb054309b53f65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "briefcase",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_edb86a203b208c0b48024606a51a49cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35a5c64bfb80ffcdc5c230c4350eb802 = $(`<div id="html_35a5c64bfb80ffcdc5c230c4350eb802" style="width: 100.0%; height: 100.0%;"><b>정부과천청사역</b> (신랑 직장)</div>`)[0];
+                popup_edb86a203b208c0b48024606a51a49cf.setContent(html_35a5c64bfb80ffcdc5c230c4350eb802);
+            
+        
+
+        marker_c3ba37fcb3107e1668b79db8cee67c4a.bindPopup(popup_edb86a203b208c0b48024606a51a49cf)
+        ;
+
+        
+    
+    
+                marker_c3ba37fcb3107e1668b79db8cee67c4a.setIcon(icon_bf630a326aa9f9dc33fb054309b53f65);
+            
+    
+            var feature_group_f18ec6c39d876047c62c477c471eda69 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_ecadea7070c401989e8d8d05473b21c0 = L.marker(
+                [37.610644, 127.038646],
+                {
+}
+            ).addTo(feature_group_f18ec6c39d876047c62c477c471eda69);
+        
+    
+            var icon_edd62deba7626aef61f2a2514c823734 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5ad2f839927f81a33e12c3731e55ad0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_25d2f9e8061d24f2b35050cf34ac040c = $(`<div id="html_25d2f9e8061d24f2b35050cf34ac040c" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         꿈의숲푸르지오       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         성북_길음장위 · 714세대 · 2010년 · 점수 72.1       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.8억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.2억 (60㎡, 23건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#d44;'>+22.3%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+2.3%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>45분 / 81분</td></tr>       </table>       <div style='color:#666;font-size:11px;margin-top:4px;'>북서울꿈의숲 인접 (공원 가중치 만점), 16년차 준신축. 역세권 도보 15분권으로 약함.</div>       <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/26130' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_d5ad2f839927f81a33e12c3731e55ad0.setContent(html_25d2f9e8061d24f2b35050cf34ac040c);
+            
+        
+
+        marker_ecadea7070c401989e8d8d05473b21c0.bindPopup(popup_d5ad2f839927f81a33e12c3731e55ad0)
+        ;
+
+        
+    
+    
+            marker_ecadea7070c401989e8d8d05473b21c0.bindTooltip(
+                `<div>
+                     꿈의숲푸르지오 · 8.8억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ecadea7070c401989e8d8d05473b21c0.setIcon(icon_edd62deba7626aef61f2a2514c823734);
+            
+    
+            var marker_faaae0180cc985c26dd30a9b4ac5b9d9 = L.marker(
+                [37.611669, 127.016592],
+                {
+}
+            ).addTo(feature_group_f18ec6c39d876047c62c477c471eda69);
+        
+    
+            var icon_b825399452cdae7da7edb7ffa7a2bf3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a550f5c8ea48be0d0b0366e25dcf1365 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_da7443e38a388e2ac89c39d31d8f2c30 = $(`<div id="html_da7443e38a388e2ac89c39d31d8f2c30" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         길음뉴타운2단지푸르지오       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #10 · 성북_길음장위 · 1634세대 · 2005년 · 점수 66.7       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>9.5억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.0억 (60㎡, 36건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#d44;'>+16.6%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>-3.8%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>44분 / 75분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/8082' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_a550f5c8ea48be0d0b0366e25dcf1365.setContent(html_da7443e38a388e2ac89c39d31d8f2c30);
+            
+        
+
+        marker_faaae0180cc985c26dd30a9b4ac5b9d9.bindPopup(popup_a550f5c8ea48be0d0b0366e25dcf1365)
+        ;
+
+        
+    
+    
+            marker_faaae0180cc985c26dd30a9b4ac5b9d9.bindTooltip(
+                `<div>
+                     길음뉴타운2단지푸르지오 · 9.5억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_faaae0180cc985c26dd30a9b4ac5b9d9.setIcon(icon_b825399452cdae7da7edb7ffa7a2bf3e);
+            
+    
+            var marker_36533e5ad507d2070c0aed3430dd672c = L.marker(
+                [37.604597, 127.035224],
+                {
+}
+            ).addTo(feature_group_f18ec6c39d876047c62c477c471eda69);
+        
+    
+            var icon_9419b91d14a920ca0d41dc714f7fb84e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae7242d21c4ebf206402ec77be5eb1cf = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_06ec9f539b294afb5a3364fce8408fe9 = $(`<div id="html_06ec9f539b294afb5a3364fce8408fe9" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         동신       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #16 · 성북_길음장위 · 746세대 · 1998년 · 점수 64.8       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.5억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#d44;'>+21.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+5.6%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>32분 / 70분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/1194' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_ae7242d21c4ebf206402ec77be5eb1cf.setContent(html_06ec9f539b294afb5a3364fce8408fe9);
+            
+        
+
+        marker_36533e5ad507d2070c0aed3430dd672c.bindPopup(popup_ae7242d21c4ebf206402ec77be5eb1cf)
+        ;
+
+        
+    
+    
+            marker_36533e5ad507d2070c0aed3430dd672c.bindTooltip(
+                `<div>
+                     동신 · 7.5억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36533e5ad507d2070c0aed3430dd672c.setIcon(icon_9419b91d14a920ca0d41dc714f7fb84e);
+            
+    
+            var marker_fb902871e58df47912142d78c36f2af0 = L.marker(
+                [37.603392, 127.027879],
+                {
+}
+            ).addTo(feature_group_f18ec6c39d876047c62c477c471eda69);
+        
+    
+            var icon_f2488ff0b8900b318c758c7d16563827 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6d65ed641ff1b2d919dc426fa9c2d39 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_7431be4fbdce1b69e05742b2634d7254 = $(`<div id="html_7431be4fbdce1b69e05742b2634d7254" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         범양       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #23 · 성북_길음장위 · 499세대 · 1998년 · 점수 62.7       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#d44;'>+17.5%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+13.5%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>32분 / 63분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/578' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_a6d65ed641ff1b2d919dc426fa9c2d39.setContent(html_7431be4fbdce1b69e05742b2634d7254);
+            
+        
+
+        marker_fb902871e58df47912142d78c36f2af0.bindPopup(popup_a6d65ed641ff1b2d919dc426fa9c2d39)
+        ;
+
+        
+    
+    
+            marker_fb902871e58df47912142d78c36f2af0.bindTooltip(
+                `<div>
+                     범양 · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fb902871e58df47912142d78c36f2af0.setIcon(icon_f2488ff0b8900b318c758c7d16563827);
+            
+    
+            var marker_b56ac36d4e7ddc8873ba128c5cd8bea4 = L.marker(
+                [37.60425, 127.027687],
+                {
+}
+            ).addTo(feature_group_f18ec6c39d876047c62c477c471eda69);
+        
+    
+            var icon_7cce1f760cbba604999aff9161fd4aa4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc9c142e16fe3e190b64d247e56ca29f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_22aeb9890a6b0ae15630ac5ba8ed431d = $(`<div id="html_22aeb9890a6b0ae15630ac5ba8ed431d" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         돈암현대       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #28 · 성북_길음장위 · 619세대 · 1991년 · 점수 62.1       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.2억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#d44;'>+22.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+5.6%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>31분 / 63분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/583' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_cc9c142e16fe3e190b64d247e56ca29f.setContent(html_22aeb9890a6b0ae15630ac5ba8ed431d);
+            
+        
+
+        marker_b56ac36d4e7ddc8873ba128c5cd8bea4.bindPopup(popup_cc9c142e16fe3e190b64d247e56ca29f)
+        ;
+
+        
+    
+    
+            marker_b56ac36d4e7ddc8873ba128c5cd8bea4.bindTooltip(
+                `<div>
+                     돈암현대 · 7.2억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b56ac36d4e7ddc8873ba128c5cd8bea4.setIcon(icon_7cce1f760cbba604999aff9161fd4aa4);
+            
+    
+            feature_group_f18ec6c39d876047c62c477c471eda69.addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+        
+    
+            var feature_group_b7905939b2f478c2b007b08d3e79d8c7 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d29e8dabc5679cbf4e64d36a4450c7ee = L.marker(
+                [37.607121, 127.038703],
+                {
+}
+            ).addTo(feature_group_b7905939b2f478c2b007b08d3e79d8c7);
+        
+    
+            var icon_231d87300867502b718861ca84a1672a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37e444ba14d08266da0d185b4f9ba4cf = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_9712da0f65d39c0ad1c58199a99467a5 = $(`<div id="html_9712da0f65d39c0ad1c58199a99467a5" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         월곡두산위브       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         성북_길음장위 · 2197세대 · 2003년 · 점수 73.0       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>9.1억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.2억 (60㎡, 44건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+6.4%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+0.7%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>36분 / 75분</td></tr>       </table>       <div style='color:#666;font-size:11px;margin-top:4px;'>6호선 월곡역 도보권, 동북선(예정) 수혜 가능. 과천 통근 약함.</div>       <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/2990' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_37e444ba14d08266da0d185b4f9ba4cf.setContent(html_9712da0f65d39c0ad1c58199a99467a5);
+            
+        
+
+        marker_d29e8dabc5679cbf4e64d36a4450c7ee.bindPopup(popup_37e444ba14d08266da0d185b4f9ba4cf)
+        ;
+
+        
+    
+    
+            marker_d29e8dabc5679cbf4e64d36a4450c7ee.bindTooltip(
+                `<div>
+                     월곡두산위브 · 9.1억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d29e8dabc5679cbf4e64d36a4450c7ee.setIcon(icon_231d87300867502b718861ca84a1672a);
+            
+    
+            var marker_d2d750178d04a9b76b73e81ebf897a8a = L.marker(
+                [37.599193, 127.03876],
+                {
+}
+            ).addTo(feature_group_b7905939b2f478c2b007b08d3e79d8c7);
+        
+    
+            var icon_607a70351f013c771b3ef32e9c6d7f0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65549a842c2baf730dc27271118add98 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_fce2be599d330ac27ef1373d07b90ae8 = $(`<div id="html_fce2be599d330ac27ef1373d07b90ae8" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         래미안라센트       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         성북_길음장위 · 1025세대 · 2011년 · 점수 71.1       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.5억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>9.2억 (60㎡, 18건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+8.7%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>-19.5%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>34분 / 70분</td></tr>       </table>       <div style='color:#666;font-size:11px;margin-top:4px;'>길음역 도보 5분, 초품아 124m, 공원 18m. 15년차 준신축. 예산 상한 근접.</div>       <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/26834' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_65549a842c2baf730dc27271118add98.setContent(html_fce2be599d330ac27ef1373d07b90ae8);
+            
+        
+
+        marker_d2d750178d04a9b76b73e81ebf897a8a.bindPopup(popup_65549a842c2baf730dc27271118add98)
+        ;
+
+        
+    
+    
+            marker_d2d750178d04a9b76b73e81ebf897a8a.bindTooltip(
+                `<div>
+                     래미안라센트 · 10.5억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d2d750178d04a9b76b73e81ebf897a8a.setIcon(icon_607a70351f013c771b3ef32e9c6d7f0c);
+            
+    
+            var marker_26fc16c43e3634c12d11f20db1a88873 = L.marker(
+                [37.6498, 127.04391],
+                {
+}
+            ).addTo(feature_group_b7905939b2f478c2b007b08d3e79d8c7);
+        
+    
+            var icon_670eb6c8abce76b7fde1bc31fe901f47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10518f8c0732bdf4310419728a4db205 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_712597909405216ce3e6a3cc23c5e100 = $(`<div id="html_712597909405216ce3e6a3cc23c5e100" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         창동주공3단지       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         도봉_창동방학 · 2856세대 · 1990년 · 점수 69.1       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.5억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+12.9%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+8.4%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>44분 / 80분</td></tr>       </table>       <div style='color:#666;font-size:11px;margin-top:4px;'>창동 재건축 호재(4호선+1호선+GTX-C), 36년차. 몸테크 영역.</div>       <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/326' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_10518f8c0732bdf4310419728a4db205.setContent(html_712597909405216ce3e6a3cc23c5e100);
+            
+        
+
+        marker_26fc16c43e3634c12d11f20db1a88873.bindPopup(popup_10518f8c0732bdf4310419728a4db205)
+        ;
+
+        
+    
+    
+            marker_26fc16c43e3634c12d11f20db1a88873.bindTooltip(
+                `<div>
+                     창동주공3단지 · 7.5억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_26fc16c43e3634c12d11f20db1a88873.setIcon(icon_670eb6c8abce76b7fde1bc31fe901f47);
+            
+    
+            var marker_64f600a9a2b026ead32820ec8059759c = L.marker(
+                [37.61076, 127.024226],
+                {
+}
+            ).addTo(feature_group_b7905939b2f478c2b007b08d3e79d8c7);
+        
+    
+            var icon_dbb9bed0436224e6810c137c9e0da519 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9e4b1f9ce5f16c181169611fb1ee8be = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4556a5a4d1ad3d42896a2605cd206ac1 = $(`<div id="html_4556a5a4d1ad3d42896a2605cd206ac1" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         길음동부센트레빌       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #17 · 성북_길음장위 · 1377세대 · 2003년 · 점수 64.4       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.4억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+12.2%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+9.5%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>38분 / 71분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/3421' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_a9e4b1f9ce5f16c181169611fb1ee8be.setContent(html_4556a5a4d1ad3d42896a2605cd206ac1);
+            
+        
+
+        marker_64f600a9a2b026ead32820ec8059759c.bindPopup(popup_a9e4b1f9ce5f16c181169611fb1ee8be)
+        ;
+
+        
+    
+    
+            marker_64f600a9a2b026ead32820ec8059759c.bindTooltip(
+                `<div>
+                     길음동부센트레빌 · 10.4억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_64f600a9a2b026ead32820ec8059759c.setIcon(icon_dbb9bed0436224e6810c137c9e0da519);
+            
+    
+            var marker_f756b6a78f08c76ee04cb20495a7c484 = L.marker(
+                [37.614571, 127.007968],
+                {
+}
+            ).addTo(feature_group_b7905939b2f478c2b007b08d3e79d8c7);
+        
+    
+            var icon_1b3c6709751cbaa6d7a836b01059ccd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8abc3accbfe4f13df40415a7a968f33b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4ee2be17e30556f2c9766633fbb8667d = $(`<div id="html_4ee2be17e30556f2c9766633fbb8667d" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         정릉힐스테이트3차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #21 · 성북_길음장위 · 522세대 · 2008년 · 점수 63.3       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.6억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.0억 (60㎡, 14건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+7.7%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+6.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>45분 / 70분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/23779' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_8abc3accbfe4f13df40415a7a968f33b.setContent(html_4ee2be17e30556f2c9766633fbb8667d);
+            
+        
+
+        marker_f756b6a78f08c76ee04cb20495a7c484.bindPopup(popup_8abc3accbfe4f13df40415a7a968f33b)
+        ;
+
+        
+    
+    
+            marker_f756b6a78f08c76ee04cb20495a7c484.bindTooltip(
+                `<div>
+                     정릉힐스테이트3차 · 7.6억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f756b6a78f08c76ee04cb20495a7c484.setIcon(icon_1b3c6709751cbaa6d7a836b01059ccd7);
+            
+    
+            var marker_86d91d5738185addf55b347f10644d14 = L.marker(
+                [37.604853, 127.017449],
+                {
+}
+            ).addTo(feature_group_b7905939b2f478c2b007b08d3e79d8c7);
+        
+    
+            var icon_551fe5df7cc54102f783e9be9c33c369 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99e19ea8166bd3bf73a48c0c5d5acc0e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_84f82ee36a825af0e2670e7326a1fc53 = $(`<div id="html_84f82ee36a825af0e2670e7326a1fc53" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         길음뉴타운경남아너스빌       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #31 · 성북_길음장위 · 860세대 · 1999년 · 점수 61.2       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+14.4%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+16.8%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>39분 / 71분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/586' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_99e19ea8166bd3bf73a48c0c5d5acc0e.setContent(html_84f82ee36a825af0e2670e7326a1fc53);
+            
+        
+
+        marker_86d91d5738185addf55b347f10644d14.bindPopup(popup_99e19ea8166bd3bf73a48c0c5d5acc0e)
+        ;
+
+        
+    
+    
+            marker_86d91d5738185addf55b347f10644d14.bindTooltip(
+                `<div>
+                     길음뉴타운경남아너스빌 · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_86d91d5738185addf55b347f10644d14.setIcon(icon_551fe5df7cc54102f783e9be9c33c369);
+            
+    
+            feature_group_b7905939b2f478c2b007b08d3e79d8c7.addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+        
+    
+            var feature_group_ddcd63a90ec033f32a6543e46bd0e044 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_8aa7476c307cdda8d02bf37114735fd0 = L.marker(
+                [37.607917, 127.045737],
+                {
+}
+            ).addTo(feature_group_ddcd63a90ec033f32a6543e46bd0e044);
+        
+    
+            var icon_1e83c6c21f0b8be1058a94e7cd9da053 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4fe71bf2c1f8c708076b7ccf2ca512f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_6da56437d575d02b0a44d32a221a76b7 = $(`<div id="html_6da56437d575d02b0a44d32a221a76b7" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         동아에코빌       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #8 · 성북_길음장위 · 1253세대 · 2003년 · 점수 67.0       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.9억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+3.0%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+31.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>34분 / 73분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/3425' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_a4fe71bf2c1f8c708076b7ccf2ca512f.setContent(html_6da56437d575d02b0a44d32a221a76b7);
+            
+        
+
+        marker_8aa7476c307cdda8d02bf37114735fd0.bindPopup(popup_a4fe71bf2c1f8c708076b7ccf2ca512f)
+        ;
+
+        
+    
+    
+            marker_8aa7476c307cdda8d02bf37114735fd0.bindTooltip(
+                `<div>
+                     동아에코빌 · 7.9억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8aa7476c307cdda8d02bf37114735fd0.setIcon(icon_1e83c6c21f0b8be1058a94e7cd9da053);
+            
+    
+            var marker_38a459d73c180a3431b358e8c3bf8f36 = L.marker(
+                [37.599963, 127.019577],
+                {
+}
+            ).addTo(feature_group_ddcd63a90ec033f32a6543e46bd0e044);
+        
+    
+            var icon_edaaefe664156f93751ae9e2854c5de6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8d37b5995483eee15bc3a71a12bde00 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_439b7ba39cdaa27457b8c9c0f2368d8b = $(`<div id="html_439b7ba39cdaa27457b8c9c0f2368d8b" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         정릉e-편한세상2차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #9 · 성북_길음장위 · 527세대 · 2009년 · 점수 66.8       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.3억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>-8.9%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+51.8%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>37분 / 72분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/25782' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_c8d37b5995483eee15bc3a71a12bde00.setContent(html_439b7ba39cdaa27457b8c9c0f2368d8b);
+            
+        
+
+        marker_38a459d73c180a3431b358e8c3bf8f36.bindPopup(popup_c8d37b5995483eee15bc3a71a12bde00)
+        ;
+
+        
+    
+    
+            marker_38a459d73c180a3431b358e8c3bf8f36.bindTooltip(
+                `<div>
+                     정릉e-편한세상2차 · 8.3억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_38a459d73c180a3431b358e8c3bf8f36.setIcon(icon_edaaefe664156f93751ae9e2854c5de6);
+            
+    
+            var marker_5b3c87ba329f8de3fb3cb951870e48d8 = L.marker(
+                [37.59726, 127.082394],
+                {
+}
+            ).addTo(feature_group_ddcd63a90ec033f32a6543e46bd0e044);
+        
+    
+            var icon_1d7f8b06978a1b9e0263f29a14492c0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dce4473b22bb657d769ef943adbee8ec = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_42863b30aba9826d85e12c2f22a9737d = $(`<div id="html_42863b30aba9826d85e12c2f22a9737d" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         ⭐ 한신       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #14 · 동대문_청량리회기 · 960세대 · 1997년 · 점수 63.8       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+4.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>-9.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>25분 / 67분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/1128' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_dce4473b22bb657d769ef943adbee8ec.setContent(html_42863b30aba9826d85e12c2f22a9737d);
+            
+        
+
+        marker_5b3c87ba329f8de3fb3cb951870e48d8.bindPopup(popup_dce4473b22bb657d769ef943adbee8ec)
+        ;
+
+        
+    
+    
+            marker_5b3c87ba329f8de3fb3cb951870e48d8.bindTooltip(
+                `<div>
+                     ⭐ 한신 · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b3c87ba329f8de3fb3cb951870e48d8.setIcon(icon_1d7f8b06978a1b9e0263f29a14492c0b);
+            
+    
+            var marker_0c91ad079d16213352b86286fab762d1 = L.marker(
+                [37.59726, 127.082394],
+                {
+}
+            ).addTo(feature_group_ddcd63a90ec033f32a6543e46bd0e044);
+        
+    
+            var icon_f24b4f00445638da4df7f6e06bfba5e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_25c1b3f0b6bf6280fdbb03cdb6c2ed60 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_38bbb62f6a9c7983347558172682ac41 = $(`<div id="html_38bbb62f6a9c7983347558172682ac41" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         ⭐ 한신       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #18 · 동대문_청량리회기 · 960세대 · 1997년 · 점수 63.8       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.6억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>+4.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>-9.1%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>25분 / 67분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/1128' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_25c1b3f0b6bf6280fdbb03cdb6c2ed60.setContent(html_38bbb62f6a9c7983347558172682ac41);
+            
+        
+
+        marker_0c91ad079d16213352b86286fab762d1.bindPopup(popup_25c1b3f0b6bf6280fdbb03cdb6c2ed60)
+        ;
+
+        
+    
+    
+            marker_0c91ad079d16213352b86286fab762d1.bindTooltip(
+                `<div>
+                     ⭐ 한신 · 10.6억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0c91ad079d16213352b86286fab762d1.setIcon(icon_f24b4f00445638da4df7f6e06bfba5e6);
+            
+    
+            var marker_1571dc45c365922c93d91a45b81ba72f = L.marker(
+                [37.600966, 127.029711],
+                {
+}
+            ).addTo(feature_group_ddcd63a90ec033f32a6543e46bd0e044);
+        
+    
+            var icon_eb0a6d8871bc1fc7a6a3154f8a60080b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_932cd2bac164095c21bc11499bc71de0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_49e5d7fd3dcb0c190231f4aa3e58d770 = $(`<div id="html_49e5d7fd3dcb0c190231f4aa3e58d770" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         래미안크리시엘       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #20 · 성북_길음장위 · 1168세대 · 2004년 · 점수 63.6       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.5억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.5억 (60㎡, 35건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>-0.9%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+47.2%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>31분 / 68분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/3006' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_932cd2bac164095c21bc11499bc71de0.setContent(html_49e5d7fd3dcb0c190231f4aa3e58d770);
+            
+        
+
+        marker_1571dc45c365922c93d91a45b81ba72f.bindPopup(popup_932cd2bac164095c21bc11499bc71de0)
+        ;
+
+        
+    
+    
+            marker_1571dc45c365922c93d91a45b81ba72f.bindTooltip(
+                `<div>
+                     래미안크리시엘 · 10.5억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1571dc45c365922c93d91a45b81ba72f.setIcon(icon_eb0a6d8871bc1fc7a6a3154f8a60080b);
+            
+    
+            var marker_775eeb8db60194e159f1c7e55cb7e497 = L.marker(
+                [37.615328, 127.010155],
+                {
+}
+            ).addTo(feature_group_ddcd63a90ec033f32a6543e46bd0e044);
+        
+    
+            var icon_66d028d4c2ee73d6db4460929ad1efa1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b659ae705a8ace9f62c9fe774e8b4b1c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_91e538e6e1428734a89260133bf1ee46 = $(`<div id="html_91e538e6e1428734a89260133bf1ee46" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         정릉e-편한세상1차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #22 · 성북_길음장위 · 739세대 · 2006년 · 점수 62.7       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.2억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>-8.9%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+31.7%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>46분 / 73분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/8596' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_b659ae705a8ace9f62c9fe774e8b4b1c.setContent(html_91e538e6e1428734a89260133bf1ee46);
+            
+        
+
+        marker_775eeb8db60194e159f1c7e55cb7e497.bindPopup(popup_b659ae705a8ace9f62c9fe774e8b4b1c)
+        ;
+
+        
+    
+    
+            marker_775eeb8db60194e159f1c7e55cb7e497.bindTooltip(
+                `<div>
+                     정릉e-편한세상1차 · 7.2억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_775eeb8db60194e159f1c7e55cb7e497.setIcon(icon_66d028d4c2ee73d6db4460929ad1efa1);
+            
+    
+            var marker_246c6ae28d4ecb77d6585d38f3b31c4c = L.marker(
+                [37.653296, 127.076617],
+                {
+}
+            ).addTo(feature_group_ddcd63a90ec033f32a6543e46bd0e044);
+        
+    
+            var icon_6ce0d8dda195afd0dc8574fd2a8261ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58a00bd669a4cf6a5ec9e09a388749a8 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_cafcd392e001ca491496388f887274df = $(`<div id="html_cafcd392e001ca491496388f887274df" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         중계주공5단지       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #36 · 노원_상계 · 2328세대 · 1992년 · 점수 57.2       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.5억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>-1.0%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>+49.8%</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>57분 / 90분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/245' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_58a00bd669a4cf6a5ec9e09a388749a8.setContent(html_cafcd392e001ca491496388f887274df);
+            
+        
+
+        marker_246c6ae28d4ecb77d6585d38f3b31c4c.bindPopup(popup_58a00bd669a4cf6a5ec9e09a388749a8)
+        ;
+
+        
+    
+    
+            marker_246c6ae28d4ecb77d6585d38f3b31c4c.bindTooltip(
+                `<div>
+                     중계주공5단지 · 7.5억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_246c6ae28d4ecb77d6585d38f3b31c4c.setIcon(icon_6ce0d8dda195afd0dc8574fd2a8261ab);
+            
+    
+            feature_group_ddcd63a90ec033f32a6543e46bd0e044.addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+        
+    
+            var feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_707d5fa47c879569be50fd46a98166ac = L.marker(
+                [37.594958, 127.010493],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_7e9e3397928671fff7237c93a1b7de3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e96ea347341e99da9f9be24020eb4332 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_33f36c093fec77a878da502a4f8f8c5b = $(`<div id="html_33f36c093fec77a878da502a4f8f8c5b" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         한신,한진       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         성북_길음장위 · 4509세대 · 1998년 · 점수 72.2       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>32분 / 67분</td></tr>       </table>       <div style='color:#666;font-size:11px;margin-top:4px;'>4509세대 메가단지, 28년차 재건축 잠재 + 4호선/동북선. 구축 거주 만족도 검증 필요.</div>       <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/582' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_e96ea347341e99da9f9be24020eb4332.setContent(html_33f36c093fec77a878da502a4f8f8c5b);
+            
+        
+
+        marker_707d5fa47c879569be50fd46a98166ac.bindPopup(popup_e96ea347341e99da9f9be24020eb4332)
+        ;
+
+        
+    
+    
+            marker_707d5fa47c879569be50fd46a98166ac.bindTooltip(
+                `<div>
+                     한신,한진 · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_707d5fa47c879569be50fd46a98166ac.setIcon(icon_7e9e3397928671fff7237c93a1b7de3b);
+            
+    
+            var marker_0b55e3dbd5c43586de6e17d4e2136154 = L.marker(
+                [37.597991, 127.01761],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_30a532863af411c2aa3be377f653fad9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ec77c9244edd317c60f8313d562b30a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_c0f4eb08f2a61cb4ddeeff607b6e5fa5 = $(`<div id="html_c0f4eb08f2a61cb4ddeeff607b6e5fa5" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         돈암브라운스톤       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         성북_길음장위 · 1074세대 · 2004년 · 점수 70.6       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.8억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>38분 / 68분</td></tr>       </table>       <div style='color:#666;font-size:11px;margin-top:4px;'>성신여대입구/길음 라인, 초품아 129m. 22년차 리모델링 잠재.</div>       <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/9348' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_0ec77c9244edd317c60f8313d562b30a.setContent(html_c0f4eb08f2a61cb4ddeeff607b6e5fa5);
+            
+        
+
+        marker_0b55e3dbd5c43586de6e17d4e2136154.bindPopup(popup_0ec77c9244edd317c60f8313d562b30a)
+        ;
+
+        
+    
+    
+            marker_0b55e3dbd5c43586de6e17d4e2136154.bindTooltip(
+                `<div>
+                     돈암브라운스톤 · 8.8억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0b55e3dbd5c43586de6e17d4e2136154.setIcon(icon_30a532863af411c2aa3be377f653fad9);
+            
+    
+            var marker_792865d82e65d0a3e44bb7f4886f4304 = L.marker(
+                [37.591148, 126.92362],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_7601f309dc6901872e662ceee5cd9f07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99581f3c8d17a18ccd2c83d0313af57f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_2cbc2687b26f88ccc1a3bbc5130da59c = $(`<div id="html_2cbc2687b26f88ccc1a3bbc5130da59c" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         백련산힐스테이트2차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #7 · 은평_녹번 · 1148세대 · 2011년 · 점수 67.8       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.4억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.5억 (60㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>50분 / 80분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/27502' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_99581f3c8d17a18ccd2c83d0313af57f.setContent(html_2cbc2687b26f88ccc1a3bbc5130da59c);
+            
+        
+
+        marker_792865d82e65d0a3e44bb7f4886f4304.bindPopup(popup_99581f3c8d17a18ccd2c83d0313af57f)
+        ;
+
+        
+    
+    
+            marker_792865d82e65d0a3e44bb7f4886f4304.bindTooltip(
+                `<div>
+                     백련산힐스테이트2차 · 8.4억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_792865d82e65d0a3e44bb7f4886f4304.setIcon(icon_7601f309dc6901872e662ceee5cd9f07);
+            
+    
+            var marker_7a912fb649d53b76181a3eb4c66b8c3c = L.marker(
+                [37.569637, 127.059867],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_c430658b1992c159d1bbe971d5e14f6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8477b378a26eede31683410bb4fb26db = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_18a62bae24aa31c3f7bb70c8f9c6143b = $(`<div id="html_18a62bae24aa31c3f7bb70c8f9c6143b" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         ⭐ 두산       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #11 · 구로_개봉 · 561세대 · 2000년 · 점수 66.2       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.5억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>8.9억 (60㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>23분 / 75분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/113' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_8477b378a26eede31683410bb4fb26db.setContent(html_18a62bae24aa31c3f7bb70c8f9c6143b);
+            
+        
+
+        marker_7a912fb649d53b76181a3eb4c66b8c3c.bindPopup(popup_8477b378a26eede31683410bb4fb26db)
+        ;
+
+        
+    
+    
+            marker_7a912fb649d53b76181a3eb4c66b8c3c.bindTooltip(
+                `<div>
+                     ⭐ 두산 · 10.5억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7a912fb649d53b76181a3eb4c66b8c3c.setIcon(icon_c430658b1992c159d1bbe971d5e14f6b);
+            
+    
+            var marker_03f92d34a245c649c923237631da492c = L.marker(
+                [37.570971, 127.021134],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_038c20419271d2d292cd0969affbabcb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a25a107a33c0f1c1196cb20ba4c05ac = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_f385ee8b99623b59e739d35a6d95e80b = $(`<div id="html_f385ee8b99623b59e739d35a6d95e80b" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         롯데캐슬베네치아       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #12 · ? · None세대 · None년 · 점수 ?       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.7억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>?분 / ?분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/24845' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_3a25a107a33c0f1c1196cb20ba4c05ac.setContent(html_f385ee8b99623b59e739d35a6d95e80b);
+            
+        
+
+        marker_03f92d34a245c649c923237631da492c.bindPopup(popup_3a25a107a33c0f1c1196cb20ba4c05ac)
+        ;
+
+        
+    
+    
+            marker_03f92d34a245c649c923237631da492c.bindTooltip(
+                `<div>
+                     롯데캐슬베네치아 · 10.7억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_03f92d34a245c649c923237631da492c.setIcon(icon_038c20419271d2d292cd0969affbabcb);
+            
+    
+            var marker_26fcf5eba192586630c533ef02abb421 = L.marker(
+                [37.490479, 126.950561],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_7261c8b433170b6f439f7b0f36fb9197 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b310773abcc063aa871d9fd9916d23a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_79dde3d2ac0c5277fd0a4d94a88f0ed4 = $(`<div id="html_79dde3d2ac0c5277fd0a4d94a88f0ed4" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         관악드림타운       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #13 · 관악_봉천신림 · 3544세대 · 2003년 · 점수 65.7       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>11.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>48분 / 51분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/2987' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_2b310773abcc063aa871d9fd9916d23a.setContent(html_79dde3d2ac0c5277fd0a4d94a88f0ed4);
+            
+        
+
+        marker_26fcf5eba192586630c533ef02abb421.bindPopup(popup_2b310773abcc063aa871d9fd9916d23a)
+        ;
+
+        
+    
+    
+            marker_26fcf5eba192586630c533ef02abb421.bindTooltip(
+                `<div>
+                     관악드림타운 · 11.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_26fcf5eba192586630c533ef02abb421.setIcon(icon_7261c8b433170b6f439f7b0f36fb9197);
+            
+    
+            var marker_cd6cbcf6cc6b7e84ed6feda5cd2a37ea = L.marker(
+                [37.574254, 127.075159],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_e586988a32445c882bb991612ddb1b89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4e8750092e700714137080a1c696800 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_207783fbc000e004a164947658bce73f = $(`<div id="html_207783fbc000e004a164947658bce73f" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         장안래미안2차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #15 · 중랑_면목망우 · 1786세대 · 2007년 · 점수 65.2       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.3억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>31분 / 80분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/8802' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_d4e8750092e700714137080a1c696800.setContent(html_207783fbc000e004a164947658bce73f);
+            
+        
+
+        marker_cd6cbcf6cc6b7e84ed6feda5cd2a37ea.bindPopup(popup_d4e8750092e700714137080a1c696800)
+        ;
+
+        
+    
+    
+            marker_cd6cbcf6cc6b7e84ed6feda5cd2a37ea.bindTooltip(
+                `<div>
+                     장안래미안2차 · 10.3억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd6cbcf6cc6b7e84ed6feda5cd2a37ea.setIcon(icon_e586988a32445c882bb991612ddb1b89);
+            
+    
+            var marker_c9a67b964384fdd27cc3f84398d8872e = L.marker(
+                [37.482834, 126.961341],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_29c23cf4d853172a97db32fcad1298bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_502b2646a32a01f69cb6b45aeafd788b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b1225a9451f1e01e1c2e126be695b49d = $(`<div id="html_b1225a9451f1e01e1c2e126be695b49d" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         관악파크푸르지오       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #19 · 동작_사당이수 · 363세대 · 2014년 · 점수 63.7       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.7억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>8.0억 (60㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>51분 / 34분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/107439' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_502b2646a32a01f69cb6b45aeafd788b.setContent(html_b1225a9451f1e01e1c2e126be695b49d);
+            
+        
+
+        marker_c9a67b964384fdd27cc3f84398d8872e.bindPopup(popup_502b2646a32a01f69cb6b45aeafd788b)
+        ;
+
+        
+    
+    
+            marker_c9a67b964384fdd27cc3f84398d8872e.bindTooltip(
+                `<div>
+                     관악파크푸르지오 · 10.7억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c9a67b964384fdd27cc3f84398d8872e.setIcon(icon_29c23cf4d853172a97db32fcad1298bf);
+            
+    
+            var marker_6f0eb1037a9eda931024fce4e8706986 = L.marker(
+                [37.590182, 126.937794],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_9aa68dffd5feb7eee3990f3811746149 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9011ec1906dfa09a5d84ed1c07610cc8 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_5f7fbc99f203684c62bcb09ebdfa202a = $(`<div id="html_5f7fbc99f203684c62bcb09ebdfa202a" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         현대       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #24 · 관악_봉천신림 · 2134세대 · 1988년 · 점수 59.3       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>9.8억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>8.6억 (63㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>44분 / 70분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/45' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_9011ec1906dfa09a5d84ed1c07610cc8.setContent(html_5f7fbc99f203684c62bcb09ebdfa202a);
+            
+        
+
+        marker_6f0eb1037a9eda931024fce4e8706986.bindPopup(popup_9011ec1906dfa09a5d84ed1c07610cc8)
+        ;
+
+        
+    
+    
+            marker_6f0eb1037a9eda931024fce4e8706986.bindTooltip(
+                `<div>
+                     현대 · 9.8억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f0eb1037a9eda931024fce4e8706986.setIcon(icon_9aa68dffd5feb7eee3990f3811746149);
+            
+    
+            var marker_9927b63e8137652b6b59a351e1406758 = L.marker(
+                [37.592015, 126.925346],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_911e1bb7734d15fc4219a49c182bbc33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f8fe2130861793cf7a31e414b71d69a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_6e86c47431397dd041ef61b2694b0ffd = $(`<div id="html_6e86c47431397dd041ef61b2694b0ffd" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         백련산힐스테이트1차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #25 · 은평_녹번 · 1106세대 · 2011년 · 점수 62.7       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.3억 (60㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>58분 / 82분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/27501' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_7f8fe2130861793cf7a31e414b71d69a.setContent(html_6e86c47431397dd041ef61b2694b0ffd);
+            
+        
+
+        marker_9927b63e8137652b6b59a351e1406758.bindPopup(popup_7f8fe2130861793cf7a31e414b71d69a)
+        ;
+
+        
+    
+    
+            marker_9927b63e8137652b6b59a351e1406758.bindTooltip(
+                `<div>
+                     백련산힐스테이트1차 · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9927b63e8137652b6b59a351e1406758.setIcon(icon_911e1bb7734d15fc4219a49c182bbc33);
+            
+    
+            var marker_cf1853b560f9889912ad49126e969b18 = L.marker(
+                [37.595278, 126.944471],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_997c9845ab814456a69f82066ccab6ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3830379cc66e1065299707c014f2cf45 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3cc4f985f6fb5bddf11f3d28f251384c = $(`<div id="html_3cc4f985f6fb5bddf11f3d28f251384c" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         홍은벽산       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #26 · 은평_녹번 · 1509세대 · 1997년 · 점수 62.5       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>42분 / 71분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/432' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_3830379cc66e1065299707c014f2cf45.setContent(html_3cc4f985f6fb5bddf11f3d28f251384c);
+            
+        
+
+        marker_cf1853b560f9889912ad49126e969b18.bindPopup(popup_3830379cc66e1065299707c014f2cf45)
+        ;
+
+        
+    
+    
+            marker_cf1853b560f9889912ad49126e969b18.bindTooltip(
+                `<div>
+                     홍은벽산 · 7.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cf1853b560f9889912ad49126e969b18.setIcon(icon_997c9845ab814456a69f82066ccab6ff);
+            
+    
+            var marker_47f7c6997fea4b0bde1a9b5a7e552582 = L.marker(
+                [37.613215, 127.020411],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_70e39866c9bfae56c46219fe6949fece = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cca58aa5aef2b1395bc5e75a7f5d7da1 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_a75979589e129df9177c1aa4900b1415 = $(`<div id="html_a75979589e129df9177c1aa4900b1415" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         래미안트리베라1차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #27 · 성북_길음장위 · 1247세대 · 2010년 · 점수 62.4       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.1억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>46분 / 73분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/25971' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_cca58aa5aef2b1395bc5e75a7f5d7da1.setContent(html_a75979589e129df9177c1aa4900b1415);
+            
+        
+
+        marker_47f7c6997fea4b0bde1a9b5a7e552582.bindPopup(popup_cca58aa5aef2b1395bc5e75a7f5d7da1)
+        ;
+
+        
+    
+    
+            marker_47f7c6997fea4b0bde1a9b5a7e552582.bindTooltip(
+                `<div>
+                     래미안트리베라1차 · 10.1억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_47f7c6997fea4b0bde1a9b5a7e552582.setIcon(icon_70e39866c9bfae56c46219fe6949fece);
+            
+    
+            var marker_6a3edf34e505355fcd4b66bf9e7d44e8 = L.marker(
+                [37.489795, 126.955715],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_ded6a9cbd42f853760bd55addf6f04d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58080b07b2850c964543ec96ed2b1b36 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_59da8e6262e61a2170674537b24d571b = $(`<div id="html_59da8e6262e61a2170674537b24d571b" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         성현동아       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #29 · 동작_사당이수 · 1261세대 · 2000년 · 점수 61.6       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.8억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>46분 / 39분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/1045' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_58080b07b2850c964543ec96ed2b1b36.setContent(html_59da8e6262e61a2170674537b24d571b);
+            
+        
+
+        marker_6a3edf34e505355fcd4b66bf9e7d44e8.bindPopup(popup_58080b07b2850c964543ec96ed2b1b36)
+        ;
+
+        
+    
+    
+            marker_6a3edf34e505355fcd4b66bf9e7d44e8.bindTooltip(
+                `<div>
+                     성현동아 · 10.8억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6a3edf34e505355fcd4b66bf9e7d44e8.setIcon(icon_ded6a9cbd42f853760bd55addf6f04d7);
+            
+    
+            var marker_775ce3f482a541af5e0173b47c6cc388 = L.marker(
+                [37.601544, 127.036532],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_41da4b1a4fffea144170ec8f3400fd29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a25e11dd361f0094158bfef78912611 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_26afa56d1e711092f6b44d428d8272a3 = $(`<div id="html_26afa56d1e711092f6b44d428d8272a3" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         종암SK       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #30 · 성북_길음장위 · 1318세대 · 1999년 · 점수 61.6       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>34분 / 73분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/1191' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_8a25e11dd361f0094158bfef78912611.setContent(html_26afa56d1e711092f6b44d428d8272a3);
+            
+        
+
+        marker_775ce3f482a541af5e0173b47c6cc388.bindPopup(popup_8a25e11dd361f0094158bfef78912611)
+        ;
+
+        
+    
+    
+            marker_775ce3f482a541af5e0173b47c6cc388.bindTooltip(
+                `<div>
+                     종암SK · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_775ce3f482a541af5e0173b47c6cc388.setIcon(icon_41da4b1a4fffea144170ec8f3400fd29);
+            
+    
+            var marker_0629e598744c02711d50c68b5fa77354 = L.marker(
+                [37.475527, 126.932093],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_c9c8cf689b94aa726704c61f336820e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21f1bc0ad3fb0ce4d17231ab3d78732c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_0ced550006ac33fdbcab2d8ec301a802 = $(`<div id="html_0ced550006ac33fdbcab2d8ec301a802" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         신림현대       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #32 · 관악_봉천신림 · 1634세대 · 1993년 · 점수 61.1       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.6억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.2억 (82㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>64분 / 50분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/58' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_21f1bc0ad3fb0ce4d17231ab3d78732c.setContent(html_0ced550006ac33fdbcab2d8ec301a802);
+            
+        
+
+        marker_0629e598744c02711d50c68b5fa77354.bindPopup(popup_21f1bc0ad3fb0ce4d17231ab3d78732c)
+        ;
+
+        
+    
+    
+            marker_0629e598744c02711d50c68b5fa77354.bindTooltip(
+                `<div>
+                     신림현대 · 7.6억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0629e598744c02711d50c68b5fa77354.setIcon(icon_c9c8cf689b94aa726704c61f336820e7);
+            
+    
+            var marker_a34983255626ab2058e1fc5de90b8969 = L.marker(
+                [37.485423, 126.959587],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_e29430056839e46ca0f0be868a4df2ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7138cef1b7790a1545a85e68f27ba73b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1df5e0fff78b8879a2fe7d8f7bc25f5e = $(`<div id="html_1df5e0fff78b8879a2fe7d8f7bc25f5e" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         관악우성       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #33 · 관악_봉천신림 · 1597세대 · 2000년 · 점수 60.4       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.8억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>55분 / 43분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/1048' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_7138cef1b7790a1545a85e68f27ba73b.setContent(html_1df5e0fff78b8879a2fe7d8f7bc25f5e);
+            
+        
+
+        marker_a34983255626ab2058e1fc5de90b8969.bindPopup(popup_7138cef1b7790a1545a85e68f27ba73b)
+        ;
+
+        
+    
+    
+            marker_a34983255626ab2058e1fc5de90b8969.bindTooltip(
+                `<div>
+                     관악우성 · 8.8억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a34983255626ab2058e1fc5de90b8969.setIcon(icon_e29430056839e46ca0f0be868a4df2ca);
+            
+    
+            var marker_a19f9d01774fa61fb89e8471b2f6a646 = L.marker(
+                [37.590182, 126.937794],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_7f3d9fdb696b1fcae517ee3690b66fce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e5fe9b2fa7989cf484c7069aca6bb53 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b93f24c322c2c9218d60ff81eeae082a = $(`<div id="html_b93f24c322c2c9218d60ff81eeae082a" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         현대       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #34 · 관악_봉천신림 · 2134세대 · 1988년 · 점수 59.3       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.2억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>8.6억 (63㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>44분 / 70분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/45' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_6e5fe9b2fa7989cf484c7069aca6bb53.setContent(html_b93f24c322c2c9218d60ff81eeae082a);
+            
+        
+
+        marker_a19f9d01774fa61fb89e8471b2f6a646.bindPopup(popup_6e5fe9b2fa7989cf484c7069aca6bb53)
+        ;
+
+        
+    
+    
+            marker_a19f9d01774fa61fb89e8471b2f6a646.bindTooltip(
+                `<div>
+                     현대 · 7.2억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a19f9d01774fa61fb89e8471b2f6a646.setIcon(icon_7f3d9fdb696b1fcae517ee3690b66fce);
+            
+    
+            var marker_068068b8f3daeac36597332ae7d4a1fa = L.marker(
+                [37.48952, 126.945056],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_c33e0868083356d5ca7f58522006846f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec703d67faadfdb98e7722f7eb7b2a74 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_e3a0971192b92b8062e2d076c07f2448 = $(`<div id="html_e3a0971192b92b8062e2d076c07f2448" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         벽산블루밍1차       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #35 · 관악_봉천신림 · 2105세대 · 2005년 · 점수 57.9       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>9.4억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>54분 / 45분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/2986' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_ec703d67faadfdb98e7722f7eb7b2a74.setContent(html_e3a0971192b92b8062e2d076c07f2448);
+            
+        
+
+        marker_068068b8f3daeac36597332ae7d4a1fa.bindPopup(popup_ec703d67faadfdb98e7722f7eb7b2a74)
+        ;
+
+        
+    
+    
+            marker_068068b8f3daeac36597332ae7d4a1fa.bindTooltip(
+                `<div>
+                     벽산블루밍1차 · 9.4억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_068068b8f3daeac36597332ae7d4a1fa.setIcon(icon_c33e0868083356d5ca7f58522006846f);
+            
+    
+            var marker_de94c09f7f59839c3825bbcbf29015fa = L.marker(
+                [37.574897, 127.059574],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_503654970efe3d9372687acefd70497a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ff4487e2cccf78c3c51e3047a52394b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_66e4b1057fccbeb54c716994cf4a41b2 = $(`<div id="html_66e4b1057fccbeb54c716994cf4a41b2" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         ⭐ 답십리청솔우성       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #37 · 중랑_면목망우 · 1542세대 · 2000년 · 점수 56.5       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>10.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>7.2억 (60㎡, 0건)</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>26분 / 81분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/3273' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_8ff4487e2cccf78c3c51e3047a52394b.setContent(html_66e4b1057fccbeb54c716994cf4a41b2);
+            
+        
+
+        marker_de94c09f7f59839c3825bbcbf29015fa.bindPopup(popup_8ff4487e2cccf78c3c51e3047a52394b)
+        ;
+
+        
+    
+    
+            marker_de94c09f7f59839c3825bbcbf29015fa.bindTooltip(
+                `<div>
+                     ⭐ 답십리청솔우성 · 10.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de94c09f7f59839c3825bbcbf29015fa.setIcon(icon_503654970efe3d9372687acefd70497a);
+            
+    
+            var marker_d6a11effb2b7f95d64791fd30f7fca2b = L.marker(
+                [37.574716, 126.920478],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_065a784fa4d2147f3f783360ec51128f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abaa0325270ee100e055d67c9fd145c9 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_99cc82cbe97ed5c791b648564503345d = $(`<div id="html_99cc82cbe97ed5c791b648564503345d" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         남가좌현대       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #38 · 서대문_홍은남가좌 · 1155세대 · 1999년 · 점수 55.0       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.8억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>50분 / 75분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/848' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_abaa0325270ee100e055d67c9fd145c9.setContent(html_99cc82cbe97ed5c791b648564503345d);
+            
+        
+
+        marker_d6a11effb2b7f95d64791fd30f7fca2b.bindPopup(popup_abaa0325270ee100e055d67c9fd145c9)
+        ;
+
+        
+    
+    
+            marker_d6a11effb2b7f95d64791fd30f7fca2b.bindTooltip(
+                `<div>
+                     남가좌현대 · 8.8억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d6a11effb2b7f95d64791fd30f7fca2b.setIcon(icon_065a784fa4d2147f3f783360ec51128f);
+            
+    
+            var marker_93ee195723c960118d0898b7ffed85a9 = L.marker(
+                [37.57728, 127.06477],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_ff3709ae2d97c9ad6a616dd811332b77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a93586d4eeed486e335d91314f541e91 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_66780f066f4a688fd6bde97053da58de = $(`<div id="html_66780f066f4a688fd6bde97053da58de" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         ⭐ 전농우성       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #39 · 중랑_면목망우 · 1234세대 · 1992년 · 점수 53.0       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>30분 / 77분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/346' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_a93586d4eeed486e335d91314f541e91.setContent(html_66780f066f4a688fd6bde97053da58de);
+            
+        
+
+        marker_93ee195723c960118d0898b7ffed85a9.bindPopup(popup_a93586d4eeed486e335d91314f541e91)
+        ;
+
+        
+    
+    
+            marker_93ee195723c960118d0898b7ffed85a9.bindTooltip(
+                `<div>
+                     ⭐ 전농우성 · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_93ee195723c960118d0898b7ffed85a9.setIcon(icon_ff3709ae2d97c9ad6a616dd811332b77);
+            
+    
+            var marker_8f67df3e0c517e89f312f806192e39a5 = L.marker(
+                [37.480778, 126.928852],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_6a73d933d4163199c926588af54f42bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c21719a98d9d61fc46b0d4559b32b85 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_0bb5be9f1306af17c435f0a8bba28d8c = $(`<div id="html_0bb5be9f1306af17c435f0a8bba28d8c" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         신림동부       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #40 · 관악_봉천신림 · 592세대 · 1993년 · 점수 51.6       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>8.0억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>53분 / 41분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/63' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_8c21719a98d9d61fc46b0d4559b32b85.setContent(html_0bb5be9f1306af17c435f0a8bba28d8c);
+            
+        
+
+        marker_8f67df3e0c517e89f312f806192e39a5.bindPopup(popup_8c21719a98d9d61fc46b0d4559b32b85)
+        ;
+
+        
+    
+    
+            marker_8f67df3e0c517e89f312f806192e39a5.bindTooltip(
+                `<div>
+                     신림동부 · 8.0억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8f67df3e0c517e89f312f806192e39a5.setIcon(icon_6a73d933d4163199c926588af54f42bd);
+            
+    
+            var marker_4de0305a433cd8c0c075c3e11bc21d40 = L.marker(
+                [37.586667, 126.900355],
+                {
+}
+            ).addTo(feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1);
+        
+    
+            var icon_42be40ef7fe57cabef5d842b069d0be6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e69634b3f21ded8856c470c5bbfa7a6b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_43aa36151d3bdae0087b538f2e60cced = $(`<div id="html_43aa36151d3bdae0087b538f2e60cced" style="width: 100.0%; height: 100.0%;">     <div style='font-family:-apple-system,sans-serif;font-size:13px;width:280px;'>       <div style='font-size:15px;font-weight:bold;margin-bottom:6px;'>         e편한세상수색에코포레       </div>       <div style='color:#888;font-size:11px;margin-bottom:8px;'>         #41 · 마포_상암 · 976세대 · 2003년 · 점수 50.0       </div>       <table style='width:100%;border-collapse:collapse;font-size:12px;'>         <tr><td style='padding:2px 4px;color:#666;'>호가</td><td style='padding:2px 4px;text-align:right;font-weight:bold;'>7.4억</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>최근 실거래</td><td style='padding:2px 4px;text-align:right;'>확인 필요</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>6m 상승률</td><td style='padding:2px 4px;text-align:right;color:#222;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>호가-실거래갭</td><td style='padding:2px 4px;text-align:right;'>?</td></tr>         <tr><td style='padding:2px 4px;color:#666;'>왕십리 / 과천</td><td style='padding:2px 4px;text-align:right;'>55분 / 81분</td></tr>       </table>              <div style='margin-top:8px;'>         <a href='https://new.land.naver.com/complexes/3462' target='_blank' style='display:inline-block;padding:6px 12px;background:#03c75a;color:white;text-decoration:none;border-radius:4px;font-size:12px;'>네이버부동산에서 보기 →</a>       </div>     </div>     </div>`)[0];
+                popup_e69634b3f21ded8856c470c5bbfa7a6b.setContent(html_43aa36151d3bdae0087b538f2e60cced);
+            
+        
+
+        marker_4de0305a433cd8c0c075c3e11bc21d40.bindPopup(popup_e69634b3f21ded8856c470c5bbfa7a6b)
+        ;
+
+        
+    
+    
+            marker_4de0305a433cd8c0c075c3e11bc21d40.bindTooltip(
+                `<div>
+                     e편한세상수색에코포레 · 7.4억
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4de0305a433cd8c0c075c3e11bc21d40.setIcon(icon_42be40ef7fe57cabef5d842b069d0be6);
+            
+    
+            feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1.addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+        
+    
+            var layer_control_7243508c0fbb18357ed3cc18f88ed96a_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_019dea76cb5aad3b9d2d267054809f27,
+                },
+                overlays :  {
+                    "\ud83d\udd34 \uac70\ud488 \uac15\ud568 (+15% \uc774\uc0c1)" : feature_group_f18ec6c39d876047c62c477c471eda69,
+                    "\ud83d\udfe1 \uac70\ud488 \ubcf4\ud1b5 (+5~15%)" : feature_group_b7905939b2f478c2b007b08d3e79d8c7,
+                    "\ud83d\udfe2 \uc548\uc815/\ud558\ub77d (+5% \uc774\ud558)" : feature_group_ddcd63a90ec033f32a6543e46bd0e044,
+                    "\u26ab \uac70\ud488 \ub370\uc774\ud130 \uc5c6\uc74c" : feature_group_4fe09fd32b7d0ddc9c6dbf2e3d139cf1,
+                },
+            };
+            let layer_control_7243508c0fbb18357ed3cc18f88ed96a = L.control.layers(
+                layer_control_7243508c0fbb18357ed3cc18f88ed96a_layers.base_layers,
+                layer_control_7243508c0fbb18357ed3cc18f88ed96a_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_98b0e677e3d39cb0244c4b7d79f0c20f);
+
+        
+</script>
+</html>
