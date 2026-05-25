@@ -82,6 +82,22 @@
     "older_n": 75
   },
   {
+    "name": "미륭,미성,삼호3차",
+    "cno": "219",
+    "price_eok": 11.0,
+    "region": "노원_월계공릉",
+    "gu": "nowon",
+    "status": "ok",
+    "typical_area": 59.2,
+    "recent_ppm2": 1689,
+    "older_ppm2": 1452,
+    "asking_ppm2": 1857,
+    "run_up_pct": 16.3,
+    "asking_gap_pct": 10.0,
+    "recent_n": 20,
+    "older_n": 30
+  },
+  {
     "name": "백련산힐스테이트2차",
     "cno": "27502",
     "price_eok": 8.4,
