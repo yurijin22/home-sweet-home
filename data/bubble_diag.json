@@ -98,6 +98,58 @@
     "older_n": 30
   },
   {
+    "name": "상계주공9단지",
+    "cno": "206",
+    "price_eok": 6.8,
+    "region": "노원_상계",
+    "gu": "nowon",
+    "status": "no_data",
+    "reason": "no_trade_match"
+  },
+  {
+    "name": "상계주공7단지",
+    "cno": "921",
+    "price_eok": 7.4,
+    "region": "노원_상계",
+    "gu": "nowon",
+    "status": "ok",
+    "typical_area": 44.1,
+    "recent_ppm2": 873,
+    "older_ppm2": 882,
+    "asking_ppm2": 1678,
+    "run_up_pct": -1.0,
+    "asking_gap_pct": 92.2,
+    "recent_n": 17,
+    "older_n": 12
+  },
+  {
+    "name": "상계주공16단지",
+    "cno": "201",
+    "price_eok": 5.2,
+    "region": "도봉_방학",
+    "gu": "dobong",
+    "status": "no_data",
+    "reason": "no_trade_match"
+  },
+  {
+    "name": "상계주공12단지",
+    "cno": "197",
+    "price_eok": 6.5,
+    "region": "도봉_방학",
+    "gu": "dobong",
+    "status": "no_data",
+    "reason": "no_trade_match"
+  },
+  {
+    "name": "수유벽산1차",
+    "cno": "1344",
+    "price_eok": 5.0,
+    "region": "도봉_창동방학",
+    "gu": "dobong",
+    "status": "no_data",
+    "reason": "no_trade_match"
+  },
+  {
     "name": "백련산힐스테이트2차",
     "cno": "27502",
     "price_eok": 8.4,
