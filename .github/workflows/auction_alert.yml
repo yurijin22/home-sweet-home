@@ -53,15 +53,20 @@ jobs:
           echo "new=$NEW"  >> "$GITHUB_OUTPUT"
           echo "date=${DATE//_/-}" >> "$GITHUB_OUTPUT"
 
-      # ── 알림 1: 조건 충족 신건이 있을 때 → 이슈 생성 ──
-      - name: Issue — 신건 발견
+      # ── 신건 투자 추천 생성 (예상낙찰가 예측 + 예측 저장) ──
+      - name: 신건 투자 추천 + 예측 저장
+        run: |
+          python scripts/auction_intel.py --stamp "${{ steps.filter.outputs.date }}" | tee data/auction_reco.txt
+
+      # ── 알림 1: 조건 충족 신건이 있을 때 → 추천 이슈 생성 ──
+      - name: Issue — 신건 추천
         if: steps.filter.outputs.new != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
-            --title "[경매] 서울 신건 ${{ steps.filter.outputs.new }}건 — ${{ steps.filter.outputs.date }}" \
-            --body-file data/auction_digest.txt \
+            --title "[경매] 서울 신건 추천 ${{ steps.filter.outputs.new }}건 — ${{ steps.filter.outputs.date }}" \
+            --body-file data/auction_reco.txt \
             --assignee "${{ github.repository_owner }}"
 
       # ── 알림 2: 수집 0건 = IP차단/사이트개편 등 실패 가능성 경고 ──
@@ -94,6 +99,14 @@ jobs:
           python scripts/filter_auction_results.py | tee data/auction_results_digest.txt
           RNEW=$(python -c "import json; print(len(json.load(open('data/auction_results_new_${DATE}.json'))))" 2>/dev/null || echo 0)
           echo "rnew=$RNEW" >> "$GITHUB_OUTPUT"
+
+      # ── 예측 하네스 보정: 오늘 낙찰 실측 ↔ 과거 예측 대조 + k 갱신 ──
+      - name: 예측 보정 (낙찰 실측 대조)
+        run: |
+          echo "" >> data/auction_results_digest.txt
+          echo "---" >> data/auction_results_digest.txt
+          echo "### 🔧 예측 정확도" >> data/auction_results_digest.txt
+          python scripts/calibrate_auction.py --stamp "${{ steps.filter.outputs.date }}" | tee -a data/auction_results_digest.txt
 
       # ── 알림 3: 예산권 낙찰결과가 있을 때 → 이슈 생성 ──
       - name: Issue — 낙찰결과
@@ -133,11 +146,12 @@ jobs:
           PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/auction_results_archive.json
+          git add data/auction_results_archive.json data/auction_predictions.json \
+                  data/auction_calibration.jsonl data/auction_k.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "새 낙찰결과 없음 — 커밋 스킵"
           else
-            git commit -m "경매 낙찰결과 축적 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+            git commit -m "경매 데이터 축적(낙찰결과·예측·보정) $(TZ=Asia/Seoul date +%Y-%m-%d)"
             git push
           fi
 
