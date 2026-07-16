@@ -44,20 +44,16 @@ python scripts/filter_auction_new.py
 `.github/workflows/auction_alert.yml` 이 **매일 08:00 KST** 자동 실행:
 1. Playwright 설치 → `fetch_auction_seoul.py` 실접속 수집
 2. `filter_auction_new.py` 로 서울 신건 필터 → 다이제스트 생성
-3. **조건 충족 신건이 있으면 yuri.jin22@gmail.com 으로 이메일 발송**
-4. 수집 0건이면 "수집 실패 경고" 메일 (IP차단/사이트개편 감지용)
+3. **조건 충족 신건이 있으면 GitHub 이슈 자동 생성** (저장소 소유자에게 assign)
+4. 수집 0건이면 "수집 실패 경고" 이슈 (IP차단/사이트개편 감지용)
 5. 결과 JSON은 Actions artifact로 14일 보관
 
-### ⚙️ 최초 1회 설정 — 이메일 Secret 등록
-GitHub 저장소 → **Settings → Secrets and variables → Actions → New repository secret** 에서 2개 등록:
-
-| Secret 이름 | 값 |
-|-------------|-----|
-| `MAIL_USERNAME` | 발송용 Gmail 주소 (예: `yuri.jin22@gmail.com`) |
-| `MAIL_PASSWORD` | 해당 Gmail **앱 비밀번호**(16자리) — 로그인 비번 아님 |
-
-> 앱 비밀번호 발급: Google 계정 → 보안 → 2단계 인증 켜기 → "앱 비밀번호" 생성.
-> (일반 비밀번호로는 SMTP 발송 불가)
+### ⚙️ 설정 — 별도 Secret 불필요 ✅
+이슈 생성은 GitHub 내장 `GITHUB_TOKEN` 을 쓰므로 **추가 설정이 없습니다.**
+알림을 폰으로 받으려면:
+- **GitHub 모바일 앱** 설치 → 로그인 → 저장소 Watch(또는 소유자는 자동) →
+  이슈 생성 시 **푸시 알림** 수신
+- GitHub 계정 이메일로도 이슈 알림이 자동 발송됨 (계정 알림 설정에 따름)
 
 ### 실행 시점 조정
 - `auction_alert.yml` 의 `cron: '0 23 * * *'` (UTC) = 08:00 KST. 시간 바꾸려면 이 값 수정.

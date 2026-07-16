@@ -6,6 +6,10 @@ on:
     - cron: '0 23 * * *'
   workflow_dispatch:      # 수동 실행 (테스트용)
 
+permissions:
+  contents: read
+  issues: write           # 알림 이슈 생성 (별도 Secret 불필요, 내장 GITHUB_TOKEN 사용)
+
 jobs:
   auction:
     runs-on: ubuntu-latest
@@ -30,46 +34,33 @@ jobs:
         run: |
           DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
           python scripts/filter_auction_new.py | tee data/auction_digest.txt
-          # 수집(raw) 건수 — 0이면 IP차단 등 수집 실패 가능성
-          RAW=$(python -c "import json,sys; print(len(json.load(open('data/auction_raw_${DATE}.json'))))" 2>/dev/null || echo 0)
-          # 조건통과 신건 건수
+          RAW=$(python -c "import json; print(len(json.load(open('data/auction_raw_${DATE}.json'))))" 2>/dev/null || echo 0)
           NEW=$(python -c "import json; print(len(json.load(open('data/auction_new_${DATE}.json'))))" 2>/dev/null || echo 0)
           echo "raw=$RAW"  >> "$GITHUB_OUTPUT"
           echo "new=$NEW"  >> "$GITHUB_OUTPUT"
           echo "date=${DATE//_/-}" >> "$GITHUB_OUTPUT"
 
-      # ── 알림 1: 조건 충족 신건이 있을 때 ──
-      - name: Email — 신건 발견
+      # ── 알림 1: 조건 충족 신건이 있을 때 → 이슈 생성 ──
+      - name: Issue — 신건 발견
         if: steps.filter.outputs.new != '0'
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          from: 경매봇 <${{ secrets.MAIL_USERNAME }}>
-          to: yuri.jin22@gmail.com
-          subject: "[경매] 서울 신건 ${{ steps.filter.outputs.new }}건 — ${{ steps.filter.outputs.date }}"
-          body: file://data/auction_digest.txt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "[경매] 서울 신건 ${{ steps.filter.outputs.new }}건 — ${{ steps.filter.outputs.date }}" \
+            --body-file data/auction_digest.txt \
+            --assignee "${{ github.repository_owner }}"
 
       # ── 알림 2: 수집 0건 = IP차단/사이트개편 등 실패 가능성 경고 ──
-      - name: Email — 수집 실패 경고
+      - name: Issue — 수집 실패 경고
         if: steps.filter.outputs.raw == '0'
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          from: 경매봇 <${{ secrets.MAIL_USERNAME }}>
-          to: yuri.jin22@gmail.com
-          subject: "[경매] ⚠️ 수집 0건 — 확인 필요 (${{ steps.filter.outputs.date }})"
-          body: |
-            법원경매정보에서 물건을 0건 수집했습니다.
-            GitHub Actions IP 차단 또는 사이트 개편으로 스크래퍼가 깨졌을 가능성이 있습니다.
-            로컬(Mac)에서 python scraper/fetch_auction_seoul.py 로 확인해 주세요.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "[경매] ⚠️ 수집 0건 — 확인 필요 (${{ steps.filter.outputs.date }})" \
+            --body $'법원경매정보에서 물건을 0건 수집했습니다.\nGitHub Actions IP 차단 또는 사이트 개편으로 스크래퍼가 깨졌을 가능성이 있습니다.\n로컬(Mac)에서 python scraper/fetch_auction_seoul.py 로 확인해 주세요.' \
+            --assignee "${{ github.repository_owner }}"
 
       - name: Upload results (artifact)
         if: always()
