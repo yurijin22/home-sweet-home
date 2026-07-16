@@ -1,0 +1,66 @@
+[
+  {
+    "case_no": "2025-12966", "court": "북부", "name": "대상타운현대",
+    "dong": "103", "ho": "1201", "floor": 12,
+    "area_m2": 59.8, "area_pyeong": 18.1,
+    "appraisal_eok": 8.39, "min_price_eok": 8.39,
+    "fail_count": 0, "sale_date": "2026-08-11", "gu": "중랑",
+    "special": "없음", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-12966"
+  },
+  {
+    "case_no": "2025-549", "court": "북부", "name": "창동 북한산아이파크",
+    "dong": "112", "ho": "704", "floor": 7,
+    "area_m2": 84.9, "area_pyeong": 25.7,
+    "appraisal_eok": 9.49, "min_price_eok": 9.49,
+    "fail_count": 0, "sale_date": "2026-08-04", "gu": "도봉",
+    "special": "없음", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-549"
+  },
+  {
+    "case_no": "2025-12287", "court": "북부", "name": "하월곡 동신",
+    "dong": "5", "ho": "902", "floor": 9,
+    "area_m2": 84.6, "area_pyeong": 25.6,
+    "appraisal_eok": 8.71, "min_price_eok": 8.71,
+    "fail_count": 0, "sale_date": "2026-08-18", "gu": "성북",
+    "special": "없음", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-12287"
+  },
+  {
+    "case_no": "2025-11044", "court": "북부", "name": "상봉 건영",
+    "dong": "2", "ho": "301", "floor": 3,
+    "area_m2": 84.9, "area_pyeong": 25.7,
+    "appraisal_eok": 6.96, "min_price_eok": 5.57,
+    "fail_count": 1, "sale_date": "2026-08-11", "gu": "중랑",
+    "special": "대항력 임차인", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-11044"
+  },
+  {
+    "case_no": "2025-12685", "court": "북부", "name": "창동주공1702",
+    "dong": "1702", "ho": "203", "floor": 2,
+    "area_m2": 36.1, "area_pyeong": 10.9,
+    "appraisal_eok": 3.32, "min_price_eok": 3.32,
+    "fail_count": 0, "sale_date": "2026-08-04", "gu": "도봉",
+    "special": "없음", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-12685"
+  },
+  {
+    "case_no": "2025-2354", "court": "북부", "name": "양우내안애",
+    "dong": "101", "ho": "501", "floor": 5,
+    "area_m2": 59.9, "area_pyeong": 18.1,
+    "appraisal_eok": 7.80, "min_price_eok": 7.80,
+    "fail_count": 0, "sale_date": "2026-08-25", "gu": "노원",
+    "special": "지분매각", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-2354"
+  },
+  {
+    "case_no": "2025-2651", "court": "북부", "name": "상계2차중앙하이츠",
+    "dong": "205", "ho": "1502", "floor": 15,
+    "area_m2": 84.7, "area_pyeong": 25.6,
+    "appraisal_eok": 8.39, "min_price_eok": 8.39,
+    "fail_count": 0, "sale_date": "2026-08-18", "gu": "노원",
+    "special": "없음", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-2651"
+  },
+  {
+    "case_no": "2025-9981", "court": "중앙", "name": "반포자이",
+    "dong": "301", "ho": "2201", "floor": 22,
+    "area_m2": 84.9, "area_pyeong": 25.7,
+    "appraisal_eok": 38.5, "min_price_eok": 38.5,
+    "fail_count": 0, "sale_date": "2026-08-20", "gu": "서초",
+    "special": "없음", "url": "https://www.courtauction.go.kr/pgj/PGJ001.jsp?bo=1&caseNo=2025-9981"
+  }
+]
