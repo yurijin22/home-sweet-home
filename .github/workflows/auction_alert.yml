@@ -10,6 +10,11 @@ permissions:
   contents: read
   issues: write           # 알림 이슈 생성 (별도 Secret 불필요, 내장 GITHUB_TOKEN 사용)
 
+# 동시 실행 방지 — 겹쳐 돌면 courtauction 접속이 충돌해 헛알람(0건) 발생
+concurrency:
+  group: auction-alert
+  cancel-in-progress: false
+
 jobs:
   auction:
     runs-on: ubuntu-latest
@@ -26,8 +31,16 @@ jobs:
           pip install playwright
           python -m playwright install chromium --with-deps
 
-      - name: Fetch Seoul auctions
-        run: python scraper/fetch_auction_seoul.py
+      - name: Fetch Seoul auctions (0건이면 1회 재시도)
+        run: |
+          DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
+          python scraper/fetch_auction_seoul.py
+          CNT=$(python -c "import json; print(len(json.load(open('data/auction_raw_${DATE}.json'))))" 2>/dev/null || echo 0)
+          if [ "$CNT" = "0" ]; then
+            echo "수집 0건 → 90초 후 1회 재시도 (간헐 실패/차단 대비)"
+            sleep 90
+            python scraper/fetch_auction_seoul.py
+          fi
 
       - name: Filter 신건 + build digest
         id: filter
