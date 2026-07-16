@@ -7,7 +7,7 @@ on:
   workflow_dispatch:      # 수동 실행 (테스트용)
 
 permissions:
-  contents: read
+  contents: write         # 낙찰결과 아카이브 커밋(데이터 축적)
   issues: write           # 알림 이슈 생성 (별도 Secret 불필요, 내장 GITHUB_TOKEN 사용)
 
 # 동시 실행 방지 — 겹쳐 돌면 courtauction 접속이 충돌해 헛알람(0건) 발생
@@ -75,6 +75,72 @@ jobs:
             --body $'법원경매정보에서 물건을 0건 수집했습니다.\nGitHub Actions IP 차단 또는 사이트 개편으로 스크래퍼가 깨졌을 가능성이 있습니다.\n로컬(Mac)에서 python scraper/fetch_auction_seoul.py 로 확인해 주세요.' \
             --assignee "${{ github.repository_owner }}"
 
+      # ── 낙찰결과 수집 (매각결과검색) ──
+      - name: Fetch 낙찰결과 (0건이면 1회 재시도)
+        run: |
+          DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
+          python scraper/fetch_auction_results.py
+          RCNT=$(python -c "import json; print(len(json.load(open('data/auction_results_${DATE}.json'))))" 2>/dev/null || echo 0)
+          if [ "$RCNT" = "0" ]; then
+            echo "낙찰결과 0건 → 90초 후 1회 재시도"
+            sleep 90
+            python scraper/fetch_auction_results.py
+          fi
+
+      - name: Filter 낙찰결과 + build digest
+        id: results
+        run: |
+          DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
+          python scripts/filter_auction_results.py | tee data/auction_results_digest.txt
+          RNEW=$(python -c "import json; print(len(json.load(open('data/auction_results_new_${DATE}.json'))))" 2>/dev/null || echo 0)
+          echo "rnew=$RNEW" >> "$GITHUB_OUTPUT"
+
+      # ── 알림 3: 예산권 낙찰결과가 있을 때 → 이슈 생성 ──
+      - name: Issue — 낙찰결과
+        if: steps.results.outputs.rnew != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "[경매] 낙찰결과 ${{ steps.results.outputs.rnew }}건 — ${{ steps.filter.outputs.date }}" \
+            --body-file data/auction_results_digest.txt \
+            --assignee "${{ github.repository_owner }}"
+
+      # ── 낙찰결과 누적 아카이브 커밋 (모델 학습용 데이터 축적) ──
+      - name: Archive 낙찰결과 (누적)
+        if: always()
+        run: |
+          DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
+          python - "$DATE" <<'PY'
+          import json, sys
+          from pathlib import Path
+          date = sys.argv[1]
+          data = Path('data')
+          today_f = data / f'auction_results_{date}.json'
+          arch_f = data / 'auction_results_archive.json'
+          if not today_f.exists():
+              print('오늘 결과 없음 — 아카이브 스킵'); sys.exit(0)
+          today = json.load(open(today_f, encoding='utf-8'))
+          arch = json.load(open(arch_f, encoding='utf-8')) if arch_f.exists() else []
+          seen = {(x.get('case_no'), x.get('sale_date')) for x in arch}
+          added = 0
+          for it in today:
+              k = (it.get('case_no'), it.get('sale_date'))
+              if it.get('result') == '매각' and k not in seen:
+                  arch.append(it); seen.add(k); added += 1
+          json.dump(arch, open(arch_f, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+          print(f'아카이브: +{added}건 (누적 {len(arch)}건)')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/auction_results_archive.json
+          if git diff --cached --quiet; then
+            echo "새 낙찰결과 없음 — 커밋 스킵"
+          else
+            git commit -m "경매 낙찰결과 축적 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+            git push
+          fi
+
       - name: Upload results (artifact)
         if: always()
         uses: actions/upload-artifact@v4
@@ -83,6 +149,8 @@ jobs:
           path: |
             data/auction_raw_*.json
             data/auction_new_*.json
+            data/auction_results_*.json
             data/auction_digest.txt
+            data/auction_results_digest.txt
           if-no-files-found: ignore
           retention-days: 14

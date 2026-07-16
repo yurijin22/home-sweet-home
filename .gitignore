@@ -10,3 +10,5 @@ __pycache__/
 data/auction_raw_*.json
 data/auction_new_*.json
 data/auction_results_*.json
+# 단, 누적 아카이브는 커밋(모델 학습용 데이터 축적)
+!data/auction_results_archive.json
