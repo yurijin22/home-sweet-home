@@ -40,11 +40,40 @@ python scripts/filter_auction_new.py
 로컬 Claude에게 "fetch_auction_seoul.py 의 fetch_real TODO를 실제 사이트 보고 완성해줘"
 라고 하면, 네트워크가 열린 환경에서 사이트를 열어 셀렉터를 확인하고 채워줍니다.
 
-## 매일 자동 알림 (선택)
-네트워크가 열린 환경(로컬 상시 실행 PC 또는 웹환경 도메인 허용 시)에서:
-- **GitHub Actions**: `track_listings.py` 처럼 cron 워크플로로 매일 실행 → 결과를 이슈/커밋
-- **Claude Code Routine**: 매일 아침 세션을 띄워 위 2개 실행 → 다이제스트를 푸시/메일 발송
-- 다이제스트(표준출력)를 그대로 알림 본문으로 사용
+## 매일 자동 알림 — GitHub Actions (설정됨)
+`.github/workflows/auction_alert.yml` 이 **매일 08:00 KST** 자동 실행:
+1. Playwright 설치 → `fetch_auction_seoul.py` 실접속 수집
+2. `filter_auction_new.py` 로 서울 신건 필터 → 다이제스트 생성
+3. **조건 충족 신건이 있으면 yuri.jin22@gmail.com 으로 이메일 발송**
+4. 수집 0건이면 "수집 실패 경고" 메일 (IP차단/사이트개편 감지용)
+5. 결과 JSON은 Actions artifact로 14일 보관
+
+### ⚙️ 최초 1회 설정 — 이메일 Secret 등록
+GitHub 저장소 → **Settings → Secrets and variables → Actions → New repository secret** 에서 2개 등록:
+
+| Secret 이름 | 값 |
+|-------------|-----|
+| `MAIL_USERNAME` | 발송용 Gmail 주소 (예: `yuri.jin22@gmail.com`) |
+| `MAIL_PASSWORD` | 해당 Gmail **앱 비밀번호**(16자리) — 로그인 비번 아님 |
+
+> 앱 비밀번호 발급: Google 계정 → 보안 → 2단계 인증 켜기 → "앱 비밀번호" 생성.
+> (일반 비밀번호로는 SMTP 발송 불가)
+
+### 실행 시점 조정
+- `auction_alert.yml` 의 `cron: '0 23 * * *'` (UTC) = 08:00 KST. 시간 바꾸려면 이 값 수정.
+- **수동 테스트**: Actions 탭 → "Seoul auction 신건 alert" → Run workflow.
+
+### ⚠️ IP 차단 가능성
+법원경매정보가 GitHub(Azure) 데이터센터 IP를 막을 수 있습니다.
+첫 수동 실행에서 "수집 0건 경고" 메일이 오면 차단된 것 →
+로컬 Mac cron 으로 폴백하거나, self-hosted runner 검토.
+
+## 매일 자동 알림 — 로컬 Mac 폴백 (선택)
+GitHub Actions가 IP 차단되면 Mac 에서 `launchd`/`cron` 으로 매일 실행:
+```bash
+# crontab -e 에 추가 (매일 08:00, Mac 켜져 있을 때만)
+0 8 * * * cd ~/home-sweet-home && /usr/bin/python3 scraper/fetch_auction_seoul.py && /usr/bin/python3 scripts/filter_auction_new.py
+```
 
 ## 소스 주의
 - `courtauction.go.kr`(법원 공식)이 유일하게 정당한 무료 소스. 봇차단·세션토큰 있어 유지보수 필요.
