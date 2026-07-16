@@ -10,6 +10,7 @@
 """
 import argparse
 import json
+import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -93,15 +94,16 @@ def evaluate(item, cfg, hh_table):
     return (len(reasons) == 0, reasons, enrich)
 
 
-def fmt_item(item, enrich):
-    hh = enrich['household']
-    hh_str = f'{hh}세대' if hh else '세대수?'
-    return (
-        f"• {item.get('name')} ({item.get('gu')}구) | {item.get('area_m2')}㎡ "
-        f"{item.get('floor')}층 | 감정 {item.get('appraisal_eok')}억 / 최저 "
-        f"{item.get('min_price_eok')}억 | {hh_str} | 매각 {item.get('sale_date')}\n"
-        f"    사건 {item.get('case_no')} ({item.get('court')}) {item.get('url')}"
-    )
+def _mmdd(d):
+    """'2026-08-11' → '08-11'."""
+    return d[5:] if d and len(d) >= 10 else (d or '?')
+
+
+def _md_table(headers, aligns, rows):
+    """마크다운 표 문자열."""
+    out = ['| ' + ' | '.join(headers) + ' |', '|' + '|'.join(aligns) + '|']
+    out += ['| ' + ' | '.join(r) + ' |' for r in rows]
+    return '\n'.join(out)
 
 
 def main():
@@ -136,23 +138,41 @@ def main():
         json.dump([{**it, '_household': en['household']} for it, en in passed],
                   f, ensure_ascii=False, indent=2)
 
-    # ── 다이제스트 (알림 본문) ──
-    print(f'📢 서울 경매 신건 알림 — {date.replace("_", "-")}')
-    print(f'   원본 {len(items)}건 → 조건통과 {len(passed)}건'
-          + (f' · 특수물건 참고 {len(special_pool)}건' if special_pool else ''))
-    print()
-    if passed:
-        print('✅ 예산·조건 충족 신건')
-        for it, en in sorted(passed, key=lambda x: x[0].get('appraisal_eok') or 0):
-            print(fmt_item(it, en))
-    else:
-        print('(오늘 조건 충족 신건 없음)')
+    # ── 다이제스트 (알림 본문, GitHub 이슈 Markdown) ──
+    lines = [f'## 📢 서울 경매 신건 — {date.replace("_", "-")}']
+    summary = f'원본 **{len(items)}건** → 조건통과 **{len(passed)}건**'
     if special_pool:
-        print('\n⚠️ 특수물건(인수리스크 — 별도 검토)')
-        for it, en in special_pool:
-            print(f"• {it.get('name')} ({it.get('gu')}구) {it.get('area_m2')}㎡ "
-                  f"— {it.get('special')} | 사건 {it.get('case_no')}")
-    print(f'\nsaved: {out_path}')
+        summary += f' · 특수물건 참고 {len(special_pool)}건'
+    lines += [summary, '']
+
+    if passed:
+        lines.append('### ✅ 예산·조건 충족 신건')
+        rows = []
+        for it, en in sorted(passed, key=lambda x: x[0].get('appraisal_eok') or 0):
+            hh = en['household']
+            rows.append([
+                str(it.get('name') or '?'), str(it.get('gu') or '?'),
+                f"{it.get('area_m2')}㎡", f"{it.get('floor')}층",
+                f"{it.get('appraisal_eok')}억", f"{hh}" if hh else "?",
+                _mmdd(it.get('sale_date')), f"{it.get('case_no')} ({it.get('court')})",
+            ])
+        lines.append(_md_table(
+            ['단지', '지역', '전용', '층', '감정가', '세대수', '매각기일', '사건'],
+            [':--', ':--', '--:', '--:', '--:', '--:', ':-:', ':--'], rows))
+    else:
+        lines.append('_오늘 조건 충족 신건 없음_')
+
+    if special_pool:
+        lines += ['', '### ⚠️ 특수물건 (인수리스크 — 별도 검토)']
+        rows = [[str(it.get('name') or '?'), str(it.get('gu') or '?'),
+                 f"{it.get('area_m2')}㎡", str(it.get('special')), str(it.get('case_no'))]
+                for it, en in special_pool]
+        lines.append(_md_table(
+            ['단지', '지역', '전용', '사유', '사건'],
+            [':--', ':--', '--:', ':--', ':--'], rows))
+
+    print('\n'.join(lines))
+    print(f'saved: {out_path}', file=sys.stderr)   # 본문에 안 들어가게 stderr
     return 0
 
 

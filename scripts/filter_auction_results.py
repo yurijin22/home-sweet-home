@@ -32,6 +32,16 @@ def load_json(path, default=None):
         return default
 
 
+def _mmdd(d):
+    return d[5:] if d and len(d) >= 10 else (d or '?')
+
+
+def _md_table(headers, aligns, rows):
+    out = ['| ' + ' | '.join(headers) + ' |', '|' + '|'.join(aligns) + '|']
+    out += ['| ' + ' | '.join(r) + ' |' for r in rows]
+    return '\n'.join(out)
+
+
 def in_recent(sale_date, days, today):
     """sale_date(YYYY-MM-DD)가 오늘 기준 최근 days일 이내인가."""
     if not sale_date:
@@ -84,20 +94,27 @@ def main():
     with open(DATA / f'auction_results_new_{date_tag}.json', 'w', encoding='utf-8') as f:
         json.dump(hits, f, ensure_ascii=False, indent=2)
 
-    print(f'🔨 서울 경매 낙찰결과 — {today.isoformat()} (최근 {args.days}일)')
-    print(f'   수집 {len(items)}건 (매각 {len(sold)} · 유찰 {len(yuchal)}) → 예산권 매각 {len(hits)}건')
-    print()
+    lines = [f'## 🔨 서울 경매 낙찰결과 — {today.isoformat()} (최근 {args.days}일)']
+    lines += [f'수집 **{len(items)}건** (매각 {len(sold)} · 유찰 {len(yuchal)}) '
+              f'→ 예산권 매각 **{len(hits)}건**', '']
     if hits:
-        print('✅ 예산·조건 충족 낙찰결과')
+        lines.append('### ✅ 예산·조건 충족 낙찰결과')
+        rows = []
         for it in hits:
             rate = it.get('sale_rate')
-            rate_s = f'{rate}%' if rate is not None else '?'
-            print(f"• {it.get('name')} ({it.get('gu')}구) | {it.get('area_m2')}㎡ "
-                  f"{it.get('floor')}층 | 감정 {it.get('appraisal_eok')}억 → "
-                  f"낙찰 {it.get('sale_price_eok')}억 (낙찰가율 {rate_s}) | 매각 {it.get('sale_date')}")
-            print(f"    사건 {it.get('case_no')} ({it.get('court')})")
+            rows.append([
+                str(it.get('name') or '?'), str(it.get('gu') or '?'),
+                f"{it.get('area_m2')}㎡", f"{it.get('floor')}층",
+                f"{it.get('appraisal_eok')}억", f"{it.get('sale_price_eok')}억",
+                f"{rate}%" if rate is not None else "?",
+                _mmdd(it.get('sale_date')), f"{it.get('case_no')} ({it.get('court')})",
+            ])
+        lines.append(_md_table(
+            ['단지', '지역', '전용', '층', '감정가', '낙찰가', '낙찰가율', '매각일', '사건'],
+            [':--', ':--', '--:', '--:', '--:', '--:', '--:', ':-:', ':--'], rows))
     else:
-        print(f'(최근 {args.days}일 예산권 매각 없음)')
+        lines.append(f'_최근 {args.days}일 예산권 매각 없음_')
+    print('\n'.join(lines))
     return 0
 
 
