@@ -2,15 +2,17 @@ name: Seoul auction 신건 alert
 
 on:
   schedule:
-    # 매일 08:00 KST (= 23:00 UTC 전날)
-    - cron: '0 23 * * *'
-  workflow_dispatch:      # 수동 실행 (테스트용)
+    # 하루 4회 시도 (KST 06·09·13·19시) — 간헐 IP차단 대비, 한 번만 성공하면 됨
+    - cron: '0 21 * * *'   # 06:00 KST (전날 UTC)
+    - cron: '0 0 * * *'    # 09:00 KST
+    - cron: '0 4 * * *'    # 13:00 KST
+    - cron: '0 10 * * *'   # 19:00 KST (마지막 슬롯)
+  workflow_dispatch:       # 수동 실행 (테스트용)
 
 permissions:
   contents: write         # 낙찰결과 아카이브 커밋(데이터 축적)
   issues: write           # 알림 이슈 생성 (별도 Secret 불필요, 내장 GITHUB_TOKEN 사용)
 
-# 동시 실행 방지 — 겹쳐 돌면 courtauction 접속이 충돌해 헛알람(0건) 발생
 concurrency:
   group: auction-alert
   cancel-in-progress: false
@@ -22,16 +24,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # ── 오늘 이미 성공(신건 추천 이슈 존재)했으면 나머지 전부 skip → 중복 알림 방지 ──
+      - name: Guard — 오늘 성공 여부 + 마지막 슬롯 판정
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)
+          HOUR=$(TZ=Asia/Seoul date +%H)
+          DONE=$(gh issue list --state all --limit 40 --json title \
+                 --jq "[.[] | select(.title | contains(\"서울 신건 추천\") and contains(\"${DATE}\"))] | length" 2>/dev/null || echo 0)
+          LAST=false
+          if [ "$HOUR" -ge 19 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then LAST=true; fi
+          echo "done=$DONE" >> "$GITHUB_OUTPUT"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "last=$LAST" >> "$GITHUB_OUTPUT"
+          echo "guard: done=$DONE hour=$HOUR last=$LAST"
+
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.done == '0'
         with:
           python-version: '3.11'
 
       - name: Install Playwright
+        if: steps.guard.outputs.done == '0'
         run: |
           pip install playwright
           python -m playwright install chromium --with-deps
 
       - name: Fetch Seoul auctions (최대 3회 재시도 — 간헐 IP차단 대비)
+        if: steps.guard.outputs.done == '0'
         run: |
           DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
           for attempt in 1 2 3; do
@@ -44,44 +66,45 @@ jobs:
 
       - name: Filter 신건 + build digest
         id: filter
+        if: steps.guard.outputs.done == '0'
         run: |
           DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
-          python scripts/filter_auction_new.py | tee data/auction_digest.txt
+          python scripts/filter_auction_new.py | tee data/auction_digest.txt || true
           RAW=$(python -c "import json; print(len(json.load(open('data/auction_raw_${DATE}.json'))))" 2>/dev/null || echo 0)
           NEW=$(python -c "import json; print(len(json.load(open('data/auction_new_${DATE}.json'))))" 2>/dev/null || echo 0)
           echo "raw=$RAW"  >> "$GITHUB_OUTPUT"
           echo "new=$NEW"  >> "$GITHUB_OUTPUT"
-          echo "date=${DATE//_/-}" >> "$GITHUB_OUTPUT"
 
-      # ── 신건 투자 추천 생성 (예상낙찰가 예측 + 예측 저장) ──
       - name: 신건 투자 추천 + 예측 저장
+        if: steps.guard.outputs.done == '0' && steps.filter.outputs.raw != '0'
         run: |
-          python scripts/auction_intel.py --stamp "${{ steps.filter.outputs.date }}" | tee data/auction_reco.txt
+          python scripts/auction_intel.py --stamp "${{ steps.guard.outputs.date }}" | tee data/auction_reco.txt
 
-      # ── 알림 1: 조건 충족 신건이 있을 때 → 추천 이슈 생성 ──
+      # ── 알림 1: 수집 성공 → 추천 이슈 (추천 없어도 '없음'으로 1건 = 하루 성공 표시) ──
       - name: Issue — 신건 추천
-        if: steps.filter.outputs.new != '0'
+        if: steps.guard.outputs.done == '0' && steps.filter.outputs.raw != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
-            --title "[경매] 서울 신건 추천 ${{ steps.filter.outputs.new }}건 — ${{ steps.filter.outputs.date }}" \
+            --title "[경매] 서울 신건 추천 ${{ steps.filter.outputs.new }}건 — ${{ steps.guard.outputs.date }}" \
             --body-file data/auction_reco.txt \
             --assignee "${{ github.repository_owner }}"
 
-      # ── 알림 2: 수집 0건 = IP차단/사이트개편 등 실패 가능성 경고 ──
-      - name: Issue — 수집 실패 경고
-        if: steps.filter.outputs.raw == '0'
+      # ── 알림 2: 하루 종일(마지막 슬롯) 수집 0건일 때만 경고 1회 → 헛경고 스팸 방지 ──
+      - name: Issue — 수집 실패 경고 (마지막 슬롯만)
+        if: steps.guard.outputs.done == '0' && steps.filter.outputs.raw == '0' && steps.guard.outputs.last == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
-            --title "[경매] ⚠️ 수집 0건 — 확인 필요 (${{ steps.filter.outputs.date }})" \
-            --body $'법원경매정보에서 물건을 0건 수집했습니다.\nGitHub Actions IP 차단 또는 사이트 개편으로 스크래퍼가 깨졌을 가능성이 있습니다.\n로컬(Mac)에서 python scraper/fetch_auction_seoul.py 로 확인해 주세요.' \
+            --title "[경매] ⚠️ 오늘 수집 실패 — 확인 필요 (${{ steps.guard.outputs.date }})" \
+            --body $'오늘 4회 시도 모두 법원경매정보에서 0건 수집했습니다.\nGitHub Actions IP가 종일 차단됐거나 사이트가 개편됐을 수 있습니다.\n집/개인 PC에서 python scraper/fetch_auction_seoul.py 로 확인해 주세요.' \
             --assignee "${{ github.repository_owner }}"
 
-      # ── 낙찰결과 수집 (매각결과검색) ──
+      # ── 낙찰결과 수집 ──
       - name: Fetch 낙찰결과 (최대 3회 재시도)
+        if: steps.guard.outputs.done == '0' && steps.filter.outputs.raw != '0'
         run: |
           DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
           for attempt in 1 2 3; do
@@ -94,34 +117,35 @@ jobs:
 
       - name: Filter 낙찰결과 + build digest
         id: results
+        if: steps.guard.outputs.done == '0' && steps.filter.outputs.raw != '0'
         run: |
           DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
-          python scripts/filter_auction_results.py | tee data/auction_results_digest.txt
+          python scripts/filter_auction_results.py | tee data/auction_results_digest.txt || true
           RNEW=$(python -c "import json; print(len(json.load(open('data/auction_results_new_${DATE}.json'))))" 2>/dev/null || echo 0)
           echo "rnew=$RNEW" >> "$GITHUB_OUTPUT"
 
-      # ── 예측 하네스 보정: 오늘 낙찰 실측 ↔ 과거 예측 대조 + k 갱신 ──
       - name: 예측 보정 (낙찰 실측 대조)
+        if: steps.guard.outputs.done == '0' && steps.filter.outputs.raw != '0'
         run: |
           echo "" >> data/auction_results_digest.txt
           echo "---" >> data/auction_results_digest.txt
           echo "### 🔧 예측 정확도" >> data/auction_results_digest.txt
-          python scripts/calibrate_auction.py --stamp "${{ steps.filter.outputs.date }}" | tee -a data/auction_results_digest.txt
+          python scripts/calibrate_auction.py --stamp "${{ steps.guard.outputs.date }}" | tee -a data/auction_results_digest.txt
 
-      # ── 알림 3: 예산권 낙찰결과가 있을 때 → 이슈 생성 ──
+      # ── 알림 3: 예산권 낙찰결과가 있을 때 → 이슈 ──
       - name: Issue — 낙찰결과
-        if: steps.results.outputs.rnew != '0'
+        if: steps.guard.outputs.done == '0' && steps.results.outputs.rnew != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
-            --title "[경매] 낙찰결과 ${{ steps.results.outputs.rnew }}건 — ${{ steps.filter.outputs.date }}" \
+            --title "[경매] 낙찰결과 ${{ steps.results.outputs.rnew }}건 — ${{ steps.guard.outputs.date }}" \
             --body-file data/auction_results_digest.txt \
             --assignee "${{ github.repository_owner }}"
 
-      # ── 낙찰결과 누적 아카이브 커밋 (모델 학습용 데이터 축적) ──
+      # ── 낙찰결과 누적 아카이브 커밋 (모델 학습용) ──
       - name: Archive 낙찰결과 (누적)
-        if: always()
+        if: always() && steps.guard.outputs.done == '0' && steps.filter.outputs.raw != '0'
         run: |
           DATE=$(TZ=Asia/Seoul date +%Y_%m_%d)
           python - "$DATE" <<'PY'
@@ -138,9 +162,9 @@ jobs:
           seen = {(x.get('case_no'), x.get('sale_date')) for x in arch}
           added = 0
           for it in today:
-              k = (it.get('case_no'), it.get('sale_date'))
-              if it.get('result') == '매각' and k not in seen:
-                  arch.append(it); seen.add(k); added += 1
+              key = (it.get('case_no'), it.get('sale_date'))
+              if it.get('result') == '매각' and key not in seen:
+                  arch.append(it); seen.add(key); added += 1
           json.dump(arch, open(arch_f, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
           print(f'아카이브: +{added}건 (누적 {len(arch)}건)')
           PY
@@ -149,17 +173,17 @@ jobs:
           git add data/auction_results_archive.json data/auction_predictions.json \
                   data/auction_calibration.jsonl data/auction_k.json 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "새 낙찰결과 없음 — 커밋 스킵"
+            echo "새 데이터 없음 — 커밋 스킵"
           else
             git commit -m "경매 데이터 축적(낙찰결과·예측·보정) $(TZ=Asia/Seoul date +%Y-%m-%d)"
             git push
           fi
 
       - name: Upload results (artifact)
-        if: always()
+        if: always() && steps.guard.outputs.done == '0' && steps.filter.outputs.raw != '0'
         uses: actions/upload-artifact@v4
         with:
-          name: auction-${{ steps.filter.outputs.date }}
+          name: auction-${{ steps.guard.outputs.date }}
           path: |
             data/auction_raw_*.json
             data/auction_new_*.json
