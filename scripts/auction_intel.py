@@ -58,16 +58,40 @@ def build_index(table):
 
 
 def match(name, idx):
-    """신건 단지명 → 보조데이터 값 (양방향 부분매칭). 없으면 None."""
+    """신건 단지명 → 보조데이터 값 (양방향 부분매칭). 없으면 None.
+    ⚠️ 흔한 이름 오매칭 방지: 3자 이상 + 정확일치 우선."""
     n = _norm(name)
-    if not n:
+    if not n or len(n) < 3:
         return None
     if n in idx:
         return idx[n][1]
     for nk, (orig, v) in idx.items():
-        if len(nk) >= 3 and (nk in n or n in nk):
+        if len(nk) >= 4 and (nk in n or n in nk):
             return v
     return None
+
+
+def match_sise(name, gu, area, molit):
+    """시세 매칭 — 이름 + 같은 구 + 면적 근접(±7㎡)이 모두 맞아야만 인정.
+    (흔한 단지명이 엉뚱한 구/평형에 잘못 붙는 것 방지)"""
+    n = _norm(name)
+    if not n or len(n) < 3 or not gu:
+        return None
+    gu = gu.replace('구', '')
+    best = None
+    for cn, v in molit.items():
+        cnn = _norm(cn)
+        if len(cnn) < 3 or not (cnn in n or n in cnn):
+            continue
+        if (v.get('gu') or '').replace('구', '') != gu:
+            continue
+        at = v.get('area_typical')
+        if at and area and abs(at - area) > 7:
+            continue
+        gap = abs((at or area) - area) if area else 0
+        if best is None or gap < best[0]:
+            best = (gap, v)
+    return best[1] if best else None
 
 
 def get_k():
@@ -82,7 +106,7 @@ def evaluate(it, k, molit_idx, commute_idx, years_idx):
     area = it.get('area_m2')
 
     pred = round(appr * k, 2) if appr else None      # 예상 낙찰가
-    sise_row = match(name, molit_idx)
+    sise_row = match_sise(name, it.get('gu'), area, molit_idx)   # 구+면적 검증 매칭
     sise = round(sise_row['price_median'] / 10000, 2) if sise_row else None  # 만원→억
     discount = round((sise - pred) / sise * 100, 1) if (sise and pred) else None
     commute = match(name, commute_idx)
@@ -167,7 +191,7 @@ def main():
     cfg = load_json(CFG_PATH, {})
     amin, amax = cfg.get('area_m2_min', 54), cfg.get('area_m2_max', 85)
     k, kn = get_k()
-    molit_idx = build_index(load_json(DATA / 'molit_all_seoul.json', {}) or {})
+    molit_idx = load_json(DATA / 'molit_all_seoul.json', {}) or {}   # 원본 dict (match_sise가 구/면적 검증)
     commute_idx = build_index(load_json(DATA / 'commute_times.json', {}) or {})
     years_idx = build_index(load_json(DATA / 'years_all.json', {}) or {})
 
