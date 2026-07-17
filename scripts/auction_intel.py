@@ -14,10 +14,21 @@
   · 호재·역세권거리·학군 → 데이터 불완전 → "확인 필요" 표기(점수 미반영)
 """
 import argparse
+import glob
 import json
 import re
+import statistics
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+SLUG2GU = {
+    'gangnam': '강남', 'gangdong': '강동', 'gangbuk': '강북', 'gangseo': '강서',
+    'gwanak': '관악', 'gwangjin': '광진', 'guro': '구로', 'geumcheon': '금천',
+    'nowon': '노원', 'dobong': '도봉', 'dongdaemun': '동대문', 'dongjak': '동작',
+    'mapo': '마포', 'seodaemun': '서대문', 'seocho': '서초', 'seongdong': '성동',
+    'seongbuk': '성북', 'songpa': '송파', 'yangcheon': '양천', 'yeongdeungpo': '영등포',
+    'yongsan': '용산', 'eunpyeong': '은평', 'jongno': '종로', 'jung': '중', 'jungnang': '중랑',
+}
 
 ROOT = Path(__file__).resolve().parent.parent
 KST = timezone(timedelta(hours=9))
@@ -94,20 +105,75 @@ def match_sise(name, gu, area, molit):
     return best[1] if best else None
 
 
+def load_trade():
+    """molit_trade/*.json → [{gu, district, norm, area, price_eok, date}]. (법정동 단위 실거래)"""
+    recs = []
+    for fp in glob.glob(str(DATA / 'molit_trade' / '*.json')):
+        slug = Path(fp).stem.rsplit('_', 1)[0]
+        gu = SLUG2GU.get(slug)
+        if not gu:
+            continue
+        try:
+            raw = json.load(open(fp, encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            continue
+        rows = raw.get('items', []) if isinstance(raw, dict) else raw
+        for r in rows:
+            recs.append({
+                'gu': gu, 'district': (r.get('district') or '').strip(),
+                'norm': _norm(r.get('name')), 'area': r.get('area_m2') or 0,
+                'price_eok': (r.get('price_10k') or 0) / 10000, 'date': r.get('deal_date') or '',
+            })
+    return recs
+
+
+def extract_dongs(addr):
+    """경매 주소에서 법정동 토큰 추출 ('...관악구 봉천동 ...' → ['봉천동'])."""
+    return re.findall(r'([가-힣]{1,4}동)', addr or '')
+
+
+def match_sise_trade(name, gu, dongs, area, trade):
+    """실거래(molit_trade) 기반 시세 — 같은 구+법정동+이름+면적(±5㎡) 최근거래 중앙값.
+    법정동이 특정되므로 오매칭이 거의 없음. 없으면 None."""
+    n = _norm(name)
+    if not n or len(n) < 2 or not gu:
+        return None
+    gu = gu.replace('구', '')
+    dongset = set(dongs or [])
+    prices = []
+    for r in trade:
+        if r['gu'] != gu:
+            continue
+        if dongset and r['district'] not in dongset:
+            continue
+        cn = r['norm']
+        if len(cn) < 2 or not (cn in n or n in cn):
+            continue
+        if area and r['area'] and abs(r['area'] - area) > 5:
+            continue
+        prices.append(r['price_eok'])
+    if len(prices) < 1:
+        return None
+    return round(statistics.median(prices), 2)
+
+
 def get_k():
     d = load_json(DATA / 'auction_k.json', {})
     return float(d.get('k', DEFAULT_K)), int(d.get('n', 0))
 
 
-def evaluate(it, k, molit_idx, commute_idx, years_idx):
+def evaluate(it, k, molit_idx, commute_idx, years_idx, trade):
     """신건 하나 → (점수, 판정, 근거dict, 예측dict)."""
     name = it.get('name') or ''
     appr = it.get('appraisal_eok')
     area = it.get('area_m2')
 
     pred = round(appr * k, 2) if appr else None      # 예상 낙찰가
-    sise_row = match_sise(name, it.get('gu'), area, molit_idx)   # 구+면적 검증 매칭
-    sise = round(sise_row['price_median'] / 10000, 2) if sise_row else None  # 만원→억
+    # 시세: 실거래(법정동 단위) 우선 → 없으면 molit_all(구+면적) 폴백
+    sise = match_sise_trade(name, it.get('gu'), extract_dongs(it.get('addr')), area, trade)
+    if sise is None:
+        sise_row = match_sise(name, it.get('gu'), area, molit_idx)
+        sise = round(sise_row['price_median'] / 10000, 2) if sise_row else None
     discount = round((sise - pred) / sise * 100, 1) if (sise and pred) else None
     commute = match(name, commute_idx)
     yr = match(name, years_idx)
@@ -192,6 +258,7 @@ def main():
     amin, amax = cfg.get('area_m2_min', 54), cfg.get('area_m2_max', 85)
     k, kn = get_k()
     molit_idx = load_json(DATA / 'molit_all_seoul.json', {}) or {}   # 원본 dict (match_sise가 구/면적 검증)
+    trade = load_trade()   # molit_trade 실거래(법정동 단위) — 시세 매칭 1순위
     commute_idx = build_index(load_json(DATA / 'commute_times.json', {}) or {})
     years_idx = build_index(load_json(DATA / 'years_all.json', {}) or {})
 
@@ -216,7 +283,7 @@ def main():
     scored = []
     preds = load_json(DATA / 'auction_predictions.json', {}) or {}
     for it in cand:
-        s, v, info, pred_rec = evaluate(it, k, molit_idx, commute_idx, years_idx)
+        s, v, info, pred_rec = evaluate(it, k, molit_idx, commute_idx, years_idx, trade)
         scored.append((s, v, it, info))
         if pred_rec['case_no']:
             pred_rec['predicted_at'] = args.stamp or date.replace('_', '-')

@@ -118,6 +118,7 @@ def normalize_item(raw):
         return {
             'name': str(raw.get('aptNm', '')).strip(),
             'district': str(raw.get('umdNm', '')).strip(),
+            'jibun': str(raw.get('jibun', '')).strip(),   # 지번 — 경매 주소와 정확 매칭용
             'area_m2': area,
             'floor': int(raw.get('floor', 0) or 0),
             'price_10k': price,
