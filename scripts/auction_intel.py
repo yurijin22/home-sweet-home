@@ -195,15 +195,17 @@ def evaluate(it, k, molit_idx, commute_idx, years_idx, trade):
     minp = it.get('min_price_eok')
     pred, basis, outcome = None, '-', None
     if sise and appr:
-        # 시세 기반(모델 v2: 낙찰≈시세×0.95~0.98). 최저가 하한/유찰 저감 반영.
-        target = round(sise * (K_SISE_HOT if appr < sise else K_SISE_CONV), 2)
+        # 시세 기반(모델 v2). 전망은 감정 vs 시세로 판정:
+        #   감정 ≤ 시세 → 이번 회차 낙찰(최저 위로 올려침), 낙찰 ≈ 시세×0.98 (최저 하한)
+        #   감정 > 시세 → 이번 회차 유찰 → 다음 회차(최저 20%↓)에서 시세×0.95 근처
         basis = '시세'
-        if minp and target < minp - 0.01:
-            pred = max(target, round(minp * 0.8, 2))   # 이번 회차 유찰 → 다음 회차(최저20%↓)
-            outcome = '유찰예상'
-        else:
-            pred = max(target, minp) if minp else target
+        floor = minp or appr
+        if appr <= sise:
+            pred = max(floor, round(sise * K_SISE_HOT, 2))
             outcome = '낙찰예상'
+        else:
+            pred = max(round(sise * K_SISE_CONV, 2), round(floor * 0.8, 2))
+            outcome = '유찰예상'
     elif appr:
         # 시세 미상 → 신건 낙찰은 최저가(감정) 이상. 시세 없이는 숫자 예측 불가 → 하한만 제시.
         pred = minp or appr
