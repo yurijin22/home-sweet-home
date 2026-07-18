@@ -37,7 +37,9 @@ CFG_PATH = ROOT / 'config/auction_filter.json'
 
 BUDGET_SELF = 9.0    # 억 자력
 BUDGET_MAX = 11.0    # 억 시댁 포함
-DEFAULT_K = 0.92     # comps 356건 평균 낙찰가율(감정 대비)
+DEFAULT_K = 0.92     # 감정가 기반 폴백 k (comps 356건 평균 낙찰가율, 감정 대비)
+K_SISE_HOT = 0.98    # 감정<시세(저평가 신건 과열) → 시세의 98%
+K_SISE_CONV = 0.95   # 감정≥시세(수렴) → 시세의 95%  (모델 v2: 정상물건 시세×0.95~1.0)
 
 
 def load_json(path, default=None):
@@ -168,12 +170,24 @@ def evaluate(it, k, molit_idx, commute_idx, years_idx, trade):
     appr = it.get('appraisal_eok')
     area = it.get('area_m2')
 
-    pred = round(appr * k, 2) if appr else None      # 예상 낙찰가
     # 시세: 실거래(법정동 단위) 우선 → 없으면 molit_all(구+면적) 폴백
     sise = match_sise_trade(name, it.get('gu'), extract_dongs(it.get('addr')), area, trade)
     if sise is None:
         sise_row = match_sise(name, it.get('gu'), area, molit_idx)
         sise = round(sise_row['price_median'] / 10000, 2) if sise_row else None
+
+    # 예상 낙찰가 — 모델 v2: "낙찰 ≈ 시세 × 0.95~1.0" (감정가 아님)
+    #   시세 있으면 시세 기반(정확). 감정<시세면 저평가감정 신건 → 과열(0.98), 감정≥시세면 수렴(0.95).
+    #   시세 없으면 감정 × k 로 폴백.
+    if sise and appr:
+        k_s = K_SISE_HOT if appr < sise else K_SISE_CONV
+        pred = round(sise * k_s, 2)
+        basis = '시세'
+    elif appr:
+        pred = round(appr * k, 2)
+        basis = '감정'
+    else:
+        pred, basis = None, '-'
     discount = round((sise - pred) / sise * 100, 1) if (sise and pred) else None
     commute = match(name, commute_idx)
     yr = match(name, years_idx)
@@ -229,12 +243,12 @@ def evaluate(it, k, molit_idx, commute_idx, years_idx, trade):
 
     pred_rec = {
         'case_no': it.get('case_no'), 'name': name, 'gu': it.get('gu'),
-        'area_m2': area, 'appraisal_eok': appr, 'pred_sale_eok': pred, 'k': k,
+        'area_m2': area, 'appraisal_eok': appr, 'pred_sale_eok': pred, 'basis': basis,
         'sise_eok': sise, 'discount_pct': discount, 'sale_date': it.get('sale_date'),
         'predicted_at': None,  # 워크플로에서 날짜 스탬프
     }
     return score, verdict, {
-        'pred': pred, 'sise': sise, 'discount': discount,
+        'pred': pred, 'basis': basis, 'sise': sise, 'discount': discount,
         'commute': commute, 'household': household, 'year': year,
         'why': why, 'need': need,
     }, pred_rec
@@ -295,18 +309,19 @@ def main():
 
     # ── 추천 다이제스트 (Markdown) ──
     lines = [f'## 🏠 신건 투자 추천 — {date.replace("_", "-")}',
-             f'대상 {len(cand)}건 · 예상낙찰 = 감정가 × k({k}, 실측 {kn}건 보정)', '']
+             f'대상 {len(cand)}건 · 예상낙찰 = **시세×0.95~0.98**(시세 매칭 시) / 감정×{k}(폴백, 실측 {kn}건 보정)', '']
     if scored:
-        lines.append('| 판정 | 단지 | 지역 | 전용 | 감정가 | 예상낙찰 | 시세 | 할인 | 근거 |')
-        lines.append('|:-:|:--|:--|--:|--:|--:|--:|--:|:--|')
+        lines.append('| 판정 | 단지 | 지역 | 전용 | 감정가 | 예상낙찰 | 기준 | 시세 | 할인 | 근거 |')
+        lines.append('|:-:|:--|:--|--:|--:|--:|:-:|--:|--:|:--|')
         for s, v, it, info in scored:
             sise = f"{info['sise']}억" if info['sise'] is not None else '?'
             disc = f"{info['discount']}%" if info['discount'] is not None else '?'
             lines.append(
                 f"| {v} | {it.get('name')} | {it.get('gu')} | {it.get('area_m2')}㎡ "
-                f"| {it.get('appraisal_eok')}억 | **{info['pred']}억** | {sise} | {disc} "
+                f"| {it.get('appraisal_eok')}억 | **{info['pred']}억** | {info['basis']} | {sise} | {disc} "
                 f"| {', '.join(info['why']) or '-'} |")
-        lines += ['', f'> ⚠️ 확인 필요(데이터 미보유): 호재·역세권거리·학군 등은 직접 체크하세요.']
+        lines += ['', '> 예상낙찰 **기준=시세**면 실거래 기반(정확), **감정**이면 시세 미매칭 폴백(±0.5억 오차 가능).',
+                  '> ⚠️ 호재·역세권거리·학군 등은 데이터 미보유 → 직접 확인.']
     else:
         lines.append('_오늘 추천 대상 신건 없음_')
     print('\n'.join(lines))
