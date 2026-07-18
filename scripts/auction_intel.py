@@ -84,6 +84,17 @@ def match(name, idx):
     return None
 
 
+def _name_match(a, b):
+    """이름 매칭: 완전일치 OR (한쪽이 다른쪽에 포함 + 짧은쪽 4자↑).
+    '현대'·'우성' 같은 흔한 2~3자 토큰이 '청계현대'에 오매칭되는 것 방지."""
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    short, long = (a, b) if len(a) <= len(b) else (b, a)
+    return len(short) >= 4 and short in long
+
+
 def match_sise(name, gu, area, molit):
     """시세 매칭 — 이름 + 같은 구 + 면적 근접(±7㎡)이 모두 맞아야만 인정.
     (흔한 단지명이 엉뚱한 구/평형에 잘못 붙는 것 방지)"""
@@ -94,7 +105,7 @@ def match_sise(name, gu, area, molit):
     best = None
     for cn, v in molit.items():
         cnn = _norm(cn)
-        if len(cnn) < 3 or not (cnn in n or n in cnn):
+        if not _name_match(cnn, n):
             continue
         if (v.get('gu') or '').replace('구', '') != gu:
             continue
@@ -108,7 +119,9 @@ def match_sise(name, gu, area, molit):
 
 
 def load_trade():
-    """molit_trade/*.json → [{gu, district, norm, area, price_eok, date}]. (법정동 단위 실거래)"""
+    """molit_trade/*.json → [{gu, district, norm, area, price_eok, date}]. (법정동 단위 실거래)
+    최근 12개월 거래만 사용 (옛 저가거래가 시세를 왜곡하지 않도록)."""
+    cutoff = (datetime.now(KST) - timedelta(days=365)).strftime('%Y-%m-%d')
     recs = []
     for fp in glob.glob(str(DATA / 'molit_trade' / '*.json')):
         slug = Path(fp).stem.rsplit('_', 1)[0]
@@ -121,10 +134,13 @@ def load_trade():
             continue
         rows = raw.get('items', []) if isinstance(raw, dict) else raw
         for r in rows:
+            date = r.get('deal_date') or ''
+            if date and date < cutoff:      # 최근 12개월만
+                continue
             recs.append({
                 'gu': gu, 'district': (r.get('district') or '').strip(),
                 'norm': _norm(r.get('name')), 'area': r.get('area_m2') or 0,
-                'price_eok': (r.get('price_10k') or 0) / 10000, 'date': r.get('deal_date') or '',
+                'price_eok': (r.get('price_10k') or 0) / 10000, 'date': date,
             })
     return recs
 
@@ -148,8 +164,7 @@ def match_sise_trade(name, gu, dongs, area, trade):
             continue
         if dongset and r['district'] not in dongset:
             continue
-        cn = r['norm']
-        if len(cn) < 2 or not (cn in n or n in cn):
+        if not _name_match(r['norm'], n):
             continue
         if area and r['area'] and abs(r['area'] - area) > 5:
             continue
