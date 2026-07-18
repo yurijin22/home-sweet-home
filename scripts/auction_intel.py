@@ -191,18 +191,24 @@ def evaluate(it, k, molit_idx, commute_idx, years_idx, trade):
         sise_row = match_sise(name, it.get('gu'), area, molit_idx)
         sise = round(sise_row['price_median'] / 10000, 2) if sise_row else None
 
-    # 예상 낙찰가 — 모델 v2: "낙찰 ≈ 시세 × 0.95~1.0" (감정가 아님)
-    #   시세 있으면 시세 기반(정확). 감정<시세면 저평가감정 신건 → 과열(0.98), 감정≥시세면 수렴(0.95).
-    #   시세 없으면 감정 × k 로 폴백.
+    # 경매 메커니즘 반영: 낙찰가 ≥ 최저가(신건이면 최저=감정).
+    minp = it.get('min_price_eok')
+    pred, basis, outcome = None, '-', None
     if sise and appr:
-        k_s = K_SISE_HOT if appr < sise else K_SISE_CONV
-        pred = round(sise * k_s, 2)
+        # 시세 기반(모델 v2: 낙찰≈시세×0.95~0.98). 최저가 하한/유찰 저감 반영.
+        target = round(sise * (K_SISE_HOT if appr < sise else K_SISE_CONV), 2)
         basis = '시세'
+        if minp and target < minp - 0.01:
+            pred = max(target, round(minp * 0.8, 2))   # 이번 회차 유찰 → 다음 회차(최저20%↓)
+            outcome = '유찰예상'
+        else:
+            pred = max(target, minp) if minp else target
+            outcome = '낙찰예상'
     elif appr:
-        pred = round(appr * k, 2)
+        # 시세 미상 → 신건 낙찰은 최저가(감정) 이상. 시세 없이는 숫자 예측 불가 → 하한만 제시.
+        pred = minp or appr
         basis = '감정'
-    else:
-        pred, basis = None, '-'
+        outcome = '시세확인'
     discount = round((sise - pred) / sise * 100, 1) if (sise and pred) else None
     commute = match(name, commute_idx)
     yr = match(name, years_idx)
@@ -258,12 +264,13 @@ def evaluate(it, k, molit_idx, commute_idx, years_idx, trade):
 
     pred_rec = {
         'case_no': it.get('case_no'), 'name': name, 'gu': it.get('gu'),
-        'area_m2': area, 'appraisal_eok': appr, 'pred_sale_eok': pred, 'basis': basis,
+        'area_m2': area, 'appraisal_eok': appr, 'min_price_eok': minp,
+        'pred_sale_eok': pred, 'basis': basis, 'outcome': outcome,
         'sise_eok': sise, 'discount_pct': discount, 'sale_date': it.get('sale_date'),
         'predicted_at': None,  # 워크플로에서 날짜 스탬프
     }
     return score, verdict, {
-        'pred': pred, 'basis': basis, 'sise': sise, 'discount': discount,
+        'pred': pred, 'basis': basis, 'outcome': outcome, 'sise': sise, 'discount': discount,
         'commute': commute, 'household': household, 'year': year,
         'why': why, 'need': need,
     }, pred_rec
@@ -326,14 +333,16 @@ def main():
     lines = [f'## 🏠 신건 투자 추천 — {date.replace("_", "-")}',
              f'대상 {len(cand)}건 · 예상낙찰 = **시세×0.95~0.98**(시세 매칭 시) / 감정×{k}(폴백, 실측 {kn}건 보정)', '']
     if scored:
-        lines.append('| 판정 | 단지 | 지역 | 전용 | 감정가 | 예상낙찰 | 기준 | 시세 | 할인 | 근거 |')
-        lines.append('|:-:|:--|:--|--:|--:|--:|:-:|--:|--:|:--|')
+        lines.append('| 판정 | 단지 | 지역 | 전용 | 감정/최저 | 예상낙찰 | 전망 | 기준 | 시세 | 근거 |')
+        lines.append('|:-:|:--|:--|--:|--:|--:|:-:|:-:|--:|:--|')
         for s, v, it, info in scored:
             sise = f"{info['sise']}억" if info['sise'] is not None else '?'
-            disc = f"{info['discount']}%" if info['discount'] is not None else '?'
+            appr = it.get('appraisal_eok'); minp = it.get('min_price_eok')
+            aminp = f"{appr}/{minp}억" if minp and minp != appr else f"{appr}억"
+            outc = info.get('outcome') or '-'
             lines.append(
                 f"| {v} | {it.get('name')} | {it.get('gu')} | {it.get('area_m2')}㎡ "
-                f"| {it.get('appraisal_eok')}억 | **{info['pred']}억** | {info['basis']} | {sise} | {disc} "
+                f"| {aminp} | **{info['pred']}억** | {outc} | {info['basis']} | {sise} "
                 f"| {', '.join(info['why']) or '-'} |")
         lines += ['', '> 예상낙찰 **기준=시세**면 실거래 기반(정확), **감정**이면 시세 미매칭 폴백(±0.5억 오차 가능).',
                   '> ⚠️ 호재·역세권거리·학군 등은 데이터 미보유 → 직접 확인.']
