@@ -1,0 +1,324 @@
+{
+  "월곡두산위브": {
+    "region": "성북_길음장위",
+    "complex_no": "2990",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/2990?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "한신,한진": {
+    "region": "성북_길음장위",
+    "complex_no": "582",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/582?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/582?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "꿈의숲푸르지오": {
+    "region": "성북_길음장위",
+    "complex_no": "26130",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/26130?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "래미안라센트": {
+    "region": "성북_길음장위",
+    "complex_no": "26834",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/26834?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/26834?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "돈암브라운스톤": {
+    "region": "성북_길음장위",
+    "complex_no": "9348",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/9348?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "창동주공3단지": {
+    "region": "도봉_창동방학",
+    "complex_no": "326",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/326?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/326?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "미륭,미성,삼호3차": {
+    "region": "노원_월계공릉",
+    "complex_no": "219",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/219?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "상계주공9단지": {
+    "region": "노원_상계",
+    "complex_no": "206",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/206?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/206?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "상계주공7단지": {
+    "region": "노원_상계",
+    "complex_no": "921",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/921?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "상계주공16단지": {
+    "region": "도봉_방학",
+    "complex_no": "201",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/201?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/201?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "상계주공12단지": {
+    "region": "도봉_방학",
+    "complex_no": "197",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/197?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "수유벽산1차": {
+    "region": "도봉_창동방학",
+    "complex_no": "1344",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/1344?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/1344?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "극동.건영.벽산": {
+    "region": "노원_월계공릉",
+    "complex_no": "255",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/255?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "백련산힐스테이트2차": {
+    "region": "은평_녹번",
+    "complex_no": "27502",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/27502?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/27502?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "동아에코빌": {
+    "region": "성북_길음장위",
+    "complex_no": "3425",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/3425?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "정릉e-편한세상2차": {
+    "region": "성북_길음장위",
+    "complex_no": "25782",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/25782?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/25782?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "길음뉴타운2단지푸르지오": {
+    "region": "성북_길음장위",
+    "complex_no": "8082",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/8082?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "두산": {
+    "region": "구로_개봉",
+    "complex_no": "113",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/113?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/113?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "롯데캐슬베네치아": {
+    "region": "?",
+    "complex_no": "24845",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/24845?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "관악드림타운": {
+    "region": "관악_봉천신림",
+    "complex_no": "2987",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/2987?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/2987?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "한신": {
+    "region": "동대문_청량리회기",
+    "complex_no": "1128",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/1128?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "장안래미안2차": {
+    "region": "중랑_면목망우",
+    "complex_no": "8802",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/8802?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/8802?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "동신": {
+    "region": "성북_길음장위",
+    "complex_no": "1194",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/1194?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "길음동부센트레빌": {
+    "region": "성북_길음장위",
+    "complex_no": "3421",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/3421?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/3421?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "관악파크푸르지오": {
+    "region": "동작_사당이수",
+    "complex_no": "107439",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/107439?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "래미안크리시엘": {
+    "region": "성북_길음장위",
+    "complex_no": "3006",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/3006?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/3006?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "정릉힐스테이트3차": {
+    "region": "성북_길음장위",
+    "complex_no": "23779",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/23779?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "정릉e-편한세상1차": {
+    "region": "성북_길음장위",
+    "complex_no": "8596",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/8596?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/8596?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "범양": {
+    "region": "성북_길음장위",
+    "complex_no": "578",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/578?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "현대": {
+    "region": "관악_봉천신림",
+    "complex_no": "45",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/45?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/45?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "백련산힐스테이트1차": {
+    "region": "은평_녹번",
+    "complex_no": "27501",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/27501?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "홍은벽산": {
+    "region": "은평_녹번",
+    "complex_no": "432",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/432?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/432?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "래미안트리베라1차": {
+    "region": "성북_길음장위",
+    "complex_no": "25971",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/25971?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "돈암현대": {
+    "region": "성북_길음장위",
+    "complex_no": "583",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/583?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/583?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "성현동아": {
+    "region": "동작_사당이수",
+    "complex_no": "1045",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/1045?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "종암SK": {
+    "region": "성북_길음장위",
+    "complex_no": "1191",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/1191?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/1191?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "길음뉴타운경남아너스빌": {
+    "region": "성북_길음장위",
+    "complex_no": "586",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/586?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "신림현대": {
+    "region": "관악_봉천신림",
+    "complex_no": "58",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/58?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/58?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "관악우성": {
+    "region": "관악_봉천신림",
+    "complex_no": "1048",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/1048?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "벽산블루밍1차": {
+    "region": "관악_봉천신림",
+    "complex_no": "2986",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/2986?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/2986?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "중계주공5단지": {
+    "region": "노원_상계",
+    "complex_no": "245",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/245?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "답십리청솔우성": {
+    "region": "중랑_면목망우",
+    "complex_no": "3273",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/3273?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/3273?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "남가좌현대": {
+    "region": "서대문_홍은남가좌",
+    "complex_no": "848",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/848?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "전농우성": {
+    "region": "중랑_면목망우",
+    "complex_no": "346",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/346?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/346?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "신림동부": {
+    "region": "관악_봉천신림",
+    "complex_no": "63",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/63?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  },
+  "e편한세상수색에코포레": {
+    "region": "마포_상암",
+    "complex_no": "3462",
+    "date": "2026_07_23",
+    "listings": [],
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://new.land.naver.com/complexes/3462?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\nCall log:\n  - navigating to \"https://new.land.naver.com/complexes/3462?ms=37.5,127.0,16&a=APT&b=A1&e=RETAIL\", waiting until \"networkidle\"\n"
+  }
+}
